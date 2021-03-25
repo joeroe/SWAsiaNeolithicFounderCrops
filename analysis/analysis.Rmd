@@ -73,7 +73,7 @@ n_samples <- length(unique(flora$sample))
 n_sites <- length(unique(flora$site_name))
 ```
 
-The resulting collated dataset (included as supplement?) includes `n_samples` discrete samples from `n_sites` sites.
+The resulting collated dataset (included as supplement?) includes `r n_samples` discrete samples from `r n_sites` sites.
 
 ### Chronology
 
