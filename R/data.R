@@ -6,14 +6,17 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   ademnes <- read_ademnes(ademnes_path)
   compag <- read_compag2018(compag_path)
 
+  # FILTER ANOMOLOUS ROWS
+  ademnes <- filter(ademnes, !site_name %in% c("unknown1", "Asvan region"))
+
   # NORMALISE
   # Dates to ages BP
   origins <- mutate(origins,
                     age_start = -start_bc + 1950,
                     age_end = -end_bc + 1950)
   ademnes <- mutate(ademnes,
-                    age_start = age_earliest,
-                    age_end = age_latest)
+                    age_start = date_earliest + 1950,
+                    age_end = date_latest + 1950)
   compag <- mutate(compag,
                    age_start = -date_start + 1950,
                    age_end = -date_end + 1950)
@@ -21,12 +24,12 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   # N to proportions
   origins %>%
     dplyr::group_by(sample) %>%
-    dplyr::mutate(proportion = n / sum(n, na.rm = TRUE)) %>%
+    dplyr::mutate(prop = n / sum(n, na.rm = TRUE)) %>%
     ungroup() ->
     origins
   compag %>%
     dplyr::group_by(phase_code) %>%
-    dplyr::mutate(proportion = n / sum(n, na.rm = TRUE)) %>%
+    dplyr::mutate(prop = n / sum(n, na.rm = TRUE)) %>%
     ungroup() ->
     compag
 
@@ -49,29 +52,29 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
     genus,
     taxon,
     n,
-    proportion,
+    prop,
     reference
   )
 
   ademnes <- dplyr::transmute(
     ademnes,
     source = "ADEMNES",
-    source_id = NA,
+    source_id = id,
     source_site_name = site_name,
     site_name = swapdata::swap_control_site_name(source_site_name, quiet = TRUE),
-    latitude = NA,
-    longitude = NA,
-    phase = NA,
-    phase_description = NA,
+    latitude,
+    longitude,
+    phase,
+    phase_description = period,
     phase_code,
     age_start,
     age_end,
-    sample = phase,
-    family,
-    genus,
+    sample = phase_code,
+    family = NA,
+    genus = NA,
     taxon,
-    n = NA,
-    proportion,
+    n,
+    prop,
     reference = NA
   )
 
@@ -93,7 +96,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
     genus = NA,
     taxon,
     n,
-    proportion = NA,
+    prop,
     reference = references
   )
 
@@ -110,7 +113,6 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   flora <- dplyr::bind_rows(origins, ademnes, compag)
 
   # FILTER BY PERIOD
-  # TODO: Deal with NAs in ADEMNES data
   flora <- dplyr::filter(flora, age_end <= start_bp & age_start >= end_bp)
 
   # FILTER BY REGION
@@ -244,72 +246,29 @@ read_origins <- function(path) {
 
 #' @export
 read_ademnes <- function(path) {
-  sites <- readr::read_csv(fs::path(path, "ademnes_site.csv"),
-                           col_types = "lliccccc")
-  flora <- readr::read_csv(fs::path(path, "ademnes_export_samples_flora.csv"),
-                           col_types = "cccccfdd",
-                           locale = readr::locale(decimal_mark = ","),
-                           na = c("", "NA", "-"))
+  site <- readr::read_tsv(fs::path(path, "ademnes_site.tsv"),
+                          col_types = "iccccddcccci")
+  phase <- readr::read_tsv(fs::path(path, "ademnes_phase.tsv"),
+                           col_types = "icccccdd")
+  flora <- readr::read_tsv(fs::path(path, "ademnes_flora.tsv"),
+                           col_types = "iccccccdd")
 
   # Normalise column names
-  flora <- dplyr::select(flora,
-                         site_name = Site,
-                         phase_code = Phase,
-                         family = Family,
-                         genus = Genus,
-                         taxon = Taxon,
-                         domestic_wild = domestic_wild,
-                         proportion = Proportion_per_Phase,
-                         ubiquity = Ubquity)
+  site <- rename(site,
+                 site_date_earliest = date_earliest,
+                 site_date_latest = date_latest)
 
   # Normalise percentages
-  flora <- dplyr::mutate(flora,
-                         proportion = proportion / 100,
-                         ubiquity = ubiquity / 100)
-
-  # Normalise earliest/latest dates (convert to BP)
-  sites <- tidyr::separate(sites, date_earliest,
-                           c("date_earliest", "date_earliest_era"),
-                           sep = " ")
-  sites <- tidyr::separate(sites, date_latest,
-                           c("date_latest", "date_latest_era"),
-                           sep = " ")
-  sites <- dplyr::mutate(
-    sites,
-    date_earliest = as.numeric(date_earliest),
-    date_latest = as.numeric(date_latest),
-    age_earliest = dplyr::case_when(
-      date_earliest_era == "BC" ~ date_earliest + 1950,
-      date_earliest_era == "AD" ~ 1950 - date_earliest
-    ),
-    age_latest = dplyr::case_when(
-      date_latest_era == "BC" ~ date_latest + 1950,
-      date_latest_era == "AD" ~ 1950 - date_latest
-    )
-  )
-  sites <- dplyr::select(sites,
-                         -date_earliest, -date_earliest_era,
-                         -date_latest, -date_latest_era)
+  flora <- dplyr::mutate(flora, prop = prop / 100)
 
   # Join tables
-  flora$site_name[flora$site_name == "Susa, Ville Royale"] <- "Susa"
-  if(!all(flora$site_name %in% sites$site_name)) {
-    stop("Not all site names in 'flora' table are in 'site' table.")
-  }
+  ademnes <- dplyr::right_join(site, phase,
+                               by = c("id", "site_name", "site_code"))
+  ademnes <- dplyr::right_join(ademnes, flora,
+                               by = c("id", "site_name", "site_code", "phase_code"))
 
-  # Disambiguate same-named sites
-  sites$site_name[sites$site_code == "AQ"] <- "Ulucak Höyük"
-
-  ademnes <- dplyr::right_join(sites, flora, by = "site_name")
-
-  if(nrow(ademnes) != nrow(flora)) {
-    stop("Multiple matches when joining 'flora' and 'site' tables.")
-  }
-
-  # Return relevant columns
-  dplyr::select(ademnes, site_id, site_name, site_code, country, age_earliest,
-                age_latest, phase_code, family, genus, taxon, domestic_wild,
-                proportion, ubiquity)
+  # Return, dropping empty column n_samples
+  dplyr::select(ademnes, -n_samples)
 }
 
 #' @export
