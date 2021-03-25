@@ -1,0 +1,149 @@
+taxon,taxon_code,domestic_wild_status,plant_part,family
+Aegilops crassa,AEGICRA,W,seed/grain,Poaceae
+Aegilops fruit fragment,AEGIFRU,w,fruit,Poaceae
+Aegilops geniculata/peregrina,AEGGEPE,w,seed/grain,Poaceae
+Aegilops kotschyi,AEGIKOT,w,spikelets,Poaceae
+Aegilops sp. glume bases (spikelet bases),AEGSPGB,W,seed/grain,Poaceae
+Aegilops sp. glume bases (spikelet bases),AEGSPGB,W,chaff,Poaceae
+Aegilops sp. glume bases (spikelet bases),AEGSPGB,W,glume base,Poaceae
+Aegilops sp. glume remains,AEGSPGR,W,chaff,Poaceae
+Aegilops sp. grains,AEGISPE,W,seed/grain,Poaceae
+Aegilops sp. rachis,AEGSPRA,W,chaff,Poaceae
+Aegilops sp. spikelet forks (spikelets),AEGSPSF,W,chaff - spikelet fork,Poaceae
+Aegilops sp. spikelet forks (spikelets),AEGSPSF,W,seed/grain,Poaceae
+Aegilops sp. spikelet forks (spikelets),AEGSPSF,W,chaff,Poaceae
+Aegilops speltoides glume bases (spikelet bases),AEGISPG,W,chaff,Poaceae
+Aegilops speltoides grains,AEGISPT,w,seed/grain,Poaceae
+Aegilops speltoides spikelet forks,AEGISPS,w,chaff,Poaceae
+Avena barbata Pott,AVENBAR,W,seed/grain,Poaceae
+Avena ludoviciana,AVENLUD,W,seed/grain,Poaceae
+Avena sp.,AVENSPE,W,seed/grain,Poaceae
+Avena sp. awns,AVENSPA,W,awn,Poaceae
+Avena sp. rachilla charred,AVENSPR,W,rachilla node,Poaceae
+Avena sp. spikelet,AVENSPS,W,chaff - spikelet fork,Poaceae
+Avena sterilis L.,AVENSTE,W,seed/grain,Poaceae
+Avena wiestii Steudel,AVENWIE,W,seed/grain,Poaceae
+Avena/Stipa,AVENSTI,w,seed/grain,Poaceae
+Aveninae,AVENINA,w,seed/grain,Poaceae
+Bromus arvensis,BROMARV,w,seed/grain,Poaceae
+Bromus danthoniae type,BROMDAT,W,seed/grain,Poaceae
+Bromus sp.,BROMSPE,W,seed/grain,Poaceae
+Bromus sterilis L.,BROMSTE,W,seed/grain,Poaceae
+Bromus/Aegilops spp.,BROmAEG,W,seed/grain,Poaceae
+Hordeum bulbosum,HORDBUL,w,seed/grain/bulbil?,Poaceae
+Hordeum bulbosum,HORBUBU,w,seed/grain,Poaceae
+Hordeum bulbosum,HORDBUL,w,seed/grain,Poaceae
+Hordeum bulbosum/spontaneum,HORBUSP,wild grass/cereal,seed/grain,Poaceae
+Hordeum glaucum,HORDGLA,W,seed/grain,Poaceae
+Hordeum hystrix/marinum,HORHYMA,w,seed/grain,Poaceae
+Hordeum marinum,HORDMAR,w,seed/grain,Poaceae
+Hordeum murinum L.,HORDMUR,W,chaff - spikelet fork,Poaceae
+Hordeum murinum L.,HORDMUR,W,seed/grain,Poaceae
+Hordeum murinum/bulbosum,HORMUBU,w,seed/grain,Poaceae
+Hordeum murinum/bulbosum base,HORMBBA,w,base,Poaceae
+Hordeum sp. (imprints),HORDSPE,W,seed/grain,Poaceae
+Hordeum sp. (wild),HORDSPW,W,seed/grain,Poaceae
+Hordeum sp. awns,HORDSPA,W,chaff,Poaceae
+Hordeum sp. glume remains,HORDSPG,W,chaff - glume base,Poaceae
+Hordeum sp. grains,HORDSPC,W,seed/grain,Poaceae
+Hordeum sp. rachis internodes,HORDRAI,W,chaff,Poaceae
+Hordeum/Elymus spp.,HORDELY,w,seed/grain,Poaceae
+Hordeum/Secale rachis internodes,HORSECR,W,chaff,Poaceae
+Lolium perenne L.,LOLIPER,W,seed/grain,Poaceae
+Lolium persicum type,LOLPSTY,W,seed/grain,Poaceae
+Lolium rigidum Gaudin,LOLIRIG,W,seed/grain,Poaceae
+Lolium rigidum/perenne,LOLRIPE,W,seed/grain,Poaceae
+Lolium sp.,LOLISPE,W,seed/grain,Poaceae
+Lolium sp./ Hordeum,LOLIHOL,W,seed/grain,Poaceae
+Lolium temulentum L.,LOLITEM,W,seed/grain,Poaceae
+Lolium/Poa,LOLIPOA,w,seed/grain,Poaceae
+Phalaris canariensis,PHALCAN,w,seed/grain,Poaceae
+Phalaris paradoxa L.,PHALPAR,W,seed/grain,Poaceae
+Phalaris sp.,PHALSPE,W,seed/grain,Poaceae
+Phalaris tuberosa,PHALTUB,w,spikelets,Poaceae
+Aeluropus sp.,AELUSPE,W,seed/grain,Poaceae
+Agropyron/Eremopyrum,AGROERE,w,seed/grain,Poaceae
+Agrostis sp.,AGROSPE,W,seed/grain,Poaceae
+Agrostis/Calamagrostis /Aira,AGCALAI,w,seed/grain,Poaceae
+Agrostis/Poa,AGROPOA,W,seed/grain,Poaceae
+Alopecurus sp.,ALOPSPE,W,seed/grain,Poaceae
+Alopecurus utriculatus,ALOPUTR,w,seed/grain,Poaceae
+Apera-type,APERASP,w,seed/grain,Poaceae
+Arrhenatherum,ARRHSPE,W,seed/grain,Poaceae
+Anisantha sp.,ANISSPE,w,seed/grain,Poaceae
+Anisantha/Bromus spp.,ANISBRO,w,seed/grain,Poaceae
+Brachypodium distachyon,BRACDIS,W,seed/grain,Poaceae
+Brinza minor,BRIZMIN,w,seed/grain,Poaceae
+Briza sp.,BRIZSPE,w,seed/grain,Poaceae
+Catabrosa aquatica,CATAAQU,w,seed/grain,Poaceae
+Cutandia spp.,CUTASPE,w,seed/grain,Poaceae
+Cynodon dactylon (L.) Pers.,CYNODAC,W,seed/grain,Poaceae
+Cynodon sp.,CYNOSPE,W,seed/grain,Poaceae
+Cleistogenes,CLEISPE,w,seed/grain,Poaceae
+Crithopsis deliliana,CRITDEL,W,seed/grain,Poaceae
+Crypsis sp.,CRYPSPE,W,seed/grain,Poaceae
+Echinaria capitata (L.) Desf.,ECHICAP,W,seed/grain,Poaceae
+Echinaria spp.,ECHNSPE,w,seed/grain,Poaceae
+Echinochloa crus-galli (L.) P. Beauv.,ECHICRG,W,seed/grain,Poaceae
+Eragrostis sp.,ERAGSPE,W,seed/grain,Poaceae
+Eremopyrum bonaepartis,EREMBON,W,seed/grain,Poaceae
+Eremopyrum sp.,EREMSPE,W,seed/grain,Poaceae
+Elymus sp.,ELYMSPE,W,seed/grain,Poaceae
+Gaudinopsis spp.,GAUDSPE,w,seed/grain,Poaceae
+Heteranthelium spp.,HETESPE,w,seed/grain,Poaceae
+Henrardia pubescens,HENRPUB,w,seed/grain,Poaceae
+Imperata sp.,IMPESPE,w,seed/grain,Poaceae
+Imperata/Saccharum spp.,IMPESAC,w,seed/grain,Poaceae
+Melica persica,MELIPER,w,seed/grain,Poaceae
+Oryzopsis holciformis,ORYZHOL,w,seed/grain,Poaceae
+Panicoideae indeterminate,PANIIND,w,seed/grain,Poaceae
+Panicum sp.,PANISPE,W,seed/grain,Poaceae
+Poa bulbosa,POABULB,w,bulbil,Poaceae
+Poa bulbosa,POABULB,w,seed/grain,Poaceae
+Poa sp.,POASPEC,W,seed/grain,Poaceae
+Poa type,POATYPE,W,seed/grain,Poaceae
+Poaceae indet.,GRAMIND,W,seed/grain,Poaceae
+Poaceae indet.  Basal culm,GRAMINB,W,basal culm,Poaceae
+Poaceae indet. large,GRAINLA,W,seed/grain,Poaceae
+Poaceae indet. large,GRAINLA,W,chaff,Poaceae
+Poaceae indet. Processed,GRAMINP,W,processed seed/grain,Poaceae
+Poaceae indet. Rachis,GRAMIRA,W,chaff,Poaceae
+Poaceae indet. rachis fragment,GRAINRA,W,chaff - rachis,Poaceae
+Poaceae indet. small,GRAINSM,W,seed/grain,Poaceae
+Poaceae indet. spikelet remains,GRAMINS,W,chaff,Poaceae
+Poaceae indet. spikelet remains,GRAMINS,W,chaff - spikelet fork,Poaceae
+Poaceae indet. spikelet remains,GRAMINS,W,spikelet forks,Poaceae
+Poaceae indet. spikelet remains,GRAMINS,W,spikelet fork,Poaceae
+Poaceae indet.culm nodes,GRAMINC,W,chaff,Poaceae
+Polypogon type,POLPTYP,W,seed/grain,Poaceae
+Koeleria spp.,KOELSPE,w,seed/grain,Poaceae
+Phragmites australis (Cav.) Trin.,PHRAAUS,W,culm nodes,Poaceae
+Phragmites sp.,PHRASPE,W,culm,Poaceae
+Phragmites sp.,PHRASPE,W,seed/grain,Poaceae
+Psilurus incurvus (Gouan) Schinz & Thell.,PSILINC,W,seed/grain,Poaceae
+Stipa barbata/lagascae,STIBALA,w,seed/grain,Poaceae
+Stipa capensis,STIPCAP,w,seed/grain,Poaceae
+Stipa gigantea,STIPGIG,w,seed/grain,Poaceae
+Stipa sp.,STIPSPE,W,seed/grain,Poaceae
+Stipa sp. awn,STIPSPA,W,chaff - awn,Poaceae
+Stipa sp. awn,STIPSPA,W,seed/grain,Poaceae
+Stipa/Stipagrostis spp.,STIPSTI,w,seed/grain,Poaceae
+Stipagrostis obtusa,STPGOBT,w,seed/grain,Poaceae
+Stipagrostis plumosa,STPGPLU,w,seed/grain,Poaceae
+Setaria sp.,SETISPE,W,seed/grain,Poaceae
+Setaria viridis type,SETAVIT,W,seed/grain,Poaceae
+Setaria/Panicum sp.,SETAPAN,W,seed/grain,Poaceae
+Trisetum type,TRISETY,W,seed/grain,Poaceae
+Triticeae,TRITIND,w,seed/grain,Poaceae
+Taeniatherum caput-medusae (L.) Nevski,TAENCAM,W,seed/grain,Poaceae
+Taeniatherum caput-medusae/crinitum,TAECACR,w,seed/grain,Poaceae
+Taeniatherum crinitum spikelet,TAENCRS,W,chaff - spikelet fork,Poaceae
+Taeniatherum crinitum spikelet,TAENCRS,W,chaff,Poaceae
+Taeniatherum spikelet base,TAENSPB,w,chaff,Poaceae
+Taeniatherum spikelet base,TAENSPB,w,spikelet fork,Poaceae
+Taeniatherum spikelet base,TAENSPB,w,spikelet base,Poaceae
+Taeniatherum spp.,TAENSPE,w,seed/grain,Poaceae
+Trachynia distachya (L.) Link,TRACDIS,W,seed/grain,Poaceae
+Tragus spp.,TRAGSPE,w,seed/grain,Poaceae
+Festuca type,FESTTYP,W,seed/grain,Poaceae
+Vulpia spp.,VULPSPE,w,seed/grain,Poaceae

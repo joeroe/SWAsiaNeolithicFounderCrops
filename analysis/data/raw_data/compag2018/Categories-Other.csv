@@ -1,0 +1,403 @@
+taxon,taxon_code,domestic_wild_status,plant_part,family
+Fabaceae indeterminate large,LEGUINL,W,seed/grain frags,Fabaceae
+Fabaceae indeterminate large,LEGUINL,W,seed/grain,Fabaceae
+Cereal indeterminate basal culm,CERINDB,D,chaff,Poaceae
+Cereal indeterminate chaff,CERINDF,D,chaff,Poaceae
+Cereal indeterminate culm,CERINDC,D,chaff,Poaceae
+Cereal indeterminate grains,CERINDG,D,fragments,Poaceae
+Cereal indeterminate grains,CERINDG,D,seed/grain frangs,Poaceae
+Cereal indeterminate grains,CERINDG,D,seed/grain,Poaceae
+Colutea spp.,COLUSPE,w,seed/grain,Leguminosae
+Lupinus angustifolius,LUPIANG,w,seed/grain,Fabaceae
+Lupinus sp.,LUPISPE,W,seed/grain,Fabaceae
+Scorpiurus muricatus L.,SCORMUR,W,seed/grain,Fabaceae
+Scorpiurus sp.,SCORSPE,W,seed/grain,Fabaceae
+Ceratonia siliqua L.,CERASIL,W,seed/grain,Fabaceae
+Medicago hispida type,MEHITYP,W,seed/grain,Fabaceae
+Medicago lacinata,MEDILAC,W,fruits,Fabaceae
+Medicago minima,MEDIMIN,w,seed/grain,Leguminosae
+Medicago polymorpha L.,MEDIPOL,W,seed/grain,Fabaceae
+Medicago radiata L.,MEDIRAD,W,seed/grain,Fabaceae
+Medicago sp.,MEDISPE,W,seed/grain,Fabaceae
+Medicago sp. Sect. Spirocarpos Ser. (pod),MEDISPO,W,seed/grain,Fabaceae
+Medicago type,MEDITYP,W,seed/grain,Fabaceae
+Medicago/Meliotus sp.,MEDIMEL,w,seed/grain,Fabaceae
+Melilotus sp.,MELISPE,W,seed/grain,Fabaceae
+Melilotus/Trifolium,MELITRI,W,seed/grain,Fabaceae
+Glycyrrhiza sp.,GLYCSPE,W,seed/grain,Fabaceae
+Papilionaceae indet.,PAPIIND,W,seed/grain,Fabaceae
+Prosopis farcta (Banks & Sol.) Macbride in Contrib. Gray Herb,PROSFAR,W,seed/grain,Fabaceae
+Prosopis sp.,PROSSPE,W,seed/grain,Fabaceae
+Prosopis stephaniana,PROSSTE,W,seed/grain,Fabaceae
+Prosopis/Citrillus spp.,PROSCIT,w,seed/grain,Leguminosae
+Onobrychis sp.,ONOBSPE,W,seed/grain,Fabaceae
+Onobrychis sp. pod,ONOBSPP,W,seed/grain,Fabaceae
+Onobrychis viciifolia Scop.,ONOBVIC,W,seed/grain,Fabaceae
+Retama raetam,RETARAE,w,seed/grain,Leguminosae
+Genista sp.,GENISPE,w,seed/grain,Fabaceae
+Aaronsohnia factorovskyi,AAROFAC,w,inflorescence,Asteraceae
+Acacia sp.,ACACSPE,W,seed/grain,Fabaceae
+Achillea sp. L.,ACHISPE,W,seed/grain,Asteraceae
+Adonis aestivalis,ADONAES,w,seed/grain,Ranunculaceae
+Adonis annua L.,ADONANN,W,seed/grain,Ranunculaceae
+Adonis dentata Del.,ADONDEN,W,seed/grain,Ranunculaceae
+Adonis dentata Del.,ADONDEN,W,achene,Ranunculaceae
+Adonis flamea/dentata,ADOFLDE,w,seed/grain,Ranunculaceae
+Adonis flammea Jacq.,ADONFLA,W,seed/grain,Ranunculaceae
+Adonis sp.,ADONSPE,W,seed/grain,Ranunculaceae
+Aellinia autrani,AELLAUT,w,seed/grain,Chenopodiaceae
+Aizoon hispanicum,AIZOHIS,W,seed/grain,Aizoaceae
+Aizoon hispanicum,AIZOHIS,W,seeds and fruit,Aizoaceae
+Aizoon sp.,AIZOSPE,W,seed/grain,Aizoaceae
+Ajuga sp.,AJUGSPE,W,seed/grain,Lamiaceae
+Ajuga/Teucrium sp.,AJUGTEU,w,seed/grain,Lamiaceae
+Alcea spp.,ALCESPE,w,mericarp,Malvaceae
+Alcea spp.,ALCESPE,w,seed/grain,Malvaceae
+Alhagi sp.,ALHASPE,W,seed/grain,Brassicaceae
+Alismataceae indeterminate,ALISIND,W,embryos,Alismataceae
+Alkanna orientalis,ALKAORI,w,seed/grain,Boraginaceae
+Alkanna Tausch sp.,ALKASPE,W,seed/grain,Boraginaceae
+Alyssum damascenus,ALYSDAM,w,fruit valves,Cruciferae
+Alyssum sp.,ALYSSPE,W,seed/grain,Brassicaceae
+Alyssum/Lepidum,ALYSLEP,w,seed/grain,Brassicaceae
+Amaranthaceae/Chenopodiaceae,AMARCHE,W,seed/grain,Amaranthaceae/Chenopodiaceae
+Amaranthus retroflexus,AMARRET,w,seed/grain,Amaranthaceae
+Amaranthus sp.,AMARSPE,W,seed/grain,Amaranthaceae
+Ammi majus L.,AMMIMAJ,W,seed/grain,Apiaceae
+Anabasis/Noaea spp.,ANABNOA,w,seed/grain,Chenopodiaceae
+Anagallis arvensis L.,ANAGARV,W,seed/grain,Primulaceae
+Anagallis sp. L.,ANAGSPE,W,seed/grain,Primulaceae
+Anchusa aegyptiaca/milleri,ANCAEMI,w,nutlets,Boraginaceae
+Anchusa L. sp.,ANCHSPE,W,seed/grain,Boraginaceae
+Anchusa officinalis,ANCHOFF,w,seed/grain,Boraginaceae
+Androsace maxima L.,ANDRMAX,W,fruit,Primulaceae
+Androsace maxima L.,ANDRMAX,W,seed/grain,Primulaceae
+Androsace sp. L.,ANDRSPE,W,seed/grain,Primulaceae
+Anthemis pseudocotula Boiss.,ANTHPSE,W,achene,Asteraceae
+Antirrhinum orontium,ANTIORO,w,capsule,Scrophulariaceae
+Anvillea garcinii,ANVIGAR,w,'heads',Compositae
+Apiaceae indeterminate,UMBEIND,W,fruit,Apiaceae
+Apiaceae indeterminate,UMBEIND,W,seed/grain,Apiaceae
+Arabis/Cardamine spp.,ARABCAR,w,seed/grain,Cruciferae
+Arbutilon teophrastii,ARBUTEO,shrub,seed/grain,Malvaceae
+Arenaria serpyllifolia,ARENSER,w,seed/grain,Caryophyllaceae
+Arenaria sp.,ARENSPE,W,seed/grain,Caryophyllaceae
+Arenaria/Minuartia spp.,ARENMIN,w,seed/grain,Caryophyllaceae
+"Arnebia decumbens  (Vent.) Cosson & Kralik, uncarbonized",ARNDEUC,W,seed/grain,Boraginaceae
+Arnebia decumbens (Vent.) Cosson & Kralik,ARNEDEC,W,seed/grain,Boraginaceae
+Arnebia Forssk. sp.,ARNESPE,W,seed/grain,Boraginaceae
+Arnebia linearifolia DC.,ARNELIN,W,seed/grain,Boraginaceae
+Arnebia/Lithospermum,ARNELTH,w,seed/grain,Boraginaceae
+Artemisia annua,ARTEANN,w,seed/grain,Compositae
+Artemisia sp. L.,ARTESPE,W,seed/grain,Asteraceae
+Artemisia vulgaris,ARTEVUL,w,seed/grain,Compositae
+Asclepiadaceae indeterminate,ASCLIND,w,seed/grain,Asclepiadaceae
+Asparagus sp.,ASPASPE,W,seed/grain,Liliaceae
+Asperula sp.,ASPESPE,W,seed/grain,Rubiaceae
+Asperula/Galium sp.,ASPEGAL,W,seed/grain,Rubiaceae
+Asphodelus spp.,ASPHSPE,w,seed/grain,Liliaceae
+Asteraceae indet.,COMPIND,W,achene,Asteraceae
+Asteraceae indet.,COMPIND,W,kernals,Asteraceae
+Asteraceae indet.,COMPIND,W,seed and kernals,Asteraceae
+Asteraceae indet.,COMPIND,W,seed/grain,Asteraceae
+Asterolinon linum-stellatum,ASTELIS,w,seed/grain,Primulaceae
+Astragalus callichrous,ASTRCAL,w,seed/grain,Leguminosae
+Atriplex leucoclada,ATRILEU,W,dispersal unit,Chenopodiaceae
+Atriplex rosea,ATRIROS,w,dispersal unit,Chenopodiaceae
+Atriplex sp.,ATRISPE,W,bracts,Chenopodiaceae
+Atriplex sp.,ATRISPE,W,seeds and bracts,Chenopodiaceae
+Atriplex sp.,ATRISPE,W,seed/grain,Chenopodiaceae
+Atriplex tatarica,ATRITAT,w,seed/grain,Chenopodiaceae
+Bellevalia sp.,BELLSPE,W,seed/grain,Liliaceae
+Bellevalia/Muscari sp.,BELLMUS,W,seed/grain,Liliaceae
+Bellevalia/Ornithogalum spp.,BELLORN,w,seed/grain,Liliaceae
+Bellevaria/Asphoderus,BELLASP,w,seed/grain,Liliaceae
+Beta sp.,BETASPE,W,seed/grain,Chenopodiaceae
+Beta vulgaris L.,BETAVUL,D,seed/grain,Chenopodiaceae
+Bifora spp.,BIFOSPE,w,seed/grain,Umbelliferae
+Boraginaceae indeterminate,BORAIND,W,embryos,Boraginaceae
+Boraginaceae indeterminate,BORAIND,W,seed/grain/esperm,Boraginaceae
+Boraginaceae indeterminate,BORAIND,W,seed/grain,Boraginaceae
+Buglossoides arvensis (L.) Johnston,BUGLARV,W,achene,Boraginaceae
+Buglossoides arvensis (L.) Johnston,BUGLARV,W,seed/grain,Boraginaceae
+Buglossoides Moench sp.,BUGLSPE,W,seed/grain,Boraginaceae
+Buglossoides tenuiflora (L. fil.) Johnston,BUGLTEN,W,seed/grain,Boraginaceae
+Bupleurum rotundifolium type,BUPLROT,W,seed/grain,Apiaceae
+Bupleurum sp. L.,BUPLSPE,W,seed/grain,Apiaceae
+Bupleurum subovatum Link. ex Spreng. var. heterophyllum (Link) Wolff in Engler,BUPLSUB,W,seed/grain,Apiaceae
+Calendula sp. L.,CALESPE,W,seed/grain,Asteraceae
+Camelina microcarpa,CAMEMIC,w,seed/grain,Brassicaceae
+Camelina spp.,CAMESPE,w,seed/grain,Cruciferae
+Campanula spp.,CAMASPE,w,seed/grain,Campanulaceae
+Campanulaceae indeterminate,CAMPIND,W,seed/grain,Campanulaceae
+Camphorosma monspeliaca,CAMPMON,w,seed/grain,Chenopodiaceae
+Camphorosma spp.,CAMPSPE,w,seed/grain,Chenopodiaceae
+Capsella bursa-pastoris,CAPSBUP,w,seed/grain,Cruciferae
+Capsella spp.,CAPSSPE,w,seed/grain,Cruciferae
+Carex divisa Hudson,CAREDIV,W,seed/grain,Cyperaceae
+Carex sp.,CARESPE,W,seed/grain,Cyperaceae
+Carrichtera annua,CARRANN,W,valves/fruit beaks,Brassicaceae
+Carthamus sp. L.,CARTSPE,W,seed/grain,Asteraceae
+Carthamus tenuis,CARTTEN,w,achene,Compositae
+Caryophyllaceae indet.,CARYIND,W,seed/grain,Caryophyllaceae
+Caryophyllaceae/Chenopodiaceae indet.,CARYCHE,W,seed/grain,Caryophyllaceae/Chenopodiaceae
+Caryophyllaceae/Malvaceae,CARYMAL,w,seed/grain,Caryophyllaceae/Chenopodiaceae
+Centaurea ammocyanus/pallescens,CENAMPA,w,seed/grain,Compositae
+Centaurea sp. L.,CENTSPE,W,achene,Asteraceae
+Centaurea sp. L.,CENTSPE,W,seed/grain,Asteraceae
+Centaurea/Cirsium spp.,CENTCIR,w,seed/grain,Compositae
+Cephalaria sp. Schrader ex Roemer & Schultes,CEPHSPE,W,seed/grain,Dipsacaceae
+Cephalaria syriaca (L.) Schrader,CEPHSYR,W,seed/grain,Dipsacaceae
+Cerastium sp.,CERASPE,W,seed/grain,Caryophyllaceae
+Cerastium/Stellaria spp.,CERASTE,w,seed/grain,Caryophyllaceae
+Chara sp.,CHARSPE,W,nocules,Characeae
+Chrozophora spp.,CHROSPE,w,seed/grain,Euphorbiaceae
+Chrozophora verbascifolia,CHROVER,W,seed/grain,Euphorbiaceae
+Chrysanthemum coronarium,CHRYCOR,W,achene,Asteraceae
+Chrysanthemum sp.,CHRYSPE,W,seed/grain,Asteraceae
+Cichorium intybus L.,CICHINT,W,seed/grain,Lactuceae
+Cirsium/Carduus,CIRSCAR,W,seed/grain,Asteraceae
+Cirsium spp.,CIRSSPE,W,seed/grain,Asteraceae
+Citrullus colocynthis (L.) Schrader in Linnaea,CITRCOL,W,seed/grain,Cucurbitaceae
+Cladium mariscus (L.) Pohl,CLADMAR,W,seed/grain,Cyperaceae
+Clematis spp.,CLEMSPE,w,seed/grain,Ranunculaceae
+Cleome ornithopodioides,CLEOORN,w,seed/grain,Capparaceae
+Cleome sp.,CLEOSPE,W,seed/grain,Capparaceae
+Convolvulus arvensis L.,CONVARV,W,seed/grain,Convolvulaceae
+Convolvulus sp. L.,CONVSPE,W,seed/grain,Convolvulaceae
+Coriandrum sativum,CORISAT,D,fruits,Apiaceae
+Coronilla scorpioides (L.) Koch,COROSCO,W,seed/grain,Fabaceae
+Coronilla sp.,COROSPE,W,seed/grain,Fabaceae
+Corydalis spp.,CORYSPE,w,seed/grain,Papaveraceae
+Crepis aspera,CREPASP,W,seed/grain,Asteraceae
+Crepis spp.,CREPSPE,w,seed/grain,Compositae
+Crucianella / Plantago,CRUCPLA,W,seed/grain,Rubiaceae
+Crucianella sp.,CRUCSPE,W,seed/grain,Rubiaceae
+Crupina crupinastrum,CRUPCRU,w,'heads'/achenes/pappuses,Compositae
+Cucurbitaceae indeterminate,CUCUIND,W,seed/grain,Cucurbitaceae
+Cupressus sempervirens,CUPRSEM,W,fruit scale,Cupressaceae
+Cuscuta sp. L.,CUSCSPE,W,seed/grain,Cuscutaceae
+Cyperaceae indet.,CYPEIND,W,seed/grain,Cyperaceae
+Cyperus sp.,CYPESPE,W,seed/grain,Cyperaceae
+Datura spp.,DATUSPE,tree/shrub,seed/grain,Solanaceae
+Descurainia sophia,DESCSOP,w,seed/grain,Cruciferae
+Dipsacaceae indeterminate,DIPSIND,w,seed/grain,Dipsacaceae
+Draba spp.,DRABSPE,w,seed/grain,Cruciferae
+Echium L. sp.,ECHISPE,W,seed/grain,Boraginaceae
+Eleocharis sp.,ELEOSPE,W,seed/grain,Cyperaceae
+Equisetum spp.,EQUISPE,w,seed/grain,Equisetaceae
+Erodium ciconium,ERODCIC,w,mericarp,Geraniaceae
+Erodium ciconium,ERODCIC,w,mericarps and beak (frag),Geraniaceae
+Erodium gruinum,ERODGRU,w,beak (frags),Geraniaceae
+Erodium sp.,ERODSPE,W,awn,Geraniaceae
+Erodium sp.,ERODSPE,W,mericarps and beak (frag),Geraniaceae
+Erodium sp.,ERODSPE,W,seed/grain,Geraniaceae
+Erodium sp. Awn frag,ERODSAF,w,chaff- awn frag,Geraniaceae
+Erodium spiral beak,EROSPBE,w,seed/grain,Geraniaceae
+Eruca spp.,ERUCSPE,w,seed/grain,Cruciferae
+Erucaria microcarpa/rostrata,ERUMIRO,w,seed/grain,Cruciferae
+Euclidium spp.,EUCLSPE,w,seed/grain,Cruciferae
+Euclidium syriacum,EUCLSRI,w,seed/grain,Brassicaceae
+Euclidium syriacum (L.) R.,EUCLSYR,W,seed/grain,Brassicaceae
+Euphorbia sp.,EUPHSPE,W,seed/grain,Euphorbiaceae
+Euphorbiaceae indeterminate,EUPHIND,W,seed/grain,Euphorbiaceae
+Fagonia sp.,FAGOSPE,w,seed/grain,Zygophyllaceae
+Foeniculum spp.,FOENSPE,w,seed/grain,Umbelliferae
+Fumaria densiflora,FUMADEN,w,seed/grain,Papaveraceae
+Fumaria densiflora,FUMADEN,w,fruits,Papaveraceae
+Fumaria parviflora Lam.,FUMAPAR,W,seed/grain,Papaveraceae
+Fumaria sp.,FUMASPE,W,seed/grain,Papaveraceae
+Galium ceratopodium,GALICER,W,seed/grain,Rubiaceae
+Galium mollugo,GALIMOL,w,seed/grain,Rubiaceae
+Galium sp.,GALISPE,W,seed/grain,Rubiaceae
+Galium tricornutum Dandy,GALITRI,W,seed/grain,Rubiaceae
+Geraniaceae,GERAIND,W,seed/grain,Geraniaceae
+Geranium sp.,GERASPE,W,seed/grain,Geraniaceae
+Glaucium aleppicum,GLAUALE,w,seed/grain,Papaveraceae
+Glaucium corniculatum (L.) Rud.,GLAUCOR,W,seed/grain,Papaveraceae
+Glaucium sp.,GLAUSPE,W,seed/grain,Papaveraceae
+Gundelia tournefortii,GUNDTOU,w,seed/grain,Compositae
+Gypsophila elegans,GYPSELE,w,seed/grain,Caryophyllaceae
+Gypsophila pilosa Hudson,GYPSPIL,W,seed/grain,Caryophyllaceae
+Gypsophila sp.,GYPSSPE,W,seed/grain,Caryophyllaceae
+Halothamnus hierochunticus,HALOHIE,w,utricle,Chenopodiaceae
+Hammada/Salsola spp.,HAMMSAL,w,seed/grain,Chenopodiaceae
+Haplophyllum spp.,HAPLSPE,w,seed/grain,Rutaceae
+Helianthemum ledifolium,HELILED,w,seed/grain,Cistaceae
+Helianthemum salicifolium (L.) Miller,HELISAL,W,seed/grain,Cistaceae
+Helianthemum sp.,HELISPE,W,seed/grain,Cistaceae
+Heliotropium europaeum L.,HELOEUR,W,seed/grain,Boraginaceae
+Heliotropium L. sp.,HELOSPE,W,seed/grain,Boraginaceae
+Heliotropium rotundifolium,HELOROT,w,seed/grain,Boraginaceae
+Heliotropium suaveolens,HELOSUA,w,seed/grain,Boraginaceae
+Herniaria sp.,HERNSPE,W,seed/grain,Illecebraceae
+Hibiscus trionum,HIBITRI,w,seed/grain,Malvaceae
+Hippocrepis sp.,HIPPSPE,W,seed/grain,Fabaceae
+Holosteum spp.,HOLOSPE,w,seed/grain,Caryophyllaceae
+Hyoscyamus reticulatus,HYOSRET,w,seed/grain,Solanaceae
+Hyoscyamus sp.,HYOSSPE,W,seed/grain,Solanaceae
+Hypecoum sp.,HYPCSPE,W,seed/grain,Papaveraceae
+Hypericum sp.,HYPESPE,W,seed/grain,Hypericaceae
+Hypochoeris sp.,HYPOSPE,w,seed/grain,
+Illecebrecaceae indeterminate,ILLEIND,w,seed/grain,Illecebrecaeae
+Isatis spp.,ISATSPE,w,seed/grain,Cruciferae
+Juncus sp.,JUNCSPE,W,seed/grain,Juncaceae
+Juniperus sp.,JUNISPE,W,nutlets,Cupressaceae
+Kochia prostrata,KOCHPRO,w,seed/grain,Chenopodiaceae
+Krascheninnikova ceratonia,KRASCER,w,seed/grain,Chenopodiaceae
+Lactuca sp.,LACTSPE,w,seed/grain,Asteraceae
+Lallemantia sp.,LALLSPE,w,seed/grain,Lamiaceae
+Lamiaceae indet.,LABIIND,W,seed/grain,Lamiaceae
+Lamium spp.,LAMISPE,w,seed/grain,Labiatae
+Lepidium perfoliatum,LEPIPER,w,seed/grain,Cruciferae
+Lepidium ruderale,LEPIRUD,w,seed/grain,Cruciferae
+Lepidium sp.,LEPISPE,W,seed/grain,Brassicaceae
+Liliaceae indeterminate,LILIIND,W,seed/grain,Liliaceae
+Lithospermum arvense L.,LITHSPM,W,seed/grain,Boraginaceae
+Lithospermum L. sp.,LITHSPE,W,seed/grain,Boraginaceae
+Lithospermum officinale L.,LITHOFF,W,seed/grain,Boraginaceae
+Lycium spp.,LYCISPE,w,seed/grain,Solanaceae
+Lycopus sp.,LYCOSPE,W,seed/grain,Lamiaceae
+Malcomia spp.,MALCSPE,w,seed/grain,Cruciferae
+"Maloideae (e.g., incl. Malus, Pyrus, Sorbus, Cydonia, etc.]",MALOIDE,w,seed/grain,Maloideae
+Malva nicaeensis,MALVNIC,W,seed/grain,Malvaceae
+Malva parviflora L.,MALVPAR,W,seed/grain,Malvaceae
+Malva sp.,MALVSPE,W,seeds and fruit,Malvaceae
+Malva sp.,MALVSPE,W,seed/grain,Malvaceae
+Malva sylvestris/nicaensis,MALSYNI,W,seed/grain,Malvaceae
+Malvaceae indet.,MALVIND,W,seed/grain,Malvaceae
+Matricaria sp. L.,MATRSPE,W,seed/grain,Asteraceae
+Mesembryanthemum nodiflorum,MESENOD,w,seed/grain,Aizoaceae
+Micromeria sp.,MICRSPE,W,seed/grain,Lamiaceae
+Minuartia rubella,MINURUB,w,seed/grain,Caryophyllaceae
+Minuartia sp.,MINUSPE,w,seed/grain,Caryophyllaceae
+Moltkia coerulea,MOLTCOE,w,seed/grain,Boraginaceae
+Moraceae indeterminate,MORAIND,w,seed/grain,Moraceae
+Muscari longipes,MUSCLON,W,seed/grain,Liliaceae
+Muscari sp.,MUSCSPE,W,seed/grain,Liliaceae
+Nepeta sp.,NEPESPE,W,seed/grain,Lamiaceae
+Neslia paniculata,NESLPAN,W,seed/grain,Brassicaceae
+Neslia paniculata/apiculata,NESPAAP,w,seed/grain,Brassicaceae
+Neslia sp.,NESLSPE,W,seed/grain,Brassicaceae
+Nigella sp.,NIGESPE,w,seed/grain,Ranunculaceae
+Nitraria schoberi,NITRSCH,w,seed/grain,Zygophyllaceae
+Noaea mucronata,NOAEMUC,W,seed/grain,Chenopodiaceae
+Noaea sp.,NOAESPE,W,seed/grain,Chenopodiaceae
+Notobasis syriaca,NOTOSYR,w,achene,Compositae
+Ononis serrata,ONONSER,w,seed/grain,Leguminosae
+Onopordum sp. L.,ONOPSPE,W,seed/grain,Asteraceae
+Onosma albo-roseum,ONOSALB,w,seed/grain,Boraginaceae
+Ornithogalum sp.,ORNISPE,W,seed/grain,Liliaceae
+Papaver argemone L.,PAPAARG,W,seed/grain,Papaveraceae
+Papaver dubium/rhoeas,PAPDURH,w,seed/grain,Papaveraceae
+Papaver glaucum,PAPAGLA,w,seed/grain,Papaveraceae
+Papaver somniferum L.,PAPASOM,D,seed/grain,Papaveraceae
+Papaver sp.,PAPASPE,W,seed/grain,Papaveraceae
+Papaveraceae indeterminate,PAPAIND,W,seed/grain,Papaveraceae
+Peganum harmala L.,PEGAHAR,W,seed/grain,Zygophyllaceae
+Phlomis spp.,PHLOSPE,w,seed/grain,Labiatae
+Pimpinella spp.,PIMPSPE,w,seed/grain,Umbelliferae
+Plantago coronopus,PLANCOR,w,spikes,Plantaginaceae
+Plantago lagopus L.,PLANLAG,W,seed/grain,Plantaginaceae
+Plantago lanceolata,PLANLAN,w,seed/grain,Plantaginaceae
+Plantago major,PLANMAJ,w,seed/grain,Plantaginaceae
+Plantago ovata,PLANOVA,w,seed/grain,Plantaginaceae
+Plantago psyllium,PLANPSY,W,seed/grain,Plantaginaceae
+Plantago sp.,PLANSPE,W,seed/grain,Plantaginaceae
+Plantago squarrosa,PLANSQU,w,seed/grain,Plantaginaceae
+Portulaca oleracea L.,PORTOLE,D,seed/grain,Portulacaceae
+Portulaca sp.,PORTSPE,W,seed/grain,Portulacaceae
+Potamogeton pectinatus,POTAPEC,w,fruitlet,Potamogetonaceae
+Potamogeton sp.,POTASPE,W,seed/grain,Potamogetonaceae
+Potamogeton sp.,POTASPE,W,fruitlet,Potamogetonaceae
+Potentilla sp.,POSPEUC,W,seed/grain,Rosaceae
+Potentilla sp.,POTESPE,W,seed/grain,Rosaceae
+Primulaceae indeterminate,PRIMIND,W,seed/grain,Primulaceae
+Ranunculus acris,RANUACR,w,seed/grain,Ranunculaceae
+Ranunculus arvensis L.,RANUARV,W,seed/grain,Ranunculaceae
+Ranunculus ficaria,RANUFIC,w,seed/grain,Ranunculaceae
+Ranunculus sceleratus,RANUSCE,w,seed/grain,Ranunculaceae
+Ranunculus sp.,RANUSPE,W,achene,Ranunculaceae
+Ranunculus sp.,RANUSPE,W,seed/grain,Ranunculaceae
+Reboudia pinnata,REBOPIN,W,seed/grain,Brassicaceae
+Reseda lutea L.,RESELUT,W,seed/grain,Resedaceae
+Reseda sp.,RESESPE,W,seed/grain,Resedaceae
+Rhus coriaria,RHUSCOR,W,seed/grain,Anacardiaceae
+Rubiaceae indeterminate,RUBIIND,W,seed/grain,Rubiaceae
+Rubus sanctus,RUBUSCT,W,seed/grain,Rosaceae
+Rubus sanguineus,RUBUSAN,W,seed/grain,Rosaceae
+Rubus sp.,RUBUSPE,W,seed/grain,Rosaceae
+Ruppia cirrhosa/maritima,RUPCIMA,w,fruit,Ruppiaceae
+Salsola sp.,SALSSPE,W,embryo,Chenopodiaceae
+Salsola sp.,SALSSPE,W,seed/grain,Chenopodiaceae
+Salvia cryptantha,SALVCRY,w,seed/grain,Labiatae
+Saponaria spp.,SAPOSPE,w,seed/grain,Caryophyllaceae
+Schoenoplectus sp.,SCHOSPE,W,seed/grain,Cyperaceae
+Schoenus nigricans L.,SCHONIG,W,seed/grain,Cyperaceae
+Scleranthus sp.,SCLESPE,W,seed/grain,Illecebraceae
+Scrophularia sp.,SCROSPE,W,seed/grain,Scrophulariaceae
+Scrophularia sp.,SCROSPE,W,capsule valves,Scrophulariaceae
+Scrophulariaceae indeterminate,SCROIND,W,seed/grain,Scrophulariaceae
+Sherardia arvensis L.,SHERARV,W,seed/grain,Rubiaceae
+Sherardia sp.,SHERSPE,W,seed/grain,Rubiaceae
+Silene aegyptiaca,SILEAEG,w,seed/grain,Caryophyllaceae
+Silene arabica,SILEARA,w,seed/grain,Caryophyllaceae
+Silene colorata,SILECOL,w,seed/grain,Caryophyllaceae
+Silene sp.,SILESPE,W,seed/grain,Caryophyllaceae
+Silene trinervis,SILETRI,w,seed/grain,Caryophyllaceae
+Silene/Gyposphila,SILEGYP,w,seed/grain,aryophyllaceae
+Silene/Stellaria sp.,SILESTE,w,seed/grain,Caryophyllaceae
+Solanaceae indeterminate,SOLAIND,W,seed/grain,Solanaceae
+Solanum dulcamara,SOLADUL,w,seed/grain,Solanaceae
+Solanum nigrum L.,SOLANIG,W,seed/grain,Solanaceae
+Solanum sp.,SOLASPE,W,seed/grain,Solanaceae
+Sophora spp.,SOPHSPE,w,seed/grain,Leguminosae
+Spergularia arvensis,SPERARV,w,seed/grain,Caryophyllaceae
+Spergularia sp.,SPERSPE,W,seed/grain,Caryophyllaceae
+Stachys sp.,STACSPE,W,seed/grain,Lamiaceae
+Stellaria sp.,STELSPE,W,seed/grain,Caryophyllaceae
+Suaeda fruticosa,SUAEFRU,w,seed/grain,Chenopodiaceae
+Suaeda maritima,SUAEMAR,W,seed/grain,Chenopodiaceae
+Suaeda palaestina,SUAEPAL,w,seed/grain,Chenopodiaceae
+Suaeda sp.,SUAESPE,W,seed/grain,Chenopodiaceae
+Teucrium botrys,TEUCBOT,W,seed/grain,Lamiaceae
+Teucrium sp.,TEUCSPE,W,seed/grain,Lamiaceae
+Teucrium/Ajuga sp.,TEUCAJU,W,seed/grain,Lamiaceae
+Texiera glastifolia,TEXIGLA,w,seed/grain,Cruciferae
+Thymelaea hirsuta (L.) Endl.,THYMHIR,W,nutlets,Thymelaeaceae
+Thymelaea passerina (L.) Cosson & Germ.,THYMPAS,W,seed/grain,Thymelaeaceae
+Thymelaea sp.,THYMSPE,W,seed/grain,Thymelaeaceae
+Thymelaeaceae indeterminate,THYMIND,w,seed/grain,Thymelaeaceae
+Torilis nodosa,TORINOD,w,seed/grain,Umbelliferae
+Torilis type,TORITYP,W,seed/grain,Apiaceae
+Torularia torulosa,TORUTOR,W,seed/grain,Brassicaceae
+Tragopogon spp.,TRANSPE,w,seed/grain,Asteraceae
+Tribulus terrestris L.,TRIBTER,W,seed/grain,Zygophyllaceae
+Urtica urens L.,URTIURE,W,seed/grain,Urticaceae
+Vaccaria pyramidata Medik.,VACCPYR,W,seed/grain,Caryophyllaceae
+Vaccaria sp.,VACCSPE,W,seed/grain,Caryophyllaceae
+Valerianella coronata (L.) DC.,VALECOR,W,seed/grain,Valerianaceae
+Valerianella dentata (L.) Pollich,VALEDEN,W,seed/grain,Valerianaceae
+Valerianella sp. Miller,VALESPE,W,seed/grain,Valerianaceae
+Verbascum sp.,VERBSPE,W,seed/grain,Scrophulariaceae
+Verbena officinalis L.,VEREOFF,W,seed/grain,Verbenaceae
+Verbena sp.,VERESPE,W,seed/grain,Verbenaceae
+Veronica persica type,VEROPET,W,seed/grain,Scrophulariaceae
+Vicieae,VICIEAE,W,seed/grain,Fabaceae
+Viola sp.,VIOLSPE,W,seed/grain,Violaceae
+Vitex agnus-castus L.,VITEAGN,W,seed/grain,Verbenaceae
+Ziziphora sp.,ZIZISPE,W,seed/grain,Lamiaceae
+Ziziphora tenuior L.,ZIZITEN,w,seed/grain,Lamiaceae
+Zoegea leptaurea,ZOEGLEP,w,seed/grain,Asteraceae
+Zygophyllum fabago,ZYGOFAB,shrub,seed/grain,Zygophyllaceae
+small-seeded indet,INDETES,w,seed/grain,-
+indeterminata,INDETER,W,presence,-
+indeterminata,INDETER,W,seed/grain /bud,-
+indeterminata,INDETER,W,seed/grain,-
+indeterminata wild,INDETWI,W,seed/grain,-
+indeterminate fruit,INDETFR,w,seed/grain,-
+indeterminate fruit,INDETRH,w,fruit,-
+indeterminate fruit,INDETFR,w,fruit,-
+indeterminate nut fragments,INDETNT,w,fragments,-
+indeterminate nut fragments,INDETNT,w,seed/grain,-
+indeterminate nut fragments,INDETNT,w,nutshell,-

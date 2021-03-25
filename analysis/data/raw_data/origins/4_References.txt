@@ -1,0 +1,119 @@
+"Refcode","Author","PubYear","Title","Editor","BookTitle","Journal","Volume","IssueNo","Publisher","Pages"
+"AkazawaSakaguchi1987","Takeru Akazawa and Yutaka Sakaguchi","1987",,,"Palaeolithic site of Douara Cave and paleogeography of Palmyra Basin in Syria"," Bulletin no. 21, Tokyo University, Tokyo","29",,,
+"AkkermansVerhoeven00","Akkermans, P., Verhoeven, M.","2000","Chronology","Verhoeven, M., Akkermans, P.","Tell Sabi Abyad II the pre-pottery Neolithic B settlement",,,,"Nederlands Historisch-Archaeologisch Instituut: Istanbul","1-2"
+"Alizadeh03","Alizadeh, A.","2003","Excavations at the prehistoric mound of Chogha Bonut, Khuzestan, Iran",,,,,,"The University of Chicago",
+"AtlasDesSites","Hours, F., Aurenche, O., Cauvin, J., Cauvin, M.-C., Copeland, L., Sanlaville, P.","1994","Atlas des sites du proche orient (14000-5700 BP)",,,,,,"CNRS",
+"BakhteyevYanushevich1980","Bakhteyev, F. and Yanuschevich, Z.","1980","Discoveries of cultivated plants in the early farming settlements of Yarym-Tepe I and Yarym-Tepe II in Northern Iraq",,,"Journal of Archaeological Science","7",,,"167-178"
+"BarYosef85","Bar-Yosef, O.","1985",,,"A Cave in the Desert: Nahal Hemar 9,000-Year-Old-Finds",,,,"Jerusalem: the Israel Museum",
+"BarYosefetal1991","Bar-Yosef, O., Gopher, A., Tchernov, E. and Kislev, M.E.","1991","Netiv Hagdud: an early Neolithic village site in the Jordan valley",,,"Journal of Field Archaeology","18",4,,"405-424"
+"BogaardEtAl2015","Bogaard, A., Charles, M., Livarda, A., Ergun, M., Filipovic, D. and Jones, G.","2013","The archaeobotany of mid-later Neolithic occupation levels at Çatalhöyük","Hodder, I.","Humans and Landscapes of Çatalhöyük: Reports from the 2000-2008 seasons",,,,"Los Angeles: Monographs of the Cotsen Institute of Archaeology, University of California at Los Angeles","93-128"
+"Bordaz73","Bordaz, J.","1973","Current research in the Neolithic of south central Turkey: Suberde, Erbaba and their chronological implications.",,,"American Journal of Archaeology","77",3,,"282-288"
+"BY_GM_G2010","Bar-Yosef, O., Goring-Morris, A.N. and Gopher, A.","2010",,,"Gilgal. Early Neolithic Occupations in the Lower Jordan Valley: the Excavations of Tamar Noy.",,,,"Oxford: Oxbow Books",
+"Cessford2001","Cessford, C.","2001","A new dating sequence for Çatalhöyük",,,"Antiquity","75",,,"717-725"
+"Colledge1998","Colledge, S.","1998","Dhuweila: botanical remains","Betts, A.","The Harra and the Hamad. Excavations and surveys in Eastern Jordan, Volume 1.",,"1",,,"185-196"
+"Colledge2001","Colledge, S.","2001",,,"Plant Exploitation on Epipalaeolithic and early Neolithic Sites in the Levant",,,,"Oxford: BAR International Series 986",
+"DeMoulins97","De Moulins, D.","1997","Agricultural Changes at Euphrates and Steppe Sites in the Mid-8th to the 6th Millenium B.C.",,,,,,"BAR International Series 683",
+"Donaldson85","Donaldson, M.L.","1985","The plant remains","Rollefson, G.O., Simmons, A.H., Donaldson, M.L., Gillespie, W., Kafafi, Z., Köhler-Rollefson, I.U., McAdam, E., Rolston, S.L. and Tubb, M.K.","Excavation at the Pre-Pottery Neolithic B Village of 'Ain Ghazal (Jordan), 1983.","Mitteilungen der Deutschen Orient Gesellschaft Berlin","117",,,"(96-104) 69-134"
+"Edwardsetal04","Edwards, P.C., Meadows, J., Sayej, G. And Westaway, M.","2004","From the PPNA to the PPNB: new views from the southern Levant after excavations at Zahrat adh-Dhra' 2 in Jordan",,,"Paléorient","30",2,,"21-60"
+"EdwardsFFAS2004","Edwards, P.C., Falconer, S.E., Fall, P.L., Ariotti, A. and Swoveland, T.K.","2004","Archaeology and environment of the Dead Sea plain: preliminary results of the third season of investigation by the joint La Trobe University/Arizona State University project",,,"Annual of the Department of Antiquities of Jordan","48",,,"181-201"
+"FMBH07","Fairbairn, A., Martinoli, D., Butler, A. and Hillman, G.","2007","Wild plant seed storage at Neolithic Çatalhöyük East, Turkey",,,"Vegetation History and Archaeobotany","16",,,"467-479"
+"FrenchEtal72","French, D., Hillman, G., Payne, S., Payne, R.","1972","Excavations at Can Hasan III 1969-1970","Higgs, E.","Papers in economic prehistory",,,,,"181-190"
+"GarfinkelDag06","Garfinkel, Y. and Dad, D.","2006","Gesher a Pre-Pottery Neolithic A site in the Central Jordan Valley, Israel, a Final Report",,,,,,"Berlin: ex oriente",
+"GarfinkelEtal88","Garfinkel, Y., Kislev, M., Zohary, D.","1988","Lentil in the pre-pottery Neolithic B Yiftah'el: additional evidence of its early domestication",,,"Israel Journal of Botany","37",,,"49-51"
+"GokturkHillegonds2002","Göktürk, E.H., Hillegonds, DJ","2002","Accelerator mass spectrometry dating at Çatalhöyük",,,"Radiochimica Acta","90",,,"407-410"
+"GorenInbaretal1992","Goren-Inbar, N., Belitzky, S., Verosub, K., Werker, E., Kislev, M., Heimann, A., Carmi, I., Rosenfeld, A.","1992","New discoveries at the Middle Pleistocene Acheulian site of Gesher Benot Ya'aqov, Isreal",,,"Quaternary Research","38",,,"117-128"
+"Hald05","Jensen, C., Hermansen, B., Petersen, B., Kinzel, M., Hald, M. M., Bangsgaard, P., Lynnerup, N., Thuesen, I.","2005","Preliminary report on the excavations at Shakarat Al-Musay'id",,,"Annual of the department of antiquities of Jordan","49",,,"115-134"
+"Helbaek1972","Helbaek, H.","1972","Traces of plants in the early ceramic site of Umm Dabaghiyah",,,"Iraq","34",1,,"17-19"
+"Helbaek60","Helbaek, H.","1960","The paleoethnobotany of the Near East and Europe","Braidwood, R. and Howe, B.","Prehisotoric invetigations in Iraqi Kurdistan",,,,"The University of Chicago Press","99-118"
+"Helbaek66","Helbaek, H.","1966","Pre-Pottery Neolithic farming at Beidha, a preliminary report.",,,"Palestine Exploration Quarterly","98",,,"61-66"
+"Helbaek69","Helbaek, H.","1969","Appendix I: Plant collecting, dry-farming, and irrigation agriculture in prehistoric Deh Luran","Hole, F., Flannery, K.V. And Neely, J.A.","Prehistory and human Ecology of the Deh Luran Plain. An early village sequence from Khuzistan, Iran",,,,"Memoirs of the Museum of Anthropology, University of Michigan I: Ann Arbor","383-426"
+"Helbaek70","Helbaek, H.","1970","The plant husbandry of Hacilar","Mellaart, J.","Excavations at Hacilar",,"1",,"Edinburgh: Edinburgh University Press","189-244"
+"HenryEtal03","Henry, D., Cordova, C., White, J., Dean, R., Beaver, J., Ekstrom, H., Kadowaki, S., McCorriston, J., Nowell, A., Scott-Cummings, L.","2003","The Early Neolithic site of Ayn Abu Nukhayla, southern Jordan",,,"Bulletin of the American Schools of Oriental Research","330",,,"1-30"
+"HillmanEtal2001","Hillman, G., Hedges, R., Moore, A., Colledge, S. and Pettitt, P.","2001","New evidence of lateglacial cereal cultivation at Abu Hureyra on the Euphrates",,,"The Holocene","11",4,,"383-393"
+"Hopf83","Hopf, M.","1983","Jericho plant remains","Kenyon, K.M. And Holland, T.A.","Excavations at Jericho V: the Pottery Phases of the Tell and Other Finds",,,,"London: British School of Archaeology in Jerusalem","576-621"
+"HopfBarYosef87","Hopf, M. And Bar-Yosef, O.","1987","Plant remains from Hayonim Cave, western Galilee",,,"Paléorient","13",1,,"117-120"
+"Hubbard1990","Hubbard, R.","1990","Archaeobotany of Abdul Hosein. The carbonised seeds from Tepe Abdul Hosein: results of preliminary analyses.","Pullar, J.","Tepe Abdul Hosein. A Neolithic site in Western Iran excavations 1978.","British Archaeological Reports International Series","563",,,"217-221"
+"Kennedy2007","Kennedy, A.","2007","The plant macrofossils","Finlayson, B. and Mithen, S.","The Early Prehistory of Wadi Faynan, Southern Jordan. Archaeological Survey of Wadis Faynan, Ghuwayr and al-Bustan and evaluation of the Pre-Pottery Neolithic.  A Site of WF16. Wadi Faynan Series Volume 1.",,"Levant Supplementary Series Volume 4",,"Oxford: Oxbow Books",
+"KHN2010","Kislev, M.E., Hartmann, A. and Noy, T.","2010","The vegetal subsistence of Gilgal I as reflected in the assemblage of locus 11","Bar-Yosef, O., Goring-Morris, A.N. and Gopher, A.","Gilgal. Early Neolithic Occupations in the Lower Jordan Valley: the Excavations of Tamar Noy.",,,,"Oxford: Oxbow Books","251-257"
+"Kislev85","Kislev, M.","1985","Early Neolithic horsebean from Yiftah'el, Israel",,,"Science","228",4697,,"319-320"
+"Kislev88","Kislev, M.E.","1988","Nahal Hemar cave. Dessicated plant remains: an interim report",,,"Atiqot","18",,,"76-81"
+"Kislev97","Kislev, M.E.","1997","Early agriculture and paleoecology of Netiv Hagdud","Bar-Yosef, O. and Gopher, A.","An Early Neolithic Village in the Jordan Valley. American School of Prehistoric Research Bulletin 43.",,,,"Cambridge: Harvard University, Peabody Museum of Archaeology and Ethnology","209-236"
+"KislevEtal04","Kislev, M.E., Hartmann, A. and Galili, E.","2004","Archaeobotanical and archaeoentomological evidence from a well at Atlit-Yam indicates colder, more humid climate on the Israeli coast during the PPNC period.",,,"Journal of Archaeological Science","31",,,"1301-1310"
+"KislevEtal06","Kislev, M., Simchoni, O., Melamed, Y.","2006","Plant remains","Garfinkel, Y., Dag, D.","Gesher. A Pre-Pottery Neolithic A site in the Central Jordan Valley, Israel. A final report",,,,,"187-191"
+"Kislevetal1992","Kislev, M.E., Nadel, D. and Carmi, I.","1992","Epipalaeolithic (19,000 BP) cereal and fruit diet at Ohalo II, Sea of Galilee, Israel",,,"Review of Palaeobotany and Palynology","73",,,"161-166"
+"Kozlowski1989","Kozlowski, S.K.","1989","Nemrik 9, a PPN Neolithic site in Northern Iraq",,,"Paléorient","15",1,,"25-31"
+"Kozlowski1998","Kozlowski, S.K.","1998","M'lefaat. Early Neolithic site in northern Iraq.",,,"Cahiers de l'Euphrate","8",,,"179-271"
+"LevEtal05","Lev, E., Kislev, M.E. and Bar-Yosef, O.","2005","Mousterian vegetal food in Kebara Cave, Mt. Carmel",,,"Journal of Archaeological Science","32",,,"475-484"
+"Lucas2011","Lucas, L., Colledge, S., Simmons, A., Fuller, D.","2011","Crop introduction and accelerated island evolution: archaeobotanical evidence from ‘Ais Yiorkis and Pre-Pottery Neolithic Cyprus",,,"Vegetation History and Archaeobotany","21",2,"Springer-Verlag","117-129"
+"Matsutani87","Matsutani, A.","1987","Plant Remains from the 1984 Excavations at Douara Cave","T. Akazawa, Y. Sakaguchi","Paleolithic Site of Doura Cave",,"Bulletin 21",,"Tokyo: Tokyo University","117–122"
+"Meadows2004","Meadows, J.","2004","The earliest farmers? Archaeobotanical research at Pre-Pottery Neolithic A sites in Jordan.","Al-Khraysheh, F.","Studies in the History and Archaeology of Jordan VIII: archaeological and historical perspectives on society, culture and identity.",,,,"Amman: Depstudiesartment of Antiquities of Jordan","119-128"
+"Melamed08","Melamed, Y., Plitman, U., Kislev, M.","2008","Vicia peregrina: an edible early Neolithic legume",,,"Vegetation History and Archaeobotany","17",,,"S29-S34"
+"Miller03","Miller, N.","2003","Plant remains from the 1996 excavation","Alizadeh, A.","Excavations at the prehistoric mound of Chogha Bonut, Khuzestan, Iran",,"120",,"The University of Chicago","123-128"
+"Miller2013","Miller, N.","2013","Plant Remains from Neolithic Gritille: Food and Fuel in the Context of Animal Domestication.",,,"MASCA Ethnobotanical Laboratory Report","27",,,"1-21"
+"MithenEtal2000","Mithen, S., Finlayson, B., Pirie, A., Carruthers, D. and Kennedy, A.","2000","New Evidence for Economic and
+Technological Diversity in the Pre-Pottery Neolithic A:
+Wadi Faynan 16",,,"Current Anthropology","41",4,,"655-663"
+"MithenEtal2007","Mithen, S., Austen, P., Kennedy, A., Emberson, H., Lancaster, N. and Finlayson, B.","2007","Early Neolithic woodland composition and exploitation in the Southern Levant: a
+comparison between archaeobotanical
+remains from WF16 and present-day woodland
+at Hammam Adethni",,,"Environmental Archaeology","12",1,,"49-70"
+"MooreEtal2000","Moore, A.M.T., Hillman, G.C. and Legge, A.J.","2000",,,"Village on the Euphrates. From Foraging to Farming at Abu Hureyra.",,,,"Oxford: Oxford University Press",
+"Murray03","Murray, M.A.","2003","The plant remains","Peltenberg, E.","The colonisation and settlement of Cyprus",,,,"Sävedalen: Paul Åströms Förlang","59-71"
+"NadelWerker99","Nadel, D. and Werker, E.","1999","The oldest ever brush hut plant remains from Ohalo II, Jordan Valley, Israel (19,000 BP)",,,"Antiquity","73",,,"755-764"
+"Neef03","Neef, R.","2003","Overlooking the steppe-forest: a preliminary report on the botanical remains from early Neolithic Göbekli Tepe (southeastern Turkey)",,,"Neo-Lithics","2",3,,"13-16"
+"Neef04","Neef, R.","2004","Vegetation and plant husbandry","Nissen, H., Muheisen, M., Gebel, H.","Basta I: the human ecology",,,,"Berlin: Ex oriente","187-218"
+"Nesbitt91","Watkins, T., Betts, A., Dobney, K. and Nesbitt, M.","1991","Qermez Dere, Tel Afar: interim report no 2. Vol. 13. Project Paper.",,,,,,"Edinburgh: Department of Archaeology, University of Edinburgh",
+"Nesbitt92","Nesbitt, M.","1992","VIII. A preliminary note on the charred plant remains","Kozlowski, S.K.","Nemrik 9. Pre-pottery Neolithic site in Iraq. Volume 2: House No 1/ 1A/ 1B.",,,,"Warsaw: University of Warsaw","127"
+"Nesbitt95","Nesbitt, M.","1995","4. The search for plant remains","Watkins, T.","Qermez Dere, Tell Afar: interim report No 3",,"14",,"Edinburgh: Department of Archaeology, University of Edinburgh","9-11; 40-45"
+"Nesbitt98","Nesbitt, M.","1998","Preliminary report on the plant remains from M'lefaat","Kozlowski, S.K.","M'lefaat: Early Neolithic site in northern Iraq","Cahiers de l'Euphrate","8",,,"232-233, 272"
+"Noy89","Noy, T.","1989","Gilgal I. A Pre-Pottery Neolithic site, Israel. The 1985-1987 seasons.",,,"Paléorient","15",1,,"11-18"
+"NoyLeggeHiggs1973","Noy, T., Legge, A., Higgs, E.","1973","Recent excavations at Nahal Oren, Isreal","Coles, J.",,"Proceedings of the Prehistoric Society","39",,"The Prehistoric Society","75-99"
+"ORAU32","Higham, T.F.G., C. Bronk Ramsey, Brock, F., Baker, D. and Ditchfield, P.","2007","Radiocarbon dates from the Oxford AMS system: archaeometry datelist 32",,,"Archaeometry","49",1,,"1-60"
+"Pasternak98","Pasternak, R.","1998","Investigations of Botanical Remains from Nevali Çori PPNB, Turkey: A Short Interim Report","Damania, A., Valkoun, J., Willcox, G., Qualset, C.","The Origins of Agriculture and Crop Domestication",,,,"ICARDA: Syria","unknown (web version)"
+"Peltenburg2003",,"2003",,"Peltenburg, E.","The colonisation and settlement of Cyprus","Studies in Mediterranean Archaeology","70",4,,
+"PuruFull2010","Purugganan, M., Fuller, D.","2010","Archaeological data reveal slow rates of evolution during plant domestication",,,"Evolution","65",1,,"171-183"
+"RehovotIV","Carmi, I., Segal, D.","1992","Rehovot radiocarbon measurements IV",,,"Radiocarbon","34",1,,"115-132"
+"RiehlEtal2011","Riehl, S., Benz, M. Conard, N., Darabi, H., Deckers, K., Nashli, H., Zeidi-Kulehparcheh, M.","2011","Plant use in three Pre-Pottery Neolithic sites of the northern and eastern Fertile Crescent: a preliminary report",,,"Vegetation History and Archaeobotany",,,,
+"RiehlEtal2013","Riehl, S., Zeidi, M., Conard, N.","2013","Emergence of Agriculture in the Foothills of the Zagros Mountains of Iran",,,"Science","341",,,"65-67"
+"RolSimKaf1992","Rollefson, G.O., Simmons, A.H. and Kafafi, Z.","1992","Neolithic cultures at 'Ain Ghazal, Jordan",,,"Journal of Field Archaeology","19",4,,"443-470"
+"RolSimm86","Rollefson, G.O. and Simmons, A.H.","1986","The Neolithic village of 'Ain Ghazal, Jordan: preliminary report on the 1984 season.",,,"Bulletin of the American Schools of Oriental Research. Supplementary Studies",,24,,"145-164"
+"RosenbergNesbitt95","Rosenberg, M., Nesbitt, M., Redding, R.W. And Strasser, T.F.","1995","Hallan Çemi Tepesi: some preliminary observations concerning early Neolithic subsistence behaviors in eastern Anatolia",,,"Anatolica","21",,,"3-12"
+"RosenbergNesbitt98","Rosenberg, M., Nesbitt, R.M., Redding, R.W. and Peasnall, B.L.","1998","Hallan Çemi, pig husbandry, and post-Pleistocene adaptations along the Taurus-Zagros Arc (Turkey)",,,"Paléorient","24",1,,"25-41"
+"Savardetal06","Savard, M., Nesbitt, M. and jones, M.K.","2006","The role of wild grasses in subsistence and sedentism: new evidence from the northern Fertile Crescent",,,"World Archaeology","38",2,,"179-196"
+"SavardNesbittGale2003","Savard, M., Nesbitt, M. and Gale, R.","2003","Archaeobotanical evidence for early Neolithic diet and subsistence at M'lefaat (Iraq)",,,"Paléorient","29",1,,"93-106"
+"SavardPhD","M. Savard","2004","Epipalaeolithic to early Neolithic ubsistence strategies in the northern Fertile Crescent: The archaeobotanical remains from Hallan Cemi, Demirkoy, M'lefaat and Qermez Dere",,,"Dissertation submitted in fulfilment of the requirements for t}:le degree of Doctor of Philosophy",,,,
+"Stewart76","Stewart, R.B.","1976","Paleoethnobotanical report-Çayönü 1972",,,"Economic Botany","30",3,,"219-225"
+"Stordeur03","Stordeur, D.","2003","Tell Awad. Resultats préliminaires des campagnes 2001 et 2002",,,"Neo-Lithics","1",3,,"7-15"
+"StordeurEtAl2010","Stordeur, D., Helmer, D., Jamous, B., Khawam, R., Molist, M. and Willcox, G.","2010","Le PPNB de Syrie du Sud a` travers les de´couvertes re´centes a` Tell Aswad","Al-Maqdissi, M., Braemer F. and Dentzer, J-M.","Hauran V La Syrie Du Sud Du Néolithique À L'antiquité Tardive Recherches Récentes Actes Du Colloque De Damas 2007",,"1",,"Beyrouth","41-68"
+"TAMTA2006","Tsuneki, A., Arimura, M., Maeda, O., Tanno, K. and Anezaki, T.","2006","The early PPNB in the north Levant: a new perspective from tell Ain el-Kerkh, northwest Syria",,,"Paléorient","32",1,,"47-71"
+"TannoWillxox06","Tanno, K-I. and Willcox, G.","2006","The rigins of cultivation of Cicer arietinum L. and Vicia faba L.: early finds from Tell el-Kerkh, north-west Syria, late 10th millenium B.P.",,,"Vegetation History and Archaeobotany","15",,,"197-204"
+"VanZeist1981","van Zeist, W.","1981","Plant remains from Cape Andreas - Kastros (Cyprus)","le Brun, A.","Un site néolithique précéramique en Chypre: Cap Andreas-Kastros",,"5",,"Editions ADPF, Par","95-99"
+"VanZeist70","Van Zeist, W.","1970","The Oriental Institute excavations at Mureybi?, Syria: preliminary report on the 1965 campaign part III: the paleobotany",,,"Journal of Near Eastern Studies","29",3,,"167-176"
+"VanZeist86","Van Zeist, W.","1986","Plant remains from Neolithic El Kowm, central Syria","Dornemann, R.H.","A Neolithic Village at Tell El Kowm in the Syrian Desert. Studies in Ancient Oriental Civilization 43",,,,"Chicago: University Chicago, Oriental Institute","65-68"
+"VanZeistBakkerHeeres82","Van Zeist, W. and Bakker-Heeres, J.A.H.","1982","Archaeobotanical studies in the Levant. 1. Neolithic sites in the Damascus Basin: Aswad, Ghoraifé, Ramad.",,,"Palaeohistoria","24",,,"165-256"
+"VanZeistDeRoller91/92","Van Zeist, W. and De Roller, G.J.","1994","The plant husbandry of Aceramic Çayönü, SE Turkey",,,"Palaeohistoria","33/34",,,"65-96"
+"VanZeistDeRoller95","Van Zeist, W. and De Roller, G.J.","1995","Plant remains from Asikli Höyük, a pre-pottery Neolithic site in central Anatolia",,,"Vegetation History and Archaeobotany","4",,,"179-185"
+"VanZeistRoller00","van Zeist, G., de Rommer, G.","2000","The plant remains","Verhoeven, M., Akkermans, P.","Tell Sabi Abyad II the pre-pottery Neolithic B settlement",,,,"Nederlands Historisch-Archaeologisch Instituut: Istanbul","137-146"
+"VZBH84","Van Zeist, W. and Bakker-Heeres, J.A.H.","1984","Archaeobotanical studies in the Levant 2. Neolithic and Halaf levels at Ras Shamra",,,"Palaeohistoria","26",,,"151-170"
+"VZBH84_3","Van Zeist, W. and Bakker-Heeres, J.A.H.","1984","Archaeobotanical studies in the Levant 3. Late-Palaeolithic Mureybit",,,"Palaeohistoria","26",,,"171-199"
+"VZeistBuitenhuis83","Van Zeist, W. and Buitenhuis, H.","1983","A palaeobotanical study of Neolithic Erbaba, Turkey.",,,"Anatolica","10",,,"47-89"
+"VZeistSmithetal84","Van Zeist, W., Smith, P.E.L., Palfenier-Vegter, R.M., Suwijn, M. and Casparie, W.A.","1984","An archaeobotanical study of Ganj Dareh Tepe, Iran",,,"palaeohistoria","26",,,"201-224"
+"VZeistWVRooijen85","Van Zeist, W. and Waterbolk-Van Rooijen, W.","1985","The palaeobotany of Tell Bouqras, eastern Syria",,,"Paléorient","11",2,,"131-147"
+"Watkins1992","Watkins, T.","1992","Pushing back the frontiers of Mesopotamian Prehistory",,,"The Biblical Archaeologist","55",4,,"176-181"
+"WBH09","Willcox, G., Buxo, R. and Herveux, L.","2009","Late Pleistocene and early Holocene climate and the beginnings of cultivation in northern Syria",,,"Holocene","19",1,,"151-158"
+"WeissEtal04","Weiss, E., Kislev, M.E., Simchoni, O. and Nadel, D.","2004","Small-grained wild grasses as staple food at the 23000-year-old site of Ohalo II, Israel",,,"Economic Botany","58 (supplement)",,,"125-134"
+"WeissEtal06","Weiss, E., Kislev, M.E. and Hartmann, A.","2006","Autonomous cultivation before domestication",,,"Science","312",,,"1608-1610"
+"WeissEtal08","Weiss, E., Kislev, M.E., Simchoni, O., Nadel, D. and Tschauner, H.","2008","Plant-food preparation area on an Upper Paleolithic brush hut floor at Ohalo II, Israel",,," Journal of Archaeological Science","35",,,"2400-2414"
+"WFH08","Willcox, G., Fornite, S. and Herveux, L.","2008","Early Holocene cultivation before domestication in northern Syria",,,"Vegetation History and Archaeobotany","17",,,"313-325"
+"White2011","White, C., Makarewicz, C.","2011","Les résultats de van Zeist sont ici représentés dans
+le tableau 1, il s’agit d’un résumé des 
+Harvesting practices and early Neolithic barley cultivation at el-Hemmeh, Jordan",,,"Vegetation History and Archaeobotany",,,,
+"WhiteMakarewicz11","White CE, Makarewicz CA","2012","Harvesting practices and early Neolithic barley cultivation at el-Hemmeh, Jordan",,,"Vegetation History and Archaeobotany","21",,,"85-94"
+"Willcox02","Willcox, G.","2002","Charred plant remains from a 10th millennium B.P. kitchen at Jerf el Ahmar",,,"Vegetation History and Archaeobotany","11",,,"55-60"
+"Willcox2006","Willcox, G.","2006","Magzalia 1979 (web page)",,,,,,,
+"Willcox2008","Willcox, G.","2008","Les nouvelles données archéobotaniques de Mureybet et la Néolithisation du Moyen Euphrate","Ibañez, J.","Le Site Néolithique de Tell Mureybet (Syrie du Nord), en Hommage à Jacques Cauvin",,"1843",1,"BAR International Series","103-114"
+"Willcox96","Willcox, G.","1996","Evidence for plant exploitation and vegetation history from three early Neolithic pre-pottery sites on the Euphrates (Syria)",,,"Vegetation History and Archaeobotany","5",,,"143-152"
+"WillcoxFornite99","Willcox, G. and Fornite, S.","1999","Impressions of wild cereal chaff in pisé from the 10th millenium uncal B.P. at Jerf el Ahmar and Mureybet: northern Syria",,,"Vegetation History and Archaeobotany","8",,,"21-24"
+"WillcoxPersComm","Willcox, G.",,,,,,,,,
+"ZeistRoller03Asikli","van Zeist, W., de Roller, G.","2003","Some notes on the plant remains of Asikli Höyük","van Zeist, W.","Reports on archaeobotanical studies in the Old World",,,,,"115-142"
+"ZeistRoller03Cayonu","van Zeist, W., de Roller, G.","2003","The Çayönü arhaeobotanical record","van Zeist, W.","Reports on archaeobotanical studies in the Old World",,,,"Groningen","143-166"

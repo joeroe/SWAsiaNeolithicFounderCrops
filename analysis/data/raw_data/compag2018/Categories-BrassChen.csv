@@ -1,0 +1,21 @@
+taxon,taxon_code,domestic_wild_status,plant_part,family
+Brassica nigra (L.) Koch,BRASNIG,D,seed/grain,Brassicaceae
+Brassica sp.,BRASSPE,W,seed/grain,Brassicaceae
+Brassica/Sinapis sp.,BRASSIN,W,seed/grain,Brassicaceae
+Brassicaceae indet.,CRUCIND,W,siliqua,Brassicaceae
+Brassicaceae indet.,CRUCIND,W,seeds and siliqua,Brassicaceae
+Brassicaceae indet.,CRUCIND,W,seed/grain,Brassicaceae
+Chenopodiaceae indet.,CHENIND,W,embryos,Chenopodiaceae
+Chenopodiaceae indet.,CHENIND,W,fruits,Chenopodiaceae
+Chenopodiaceae indet.,CHENIND,W,seed/grain,Chenopodiaceae
+Chenopodiaceae/Capparis/etc. spiral  embryo indeterminate,CHENCAP,w,seed/grain,Chenopodiaceae
+Chenopodiaceae/Capparis/etc. spiral  embryo indeterminate,CHENCAP,w,embryo,Chenopodiaceae
+Chenopodiaceae/Capparis/etc. spiral  embryo indeterminate,CHENCAP,w,spiral embryos,Chenopodiaceae
+Chenopodiaceae/Caryophyllaceae indeterminate,CHENCAR,w,spiral embryos,Chenopodiaceae
+Chenopodiaceae/Caryophyllaceae indeterminate,CHENCAR,w,seed/grain,Chenopodiaceae
+Chenopodiaceae/incumbent Cruciferae indeterminate,CHENCRU,w,seed/grain,Chenopodiaceae
+Chenopodium album L.,CHENALB,W,seed/grain,Chenopodiaceae
+Chenopodium sp.,CHENSPE,W,seed/grain,Chenopodiaceae
+Chenopodium/Atriplex,CHENATR,W,seed/grain,Chenopodiaceae
+Sinapis sp.,SINASPE,W,seed/grain,Brassicaceae
+Sisymbrium spp.,SISYSPE,w,seed/grain,Cruciferae

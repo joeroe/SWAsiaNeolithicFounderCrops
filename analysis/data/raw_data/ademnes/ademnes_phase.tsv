@@ -1,0 +1,1201 @@
+id	site_name	site_code	phase_code	phase	period	date_earliest	date_latest
+18	'Afula	AF	AF_EB	EB IA	Early Bronze Age IA	3200	0
+18	'Afula	AF	AF_MB	MB II	Middle Bronze Age II	1800	1600
+18	'Afula	AF	AF_IA	IA	Iron Age	1000	500
+23	'Ain Dara	ADA	ADA	Iron Age	Iron Age	1000	500
+24	'Ain Ghazal	AGHAZ	AG	middle/late PPNB	Prepottery Neolithic B	8700	6500
+24	'Ain Ghazal	AGHAZ	AG_lM-eL	late Middle - early Late PPNB	Prepottery Neolithic B	8700	6500
+24	'Ain Ghazal	AGHAZ	AG_L-lL	Late PPNB - latest Late PPNB	late Prepottery Neolithic B	7500	7000
+24	'Ain Ghazal	AGHAZ	AG_L-C	Late PPNB - PPNC	Aceramic Neolithic	8700	5400
+24	'Ain Ghazal	AGHAZ	AG_C	PPNC	Prepottery Neolithic C	6500	0
+24	'Ain Ghazal	AGHAZ	AG_Y-lY	Yarmoukian	Yarmoukian	5600	4000
+5	Abi'or cave	AC	AC	Roman period	Roman period	60	0
+7	Abu Hamid	AHA	AHA	Chalcolithic	Late Chalcolithic	4800	3800
+11	Abu Salabikh	AS	AS-P2	Sumerian	Sumerian	3000	2340
+11	Abu Salabikh	AS	AS-P3	Sumerian	Sumerian	3000	2340
+1035	Acemhöyük	ACEM	ACEM_III	Level III, Assyrian Colony Period, ca. 2000 - 1780 BCE	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II	Level II, 18th century BC onwards	Bronze Age	3400	1100
+1035	Acemhöyük	ACEM	ACEM_XI_DB50	Level XI, Sondaj DB50, Early Bronze Age	Early Bronze Age	3200	2000
+1035	Acemhöyük	ACEM	ACEM_XI_DB52	Level XI, Sondaj DB52	Early Bronze Age	3200	2000
+1035	Acemhöyük	ACEM	ACEM_XI_EB50	Level XI, Sondaj EB50	Early Bronze Age	3200	2000
+1035	Acemhöyük	ACEM	ACEM_V	Level V, Sonday GB-DB49-48	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_IV_RA46	Level IV, Sonday RA46	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_IV_5	Level IV, Sondaj 5	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_III_SA35	Level III, Sondaj SA35	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_III_SA36	Level III, Sondaj SA36	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_III_RA46	Level III, Sondaj RA46	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II_OA38	Level II, Sondaj OA38	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II_AB49	Level II, Sondaj AB49	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II_VA49	Level II, Sondaj VA49	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II_YA49	Level II, Sondaj YA49	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II_ZA49	Level II, Sondaj ZA49	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_II_YA50	Level II, Sondaj YA50	Middle Bronze Age	1800	1600
+1035	Acemhöyük	ACEM	ACEM_CB52	No level indicated, Sondaj CB52	Bronze Age	3400	1100
+1035	Acemhöyük	ACEM	ACEM_FB48	No level indicated, Sondaj FB48	Bronze Age	3400	1100
+1035	Acemhöyük	ACEM	ACEM_FB48-49	No level indicated, Sondaj FB48-49	Ottoman period	1	0
+1035	Acemhöyük	ACEM	ACEM_BB50	No level indicated, Sondaj BB50	Ottoman period	1	0
+12	Achilleion	ACHIL	AnI	early Neolithic	early Neolithic	6400	0
+12	Achilleion	ACHIL	AnII	middle Neolithic	middle Neolithic	1	0
+21	Agios Mamas	AM	AM_MBA	early MBA	early Middle Bronze Age	2000	0
+1046	Ain Mallaha (Eynan)	AINM	AINM_FN	Final Natufian	Epipalaeolithic_PPN	12500	10000
+35	Akrotiri	AK	AK	Late Minoan I A (1550-1500)	Late Bronze Age	1500	1200
+1020	Al-Madam 1 - Thuqeibah	THUQ	THUQ_IA	Sektor I, Iron Age II and III, ca. 1100 - 400 BC	Iron Age II_III	918	535
+44	Ali Kosh	KOSH	AK-AK	middle/late PPNB	Prepottery Neolithic B	8700	6500
+44	Ali Kosh	KOSH	AK-BM	(early?/)middle PPNB	middle PPNB	8400	7500
+44	Ali Kosh	KOSH	AK-MJ	(late PPNB/) PN	late Prepottery Neolithic B	7500	7000
+59	Anza	ANZ	AzaI-III	early Neolithic	early Neolithic	6400	0
+59	Anza	ANZ	AzaIV	late Neolithic	Late Neolithic	1	5200
+61	Apliki	AP	AP	Late Cypriote	Late Bronze Age	1500	1200
+65	Arad	A	A_I	EB II (-2650 BC)	Early Bronze Age II	2800	2600
+65	Arad	A	A_II	EB II	Early Bronze Age II	2800	2600
+65	Arad	A	A_III-II	EB II	Early Bronze Age II	2800	2600
+65	Arad	A	A_III	EB II (-2800 BC)	Early Bronze Age II	2800	2600
+65	Arad	A	A_IV	EB IB (3200-3000 BC)	Early Bronze Age IB	3200	3000
+65	Arad	A	A	IA/Roman	Iron Age	1000	0
+66	Arapi Magoula	ARM	ARM-LN	early &  late Dimini	Late Neolithic	1	5200
+69	Argissa-Magoula	ARG	ARG-EBA	Early Bronze Age	Early Bronze Age	3200	2000
+69	Argissa-Magoula	ARG	ARG-Neo	Neolithic	Neolithic	6400	4200
+69	Argissa-Magoula	ARG	ARG-ET_I_II	Early-Thessalic I - II	Early Bronze Age	3200	2000
+69	Argissa-Magoula	ARG	ARG-unstrat	unstratified	Unknown	1	0
+69	Argissa-Magoula	ARG	ARG-ET_III	Early Thessalic III	Early Bronze Age	3200	2000
+69	Argissa-Magoula	ARG	ARG-MT_I_II	Middle Thessalic I - II (1958)	Middle Bronze Age	1800	1600
+69	Argissa-Magoula	ARG	ARG-MT_II_III	Middle Thessalic II - III	Middle Bronze Age	1800	1600
+69	Argissa-Magoula	ARG	ARG-MT_IV-V	Middle Thessalic IV - V	Middle Bronze Age	1800	1600
+69	Argissa-Magoula	ARG	ARG-PPN	PPN	Aceramic Neolithic	8700	5400
+69	Argissa-Magoula	ARG	ARG-EN	early Neolithic	early Neolithic	6400	0
+69	Argissa-Magoula	ARG	ARG-MBAI	early MBA	early Middle Bronze Age	2000	0
+69	Argissa-Magoula	ARG	ARG-MBAII	middle MBA	middle Middle Bronze Age	1700	1500
+70	Arjoune	ARJ	ARJ_V	5600 - 5430 BC	Neolithic	6400	4200
+70	Arjoune	ARJ	ARJ_VI	4710 - 4460 BC	Neolithic	6400	4200
+70	Arjoune	ARJ	ARJ_VII	5580 - 5390 BC	Neolithic	6400	4200
+1005	Arkadikos	ARKA	ARKA_LN	Late Neolithic	Late Neolithic	1	5200
+73	Arslantepe	ARST	ARST_EB_I	EB I	Early Bronze Age I	3000	2800
+73	Arslantepe	ARST	ARST_EB_IA	EB IA (3350-3000 BC)	Early Bronze Age IA	3200	0
+73	Arslantepe	ARST	ARST_EB_IB	EB IB (3000-2700 BC)	Early Bronze Age IB	3200	3000
+73	Arslantepe	ARST	ARST_EB_II	Early Bronze Age II (2750-2500 BC)	Early Bronze Age II	2800	2600
+1028	Ashdod	ASHD	ASHD_LBA_IIB	Late Bronze Age IIB, 1300-1200	Late Bronze Age IIB	1300	1100
+1016	Ashkelon	ASH	ASH_IA	Iron Age	Iron Age	1000	500
+1016	Ashkelon	ASH	ASH_IAIIC	Iron Age IIC, 7th century BC	Late Iron Age	800	600
+1016	Ashkelon	ASH	ASH_Neo	Neolithic	Neolithic	6400	4200
+76	Asikli Hoyuk	ASIK	AsH	middle PPNB	middle PPNB	8400	7500
+77	Assiros Toumba	AT	AT-EIA	Early Iron Age	Early Iron Age	1200	900
+77	Assiros Toumba	AT	AT-LBAI	LBA I	Late Bronze Age I	1600	1400
+77	Assiros Toumba	AT	AT-LBAII	LBA II	Late Bronze Age II	1300	1100
+78	Asvan Kale (Asvan)	ASK	AK_EB_II_III	Early Bronze Age II/III	Early Bronze Age II_III	2800	2200
+78	Asvan Kale (Asvan)	ASK	AK_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+78	Asvan Kale (Asvan)	ASK	AK_Hell	Hellenistic	Hellenistic period	400	0
+78	Asvan Kale (Asvan)	ASK	AK_Rom	Roman	Roman period	60	0
+78	Asvan Kale (Asvan)	ASK	AK_Med_I	Medieval I	Early Islamic	1	0
+78	Asvan Kale (Asvan)	ASK	AK_Med_II	Medieval II	Islamic period	1	0
+78	Asvan Kale (Asvan)	ASK	AK_Med_III	Medieval III	Late Islamic period	1	0
+78	Asvan Kale (Asvan)	ASK	AK_Med	Medieval	Medieval	1	0
+79	Asvan region	ASVR	ASVR-C	Chalcolithic	Chalcolithic	5200	3000
+79	Asvan region	ASVR	ASVR-EBA	Early Bronze Age	Early Bronze Age	3200	2000
+79	Asvan region	ASVR	ASVR-EM	early Medieval	Early Medieval	1	0
+79	Asvan region	ASVR	ASVR-HR	Hellenistic and Roman period	Hellenistic_Roman period	400	0
+79	Asvan region	ASVR	ASVR-LM	Late Medieval	Late Medieval	1	0
+89	Ayios Dhemetrios	AD	AD_B	late Cypriote (buildings)	Late Bronze Age	1500	1200
+89	Ayios Dhemetrios	AD	AD_T	late Cypriote (tombs)	Late Bronze Age	1500	1200
+90	Ayios Epiktitos Vrysi	AEV	AEV	PN	Pottery Neolithic	5400	0
+95	Azraq 31	AZ	Az31	late PPNB	late Prepottery Neolithic B	7500	7000
+97	Bab'edh Dhra	BDRA	BDRA-C	cemetery, EB I	Early Bronze Age I	3000	2800
+97	Bab'edh Dhra	BDRA	BDRA-T	town, EB I-IV	Early Bronze Age	3200	2000
+991	Bademagaci	BADE	BADE_ENI	Early Neolithic I (lower EN levels), 7050BC-6690BC	early Neolithic	6400	0
+991	Bademagaci	BADE	BADE_ENII	Early Neolithic II (upper EN levels), 6460BC-6060BC	early Neolithic	6400	0
+991	Bademagaci	BADE	BADE_EN	Early Neolithic	early Neolithic	6400	0
+991	Bademagaci	BADE	BADE_LN-ECh	Late Neolithic, possibly extending to an Early Chalcolithic	Neolithic_Chalcolithic	6400	3000
+991	Bademagaci	BADE	BADE_EBAII	Early Bronze Age	Early Bronze Age	3200	2000
+1043	Barcin Höyük	BARC	BARC_LN	Late Neolithic, 6500 - 5800 BC	Late Neolithic	1	5200
+115	Basta	BAST	BA	late PPNB	late Prepottery Neolithic B	7500	7000
+116	Bastam	B	B_P	Mixed material from pre Urartu phases from different loci	Unknown	1	0
+116	Bastam	B	B_P_U	Mixed material or Urartu	Unknown	1	0
+116	Bastam	B	B_U	Urartu	Urartu	840	0
+116	Bastam	B	B_UM	Urartu-Median	Urartu	840	0
+116	Bastam	B	B_M	Medieval	Medieval	1	0
+1052	Başur Höyük	BASU	BASU_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+120	Beer-Sheba	BESH	BS_H	3rd-1st cent. BC	Hellenistic period	400	0
+120	Beer-Sheba	BESH	BS_IAI	IA  I (12th-11th cent. BC)	Early Iron Age I	1200	918
+120	Beer-Sheba	BESH	BS_IAIS	Israelite period  (10th-8th cent. BC)	Israelite period	1000	800
+121	Beidha	BEID	BE_nat	Natufian	Natufian	11000	9300
+121	Beidha	BEID	BE	middle PPNB	middle PPNB	8400	7500
+1057	Beisamoun	BEIS	BEIS_EP	Early Pottery Neolithic	Pottery Neolithic	5400	0
+123	Bendebal	BEN	BEN	Chalcolithic	Chalcolithic	5200	3000
+128	Beth Shean	BS	BS	Early Bronze Age	Early Bronze Age	3200	2000
+128	Beth Shean	BS	BS_H1	Early Islamic Period	Early Islamic	1	0
+128	Beth Shean	BS	BS_H2ca	Byzantine Period	Byzantine	1	0
+128	Beth Shean	BS	BS_L1	Early Islamic Period, stratum L	Early Islamic	1	0
+128	Beth Shean	BS	BS_L2	Byzantine Period, stratum L	Byzantine	1	0
+128	Beth Shean	BS	BS_P5	Hellenstic Period, stratum P	Hellenistic period	400	0
+128	Beth Shean	BS	BS_Q	stratum Q	Unknown	1	0
+128	Beth Shean	BS	BS_MBIIB	Middle Bronze Age IIB, 1750-1550 BC	Middle Bronze Age IIB	1700	1600
+128	Beth Shean	BS	BS_LBIA	Late Bronze Age IA	Late Bronze Age I	1600	1400
+128	Beth Shean	BS	BS_LBIB	Late Bronze Age IB	Late Bronze Age IB	1550	1400
+128	Beth Shean	BS	BS_LBIIA	Late Bronze Age IIA, 1400-1200 BC	NA	NA	NA
+128	Beth Shean	BS	BS_LBIIB	Late Bronze Age IIB, 13th cent. BC, 19th Egyptian Dynasty	Late Bronze Age IIB	1300	1100
+128	Beth Shean	BS	BS_IAI_S3	Early Iron Age IA, 12th cent. BC, 20th Egyptian dynasty	Early Iron Age IA	1200	1000
+128	Beth Shean	BS	BS_EBIB	Early Bronze Age IB	Early Bronze Age IB	3200	3000
+128	Beth Shean	BS	BS_H3	Hellenstic Period	Hellenistic period	400	0
+128	Beth Shean	BS	BS_H4	Pre-Hellenistic	Unknown	1	0
+128	Beth Shean	BS	BS_P6	late 8th cent., stratum P	Early Iron Age II	918	535
+128	Beth Shean	BS	BS_P7	8th cent. BC - 732 BC, stratum P	Early Iron Age II	918	535
+128	Beth Shean	BS	BS_P8	Late 9th - early 8th centuries BC, stratum P	Early Iron Age II	918	535
+128	Beth Shean	BS	BS_EBIII	Early Bronze Age III, 2700-2200 BC	Early Bronze Age III	2400	2200
+1014	Bethsaida	BETH	BETH_IAII	Iron Age IIA	Early Iron Age IIA	980	840
+129	Beycesultan	BEYS	BS-BYZ	Byzantine period	Byzantine	1	0
+129	Beycesultan	BEYS	BS-LBA	Late Bronze Age	Late Bronze Age	1500	1200
+144	Bnei Beraq	BB	BB	Chalcolithic	Chalcolithic	5200	3000
+147	Bogazköy	BK	BK_UIV	assyrian commercial settlement (18th-17th cent. BC)	Middle Bronze Age	1800	1600
+147	Bogazköy	BK	BK_UI-IV	17th-13th cent. not stratified or dated	Bronze Age	3400	1100
+147	Bogazköy	BK	BK_II	Old Hittite kingdom (16th cent. BC)	Hittite Empire	1800	1178
+147	Bogazköy	BK	BK_I	Hittite kingdom (14th-13th cent. BC)	Hittite Empire	1800	1178
+147	Bogazköy	BK	BK_UI	Hittite kingdom (13th cent. BC)	Hittite Empire	1800	1178
+147	Bogazköy	BK	BK_UII-III	Unterstadt II/III	Hittite Empire	1800	1178
+150	Bosra	BOS	BOS	Islamic period	Islamic period	1	0
+153	Bouqras	BOUQ	BQ	late PPNB/PN	late Prepottery Neolithic B_Pottery Neolithic	7500	5400
+1041	Büyüktepe Höyük	BÜYÜ	BÜYÜ_EB	Early Bronze Age, ca. 3300-2330 cal. BC	Early Bronze Age	3200	2000
+1041	Büyüktepe Höyük	BÜYÜ	BÜYÜ_IA	Iron Age, ca. 910-90 cal. BC	Iron Age	1000	500
+163	Çadir Höyük	CADH	CADH-I	Chalcolithic / EBA I	Early Bronze Age I	3000	2800
+163	Çadir Höyük	CADH	CADH-II	Later Iron Age (Phrygian) / Early Hellenistic	Iron Age Phrygian	1000	400
+163	Çadir Höyük	CADH	CADH-III	Persian/ Hellenistic	Hellenistic_Persian period	400	331
+163	Çadir Höyük	CADH	CADH-LIa-c	Level Ia-c, ca. 4500-3100 BC	Late Chalcolithic	4800	3800
+163	Çadir Höyük	CADH	CADH-LIa-c_LII	Level Ia-c and II, ca. 4500-3100 - 3100-2000 BC	Chalcolithic_EBA	5200	2000
+163	Çadir Höyük	CADH	CADH-LIV	Level IV, ca. 1600-1200 BC	Late Bronze Age	1500	1200
+163	Çadir Höyük	CADH	CADH-LV	Level V, ca. 1200-900 BC	Iron Age	1000	500
+163	Çadir Höyük	CADH	CADH-LIX	Level IX, ca. AD 400-1000	Byzantine	1	0
+164	Cafer Hoyuk	CAF	CHI	middle/late PPNB	Prepottery Neolithic B	8700	6500
+164	Cafer Hoyuk	CAF	CHII	middle/late PPNB	Prepottery Neolithic B	8700	6500
+164	Cafer Hoyuk	CAF	CHIII	early/middle PPNB	Prepottery Neolithic B	8700	6500
+1044	Çamlıbel Tarlası	CAML	CAML_LC	Late Chalcolithic (3590-3470 cal BC)	Late Chalcolithic	4800	3800
+165	Can Hasan III	HASAN	CHaIII	late/final PPNB (PPNC)?	Prepottery Neolithic B_C	8700	6000
+168	Cape Andreas Kastros	CAK	CAK	Khirokitian	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CtHIX-X	PN	Pottery Neolithic	5400	0
+1030	Çatalhöyük	CAT	CtHPXII-A	?aceramic	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CtHPXII-B	PPN	Aceramic Neolithic	8700	5400
+1030	Çatalhöyük	CAT	CtHPXII-C/D	PPN	Aceramic Neolithic	8700	5400
+1030	Çatalhöyük	CAT	CtHVI-VIII	PN	Pottery Neolithic	5400	0
+1030	Çatalhöyük	CAT	CtHXI-XII	PN	Pottery Neolithic	5400	0
+1030	Çatalhöyük	CAT	CAT_N	Neolithic	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CAT_KO	Kopal Area	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CAT_BA	Bach Area	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CAT_N-VI-V	North Area, Level VI-V	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CAT_N-V-IV	North Area, Level V-IV	Neolithic	6400	4200
+1030	Çatalhöyük	CAT	CAT_S	South Area, ca. 7400/7100 - 6500/6300 BC	Neolithic	6400	4200
+1026	Çavi Tarlası	CAVI	CAVI_H	Halaf	Halaf	5500	4500
+171	Cayboyu (Asvan)	CB	CB_LC	Late Uruk	Late Chalcolithic	4800	3800
+172	Cayonu	CAY	CAIa	PPNA	Prepottery Neolithic A	9800	8800
+172	Cayonu	CAY	CAIb	early PPNB	early Prepottery Neolithic B	8800	8400
+172	Cayonu	CAY	CAIc	middle PPNB	middle PPNB	8400	7500
+172	Cayonu	CAY	CAId	late PPNB	late Prepottery Neolithic B	7500	7000
+172	Cayonu	CAY	CAIe	PPNC	Prepottery Neolithic C	6500	0
+172	Cayonu	CAY	CAII	PN	Pottery Neolithic	5400	0
+172	Cayonu	CAY	CAY_PPN	Aceramic Prepottery Neolithic 8250-7750 BC	Aceramic Neolithic	8700	5400
+172	Cayonu	CAY	CAY_PN	Pottery Neolithic	Pottery Neolithic	5400	0
+172	Cayonu	CAY	CAY_BA	Bronze Age	Bronze Age	3400	1100
+180	Choga Mami	CM	CM-ED	2500 BC	Early Bronze Age	3200	2000
+180	Choga Mami	CM	CM-PS	Post-Samarra (5101 BC)	Chalcolithic	5200	3000
+180	Choga Mami	CM	CM-S	Samarra	Chalcolithic	5200	3000
+180	Choga Mami	CM	CM-U	Ubaid	Chalcolithic	5200	3000
+183	City of David	CD	CD_EBAI	EBA I (31st cent. BC)	Early Bronze Age I	3000	2800
+183	City of David	CD	CD_EH	early Hellenistic period (4th-2nd cent. BC)	Early Hellenistic period	400	200
+183	City of David	CD	CD_H	Hasmonean (150-100 BC)	Hasmonean	150	100
+183	City of David	CD	CD_IA	IA II (900-586 BC)	Early Iron Age II	918	535
+183	City of David	CD	CD_MBA	18th cent. BC	Middle Bronze Age	1800	1600
+183	City of David	CD	CD_LBA	14th-13th cent. BC	late Late Bronze Age	1400	1300
+183	City of David	CD	CD_P	500-300 BC	Persian period	600	400
+188	Corinth	C	C-A	700-490 BC	Archaic period	700	400
+188	Corinth	C	C-C	490-330 BC	Classical period	500	323
+1015	Deir el-Balah	DB	DB_LBIIB	Late Bronze Age IIB, mid 13th BC	Late Bronze Age IIB	1300	1100
+200	Deir'Alla	DA	DA-LBA	Late Bronze Age	Late Bronze Age	1500	1200
+200	Deir'Alla	DA	DA-IA	Iron Age	Iron Age	1000	500
+202	Demircihüyük	DH	DH	Early Bronze Age	Early Bronze Age	3200	2000
+203	Dendra	DEN	DEN	Mycenean IIIB	Mycenean	1050	1000
+211	Dhali Agridhi	DAGR	DAGR	NA	Neolithic	6400	4200
+1058	Dhiban	DHI	DHI_IA	Iron Age	Iron Age	1000	500
+212	Dhuweila	DHU	DHI	late PPNB	late Prepottery Neolithic B	7500	7000
+212	Dhuweila	DHU	DHII	later Late Neolithic	Late Neolithic	1	5200
+212	Dhuweila	DHU	DH_LN	Late Neolithic	Late Neolithic	1	5200
+212	Dhuweila	DHU	DHIII	Post Late Neolithic or residual Late Neolithic	Late Neolithic	1	5200
+213	Diban 11	DIBX	DIBX_M	Abbasid (750-800 AD)	Medieval	1	0
+214	Diban 5	DIBV	DIBV_M	Abbasid (750-800 AD)	Medieval	1	0
+216	Dikili Tash	DT	DT-LN	Late Neolithic	Late Neolithic	1	5200
+218	Dilkaya Höyük	DIL	DIL	Early Bronze Age	Early Bronze Age	3200	2000
+219	Dimini	DIM	DIM	Late Neolithic	Neolithic	6400	4200
+995	Dinkha Tepe	DITE	DITE_II-III	Iron Age I and II (1500 - 800 BC)	Early Iron Age	1200	900
+995	Dinkha Tepe	DITE	DITE_IA-BA	Mixed material (BA and IA)	Late Bronze_Iron Age	1500	500
+995	Dinkha Tepe	DITE	DITE_Iva-Ivb	Bronze Age (at least 1900 - 1600 BC)	Bronze Age	3400	1100
+223	Djade	DJA	DJ	PPNA/EARLY/middle PPNB	Prepottery Neolithic A_B	9800	6500
+1019	Domuztepe	DOMU	DOMU_A1	Phase A-1 (ca. 5700-5625 BCE)  middle Halaf	Middle Halaf	5700	5500
+1019	Domuztepe	DOMU	DOMU_A2	Phase A-2 (ca. 5625-5575 BCE) middle Halaf	Middle Halaf	5700	5500
+1019	Domuztepe	DOMU	DOMU_A3-DP	Phase A-3, Death Pit (ca. 5575 BCE) middle to late Halaf	late Halaf	5000	0
+1019	Domuztepe	DOMU	DOMU_A3	Phase A-3, other (ca. 5575-5450 BCE) middle to late Halaf	late Halaf	5000	0
+231	Drachmani	DRA	DRA	Middle Bronze Age	Middle Bronze Age	1800	1600
+235	Ebla	EBL	EBL_EBA_IVA	Early Bronze Age	Early Bronze Age IV	2350	2000
+246	El Kowm I	KOW1	EKIa	?late PPNB	late Prepottery Neolithic B	7500	7000
+246	El Kowm I	KOW1	EKIb	PN	Pottery Neolithic	5400	0
+247	El Kowm II	KOW2	EKII	final PPNB	late Prepottery Neolithic B	7500	7000
+247	El Kowm II	KOW2	EK2_Sond	Sondage	Unknown	1	0
+247	El Kowm II	KOW2	EKII_AVI-V	final PPNB, niveau VI-V	final PPNB	7000	6500
+247	El Kowm II	KOW2	EKII_AIV	final PPNB, niveau IV	final PPNB	7000	6500
+247	El Kowm II	KOW2	EKII_AIII	final PPNB, niveau III	final PPNB	7000	6500
+247	El Kowm II	KOW2	EKII_AII	final PPNB, niveau II	final PPNB	7000	6500
+247	El Kowm II	KOW2	EKII_AI	final PPNB, niveau I	final PPNB	7000	6500
+247	El Kowm II	KOW2	EK2_B	PNA	Pottery Neolithic	5400	0
+255	El-Lejjun	ELEJ	EL_EB	(324-500 AD)	Early Byzantine	1	0
+255	El-Lejjun	ELEJ	EL_I	Islamic / Ottoman	Islamic period	1	0
+255	El-Lejjun	ELEJ	EL_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+255	El-Lejjun	ELEJ	EL_LB	(500-551 AD)	Late Byzantine	1	0
+255	El-Lejjun	ELEJ	EL_R	Late Roman / Early Byzantine (284-363 AD)	Roman_Byzantine period	60	0
+258	Emar	EM	EM_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+258	Emar	EM	EM_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+258	Emar	EM	EM_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+260	En Besor	EBES	EBES	Early Bronze Age	Early Bronze Age	3200	2000
+261	En Boqeq	EB	EB	NA	Late Roman period	1	0
+263	En Rahel	ER	ER	Iron Age/Roman period	Iron Age	1000	0
+264	Erbaba	ERB	ER_N	PN	Pottery Neolithic	5400	0
+269	Eridu	E	E	Chalcolithic	Chalcolithic	5200	3000
+278	Ez Zantur	EZ	EZ	Late Roman	Late Roman period	1	0
+1055	Fikirtepe	FITE	FITE_NEO_52	Neolithic, ca. 5000 BC, 1952 Excavations	Neolithic	6400	4200
+1055	Fikirtepe	FITE	FITE_NEO_53-54	Neolithic, ca. 5000 BC, 1953-1954 Excavations	Neolithic	6400	4200
+286	Franchthi Cave	FC	FCIV	early/late Mesolithic	Mesolithic	1	0
+286	Franchthi Cave	FC	FC-LN	Late Neolithic	Late Neolithic	1	5200
+286	Franchthi Cave	FC	FCV	late/final Mesolithic	Mesolithic	1	0
+286	Franchthi Cave	FC	FCVI	initial (aceramic) Neolithic	Initial (aceramic) Neolithic	8000	0
+286	Franchthi Cave	FC	FCVII	NA	NA	NA	NA
+287	Ganj Dareh Tepe	GDT	GD	MIDDLE/late PPNB	Prepottery Neolithic B	8700	6500
+287	Ganj Dareh Tepe	GDT	GD-E	(early?/)middle PPNB	Prepottery Neolithic B	8700	6500
+303	Ghediki	GHED	Gk	initial (aceramic) Neolithic	Initial (aceramic) Neolithic	8000	0
+1049	Giricano	GIRI	GIRI_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+1049	Giricano	GIRI	GIRI_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+307	Girikihaciyan	GH	GH	Halaf	Early Chalcolithic	5100	0
+309	Gla	GLA	GLA	Late Bronze Age	Late Bronze Age	1500	1200
+310	Göbekli Tepe	GOB	GOB	NA	NA	NA	NA
+310	Göbekli Tepe	GOB	GOB_lfPPNA	late/final PPNA (9600-8800 cal BC)	Prepottery Neolithic A	9800	8800
+962	Gordion (Yassihöyük)	YAS	YAS_EI	Early Iron Age	Early Iron Age	1200	900
+962	Gordion (Yassihöyük)	YAS	YAS_HE8	Phase 8, Hittite Empire (1200 BC)	Hittite Empire	1800	1178
+962	Gordion (Yassihöyük)	YAS	YAS_HE9	Phase 9, Hittite Empire (1400 BC)	Hittite Empire	1800	1178
+962	Gordion (Yassihöyük)	YAS	YAS_EI7A	Phase 7A, Early Iron (1000-950 BC)	Early Iron Age	1200	900
+962	Gordion (Yassihöyük)	YAS	YAS_EI7B	Phase 7B, Early Iron (1200-1000 BC)	Early Iron Age	1200	900
+962	Gordion (Yassihöyük)	YAS	YAS_OH	Phase 10, Old Hittite (1500 BC)	Old Hittite	1650	1500
+962	Gordion (Yassihöyük)	YAS	YAS_EP	Early Phrygian	Early Phrygian	800	0
+962	Gordion (Yassihöyük)	YAS	YAS_H	Hellenistic	Hellenistic period	400	0
+962	Gordion (Yassihöyük)	YAS	YAS_LB	Late Bronze Age	Late Bronze Age	1500	1200
+962	Gordion (Yassihöyük)	YAS	YAS_LP	Late Phrygian	Late Phrygian	700	600
+962	Gordion (Yassihöyük)	YAS	YAS_M	Medieval	Medieval	1	0
+962	Gordion (Yassihöyük)	YAS	YAS_MP	Mid Phrygian	Middle Phrygian	1	0
+316	Gournia	GOU	GOU	Minoan	Bronze Age	3400	1100
+317	Gre Virike	GV	GV_EBA_I	Early Bronze Age I (3000-2800 BC)	Early Bronze Age I	3000	2800
+317	Gre Virike	GV	GV_EBA_I_II	Early Bronze Age I/II (3000-2600 BC)	Early Bronze Age I_II	3000	2600
+317	Gre Virike	GV	GV_EBA_II	Early Bronze Age II (2800-2600 BC)	Early Bronze Age II	2800	2600
+317	Gre Virike	GV	GV_EBA_III_IV	Early Bronze Age III/IV (2600-2000 BC)	Early Bronze Age III_IV	2400	2000
+317	Gre Virike	GV	GV_MED	Medieval	Medieval	1	0
+318	Gritille	GRI	GRI-M2	Christian (1000 AD)	Medieval	1	0
+318	Gritille	GRI	GRI-M3_4	Christian (1150 AD)	Medieval	1	0
+318	Gritille	GRI	GRI-M5_6	Muslim	Islamic period	1	0
+318	Gritille	GRI	GRI-M7_8	Muslim (1240 AD)	Middle Islamic period	1	0
+318	Gritille	GRI	GRI-PPNB	Aceramic Neolithic 'later Taurus PPNB' 7060 - 6450 BC	Prepottery Neolithic B	8700	6500
+323	Hacilar	HCI	HrI	middle PPNB	middle PPNB	8400	7500
+323	Hacilar	HCI	HrII	PN	Pottery Neolithic	5400	0
+324	Hacinebi Tepe	HACT	HAT-C	Late Chalcolithic	Late Chalcolithic	4800	3800
+324	Hacinebi Tepe	HACT	HAT-U	Uruk	Late Chalcolithic Uruk	4000	0
+328	Hagia Triada	HAT	HAT	Minoan	Bronze Age	3400	1100
+328	Hagia Triada	HAT	HAT_EM	Early Minoan (2700-2000 BC)	Early Bronze Age	3200	2000
+328	Hagia Triada	HAT	HAT_MM	Middle Minoan (2000-1570 BC)	Middle Bronze Age	1800	1600
+328	Hagia Triada	HAT	HAT_MMIII-LMI	Transition period Middle Minoan III to Late Minoan I	Middle_Late Bronze Age	1800	1200
+328	Hagia Triada	HAT	HAT_LM	Late Minoan (1570-1150 BC)	Late Bronze Age	1500	1200
+330	Hajji Ibrahim	HI	HI	Early Bronze Age	Early Bronze Age	3200	2000
+332	Hala Sultan Tekke	HAST	HAST	LCIIIA1 (Cypriote LBA)	Late Cypriote IIIA1	1200	1100
+335	Hallan Cemi Tepesi	HCT	HCT	(late Epipalaeolithic/) PPNA	Epipalaeolithic_PPN	12500	10000
+336	Halula	HALU	HAI	middle PPNB	middle PPNB	8400	7500
+336	Halula	HALU	HAII	middle/LATE PPNB	Prepottery Neolithic B	8700	6500
+340	Hassek Höyük	HH	HH-EBA	Early Bronze Age	Early Bronze Age	3200	2000
+340	Hassek Höyük	HH	HH-EBA_I_II	Early Bronze Age I/II (3200 - 2750)	Early Bronze Age I_II	3000	2600
+340	Hassek Höyük	HH	HH-LU-EBA_I_II	Late Uruk period and Early Bronze Age I/II	Chalcolithic_EBA	5200	2000
+340	Hassek Höyük	HH	HH-LU	Late Uruk period	Late Chalcolithic Uruk	4000	0
+342	Hayonim Cave	HAYO	HC	late Epipalaeolithic	late Epipalaeolithic	11200	9600
+1045	Hazor	HAZO	HAZO_LB_UCC	Late Bronze Age, upper city courtyard	Late Bronze Age	1500	1200
+1045	Hazor	HAZO	HAZO_LBIIb	Late Bronze Age IIb	Late Bronze Age IIB	1300	1100
+1045	Hazor	HAZO	HAZO_LBIIa	Late Bronze Age IIa	Late Bronze Age II	1300	1100
+1045	Hazor	HAZO	HAZO_LBI	Late Bronze Age I	Late Bronze Age I	1600	1400
+1045	Hazor	HAZO	HAZO_MBII	Middle Bronze Age II	Middle Bronze Age II	1800	1600
+346	Herakleion	HER	HER	Minoan	Bronze Age	3400	1100
+347	Hierakonpolis	HP	HP	Predynastic	Predynastic period	5500	3200
+347	Hierakonpolis	HP	HP_PN_IIA	Predynastic Naqada IIA	Predynastic	3000	0
+347	Hierakonpolis	HP	HP_EDN_IIIB-IIIC1	Early Dynastic Naqada IIIB-IIIC1	Early Dynastic III	2500	2250
+347	Hierakonpolis	HP	HP_EDN_IIIA2-IIIB	Early Dynastic Naqada IIIA2-IIIB	Early Dynastic III	2500	2250
+347	Hierakonpolis	HP	HP_EDN_IIIA2	Early Dynastic Naqada IIIA2	Early Dynastic III	2500	2250
+347	Hierakonpolis	HP	HP_EDN_III	Early Dynastic Period III	Early Dynastic III	2500	2250
+1036	Hili N (Al Ain)	HILI	HILI_EBA_III	Early Bronze Age (end of Umm an-Nar Period) 2700-2000 BC	Early Bronze Age	3200	2000
+1051	Hirbemerdon Tepe	HIRB	HIRB_IA	Iron Age	Iron Age	1000	500
+1051	Hirbemerdon Tepe	HIRB	HIRB_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+1051	Hirbemerdon Tepe	HIRB	HIRB_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+349	Hirbet el-Msas (Tel Masos)	HM	HM_B	Byzantine	Byzantine	1	0
+349	Hirbet el-Msas (Tel Masos)	HM	HM_C	Chalcolithic	Chalcolithic	5200	3000
+349	Hirbet el-Msas (Tel Masos)	HM	HM_IAI	IA I	Early Iron Age I	1200	918
+349	Hirbet el-Msas (Tel Masos)	HM	HM_IAII	IA II	Early Iron Age II	918	535
+350	Hirbet ez-Zeraqon	HEZ	HEZ_LC	Early Bronze Age (lower city)	Early Bronze Age II	2800	2600
+350	Hirbet ez-Zeraqon	HEZ	HEZ_UC	Early Bronze Age (upper city)	Early Bronze Age II	2800	2600
+350	Hirbet ez-Zeraqon	HEZ	HEZ_EBA	Early Bronze Age	Early Bronze Age II	2800	2600
+1068	Hirbet Iskander	HII	HII_EBA	Early Bronze Age IV (2300-2000 BC)	NA	NA	NA
+353	Horbat Rosh Zayit	HRZ	HRZ_AC	8th century BCE	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ	Iron Age	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_Fort_I	c. 880-860 BC	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_Fort_IIa	c. 960-920 BC	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_Fort_IIb	late 10th century BCE, c. 960-920 BC	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_Fort_IIa/b	10th-9th century BCE	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_Fort_III	10th century BCE, c. 1000-960 BC	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_AA	8th century BCE	Iron Age	1000	500
+353	Horbat Rosh Zayit	HRZ	HRZ_AB	8th century BCE	Iron Age	1000	500
+354	Horum Hüyük	HOR	HOR_BA_IVW	Early Bronze Age IV wood	Early Bronze Age IV	2350	2000
+354	Horum Hüyük	HOR	HOR_BA_IW	Early Bronze Age I wood	Early Bronze Age I	3000	2800
+354	Horum Hüyük	HOR	HOR_CW	Chalcolithic (late) wood	Late Chalcolithic	4800	3800
+354	Horum Hüyük	HOR	HOR_LC	Late Chalcolithic	Late Chalcolithic	4800	3800
+354	Horum Hüyük	HOR	HOR_LU	Late Uruk	late Uruk	3500	3100
+354	Horum Hüyük	HOR	HOR_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+354	Horum Hüyük	HOR	HOR_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+354	Horum Hüyük	HOR	HOR_EIA	Early Iron Age	Early Iron Age	1200	900
+354	Horum Hüyük	HOR	HOR_Med	12th.-13th c. AD	Medieval	1	0
+355	Horvat Beter	HB	HB	Chalcolithic	Chalcolithic	5200	3000
+357	Höyücek	HOY	HOY_ESP	Early Neolithic, early settlements phase, ca. 7000-6550 BC	early Neolithic	6400	0
+357	Höyücek	HOY	HOY_PN	Early Neolithic, shrine (temple) phase, ca. 6500-6000 BC	early Neolithic	6400	0
+357	Höyücek	HOY	HOY_SP	Late Neolithic, sanctuaries phase, ca.5900-5700 BC	Late Neolithic	1	5200
+357	Höyücek	HOY	HOY_ShP-SP	Shrine phase and sanctuaries phase mixed	Neolithic	6400	4200
+359	Idalion	IDA	IDA	Geometric/Archaic	Geometric period	900	400
+362	Ikiztepe	IT	IT_C	3500-3000 BC	Chalcolithic_EBA	5200	2000
+362	Ikiztepe	IT	IT_EB	EB I (3000 BC)	Early Bronze Age I	3000	2800
+362	Ikiztepe	IT	IT_EB/MB	EB III to MB I (2000 BC)	Early_Middle Bronze Age	3200	1600
+363	Ilipinar	ILI	ILI	Chalcolithic	Neolithic	6400	4200
+363	Ilipinar	ILI	ILI_EC	Chalcolithic, Phases VI and V	Chalcolithic	5200	3000
+363	Ilipinar	ILI	ILI_N-EC	Transition from Neolithic to Early Chalcolithic, Phase IX	Neolithic_Chalcolithic	6400	3000
+363	Ilipinar	ILI	ILI_LN	Late Neolithic	Late Neolithic	1	5200
+364	Imamoglu	IMA	IMA	Early Bronze Age	Early Bronze Age	3200	2000
+369	Iolkos	IOL	IOL_G	Geometric period	Geometric period	900	700
+369	Iolkos	IOL	IOL_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+369	Iolkos	IOL	IOL_PG	Protogeometric period	Protogeometric period	1000	900
+372	Iraq ed Dubb	DUBB	IeDI	late Epipalaeolithic	late Epipalaeolithic	11200	9600
+372	Iraq ed Dubb	DUBB	IeDII	PPNA	Prepottery Neolithic A	9800	8800
+374	Iria	I	I	Mycenean	Mycenean	1050	1000
+1060	Jaffa	JAFFA	JAFFA_LB	Late Bronze Age III (12th cent)	Late Bronze Age III	1200	1100
+386	Jaffarabad	JAF	JAF	NA	Neolithic_Chalcolithic	6400	3000
+1031	Jarma	JARMA	JARMA_EG_III	Early Garamantian 1st century BC-3rd century AD	Late Roman period	1	0
+1031	Jarma	JARMA	JARMA_EG_II	Early Garamantian 4th-1st centuries AD	Roman period	60	0
+1031	Jarma	JARMA	JARMA_EG_I	Early Garamantian 4th-2nd centuries BC	Roman period	60	0
+1031	Jarma	JARMA	JARMA_CG/EG_III	between Classic Garamantian and Early Garamantian III	Roman period	60	0
+1031	Jarma	JARMA	JARMA_CG	Classic Garamantian 2nd-6th centuries AD	Roman period	60	0
+1031	Jarma	JARMA	JARMA_LG	Late Garamantian 3rd-9th centuries AD	Islamic period	1	0
+388	Jawa	JAW	JAW	Chalcolithic / Early Bronze Age	Chalcolithic_EBA	5200	2000
+388	Jawa	JAW	JAW_EIA	Early Iron Age I and II	Iron Age I_II	1200	535
+388	Jawa	JAW	JAW_MIA_II	Stratum VIII, Middle Iron Age II	Middle Iron Age	900	700
+388	Jawa	JAW	JAW_LIA_II	Stratum VII, Late Iron Age II	Late Iron Age	800	600
+389	Jebel Abu Thawwab	JAT	JAT_A_LN	Area A Late Neolithic (Yarmoukian)	Late Neolithic	1	5200
+389	Jebel Abu Thawwab	JAT	JAT_D_LN	Area D Late Neolithic (Yarmoukian)	Late Neolithic	1	5200
+389	Jebel Abu Thawwab	JAT	JAT_A_EB	Area A Early Bronze Age	Early Bronze Age	3200	2000
+389	Jebel Abu Thawwab	JAT	JAT_D_EB	Area D Early Bronze Age	Early Bronze Age	3200	2000
+392	Jerf al Ahmar	AHM	JA	PPNA	Prepottery Neolithic A	9800	8800
+393	Jericho	J	J-C	Chalcolithic	Chalcolithic	5200	3000
+393	Jericho	J	J-MPPNB_EII	middle PPNB	middle PPNB	8400	7500
+393	Jericho	J	J-PN_EIII	PN	Pottery Neolithic	5400	0
+393	Jericho	J	J-PPNA_EI	PPNA (/early PPNB)	Prepottery Neolithic A	9800	8800
+393	Jericho	J	J-EBA	Early Bronze Age	Early Bronze Age	3200	2000
+393	Jericho	J	J-EBA_W	Early Bronze Age	Early Bronze Age	3200	2000
+393	Jericho	J	J-EBA_MBA	Early to Middle Bronze Age transition	Early_Middle Bronze Age	3200	1600
+393	Jericho	J	J-MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+409	Kalapodi	KAL	KAL-H_B	300 BC - 1450 AD (Hellenistic - Byzantine)	Hellenistic_Byzantine period	400	0
+409	Kalapodi	KAL	KAL-A_C	690-300 BC (Archaic - Classic)	Archaic period	700	400
+409	Kalapodi	KAL	KAL-5	5. cent. BC (late Archaic)	Late Archaic period	500	400
+409	Kalapodi	KAL	KAL-7_6	7. - 6. cent. BC (middle Archaic)	Middle Archaic period	600	500
+409	Kalapodi	KAL	KAL-8_7	8. - 7. cent. BC (early Archaic)	Early Archaic period	750	480
+409	Kalapodi	KAL	KAL-MG	850-760 BC	Middle Geometric	850	760
+409	Kalapodi	KAL	KAL-EG	900-850 BC	Early Geometric	900	850
+409	Kalapodi	KAL	KAL-MPG_LPG	1000-900 BC	Middle to Late Protogeometric	1000	900
+409	Kalapodi	KAL	KAL-G	900-690 BC	Geometric period	900	700
+409	Kalapodi	KAL	KAL-LHIIIC	1200-1050 BC	Late Helladic III C	1200	0
+410	Kalavasos village	KV	KV	Middle Bronze Age	Middle Bronze Age	1800	1600
+413	Kalopsidha	KALS	KS_EC	early Cypriot	Early Bronze Age	3200	2000
+413	Kalopsidha	KALS	KS_LMC	late to middle Cypriot	Middle_Late Bronze Age	1800	1200
+414	Kaman-Kalehöyük	KAMK	K-K_AC	Assyrian Colony period, Kaman Phase IIIc	Middle Assyrian	1392	934
+414	Kaman-Kalehöyük	KAMK	K-K_EB	Kaman Phase IV	Early Bronze Age	3200	2000
+414	Kaman-Kalehöyük	KAMK	K-K_IA	Iron Age, Kaman Phase II (hier Phrygian übernehmen)	Iron Age	1000	500
+414	Kaman-Kalehöyük	KAMK	K-K_IIa-2	early Late Phrygian; Kaman Phase IIa-2	Late Phrygian	700	600
+414	Kaman-Kalehöyük	KAMK	K-K_IIa-1	late Late Phrygian; Kaman Phase IIa-1	Late Phrygian	700	600
+414	Kaman-Kalehöyük	KAMK	K-K_III	Assyrian Colony, Old Hittite and Hittite Empire; Kaman Phase III	Hittite Empire	1800	1178
+414	Kaman-Kalehöyük	KAMK	K-K_EP	Early Phrygian	Early Phrygian	800	0
+414	Kaman-Kalehöyük	KAMK	K-K_LP	Late Phrygian	Late Phrygian	700	600
+414	Kaman-Kalehöyük	KAMK	K-K_O	Ottoman period (K)	Ottoman period	1	0
+414	Kaman-Kalehöyük	KAMK	K-K_OH	Old Hittite, Kaman Phase IIIb	Hittite Empire	1800	1178
+414	Kaman-Kalehöyük	KAMK	K-K_OTT	Ottoman period, Kaman Phase Ia (F)	Ottoman period	1	0
+415	Kamid el-Loz	KEL	KEL_EIA	Early Iron Age	Early Iron Age	1200	900
+415	Kamid el-Loz	KEL	KEL_IA	Iron Age I	Early Iron Age I	1200	918
+415	Kamid el-Loz	KEL	KEL_MLBA	Middle to Late Bronze Age - transition	Middle_Late Bronze Age	1800	1200
+415	Kamid el-Loz	KEL	KEL_MBA	Middle Bronze Age II B	Middle Bronze Age IIB	1700	1600
+415	Kamid el-Loz	KEL	KEL_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+1023	Karataş-Semayük	KASE	KASE_EBI	Early Bronze Age I	Early Bronze Age I	3000	2800
+1023	Karataş-Semayük	KASE	KASE_EBII	Early Bronze Age II	Early Bronze Age II	2800	2600
+1023	Karataş-Semayük	KASE	KASE_EBIII	Early Bronze Age III	Early Bronze Age III	2400	2200
+1023	Karataş-Semayük	KASE	KASE_EBII_III	Early Bronze Age II and III mixed	Early Bronze Age II_III	2800	2200
+1023	Karataş-Semayük	KASE	KASE_EBImix	Early Bronze Age I and mixed	Early Bronze Age	3200	2000
+1023	Karataş-Semayük	KASE	KASE_EBIImix	Early Bronze Age II and mixed	Early Bronze Age	3200	2000
+1023	Karataş-Semayük	KASE	KASE_mix	stratigraphically mixed	Bronze Age	3400	1100
+1023	Karataş-Semayük	KASE	KASE_MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+430	Kastanas	KAS	K-1/2	Early Bronze Age	Early Bronze Age	3200	2000
+430	Kastanas	KAS	K-3_19-17	older LBA	early Late Bronze Age	1600	0
+430	Kastanas	KAS	K-4_16-14	younger LBA	early Late Bronze Age	1600	0
+430	Kastanas	KAS	K-5	BA-IA transtion	Late Bronze_Iron Age	1500	500
+430	Kastanas	KAS	K-6	"older IA (""wood building phase"")"	Early Iron Age	1200	900
+430	Kastanas	KAS	K-7_8-4	"older IA (""loam building phase"")"	Early Iron Age	1200	900
+430	Kastanas	KAS	K-8/9	Archaic/Classical period	Archaic period	700	400
+430	Kastanas	KAS	K_28-24	Frühbronzezeit I (Schicht 28 - 24)	Early Bronze Age I	3000	2800
+430	Kastanas	KAS	K_23a-b	Frühbronzezeit II (Schicht 23 a - b)	Early Bronze Age II	2800	2600
+430	Kastanas	KAS	K_22a-b-21	Mittelbronzezeit (Schicht 22 a - b)	Middle Bronze Age	1800	1600
+430	Kastanas	KAS	K_20	Transition	Middle_Late Bronze Age	1800	1200
+430	Kastanas	KAS	K_19-14a	Spätbronzezeit (Schicht 19 - 14 a)	Late Bronze Age	1500	1200
+1048	Kavuşan Höyük	KAVU	KAVU_NA	Iron Age, Neo-Assyrian Period	Neo-Assyrian period	900	700
+1048	Kavuşan Höyük	KAVU	KAVU_LBA	Late Bronze Age, Mittanian and Middle Assyrian sub-periods	Mittani	1500	1300
+438	Kellis	K	K	Roman period	Roman period	60	0
+439	Kenan Tepe	KT	KT_C	Chalcolithic	Chalcolithic	5200	3000
+439	Kenan Tepe	KT	KT_EB_MB	Early to Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+439	Kenan Tepe	KT	KT_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+439	Kenan Tepe	KT	KT_LB_IA	Late Bronze to Early Iron Age	Late Bronze_Iron Age	1500	500
+439	Kenan Tepe	KT	KT_IA	early IA	Early Iron Age	1200	900
+440	Kephallenia	KEPH	KEPH	Mycenean	Mycenean	1050	1000
+455	Khirbat al-Mudaybi	KAM	KAM_B	325-1100 AD	Byzantine	1	0
+455	Khirbat al-Mudaybi	KAM	KAM_LI	1500-1900 AD	Late Islamic period	1	0
+455	Khirbat al-Mudaybi	KAM	KAM_MI	1100-1500 AD	Middle Islamic period	1	0
+456	Khirbat Faris	KF	KF	Islamic	Islamic period	1	0
+457	Khirbet en-Nahas	KEN	KEN-EIA	early IA (1200-900 BC)	Early Iron Age	1200	900
+457	Khirbet en-Nahas	KEN	KEN-LIA	late IA  (900-700 BC)	Iron Age	1000	500
+1022	Khirbet er-Rasm	KRAS	KRAS_IAII	Iron Age II	Early Iron Age II	918	535
+458	Khirokitia	KHIR	KhE	Khirokitian	Neolithic	6400	4200
+458	Khirokitia	KHIR	KhTh	Khirokitian	Neolithic	6400	4200
+458	Khirokitia	KHIR	KhW	Khirokitian	Neolithic	6400	4200
+462	Kinet Höyük	KIH	KIH_MB	Middle Bronze Age (2000-1500 BC)	Middle Bronze Age	1800	1600
+462	Kinet Höyük	KIH	KIH_LB_II	Late Bronze Age II (1300-1200 BC)	Late Bronze Age II	1300	1100
+462	Kinet Höyük	KIH	KIH_IA_M	Iron Age (Neo-Assyrian) (800-700 BC)	Neo-Assyrian period	900	700
+462	Kinet Höyük	KIH	KIH_IA_L	Late Iron Age (700-330 BC)	Late Iron Age	800	600
+462	Kinet Höyük	KIH	KIH_HELL	Hellenistic (330-50 BC)	Hellenistic period	400	0
+462	Kinet Höyük	KIH	KIH_MED	Medieval (900-1200 AD)	Medieval	1	0
+462	Kinet Höyük	KIH	KIH_LB_OC	Late Bronze Age (Özgür Cizer)	NA	NA	NA
+466	Kish	KISH	KISH	Sumerian	Predynastic period	5500	3200
+467	Kissonerga	KISS	KMIA	Cypro-EPPNB	early Prepottery Neolithic B	8800	8400
+467	Kissonerga	KISS	KMIB	Cypro-LPPNB	late Prepottery Neolithic B	7500	7000
+467	Kissonerga	KISS	KISS_EC	Early Chalcolithic	Early Chalcolithic	5100	0
+467	Kissonerga	KISS	KISS_MC	Middle Chalcolithic	Middle Chalcolithic	4500	3800
+467	Kissonerga	KISS	KISS_LC	Late Chalcolithic	Late Chalcolithic	4800	3800
+468	Kissufim Road	KR	KR	Chalcolithic	Chalcolithic	5200	3000
+470	Knossos	KNO	KNO_LMII	LM II	Late Minoan II	1400	1100
+470	Knossos	KNO	KNO_N	Neolithic	Neolithic	6400	4200
+470	Knossos	KNO	KNO_PN	aceramic Neolithic	Initial (aceramic) Neolithic	8000	0
+473	Kom el-Hisn	KEH	KEH	Old Kingdom	Old Kingdom	2700	2300
+475	Kom Rab'ia	KRAB	KRAB	New/Middle Kingdom	New Kingdom	1500	0
+476	Kommos	KOM	KOM_IA	Iron Age	Iron Age	1000	500
+476	Kommos	KOM	KOM_LMI	LM I (-1500 BC)	Late Minoan I (-1500 BC)	1	1500
+476	Kommos	KOM	KOM_LMII-III	LM II-III (-1100 BC)	Late Minoan II to III	1100	0
+476	Kommos	KOM	KOM_MM	MM (1750-1700 BC)	Middle Minoan III	1750	1700
+1000	Konar Sandal	KONSAL	KONSAL_S_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+1000	Konar Sandal	KONSAL	KONSAL_N_IA	Iron Age	Iron Age	1000	500
+480	Körtik Tepe	KÖT	Köt_1	NA	Prepottery Neolithic B	8700	6500
+480	Körtik Tepe	KÖT	Köt_EAN	Early Aceramic Neolithic	Prepottery Neolithic A	9800	8800
+481	Korucutepe	KOR	KOR-CH	4500 - 3000 BC	Chalcolithic	5200	3000
+481	Korucutepe	KOR	KOR-EB	2600 - 2300 BC	Early Bronze Age	3200	2000
+481	Korucutepe	KOR	KOR-MB	1800 - 1600 BC	Middle Bronze Age	1800	1600
+481	Korucutepe	KOR	KOR-LB	1500 - 1200 BC	Late Bronze Age	1500	1200
+481	Korucutepe	KOR	KOR-IA	1200 - 800 BC	Early Iron Age	1200	900
+481	Korucutepe	KOR	KOR-M	1200 - 1400 AD	Medieval	1	0
+483	Kosak Shamali	KS	KS	Chalcolithic	Chalcolithic	5200	3000
+483	Kosak Shamali	KS	KS_ENU	Early Northern Ubaid (late)	Early Northern Ubaid	5500	0
+483	Kosak Shamali	KS	KS_LNU	Late Northern Ubaid	Late Northern Ubaid	5000	0
+483	Kosak Shamali	KS	KS_TNU	Terminal Northern Ubaid	Terminal Northern Ubaid	4550	0
+483	Kosak Shamali	KS	KS_PU	Post-Ubaid	Post-Ubaid	4400	4000
+483	Kosak Shamali	KS	KS_U	Uruk	Late Chalcolithic Uruk	4000	0
+1013	Kouphovouno	KOUP	KOUP_MN	Middle Neolithic (ca. 6000-5500/5400 BC)	middle Neolithic	1	0
+1013	Kouphovouno	KOUP	KOUP_LN	Late Neolithic (ca. 5400/5300-3200 BC)	Late Neolithic	1	5200
+992	Küllüoba	KÜLL	KÜLL_TP	(ca. 3300 - 3000 BC)	Late Chalcolithic	4800	3800
+992	Küllüoba	KÜLL	KÜLL_EBI	Early Bronze Age I (ca. 3000 - 2700 BC)	Early Bronze Age I	3000	2800
+992	Küllüoba	KÜLL	KÜLL_EBII-III	Early Bronze Age II and III (ca. 2700 - 2400 BC)	middle to late Early Bronze Age	1	0
+1039	Kültepe-Kanesh	KANE	KANE_IIAN	Level II, 1890- 1832 BC, MBA contexts from ethnic Anatolian households	Middle Bronze Age	1800	1600
+1039	Kültepe-Kanesh	KANE	KANE_IIAS	Level II, 1890- 1832 BC, MBA context from one ethnic Assyrian household	Middle Bronze Age	1800	1600
+489	Kumtepe	KU	KU_B	Chalcolithic	Chalcolithic	5200	3000
+1021	Kuntillet 'Ajrud	KAJ	KAJ_IAII	Iron Age II, 9th/8th cent BCE	Early Iron Age II	918	535
+492	Kurban Höyük	KUH	KUH_E_MBA	Early/Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+492	Kurban Höyük	KUH	KUH_IV	Phase IV (2500 BC - 2100 BC)	Early Bronze Age	3200	2000
+492	Kurban Höyük	KUH	KUH_EBI	early EBA	early Early Bronze Age	3100	2900
+492	Kurban Höyük	KUH	KUH_EBII	middle to late EBA	middle to late Early Bronze Age	1	0
+492	Kurban Höyük	KUH	KUH_H	Halaf	Early Chalcolithic	5100	0
+492	Kurban Höyük	KUH	KUH_LC	Late Chalcolithic	Late Chalcolithic	4800	3800
+492	Kurban Höyük	KUH	KUH_MC	Middle Chalcolithic	Middle Chalcolithic	4500	3800
+494	Kuruçay Höyük	KUR	KUR_LC	level 6A-3 (3700-3200 BC)	Late Chalcolithic	4800	3800
+496	Kusakli	KUS	KUS_P	Middle Hittite	Hittite Empire	1800	1178
+496	Kusakli	KUS	KUS-IA	7th/6th cent. BC	Late Iron Age	800	600
+496	Kusakli	KUS	KUS-IB	Hittite/Early Iron Age (12th/11th cent. BC)	Late Bronze_Iron Age	1500	500
+496	Kusakli	KUS	KUS-II	Hittite  (14th/13th cent. BC)	Hittite Empire	1800	1178
+496	Kusakli	KUS	KUS-II/IB	Hittite/Early Iron Age (14th/11th cent. BC)	Hittite Empire	1800	1178
+496	Kusakli	KUS	KUS-II_G	"Hittite (""gate"", layer 2) (14th/13th cent. BC)"	Hittite Empire	1800	1178
+496	Kusakli	KUS	KUS-II_T	"Hittite (""temple"", layer 2) (14th/13th cent. BC)"	Hittite Empire	1800	1178
+496	Kusakli	KUS	KUS-III	older Hittite	Hittite Empire	1800	1178
+504	Lachish	LH	LH_EB	Early Bronze Age	Early Bronze Age	3200	2000
+504	Lachish	LH	LH_IA	Iron Age	Iron Age	1000	500
+504	Lachish	LH	LH_MBA	Middle Bronze Age II	NA	NA	NA
+504	Lachish	LH	LH_LB	Late Bronze Age II-III	NA	NA	NA
+504	Lachish	LH	LH_LBIII	Late Bronze Age III	NA	NA	NA
+504	Lachish	LH	LH_IAII	Iron Age II	NA	NA	NA
+504	Lachish	LH	LH_Pers	Persian Period	NA	NA	NA
+518	Larsa	L	L	Hellenistic / Parthian period	Parthian	238	0
+520	Lefkandi	LEF	LEF	Mycenean	Mycenean	1050	1000
+522	Lemba-Lakkous	LL	LL	Chalcolithic	Chalcolithic	5200	3000
+523	Lerna	LER	L-III	Early Helladic II (Lerna 3)	Early Helladic II	2500	2300
+523	Lerna	LER	L-IV	Early Helladic III (Lerna 4)	Early Helladic III	2300	2100
+523	Lerna	LER	L-IV_V	Early Helladic III to Middle Helladic (Lerna 4-5)	Early Helladic III	2300	2100
+523	Lerna	LER	L-V	Middle Helladic (Lerna 5)	Middle Helladic	2100	1550
+523	Lerna	LER	L-VIII	Lerna 8	Classical period	500	323
+527	Liliana	LIL	LIL	Minoan	Bronze Age	3400	1100
+589	M'lefaat	MLE	Mf	PPNA	Prepottery Neolithic A	9800	8800
+535	Maadi	MD	MD-30	Predynastic (from the 30ies; Kroll)	Predynastic	3000	0
+535	Maadi	MD	MD-70	Predynastic (from the 70ies; van Zeist)	Predynastic	3000	0
+535	Maadi	MD	MD_PD	Predynastic 3700-3500 BC	Predynastic period	5500	3200
+539	Magzalia	MAG	Mz	(late PPNB/) PN	late Prepottery Neolithic B_Pottery Neolithic	7500	5400
+540	Mahmudiya	M	M	Achaemenid / Hellenistic	Archaic_Hellenistic period	700	300
+1007	Makri	MAKRI	MAKRI_LN	Late Neolithic 5500 BC	Late Neolithic	1	5200
+1006	Makriyalos	MAKRY	MAKRY_LN	Late Neolithic 5500 BC	Late Neolithic	1	5200
+546	Mallia	MAL	MAL	Minoan	Bronze Age	3400	1100
+547	Malyan	MALY	MAL-B	Proto-Elamite (3400-2600 BC) Banesh	Proto-Elamite	3400	2500
+547	Malyan	MALY	MAL-K	Elamite (2400-1800 BC) Kaftari	Elamite (Kaftari)	2400	1800
+547	Malyan	MALY	MAL-ME	Middle Elamite (1200 BC)	Middle Elamite	1200	0
+548	Manahat	MT	MT	MBA  IIB	Middle Bronze Age IIB	1700	1600
+559	Marki-Alonia	MA	MA	Middle/Late Bronze Age	Middle_Late Bronze Age	1800	1200
+560	Marmariani	MAR	MAR	Mycenean	Mycenean	1050	1000
+563	Masada	MAS	MAS	Roman	Roman period	60	0
+1011	Megiddo	MEG	MEG_J5	either late Early Bronze Age I or early Early Bronze Age III	Early Bronze Age	3200	2000
+1011	Megiddo	MEG	MEG_EB	Early Bronze Age	Early Bronze Age	3200	2000
+1011	Megiddo	MEG	MEG_EBI	Early Bronze Age I 3300 - 3000 BC	Early Bronze Age I	3000	2800
+1011	Megiddo	MEG	MEG_EBIB	Early Bronze Age IB 3300 - 3000 BC	Early Bronze Age IB	3200	3000
+1011	Megiddo	MEG	MEG_EBIII	Early Bronze Age III 2700 - 2200 BC	Early Bronze Age III	2400	2200
+1011	Megiddo	MEG	MEG_MB	Middle Bronze Age 2000 - 1550 BC	Middle Bronze Age	1800	1600
+1011	Megiddo	MEG	MEG_LBI	Late Bronze Age I 15th BC	Late Bronze Age I	1600	1400
+1011	Megiddo	MEG	MEG_EII	Early Iron Age I	Early Iron Age I	1200	918
+1011	Megiddo	MEG	MEG_LII	Late Iron Age I	Early Iron Age I	1200	918
+1011	Megiddo	MEG	MEG_EIA_IIA	Iron IIA early	Early Iron Age IIA	980	840
+1011	Megiddo	MEG	MEG_LIA_IIA	Iron IIA late	Early Iron Age IIA	980	840
+1011	Megiddo	MEG	MEG_EIA_IIB	Iron IIB early	Early Iron Age II	918	535
+1011	Megiddo	MEG	MEG_LIA_IIB	Iron IIB late	Early Iron Age II	918	535
+1011	Megiddo	MEG	MEG_IA_II	Iron Age II	Early Iron Age II	918	535
+1011	Megiddo	MEG	MEG_LBA/IA_I	Transition LB and IA I, 1300-1100?	Late Bronze_Iron Age	1500	500
+1011	Megiddo	MEG	MEG_LBA_II	Late Bronze Age II, 1400-1300 BC	Late Bronze Age II	1300	1100
+573	Menelaion	MEN	MEN	Mycenean	Mycenean	1050	1000
+1042	Menteşe	MENT	MENT_O	Menteşe old, levels 126-130, ca. 6430-6250 BC	Late Neolithic	1	5200
+1042	Menteşe	MENT	MENT_M	Menteşe middle, levels 110-125, ca. 6180-6060 BC	Late Neolithic	1	5200
+1042	Menteşe	MENT	MENT_J	Menteşe young, levels 100-109, ca. 6070-5975 BC	Early Chalcolithic	5100	0
+578	Merv	MV	MV	Sasanian rule	Sasanian rule	1	0
+583	Mezraa Hoyük	MH	MH_PN	Pottery Neolithic ca. 6690-6480 BC	Pottery Neolithic	5400	0
+583	Mezraa Hoyük	MH	MH_II/III	Phase II (Pottery Neolithic) and Phase III (Pre Pottery Neolithic)	Aceramic Neolithic	8700	5400
+583	Mezraa Hoyük	MH	MH_TP	Transitional Period Pottery Neolithic / Pre Pottery Neolithic 7070-6680 BC	Prepottery Neolithic C	6500	0
+583	Mezraa Hoyük	MH	MH_III/IV	Phase III (Transitional Period PN/PPN) and Phase IV (LPPNB)	Prepottery Neolithic B_C	8700	6000
+583	Mezraa Hoyük	MH	MH_LPPNB	Late Pre Pottery Neolithic B	late Prepottery Neolithic B	7500	7000
+583	Mezraa Hoyük	MH	MH_IV/V	Phase IV (Late Pre Pottery Neolithic B) and Phase V (Middle Pre Pottery Neolithic B)	late Prepottery Neolithic B	7500	7000
+583	Mezraa Hoyük	MH	MH_MPPNB	Middle Pre Pottery Neolithic B	middle PPNB	8400	7500
+583	Mezraa Hoyük	MH	MH_EBA_I	Early Bronze Age I (3000-2800 BC)	Early Bronze Age I	3000	2800
+583	Mezraa Hoyük	MH	MH_EBA_III_IV	Early Bronze Age III/IV (2600-2000 BC)	Early Bronze Age III_IV	2400	2000
+583	Mezraa Hoyük	MH	MH_MBA	Middle Bronze Age (2000-1500 BC)	Middle Bronze Age	1800	1600
+583	Mezraa Hoyük	MH	MH_MED	Medieval (1000-1200 AD)	Medieval	1	0
+585	Miletos (Kalabaktepe/Zeytintepe)	MS	MS_K	Archaic period	Archaic period	700	400
+585	Miletos (Kalabaktepe/Zeytintepe)	MS	MS_Z	Archaic period	Archaic period	700	400
+590	Moa	MOA	MOA	Iron Age/Roman	Iron Age	1000	0
+1050	Müslümantepe	MUSL	MUSL_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+1050	Müslümantepe	MUSL	MUSL_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+596	Mycenae	MYC	MYC	Mycenean	Mycenean	1050	1000
+597	Mylouthkia	MYL	M-EC	period 2 early	Early Chalcolithic	5100	0
+597	Mylouthkia	MYL	M-ECf	final period 2 (Early Chalcolithic)	Early Chalcolithic	5100	0
+597	Mylouthkia	MYL	M-MC	middle period 3 (Middle Chalcolithic)	Middle Chalcolithic	4500	3800
+598	Myrtos	MYR	MYR	Early Minoan	Early Bronze Age	3200	2000
+600	Nagada-Khattara	NK	NK-KH 3	NA	Chalcolithic_EBA	5200	2000
+600	Nagada-Khattara	NK	NK-ST	NA	Chalcolithic_EBA	5200	2000
+602	Nahal Hemar	NAHE	Nhe	middle/late PPNB	Prepottery Neolithic B	8700	6500
+603	Nahal Mishmar	NM	NM-C	Chalcolithic	Chalcolithic	5200	3000
+603	Nahal Mishmar	NM	NM-R	Roman period	Roman period	60	0
+604	Nahal Qanah Cave	NQC	NQC_C	Chalcolithic	Chalcolithic	5200	3000
+605	Nahal Yattir	NY	NY	Roman period	Roman period	60	0
+611	Nea Nikomedeia	NEANIK	NN	early Neolithic	early Neolithic	6400	0
+614	Netiv Hagdud	NETHAG	NH	PPNA	Prepottery Neolithic A	9800	8800
+614	Netiv Hagdud	NETHAG	NH_DSL	Deep sounding, lower complex (PPNA)	Prepottery Neolithic A	9800	8800
+614	Netiv Hagdud	NETHAG	NH_DSM	Deep sounding, middle complex (PPNA)	Prepottery Neolithic A	9800	8800
+614	Netiv Hagdud	NETHAG	NH_DSU	Deep sounding, upper complex (PPNA)	Prepottery Neolithic A	9800	8800
+614	Netiv Hagdud	NETHAG	NH_UA	Upper Area (PPNA)	Prepottery Neolithic A	9800	8800
+615	Nevali Cori	NEVCO	NC	early/middle/late PPNB	Prepottery Neolithic B	8700	6500
+620	Nimrud	NIM	N-FS	Neo-Assyrian period (612 BC) Fort Shalmaneser	late Neo-Assyrian period	612	0
+620	Nimrud	NIM	N-H	200 BC	Middle Hellenistic period	230	150
+620	Nimrud	NIM	N-MA	middle Assyrian (13th cent.)	Middle Assyrian	1392	934
+620	Nimrud	NIM	N-NA	Neo-Assyrian period (715-600 BC)	late Neo-Assyrian period	612	0
+621	Niruchiani	NIR	NIR	Minoan	Bronze Age	3400	1100
+625	Numeira	NU	NU	EBA III	Early Bronze Age III	2400	2200
+626	Nush-i Jan	NJ	NJ_M	Median period (750 - 550 BC)	Median period (750 - 550 BC)	750	500
+626	Nush-i Jan	NJ	NJ_P	100 BC - 50 AD	Middle Parthian period	100	0
+629	Ohalo II	OHA	OII	Upper Palaeolithic	early Epipalaeolithic	12500	10800
+629	Ohalo II	OHA	OHA_EEPI	Early Epipalaeolithic 22500-23500 BP	early Epipalaeolithic	12500	10800
+632	Orchomenos	OR	OR	Mycenean	Mycenean	1050	1000
+634	Otzaki Magoula	OTZMA	OMI	early Neolithic	early Neolithic	6400	0
+634	Otzaki Magoula	OTZMA	OMII	middle Neolithic	middle Neolithic	1	0
+637	Oylum Höyük	OH	OH	Chalcolithic	Chalcolithic	5200	3000
+638	Palaikastro	PAL	PAL	Minoan	Bronze Age	3400	1100
+638	Palaikastro	PAL	PAL_LM	Late Minoan	Late Bronze Age	1500	1200
+644	Parekklisha-Shillourokambos	SHILL	PSI	Cypro-EPPNB	early Prepottery Neolithic B	8800	8400
+644	Parekklisha-Shillourokambos	SHILL	PSII	Cypro-MPPNB	middle PPNB	8400	7500
+644	Parekklisha-Shillourokambos	SHILL	PSIII	Cypro-LPPNB	late Prepottery Neolithic B	7500	7000
+645	Patnos	PAT	PAT_IA	Iron Age (Urartian)	Urartu	840	0
+645	Patnos	PAT	PAT_LM-IB	Late Minoan IB (deposit 1,3)	Late Minoan I (-1500 BC)	1	1500
+645	Patnos	PAT	PAT_LM-IB_LM-IIIA1	Late Minoan IB - IIIA1 (depostits 4,5)	Late Bronze Age	1500	1200
+645	Patnos	PAT	PAT_LM-IIIA1	Late Minoan IIIA1 (deposits 6)	Late Bronze Age	1500	1200
+645	Patnos	PAT	PAT_LM-IIIA2-7_8_9	Late Minoan IIIA2 (deposits 7,8,9)	Late Bronze Age	1500	1200
+645	Patnos	PAT	PAT_LM-IIIA2-10_11_12	Late Minoan IIIA2 (deposits 10,11,12)	Late Bronze Age	1500	1200
+647	Pefkakia-Magoula	PEF	PEF-LN	Late Neolithic	Late Neolithic	1	5200
+647	Pefkakia-Magoula	PEF	PEF-EBA	Early Bronze Age	Early Bronze Age	3200	2000
+647	Pefkakia-Magoula	PEF	PEF-MBAI	early MBA	early Middle Bronze Age	2000	0
+647	Pefkakia-Magoula	PEF	PEF-MBAII	middle MBA	middle Middle Bronze Age	1700	1500
+1066	Pella	PEL	PEL_LBA	Late Bronze Age I	Late Bronze Age I	1600	1400
+1066	Pella	PEL	PEL_IAI	Iron Age I A	Early Iron Age IA	1200	1000
+1066	Pella	PEL	PEL_IA	Iron Age I to IIA	Early Iron Age	1200	900
+648	Phaistos	PHA	PHA_LN	Late Neolithic	Late Neolithic	1	5200
+648	Phaistos	PHA	PHA	Minoan	Bronze Age	3400	1100
+653	Pirak	PI	PI-I	2200-1500 BC	Middle Bronze Age	1800	1600
+653	Pirak	PI	PI-II	1500-1200 BC	Late Bronze Age	1500	1200
+653	Pirak	PI	PI-III	1200-900 BC	Early Iron Age	1200	900
+655	Platia Magoula Zarkou	PMZ	PMZ_ILN	initial late Neolithic	Late Neolithic	1	5200
+655	Platia Magoula Zarkou	PMZ	PMZ_MN	middle Neolithic	middle Neolithic	1	0
+655	Platia Magoula Zarkou	PMZ	PMZ_LN	Late Neolithic	Late Neolithic	1	5200
+655	Platia Magoula Zarkou	PMZ	PMZ_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+655	Platia Magoula Zarkou	PMZ	PMZ_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+661	Prodromos	PRODRO	Pd	early Neolithic	early Neolithic	6400	0
+662	Pylos	PYL	PYL	Mycenean	Mycenean	1050	1000
+663	Pyrasos	PY	PY-LN	late Dimini	Late Neolithic	1	5200
+665	Qal'eh Ismail Aqa	QI	QI-IA	800-600 BC	Late Iron Age	800	600
+665	Qal'eh Ismail Aqa	QI	QI-IS	Islamic period	Islamic period	1	0
+668	Qaryat Medad	QAME	QAME_M	Abbasid to Mamluk (750-1400 AD)	Medieval	1	0
+671	Qermez Dere	QERM	QD	PPNA	Prepottery Neolithic A	9800	8800
+673	Qubur al-Walaydah	QW	QW_LIA_II	Iron Age II, 8th–7th centuries	Early Iron Age II	918	535
+1032	Ras an-Numayra	RAN	RAN_EBA_IB	Early Bronze Age IB 3350-2190 BC	Early Bronze Age IB	3200	3000
+686	Rifa'at	R	R	Iron Age	NA	NA	NA
+689	Rukeis	RK	RK	Bronze Age	Bronze Age	3400	1100
+695	Safat ez Zerr	SEZ	SEZ_M	Abbasid (750-800 AD)	Abbasid	1	0
+702	Salamis (Cellarka)	SAL	SAL	Archaic period	Archaic period	700	400
+704	Saliagos	SG	SG-LN	Late Neolithic	Late Neolithic	1	5200
+709	Samos Heraion	SH	SH	7th cent.	Early Archaic period	750	480
+713	Saqqara	SAQ	S-DP	Djoser pyramid	Early Bronze Age	3200	2000
+713	Saqqara	SAQ	S-QIG	Queen Icheti's grave, 3rd dynasty	Early Bronze Age	3200	2000
+718	Sataf	SAT	SAT_C	Chalcolithic	Chalcolithic	5200	3000
+718	Sataf	SAT	SAT_EB	EB I	Early Bronze Age I	3000	2800
+722	Serce Limani	SL	SL_GW	"11th cent. AD, ""Glass Wreck"""	Medieval	1	0
+722	Serce Limani	SL	SL_HW	"""Hellenistic Wreck"""	Hellenistic period	400	0
+723	Servia	SER	SER-LN	Late Neolithic	Late Neolithic	1	5200
+723	Servia	SER	SER-MN	middle Neolithic	middle Neolithic	1	0
+724	Sesklo	SES	S-PN	initial (aceramic) Neolithic	Initial (aceramic) Neolithic	8000	0
+724	Sesklo	SES	S-EN	early Neolithic	early Neolithic	6400	0
+724	Sesklo	SES	S-MN	Sesklo	Neolithic	6400	4200
+724	Sesklo	SES	S-LN	Late Neolithic	Late Neolithic	1	5200
+993	Shah Tepe	SHTE	SHTE_III	Horizont III (ca. 3000-2500 BC)	Early Bronze Age	3200	2000
+993	Shah Tepe	SHTE	SHTE_II	Horizont II (ca. 2500-1500 BC)	Middle Bronze Age	1800	1600
+993	Shah Tepe	SHTE	SHTE_I	Horizont I, Muslim period	Mamluk	1	0
+726	Shahr-i Sokhta	SIS	SIS-I	level 1 (3200-2100 BC)	Early Bronze Age	3200	2000
+726	Shahr-i Sokhta	SIS	SIS-II	level 2	Early Bronze Age	3200	2000
+726	Shahr-i Sokhta	SIS	SIS-II/III	level 2-3	Early Bronze Age	3200	2000
+726	Shahr-i Sokhta	SIS	SIS-III	level 3	Early Bronze Age	3200	2000
+726	Shahr-i Sokhta	SIS	SIS-IV	level 4	Early Bronze Age	3200	2000
+726	Shahr-i Sokhta	SIS	SIS-unstrat	unstratified	Unknown	1	0
+994	Shams ed-Din Tannira	SHED	SHED_H	Halafian period	Halaf	5500	4500
+731	Sharafabad	SF	SF	Uruk	Late Chalcolithic Uruk	4000	0
+1001	Sheikh-e Abad	ABAD	ABAD_I_PPNA	Prepottery Neolithic A (10100 - 9140 BCE)	Prepottery Neolithic A	9800	8800
+1001	Sheikh-e Abad	ABAD	ABAD_II_PPNB	Prepottery Neolithic B (8230 - 7730 BCE)	Prepottery Neolithic B	8700	6500
+1001	Sheikh-e Abad	ABAD	ABAD_III_PPNB	Prepottery Neolithic B (7640 - 7580 BCE)	Prepottery Neolithic B	8700	6500
+735	Shheil 1	SHH	SHH_M	Umayyad/Abbasid (700-900 AD)	Medieval	1	0
+736	Shheil 5	SHHV	SHHV_M	Abbasid (750-800 AD)	Abbasid	1	0
+737	Shiloh	SHI	SH_IA	Iron Age	Iron Age	1000	500
+737	Shiloh	SHI	SH_MB	MBA III	Middle Bronze Age III	1600	1650
+738	Shiqmim	SQ	SQ_LV	lower village (3300 +/- 140 bc)	Chalcolithic	5200	3000
+738	Shiqmim	SQ	SQ_UV	upper village (4200 +/- 180 bc)	Middle Chalcolithic	4500	3800
+1017	Shoham (North)	SHO	SHO_LEBI	Late Early Bronze Age I 3300-3000	Chalcolithic_EBA	5200	2000
+743	Sia	SIA	SIA	Roman period	Roman period	60	0
+1061	Sidon	SID	SID_EBA	Early Bronze Age III	Early Bronze Age III	2400	2200
+1061	Sidon	SID	SID_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+1061	Sidon	SID	SID_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+1061	Sidon	SID	SID_IAI	Early Iron Age	Early Iron Age I	1200	918
+1061	Sidon	SID	SID_IAII	Iron Age II	Early Iron Age II	918	535
+1061	Sidon	SID	SID_MBA2	Middle Bronze Age	Middle Bronze Age	1800	1600
+756	Slavokambos	SLA	SLA	Minoan	Bronze Age	3400	1100
+1040	Sos Höyük	SOSH	SOSH_IA	Iron Age, 1000-300 BC	Iron Age	1000	500
+1040	Sos Höyük	SOSH	SOSH_EB	Early Bronze Age, 3000-2200 BC	Early Bronze Age	3200	2000
+764	Sotira Kaminoudhia	SK	SK_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+766	Soufli	SOUF	Souf_EN	early Neolithic	early Neolithic	6400	0
+772	Susa, Ville Royale	SUS	SUS_IA	Neo-Elamite	Neo-Elamite	1100	539
+772	Susa, Ville Royale	SUS	SUS_P	Parthian	Parthian	238	0
+774	Synoro	SYN	SYN	Early Helladic II	Early Helladic II	2500	2300
+780	Tahirbaj Tepe	TAT	TAT	Iron Age	Iron Age	1000	500
+997	Tall-e Bakun	BAKUN	BAKUN_PN	Pottery Neolithic 5500-4000 BC	Pottery Neolithic	5400	0
+998	Tall-e Jari	JARI	JARI_PN	Pottery Neolithic 6000 BC	Pottery Neolithic	5400	0
+996	Tall-e Mushki	MUSHKI	MUSHKI_PN	Pottery Neolithic 7000 BC	Pottery Neolithic	5400	0
+782	Tamara	TAMA	TAMA	Iron Age/Roman	Iron Age	1000	0
+783	Tappeh Gijlar	TAG	TAG-A	1100-900 BC	Neo-Elamite	1100	539
+783	Tappeh Gijlar	TAG	TAG-B	3000-2200 BC	Early Bronze Age	3200	2000
+783	Tappeh Gijlar	TAG	TAG-BC	3000 BC	Late Chalcolithic	4800	3800
+783	Tappeh Gijlar	TAG	TAG-C	3700-3000 BC	Chalcolithic_EBA	5200	2000
+785	Taskun Kale (Asvan)	TK	TK_med	Medieval	Medieval	1	0
+786	Taskun Mevkii (Asvan)	TASM	TM_EB_I	Early Bronze Age	Early Bronze Age I	3000	2800
+794	Tel 'Ira	TIRA	TI-B	Byzantine period	Byzantine	1	0
+794	Tel 'Ira	TIRA	TI-H	Hellenistic period	Hellenistic period	400	0
+794	Tel 'Ira	TIRA	TI-I	Iron Age	Iron Age	1000	500
+794	Tel 'Ira	TIRA	TI-P	Persian period	Persian period	600	400
+794	Tel 'Ira	TIRA	TI-R	Roman period	Roman period	60	0
+1059	Tel Beth Yerah	TBY	TBY_EBI	Early Bronze Age I	Early Bronze Age I	3000	2800
+1059	Tel Beth Yerah	TBY	TBY_EBII	Early Bronze Age II	Early Bronze Age II	2800	2600
+793	Tel Dalit	TD	TD	EB II	Early Bronze Age II	2800	2600
+1004	Tel Dor	Dor	Dor_D2	Early Iron Age (Iron I-IIA), Area D2	Early Iron Age	1200	900
+1027	Tel Kedesh	TKED	TKED_IA_IIA	Iron Age IIA, 968-964 BC (AMS dating)	Early Iron Age IIA	980	840
+1033	Tel Kinrot	TKIN	TKIN_IA_I	Iron Age I	Early Iron Age I	1200	918
+1033	Tel Kinrot	TKIN	TY_XVI	Iron Age IIA, 1000-900 BCE	Early Iron Age IIA	980	840
+1033	Tel Kinrot	TKIN	TKIN_LB	Late Bronze Age	Late Bronze Age	1500	1200
+1033	Tel Kinrot	TKIN	TKIN_EB	Early Bronze Age	Early Bronze Age	3200	2000
+1062	Tel Malhat	MALHAT	MALHAT_IA	Late Iron Age II	Early Iron Age II	918	535
+795	Tel Michal	TMIC	TM-A	Arab period	Arab period	1	0
+795	Tel Michal	TMIC	TM-H	Hellenistic period	Hellenistic period	400	0
+795	Tel Michal	TMIC	TM-I	Iron Age	Iron Age	1000	500
+795	Tel Michal	TMIC	TM-LB	Late Bronze Age	Late Bronze Age	1500	1200
+795	Tel Michal	TMIC	TM-MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+795	Tel Michal	TMIC	TM-P	Persian period	Persian period	600	400
+795	Tel Michal	TMIC	TM-R	Roman period	Roman period	60	0
+796	Tel Nami	TN	TN_LBA	LB IIb (13th cent.)	Late Bronze Age IIB	1300	1100
+796	Tel Nami	TN	TN_MBA	MB IIa (1950-1750 BC)	Middle Bronze Age IIA	1800	1700
+797	Tel Saf	SAF	SAF	Chalcolithic	Chalcolithic	5200	3000
+1056	Tel Te'o	TEO	TEO_EB	Early Bronze Age	Early Bronze Age	3200	2000
+1056	Tel Te'o	TEO	TEO_Chal-EB	Chalcolithic - Early Bronze Age	Chalcolithic_EBA	5200	2000
+1056	Tel Te'o	TEO	TEO_Chal	Chalcolithic	Chalcolithic	5200	3000
+1056	Tel Te'o	TEO	TEO_PN	Pottery Neolithic	Pottery Neolithic	5400	0
+1056	Tel Te'o	TEO	TEO_PPN-PN	Pre-Pottery Neolithic - Pottery Neolithic	Neolithic	6400	4200
+1056	Tel Te'o	TEO	TEO_PPN	Pre-Pottery Neolithic	Aceramic Neolithic	8700	5400
+1024	Tel Yarmouth	TYAR	TYAR_EBA_IIIC	Early Bronze Age IIIC, 2400-2300	Early Bronze Age III	2400	2200
+1024	Tel Yarmouth	TYAR	TYAR_PP	Early Bronze Age I?, Proto-Palace	Early Bronze Age I	3000	2800
+1024	Tel Yarmouth	TYAR	TYAR_EBA_II	Early Bronze Age II, 3100-2700	Early Bronze Age II	2800	2600
+1024	Tel Yarmouth	TYAR	TYAR_EBA_IIIB	Early Bronze Age IIIB, 2700-2400	Early Bronze Age III	2400	2200
+1024	Tel Yarmouth	TYAR	TYAR_EBA_IIC	Early Bronze Age IIC, 2900-2750	Early Bronze Age IIC	2600	0
+799	Tell Abu al-Kharaz	TAK	TAK_EB1B	EB IB	Early Bronze Age IB	3200	3000
+799	Tell Abu al-Kharaz	TAK	TAK_EB2B	EB IIB	Early Bronze Age IIB	2800	0
+799	Tell Abu al-Kharaz	TAK	TAK_EB2C	EB IIC	Early Bronze Age IIC	2600	0
+799	Tell Abu al-Kharaz	TAK	TAK_EBTRANS	EB IB/IIA	Early Bronze Age I_II	3000	2600
+799	Tell Abu al-Kharaz	TAK	TAK_MB_LB	Middle / Late Bronze Age	NA	NA	NA
+799	Tell Abu al-Kharaz	TAK	TAK_IA	Iron Age	Iron Age	1000	500
+799	Tell Abu al-Kharaz	TAK	TAK_LB	Late Bronze Age	Late Bronze Age	1500	1200
+799	Tell Abu al-Kharaz	TAK	TAK_AP	All Phases including Early Bronze Age I-III, Middle/Late Bronze Age and Iron Age	Late Bronze_Iron Age	1500	500
+1029	Tell Abu Duwari (Mashkar sharif)	DUWA	DUWA_ap	all phases	Middle Bronze Age	1800	1600
+800	Tell Abu Hureyra	ABUHU	AH1	late Epipalaeolithic (/PPNA)	Epipalaeolithic_PPN	12500	10000
+800	Tell Abu Hureyra	ABUHU	AH2A	(early/)middle/late PPNB	Prepottery Neolithic B	8700	6500
+800	Tell Abu Hureyra	ABUHU	AH2B	middle/late/final PPNB	Prepottery Neolithic B	8700	6500
+800	Tell Abu Hureyra	ABUHU	AH2C	PN	Pottery Neolithic	5400	0
+801	Tell Abu Matar	TAM	TAM	Chalcolithic	Chalcolithic	5200	3000
+803	Tell Afis	TAF	TAF-C	Late Ubaid - Late Chalcolithic (3600-3300 BC)	Late Ubaid - Late Chalcolithic	4200	3800
+803	Tell Afis	TAF	TAF-LC	Late Chalcolithic	Late Chalcolithic	4800	3800
+803	Tell Afis	TAF	TAF-EBA4	Early Bronze Age	Early Bronze Age IV	2350	2000
+803	Tell Afis	TAF	TAF-MBA_I_IIABC	Middle Bronze Age	Middle Bronze Age	1800	1600
+803	Tell Afis	TAF	TAF-LBA_I	Late Bronze Age I	Late Bronze Age I	1600	1400
+803	Tell Afis	TAF	TAF-LBA	Late Bronze Age	Late Bronze Age	1500	1200
+803	Tell Afis	TAF	TAF_IA_I	Iron Age I	Early Iron Age I	1200	918
+803	Tell Afis	TAF	TAF-IA_II_IIII	Iron Age I, II, III	Iron Age II_III	918	535
+803	Tell Afis	TAF	TAF-EBA	EBA IVB (23th-21st cent. BC)	Early Bronze Age IVB	2300	2100
+803	Tell Afis	TAF	TAF-IA_IA	IA I A (1200-1000 BC)	Early Iron Age IA	1200	1000
+803	Tell Afis	TAF	TAF-IA_IC	IA I C (10th- middle 9th cent. BC)	Early Iron Age IC	1000	900
+803	Tell Afis	TAF	TAF-IA_II	IA II (8th-7th cent. BC)	Early Iron Age II	918	535
+803	Tell Afis	TAF	TAF-IA_III	IA III (7th-6th cent. BC)	Late Iron Age III	600	0
+803	Tell Afis	TAF	TAF-LBA_IA	LBA II - IA I (13th-12th cent. BC)	Late Bronze_Iron Age	1500	500
+803	Tell Afis	TAF	TAF-MBA	MBA I-II (19th-17th cent. BC)	Middle Bronze Age	1800	1600
+804	Tell al-Raqa'i	TAR	TAR-2	Early Bronze Age	late Early Bronze Age	2200	2000
+804	Tell al-Raqa'i	TAR	TAR-3	Early Bronze Age	Early Bronze Age	3200	2000
+804	Tell al-Raqa'i	TAR	TAR-4	Early Bronze Age	Early Bronze Age	3200	2000
+804	Tell al-Raqa'i	TAR	TAR-5_7	Early Bronze Age	Early Bronze Age	3200	2000
+805	Tell al-Rawda	RAW	RAW	Early Bronze Age	Early Bronze Age	3200	2000
+806	Tell Aphek	TAPH	TAPH_LB	Late Bronze Age	Late Bronze Age	1500	1200
+806	Tell Aphek	TAPH	TAPH_MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+806	Tell Aphek	TAPH	TAPH_LBA_IIB	Late Bronze Age IIB, 1300-1200	Late Bronze Age IIB	1300	1100
+806	Tell Aphek	TAPH	TAPH_WP_LBA_IIB	Late Bronze Age IIB, 1300-1200, winepress	Late Bronze Age IIB	1300	1100
+806	Tell Aphek	TAPH	TAPH_IA	Iron Age IA, 1200-1150	Early Iron Age IA	1200	1000
+806	Tell Aphek	TAPH	TAPH_IA_IB	Iron Age IB, 1150-1000	Early Bronze Age IB	3200	3000
+806	Tell Aphek	TAPH	TAPH_X9_IA_IB	Iron Age IB, 1150-1000	Early Iron Age IB	1150	980
+806	Tell Aphek	TAPH	TAPH_IA_IIA	Iron Age IIA, 1000-900	Early Iron Age IIA	980	840
+807	Tell Aqab	TAQ	TAQ	late Halaf	late Halaf	5000	0
+1012	Tell Arbid	TEAR	TEAR_VIIC	Ninevite V layers	Ninevite V	3100	2500
+1012	Tell Arbid	TEAR	TEAR_VIIB	Early Dynastic III layers	Early Dynastic III	2500	2250
+1012	Tell Arbid	TEAR	TEAR_VIIA	Akkadian layers	Akkadian dynasty	2300	2200
+1012	Tell Arbid	TEAR	TEAR_VI	Post-Akkadian layers	Post-Akkadian	2200	1950
+809	Tell Aswad	ASW	AsIa	PPNA	Prepottery Neolithic A	9800	8800
+809	Tell Aswad	ASW	AsIb	early PPNB	early Prepottery Neolithic B	8800	8400
+809	Tell Aswad	ASW	AsII	middle PPNB	middle PPNB	8400	7500
+810	Tell Atchana	ALA	ALA_LB_OC	Late Bronze Age (Cizer)	NA	NA	NA
+810	Tell Atchana	ALA	ALA_LBA_IB_IIA	Late Bronze Ib to IIa	Late Bronze Age I to II	1600	1300
+810	Tell Atchana	ALA	ALA_LBA_IIA	Late Bronze Age IIa	Late Bronze Age II	1300	1100
+810	Tell Atchana	ALA	ALA_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+810	Tell Atchana	ALA	ALA_MBA_LBA	Middle Bronze to Late Bronze Age transition	Middle_Late Bronze Age	1800	1200
+811	Tell Atij	TA	TA	2800-2400 BC	Early Bronze Age	3200	2000
+812	Tell Bderi	TBD	TB-ED	Early Dynastic (charcoal)	Early Dynastic	3100	2700
+812	Tell Bderi	TBD	TB-EBA	Early Bronze Age	Early Bronze Age	3200	2000
+812	Tell Bderi	TBD	TB-LBA	Late Bronze Age	Late Bronze Age	1500	1200
+812	Tell Bderi	TBD	TB-EBA_LBA	Early Bronze Age and Late Bronze Age	Bronze Age	3400	1100
+812	Tell Bderi	TBD	TB-ED_EA	Early Dynastic II - Early Akkad period (2850-2350 BC)	Early Dynastic II	2700	2500
+812	Tell Bderi	TBD	TB-ED_EAJ	Early Dynastic II - Early Akkad period (2750-2350 BC), jars	Early Dynastic II	2700	2500
+812	Tell Bderi	TBD	TB-EDIII	Early Dynastic III-II (2750-2350 BC)	Early Dynastic	3100	2700
+812	Tell Bderi	TBD	TB-EDIIIJ	Early Dynastic III-II (2750-2350 BC), jars	Early Dynastic	3100	2700
+812	Tell Bderi	TBD	TB-M	Mittani period	Mittani	1500	1300
+815	Tell Brak	TBR	TBR-I	Early Uruk (3800 BC)	Late Chalcolithic	4800	3800
+815	Tell Brak	TBR	TBR-II	Middle Uruk (3600 BC)	Middle Uruk	1	0
+815	Tell Brak	TBR	TBR-III	Ninevite 5 (3000 BC)	Ninevite V	3100	2500
+815	Tell Brak	TBR	TBR-IV	later third millennium	Early Dynastic III	2500	2250
+815	Tell Brak	TBR	TBR-L	late Early Dynastic III (2400 BC)	late Early Dynastic III	2400	0
+815	Tell Brak	TBR	TBR-L/M	late Early Dynastic III/Akkadian	Early Dynastic III	2500	2250
+815	Tell Brak	TBR	TBR-M	Akkadian (2300-2200 BC)	Akkadian dynasty	2300	2200
+815	Tell Brak	TBR	TBR-N	Post-Akkadian (2200-1950 BC)	Post-Akkadian	2200	1950
+815	Tell Brak	TBR	TBR-V	early second millennium	Middle Bronze Age	1800	1600
+817	Tell Burak	TBU	TBU_LIA	Late Iron Age	Late Iron Age	800	600
+818	Tell Chragh	TCHRA	TCHRA	Ubaid	Chalcolithic Ubaid	5300	4100
+819	Tell Chuera	CHU	CHU_ED	Early Dynastic (2600 - 2500 BC)	Early Dynastic	3100	2700
+820	Tell ed-Der	TED	TED	Old Assyrian period	Old Assyrian period	2000	1200
+821	Tell el Ifshar	TEIF	TEIF_BYZ	Byzantine period	Byzantine	1	0
+821	Tell el Ifshar	TEIF	TEIF_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+821	Tell el Ifshar	TEIF	TEIF_IA	Iron Age (IA I/II)	Iron Age	1000	500
+821	Tell el Ifshar	TEIF	TEIF_LBA	Late Bronze Age (LB I/II)	Late Bronze Age	1500	1200
+821	Tell el Ifshar	TEIF	TEIF_MBA	MB IIA	Middle Bronze Age IIA	1800	1700
+822	Tell el'Abd	TEA	TEA	Early Bronze Age	Early Bronze Age	3200	2000
+828	Tell el'Oueili	TO	TO-0	Ubaid period, level 0	Neolithic	6400	4200
+828	Tell el'Oueili	TO	TO-1	Ubaid period, level 1	Neolithic	6400	4200
+828	Tell el'Oueili	TO	TO-2	Ubaid period, level 2	Early Chalcolithic	5100	0
+828	Tell el'Oueili	TO	TO-3	Ubaid period, level 3	Middle Chalcolithic	4500	3800
+828	Tell el'Oueili	TO	TO-4	Ubaid period, level 4	Middle Chalcolithic	4500	3800
+1054	Tell el-'Orēme	OREM	OREM_IA	Iron Age II (10th-8th cent. BC)	Early Iron Age II	918	535
+823	Tell el-Fara'in	TEF	TEF-I	Chalcolithic	Chalcolithic	5200	3000
+823	Tell el-Fara'in	TEF	TEF-II	Chalcolithic	Chalcolithic	5200	3000
+823	Tell el-Fara'in	TEF	TEF-III	Protodynastic period	Protodynastic period	3200	3000
+823	Tell el-Fara'in	TEF	TEF-IV	Protodynastic/Early Dynastic period	Protodynastic period	3200	3000
+1063	Tell el-Fukhar	TFU	TFU_EBA	Early Bronze Age II	Early Bronze Age II	2800	2600
+1063	Tell el-Fukhar	TFU	TFU_LBA	Late Bronze Age IIA	NA	NA	NA
+824	Tell el-Handaquq	TEH	TEH	EB I and II	Early Bronze Age I_II	3000	2600
+825	Tell el-Hayyat	TEHAY	TEHAY_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+825	Tell el-Hayyat	TEHAY	TEHAY_LEBA_IV	late Early Bronze Age IV, 2300-2000	Early Bronze Age IV	2350	2000
+825	Tell el-Hayyat	TEHAY	TEHAY_EMBA_II_A	early Middle Bronze Age IIA, 2000-1800	Middle Bronze Age IIA	1800	1700
+825	Tell el-Hayyat	TEHAY	TEHAY_MBA_II_A	Middle Bronze Age IIA, 2000-1750	Middle Bronze Age IIA	1800	1700
+825	Tell el-Hayyat	TEHAY	TEHAY_MBA_II_A/B	Middle Bronze Age II A/B, 2000-1550	Middle Bronze Age II	1800	1600
+825	Tell el-Hayyat	TEHAY	TEHAY_MBA_II_B/C	Middle Bronze Age II B/C, 1750-1550	Middle Bronze Age II	1800	1600
+825	Tell el-Hayyat	TEHAY	TEHAY_MBA_II_C	Middle Bronze Age IIC, 1600-1550?	Middle Bronze Age II	1800	1600
+825	Tell el-Hayyat	TEHAY	TEHAY_PBA	post Bronze Age	Late Bronze_Iron Age	1500	500
+826	Tell el-Hesi	TELH	TEH_H	Hellenistic period	Hellenistic period	400	0
+827	Tell el-Iswid	TEI	TEI_ED	Early Dynastic	Early Dynastic	3100	2700
+827	Tell el-Iswid	TEI	TEI_PD	Pre-Dynastic	Predynastic period	5500	3200
+1047	Tell el-Mafjer	MAFJ	MAFJ_CH	Chalcolithic	Chalcolithic	5200	3000
+1010	Tell el-Mazar II	TMAZ	TMAZ_III_IA_IIC	Iron Age IIC	Iron Age	1000	500
+1010	Tell el-Mazar II	TMAZ	TMAZ_II_A	Early Hellenistic	Iron Age	1000	500
+830	Tell es-Sa'idiyeh	TESA	TESA	Early Bronze Age	Early Bronze Age	3200	2000
+830	Tell es-Sa'idiyeh	TESA	TESA_Persian	Persian Period	NA	NA	NA
+1037	Tell es-Safi/Gath	SAFI	SAFI_IA_IIA	Iron Age IIA	Early Iron Age IIA	980	840
+1037	Tell es-Safi/Gath	SAFI	SAFI_IA_IIB	Iron Age IIB	NA	NA	NA
+1037	Tell es-Safi/Gath	SAFI	SAFI_LIA_I_EIA_II	Late Iron Age I - Early Iron Age II	Iron Age I_II	1200	535
+1037	Tell es-Safi/Gath	SAFI	SAFI_LBAII	Late Bronze Age II	Late Bronze Age II	1300	1100
+1037	Tell es-Safi/Gath	SAFI	SAFI_LBA_IAII	Late Bronze Age - Iron Age II	Late Bronze_Iron Age	1500	500
+831	Tell es-Sweyhat	SWE	SWE_M	(Miller)	Early Bronze Age	3200	2000
+831	Tell es-Sweyhat	SWE	SWE_Z	(van Zeist)	Early Bronze Age	3200	2000
+831	Tell es-Sweyhat	SWE	SWE_R-B	Roman/Byzantine period, Period I, Area I	Roman_Byzantine period	60	0
+831	Tell es-Sweyhat	SWE	SWE_H	Hellenistic, Sweyhat-Period III, Area II	Hellenistic period	400	0
+831	Tell es-Sweyhat	SWE	SWE_EBA_IV	Early Bronze Age, Sweyhat-Period IV, 2200 - 2000 BC	Early Bronze Age	3200	2000
+831	Tell es-Sweyhat	SWE	SWE_EBA_V-IV	Early Bronze Age, Sweyhat-Period V-IV, 2400 - 2000 BC	Early Bronze Age	3200	2000
+831	Tell es-Sweyhat	SWE	SWE_EBA_V	Early Bronze Age, Sweyhat-Period V, 2400 - 2200 BC	Early Bronze Age	3200	2000
+831	Tell es-Sweyhat	SWE	SWE_EBA_VI-V	Early Bronze Age, Sweyhat-Period VI-V, >2400 - 2200 BC	Early Bronze Age	3200	2000
+831	Tell es-Sweyhat	SWE	SWE_EBA_VI	Early Bronze Age, Sweyhat-Period VI, >2400 BC	Early Bronze Age	3200	2000
+829	Tell Esh-Shuna	TESH	TES_C	Early Chalcolithic	Early Chalcolithic	5100	0
+829	Tell Esh-Shuna	TESH	TES_EB1E	early EB I	early Early Bronze Age I	3100	0
+829	Tell Esh-Shuna	TESH	TES_EB1L	late EB I	late Early Bronze Age I	2200	0
+832	Tell Fadous-Kfarabida	TFA	TFA_UKN	unknown phase	Unknown	1	0
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_II	Early Bronze Age II	Early Bronze Age II	2800	2600
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_III	Early Bronze Age III	Early Bronze Age III	2400	2200
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_III_mi	Early Bronze Age III middle	Early Bronze Age III	2400	2200
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_III_up	Early Bronze Age III upper	Early Bronze Age III	2400	2200
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_III_lo	Early Bronze Age III lower	Early Bronze Age III	2400	2200
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_IV	Early Bronze Age IV	Early Bronze Age IV	2350	2000
+832	Tell Fadous-Kfarabida	TFA	TFA_EBA_V	Early Bronze Age V	Early Bronze Age	3200	2000
+832	Tell Fadous-Kfarabida	TFA	TFA_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+832	Tell Fadous-Kfarabida	TFA	TFA_C_EBA_I	Chalcolithic/Early Bronze Age I	Chalcolithic_EBA	5200	2000
+833	Tell Gerisa	TGER	TGER_LB	Late Bronze Age	Late Bronze Age	1500	1200
+833	Tell Gerisa	TGER	TGER_MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+834	Tell Gezer	TGE	TGE	Early Bronze Age	Early Bronze Age	3200	2000
+835	Tell Ghoraifé	GHOR	GhI	MIDDLE/late PPNB	Prepottery Neolithic B	8700	6500
+835	Tell Ghoraifé	GHOR	GhII	late PPNB	late Prepottery Neolithic B	7500	7000
+836	Tell Guftan	GUF	GUF_M	Hamdanid to Mamluk (1000-1400 AD)	Medieval	1	0
+1067	Tell Hadar	THA	THA_IA	Iron Age I (end of 11th cent.)	Early Iron Age IB	1150	980
+837	Tell Hadidi	HAD	HAD-LB	LBA IB (1550-1400 BC)	Late Bronze Age IB	1550	1400
+837	Tell Hadidi	HAD	HAD-LBA	Bronze Age	Bronze Age	3400	1100
+837	Tell Hadidi	HAD	HAD-BA_Rom	Bronze Age until Roman Period	Bronze Age to Roman	3400	0
+837	Tell Hadidi	HAD	HAD-Arab	Arabian Period	Arab period	1	0
+837	Tell Hadidi	HAD	HAD-unstrat	unstratified	Unknown	1	0
+837	Tell Hadidi	HAD	HAD-LBC	LBA IB (1550-1400 BC) charcoal	Late Bronze Age IB	1550	1400
+837	Tell Hadidi	HAD	HAD-MB	MBA (2000-1550 BC)	Middle Bronze Age	1800	1600
+837	Tell Hadidi	HAD	HAD-MBC	MBA (2000-1550 BC) charcoal	Middle Bronze Age	1800	1600
+837	Tell Hadidi	HAD	HAD-R	60 BC - 400 AD	Roman period	60	0
+838	Tell Halaf	THAL	THAL_IA	Iron Age (1100-330 BC)	Iron Age	1000	500
+839	Tell Halif	THF	THF_A	(modern)	Arab period	1	0
+839	Tell Halif	THF	THF_EB_IA	Early Bronze Age IA (3600 - 3400 BCE)	Early Bronze Age IA	3200	0
+839	Tell Halif	THF	THF_eEB_IB	early Early Bronze Age IB (3400 - 3200 BCE)	Early Bronze Age IB	3200	3000
+839	Tell Halif	THF	THF_lEB_IB	late Early Bronze Age IB	Early Bronze Age IB	3200	3000
+839	Tell Halif	THF	THF_C	Chalcolithic	Chalcolithic	5200	3000
+839	Tell Halif	THF	THF_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+839	Tell Halif	THF	THF_IA	Iron Age	Iron Age	1000	500
+839	Tell Halif	THF	THF_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+839	Tell Halif	THF	THF_P	Persian period	Persian period	600	400
+839	Tell Halif	THF	THF_R	Roman/Byzantine period	Roman_Byzantine period	60	0
+840	Tell Hammam et-Turkman	THT	HET_C	Late Chalcolithic	Late Chalcolithic	4800	3800
+840	Tell Hammam et-Turkman	THT	HET_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+840	Tell Hammam et-Turkman	THT	HET_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+841	Tell Hesban	THES	TH_B	Byzantine period	Byzantine	1	0
+841	Tell Hesban	THES	TH_AM	Ayyubid-Mamluk	Ayyubid	1	0
+841	Tell Hesban	THES	TH_HR	Hellenistic-Roman	Hellenistic_Roman period	400	0
+841	Tell Hesban	THES	TH_unstrat	NA	Unknown	1	0
+841	Tell Hesban	THES	TH_H	Hellenistic period	Hellenistic period	400	0
+841	Tell Hesban	THES	TH_I	Islamic period	Islamic period	1	0
+841	Tell Hesban	THES	TH_IA	Iron Age	Iron Age	1000	500
+841	Tell Hesban	THES	TH_R	Roman period	Roman period	60	0
+842	Tell Hrim	HRIM	HRIM_M	Ayyubid (1180-1250 AD)	Ayyubid	1	0
+843	Tell Hwes	HWES	HWES	Late Bronze Age	Late Bronze Age	1500	1200
+844	Tell Ibrahim Awad	TIA	TIA-B	first dynasty burial (2950 BC)	early Early Bronze Age	3100	2900
+844	Tell Ibrahim Awad	TIA	TIA-ED	Early Dynastic	Early Dynastic	3100	2700
+844	Tell Ibrahim Awad	TIA	TIA-PD	Predynastic	Predynastic period	5500	3200
+845	Tell Ilbol	TI	TI	Chalcolithic	Chalcolithic	5200	3000
+846	Tell Jerablus Tahtani	TJT	TJT_EB_III_IV	EB III-IV	Early Bronze Age III_IV	2400	2000
+846	Tell Jerablus Tahtani	TJT	TJT_LC	local Late Chalcolithic	Late Chalcolithic	4800	3800
+846	Tell Jerablus Tahtani	TJT	TJT_Uruk	Uruk	Middle Uruk	1	0
+846	Tell Jerablus Tahtani	TJT	TJT_EBA_early	Early Bronze Age earlier	Early Bronze Age	3200	2000
+846	Tell Jerablus Tahtani	TJT	TJT_EBA_Late	Early Bonze Age later	Early Bronze Age	3200	2000
+847	Tell Karrana	TKA	TKA	Late Uruk/Early Ninevite 5	Chalcolithic_EBA	5200	2000
+848	Tell Keisan	TKEI	TKEI	Iron Age	Iron Age	1000	500
+849	Tell Kerma	TKE	TKE	NA	Early Bronze Age	3200	2000
+851	Tell Kurdu	TKU	TKU	NA	Early Chalcolithic	5100	0
+852	Tell Leilan	LEIL	LEIL_Akk	Akkadian	Akkadian dynasty	2300	2200
+1064	Tell Miqne	TMQ	TMQ_LBA	Late Bronze Age IIB	Late Bronze Age IIB	1300	1100
+855	Tell Mishrifeh	TEMI	TEMI_5	Iron Age	Iron Age	1000	500
+855	Tell Mishrifeh	TEMI	TEMI_6	Iron Age	Iron Age	1000	500
+855	Tell Mishrifeh	TEMI	TEMI_7	Late Bronze Age	Late Bronze Age	1500	1200
+855	Tell Mishrifeh	TEMI	TEMI_9	Early Bronze Age/Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+855	Tell Mishrifeh	TEMI	TEMI_10	Middle Bronze Age	Middle Bronze Age	1800	1600
+855	Tell Mishrifeh	TEMI	TEMI_11	Early Bronze Age	Early Bronze Age	3200	2000
+855	Tell Mishrifeh	TEMI	TEMI_13	Early Bronze Age	Early Bronze Age III	2400	2200
+856	Tell Mozan	TM	TM_AGI	Middle Bronze Age (2000-1850 BC)	Late Gazira I	2000	1850
+856	Tell Mozan	TM	TM_AGI_II	Middle Bronze Age (1850-1700 BC)	Late Gazira I-II	1850	1700
+856	Tell Mozan	TM	TM_FGIIIA	Early Bronze Age (2550-2350 BC)	Early Gazira IIIa	2550	2350
+856	Tell Mozan	TM	TM_FGIIIB	Early Bronze Age (2350-2250 BC)	Early Gazira IIIb	2350	2250
+856	Tell Mozan	TM	TM_FGIV	Early Bronze Age (2250-2100 BC)	Early Gazira IV	2250	2100
+856	Tell Mozan	TM	TM_FGIV_V	Early Bronze Age (2250-2000 BC)	late Early Bronze Age	2200	2000
+856	Tell Mozan	TM	TM_FGV	Early Bronze Age (2100-2000 BC)	late Early Bronze Age	2200	2000
+856	Tell Mozan	TM	TM_med_mod	Medieval until Modern Period	Unknown	1	0
+856	Tell Mozan	TM	TM_AG_med	Bronze Age until Medieval	Unknown	1	0
+856	Tell Mozan	TM	TM_AG_unspe	Bronze Age not specified	Bronze Age	3400	1100
+856	Tell Mozan	TM	TM_AGI_II_III	Middle Bronze Age	Late Gazira I-II	1850	1700
+856	Tell Mozan	TM	TM_AGI-FGV	Early Bronze Age until Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+856	Tell Mozan	TM	TM_AGI-FGIV	Early Bronze Age until Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+856	Tell Mozan	TM	TM_AGI-FGIII	Early Bronze Age until Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+856	Tell Mozan	TM	TM_FGII	Early Bronze Age	Early Gazira II	2800	2600
+856	Tell Mozan	TM	TM_unstrat	unstratified	Unknown	1	0
+856	Tell Mozan	TM	TM_FGIIIB_FGIV	NA	Early Gazira	2550	2100
+858	Tell Munbāqa	TMUN	TMUN	Late Bronze Age	Late Bronze Age	1500	1200
+858	Tell Munbāqa	TMUN	TMUN_EBA_IV	Early Bronze Age IV (2200-1900 v. Chr.) 'Kuppe'	Early Bronze Age IV	2350	2000
+859	Tell Mureybit	MUREY	MuI	LATE  EPIPALAEOLITHIC/Khiamian/PPNA	Epipalaeolithic_PPN	12500	10000
+859	Tell Mureybit	MUREY	MuII	Late Epipalaeolithic/KHIAMIAN/PPNA	Epipalaeolithic_PPN	12500	10000
+859	Tell Mureybit	MUREY	MuIII	PPNA	Prepottery Neolithic A	9800	8800
+859	Tell Mureybit	MUREY	MuIV	EARLY/middle PPNB	Prepottery Neolithic B	8700	6500
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_EBA_III	Early Bronze Age III	Early Bronze Age III	2400	2200
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_EBA_IV	Early Bronze Age IV	Early Bronze Age IV	2350	2000
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_MBA_I	Middle Bronze Age I	Middle Bronze Age I	2000	1800
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_MBA_III	Middle Bronze Age III	Middle Bronze Age III	1600	1650
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_LB_I	Late Bronze Age I	Late Bronze Age I	1600	1400
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_LB_II	Late Bronze Age II	Late Bronze Age II	1300	1100
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_LBA/EIA	Late Bronze Age/Early Iron Age	Late Bronze_Iron Age	1500	500
+860	Tell Nebi Mend (Kadesh)	TNM	TNM_IA	Iron Age	Iron Age	1000	500
+861	Tell Qara Quzaq	TQQ	TQQ_II	MB	Middle Bronze Age	1800	1600
+861	Tell Qara Quzaq	TQQ	TQQ_III	EB III (c. 2200 BC)	Early Bronze Age III	2400	2200
+861	Tell Qara Quzaq	TQQ	TQQ_IV	transition EB IV/III	Early Bronze Age III_IV	2400	2000
+862	Tell Qaramel	TQA	TQA	Bronze Age	Bronze Age	3400	1100
+863	Tell Qarqur	TQR	TQR_EB_IV	Early Bronze Age IV	Early Bronze Age IV	2350	2000
+863	Tell Qarqur	TQR	TQR_IA_I	Iron Age I	Early Iron Age I	1200	918
+863	Tell Qarqur	TQR	TQR_IA_I_II	Iron Age I/II	Iron Age I_II	1200	535
+863	Tell Qarqur	TQR	TQR_IA_II	Iron Age II	Early Iron Age II	918	535
+863	Tell Qarqur	TQR	TQR_H	Hellenistic period	Hellenistic period	400	0
+863	Tell Qarqur	TQR	TQR_B	Byzantine period	Byzantine	1	0
+864	Tell Qashish	TQASH	TQASH	Early Bronze Age	Early Bronze Age	3200	2000
+865	Tell Qasile	TQAS	TQAS	Iron Age	Iron Age	1000	500
+866	Tell Qiri	TQI	TQI	NA	Late Bronze_Iron Age	1500	500
+867	Tell Qurtass	TQ	TQ	Ur III	Ur III	2100	1940
+868	Tell Ramad	RAM	RaI	late PPNB	late Prepottery Neolithic B	7500	7000
+868	Tell Ramad	RAM	RaII	final PPNB	late Prepottery Neolithic B	7500	7000
+869	Tell Ras Shamra	SHAM	RsVa	PN	Pottery Neolithic	5400	0
+869	Tell Ras Shamra	SHAM	RsVb	PN	Pottery Neolithic	5400	0
+869	Tell Ras Shamra	SHAM	RsVc	late PPNB	late Prepottery Neolithic B	7500	7000
+1002	Tell Rehov	TERE	TERE_VII-IV	Iron Age IB to IIA	Iron Age I_II	1200	535
+870	Tell Sabi Abyad	TSABA	TSA-7_11	pre-Halaf (ca. 5700-5200 bc)	Pottery Neolithic	5400	0
+870	Tell Sabi Abyad	TSABA	TSA-4_6	transitional (5200-5100 bc)	Late Neolithic	1	5200
+870	Tell Sabi Abyad	TSABA	TSA-1_3	early Halaf (5150-5000 BC)	Early Chalcolithic	5100	0
+1009	Tell Sabi Abyad II	SAII	TSA-PPNB	PPNB / Balikh IC-ID Period (7550 - 6850 BC) Sabi Abyad II	Prepottery Neolithic B	8700	6500
+871	Tell Schech Hamad	TSH	TSH-LA_NE	Neo Assyrian period, north-eastern corner	Neo-Assyrian period	900	700
+871	Tell Schech Hamad	TSH	TSH-LA_R	Neo Assyrian period, residences	Neo-Assyrian period	900	700
+871	Tell Schech Hamad	TSH	TSH-LA	Late Assyrian period (900-700 BC)	Neo-Assyrian period	900	700
+871	Tell Schech Hamad	TSH	TSH-LA_C	Late Assyrian period (900-700 BC), charcoal	Neo-Assyrian period	900	700
+871	Tell Schech Hamad	TSH	TSH-MA	Middle Assyrian period (1275-1075 BC)	Middle Assyrian	1392	934
+871	Tell Schech Hamad	TSH	TSH-MA_C	Middle Assyrian period (1275-1075 BC), charcoal	Middle Assyrian	1392	934
+872	Tell Selenkahiye	SLK	SLK-CTA	EB IV (central town area)	Early Bronze Age IV	2350	2000
+872	Tell Selenkahiye	SLK	SLK-NH	EB IV (northwestern houses)	Early Bronze Age IV	2350	2000
+872	Tell Selenkahiye	SLK	SLK-STA	EB IV (southwestern town area)	Early Bronze Age IV	2350	2000
+872	Tell Selenkahiye	SLK	SLK-TWR	EB IV (refuse near the town wall)	Early Bronze Age IV	2350	2000
+872	Tell Selenkahiye	SLK	SLK-WOOD	EB IV	Early Bronze Age IV	2350	2000
+873	Tell Sera	TSE	TSE	Late Bronze Age	Late Bronze Age	1500	1200
+874	Tell Shiukh Fawqani	TSF	TSF_BA1	Early Bronze Age I	Early Bronze Age I	3000	2800
+874	Tell Shiukh Fawqani	TSF	TSF_BA1W	Early Bronze Age I wood	Early Bronze Age I	3000	2800
+874	Tell Shiukh Fawqani	TSF	TSF_BA2W	Late Bronze Age wood	Late Bronze Age	1500	1200
+874	Tell Shiukh Fawqani	TSF	TSF_BA4W	Early Bronze Age IV wood	Early Bronze Age IV	2350	2000
+874	Tell Shiukh Fawqani	TSF	TSF_CW	Chalcolithic (late) wood	Late Chalcolithic	4800	3800
+874	Tell Shiukh Fawqani	TSF	TSF_IA1W	Iron Age I wood	Early Iron Age I	1200	918
+874	Tell Shiukh Fawqani	TSF	TSF_IA2W	Iron Age II wood	Early Iron Age II	918	535
+874	Tell Shiukh Fawqani	TSF	TSF_ISW	Islamic period wood	Islamic period	1	0
+874	Tell Shiukh Fawqani	TSF	TSF_RW	Roman period wood	Roman period	60	0
+874	Tell Shiukh Fawqani	TSF	TSF_BA2	Late Bronze Age	Late Bronze Age	1500	1200
+874	Tell Shiukh Fawqani	TSF	TSF_BA4	Early Bronze Age IV	Early Bronze Age IV	2350	2000
+874	Tell Shiukh Fawqani	TSF	TSF_IA1	Iron Age I	Early Iron Age I	1200	918
+874	Tell Shiukh Fawqani	TSF	TSF_IA2	Iron Age II	Early Iron Age II	918	535
+874	Tell Shiukh Fawqani	TSF	TSF_IA2_3	Iron Age II/III	Iron Age II_III	918	535
+874	Tell Shiukh Fawqani	TSF	TSF_IS	Islamic period	Islamic period	1	0
+874	Tell Shiukh Fawqani	TSF	TSF_R	Roman period	Roman period	60	0
+876	Tell Taannach	TTAA	TT_EB	Early Bronze Age	Early Bronze Age	3200	2000
+876	Tell Taannach	TTAA	TT_LB	Late Bronze Age	Late Bronze Age	1500	1200
+876	Tell Taannach	TTAA	TT_MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+878	Tell Taya	TT	TT-A	Akkadian dynasty	Akkadian dynasty	2300	2200
+878	Tell Taya	TT	TT-D	Early Dynastic period	Early Dynastic	3100	2700
+1003	Tell Tuneinir	TETU	TETU_IP	Islamic period (Areas II, IV, VI, VII and VIII)	Islamic period	1	0
+880	Tell Yoqneam	TYOG	TY_LB	Late Bronze Age	Late Bronze Age	1500	1200
+880	Tell Yoqneam	TYOG	TY_XVII	Iron Age I, 1200-1000 BCE	Early Iron Age I	1200	918
+880	Tell Yoqneam	TYOG	TY_XVII_A	Iron Age I, 1200-1000 BCE	Early Iron Age I	1200	918
+880	Tell Yoqneam	TYOG	TY_MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+880	Tell Yoqneam	TYOG	TY_XV	Iron Age IIA, 1000-900 BCE	Early Iron Age IIA	980	840
+880	Tell Yoqneam	TYOG	TY_XIV	Iron Age IIA, 1000-900 BCE	Early Iron Age IIA	980	840
+881	Tell Zagan	ZAG	ZAG_EB	Early Bronze Age (Early Dynastic I and II)	Early Dynastic	3100	2700
+884	Tepe Abdul Hosein	ABDU	TAH	middle PPNB	middle PPNB	8400	7500
+885	Tepe Farukhabad	TF	TF-B	Bayat phase (4700-4500 BC)	Middle Chalcolithic	4500	3800
+885	Tepe Farukhabad	TF	TF-E	Elamite phase (2350-1300 BC)	MB/LB Middle Elamite	2350	1300
+885	Tepe Farukhabad	TF	TF-ED	Early Dynastic (2900-2350 BC; 2190-2290 BC)	Early Dynastic	3100	2700
+885	Tepe Farukhabad	TF	TF-EJN	Early Jemdet Nasr phase (3100 BC)	Early Jemdet Nasr phase	3100	0
+885	Tepe Farukhabad	TF	TF-F	Farukh phase (4500-4200; 4600 BC)	Middle Chalcolithic	4500	3800
+885	Tepe Farukhabad	TF	TF-LJN	Late Jemedt Nasr phase (- 2900 BC; 2600 BC)	Late Jemdet Nasr phase	2900	0
+885	Tepe Farukhabad	TF	TF-LU	Late Uruk phase (-3100 BC)	late Uruk	3500	3100
+885	Tepe Farukhabad	TF	TF-MU	Middle Uruk phase (3210-3310 BC)	Middle Uruk	1	0
+886	Tepe Hasanlu	TEPHA	TH-VIII	Pisdeli Tepe	Late Chalcolithic	4800	3800
+886	Tepe Hasanlu	TEPHA	TH-X_VIII	Hajji Firuz Tepe	Neolithic_Chalcolithic	6400	3000
+887	Tepe Hissar	TEPHI	TH-EIII	early Hissar III (2500 BC)	Old Elamite	2500	0
+887	Tepe Hissar	TEPHI	TH-II	Hissar II (3600-2800 BC)	Early Bronze Age	3200	2000
+887	Tepe Hissar	TEPHI	TH-LIII	late Hissar III (1900 BC)	Middle Bronze Age	1800	1600
+888	Tepe Musiyan	TMU	TMU	NA	Neolithic	6400	4200
+889	Tepe Sabz	TS	TS	Sabz and Khazineh phase	Early Chalcolithic	5100	0
+999	Tepe Sialk	SIALK	SIALK_N/IA	Neolithic to Iron Age	Unknown	1	0
+999	Tepe Sialk	SIALK	SIALK_NC	Neolithic Chalcolithic	Neolithic	6400	4200
+999	Tepe Sialk	SIALK	SIALK_IA_II	Early Iron Age II	Early Iron Age II	918	535
+890	Tepe Yahya	TY	TY-II	300-500 BC	Achaemenid	400	300
+890	Tepe Yahya	TY	TY-III	500-1000 BC	Iron Age	1000	500
+890	Tepe Yahya	TY	TY-IVA	Elamite (2500 -2200 BC)	Elamite (Kaftari)	2400	1800
+890	Tepe Yahya	TY	TY-IVBC	Proto-Elamite (3400-2500 BC)	Proto-Elamite	3400	2500
+890	Tepe Yahya	TY	TY-V	"""Yahya Culture"" 3400-3800 BC"	Late Chalcolithic	4800	3800
+890	Tepe Yahya	TY	TY-VI	"Coarse Ware ""Neolithic"" (3800-4500 BC)"	Late Chalcolithic	4800	3800
+890	Tepe Yahya	TY	TY-VII	Late Neolithic	Late Neolithic	1	5200
+891	Tepecik	TEP	TEP-CH	4000 BC	Middle Chalcolithic	4500	3800
+891	Tepecik	TEP	TEP-EB	Early Bronze Age	Early Bronze Age	3200	2000
+891	Tepecik	TEP	TEP-EB_MB	Early/Middle Bronze Age	Early_Middle Bronze Age	3200	1600
+891	Tepecik	TEP	TEP-LB	Late Bronze Age	Late Bronze Age	1500	1200
+891	Tepecik	TEP	TEP-MB	Middle Bronze Age	Middle Bronze Age	1800	1600
+891	Tepecik	TEP	TEP-MB_LB	Middle/Late Bronze Age	Middle_Late Bronze Age	1800	1200
+893	Thebes	THE	THE	Late Bronze Age	Late Bronze Age	1500	1200
+894	Therasia	THER	THER	Late Bronze Age	Late Bronze Age	1500	1200
+897	Tilbeshar	TB	TB_C	Chalcolithic	Chalcolithic	5200	3000
+897	Tilbeshar	TB	TB_CW	Chalcolithic wood	Chalcolithic	5200	3000
+897	Tilbeshar	TB	TB_EBA_IIIW	Early Bronze Age III wood	Early Bronze Age III	2400	2200
+897	Tilbeshar	TB	TB_EBA_IVW	Early Bronze Age IV wood	Early Bronze Age IV	2350	2000
+897	Tilbeshar	TB	TB_EBA_IW	Early Bronze Age I wood	Early Bronze Age I	3000	2800
+897	Tilbeshar	TB	TB_MBA	Middle Bronze Age (2000-1600 BC)	Middle Bronze Age	1800	1600
+897	Tilbeshar	TB	TB_MBA_IW	Middle Bronze Age I wood	Middle Bronze Age I	2000	1800
+897	Tilbeshar	TB	TB_MEDW	Medieval wood	Medieval	1	0
+897	Tilbeshar	TB	TB_LC-EB	Late Chalcolithic / Early Bronze Age transition (3300-2900 BC)	Chalcolithic_EBA	5200	2000
+897	Tilbeshar	TB	TB_EBA	Early Bronze Age (2900-2100 BC)	Early Bronze Age	3200	2000
+897	Tilbeshar	TB	TB_EBA-MBA	Early Bronze Age / Middle Bronze Age transition (2100-2000 BC)	Early_Middle Bronze Age	3200	1600
+897	Tilbeshar	TB	TB_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+1018	Timnah (Tel Batash) III	TIM	TIM_VII	Late Bronze Age IIA, 14th century BCE	NA	NA	NA
+1018	Timnah (Tel Batash) III	TIM	TIM_VIII	Late Bronze Age IB/IIA, 15th century BCE	Late Bronze Age I to II	1600	1300
+1018	Timnah (Tel Batash) III	TIM	TIM_VIB	Late Bronze Age IIB, 13th century BCE	Late Bronze Age IIB	1300	1100
+1018	Timnah (Tel Batash) III	TIM	TIM_X	Late Bronze IA, 15th century BCE	Late Bronze Age IA (15th century BCE)	1600	1550
+1018	Timnah (Tel Batash) III	TIM	TIM_I	Persian Period, 5th-4th century BCE	Persian period	600	400
+1018	Timnah (Tel Batash) III	TIM	TIM_II	Iron Age II, 7th century BCE	Early Iron Age II	918	535
+1018	Timnah (Tel Batash) III	TIM	TIM_II_III	Iron Age II, 8th-7th century BCE	Early Iron Age II	918	535
+1018	Timnah (Tel Batash) III	TIM	TIM_III	Iron Age II, 8th century BCE	Early Iron Age II	918	535
+1018	Timnah (Tel Batash) III	TIM	TIM_IV	Iron Age II, 10th century BCE	Early Iron Age II	918	535
+1018	Timnah (Tel Batash) III	TIM	TIM_IVB	Iron Age II, 10th century BCE	Early Iron Age II	918	535
+1018	Timnah (Tel Batash) III	TIM	TIM_V	Iron Age I, Late 12th-11th century BCE	Early Iron Age I	1200	918
+1018	Timnah (Tel Batash) III	TIM	TIM_XI	Middle Bronze Age IIB, late 17th-mid16th century BCE	Middle Bronze Age IIB	1700	1600
+898	Tiryns	TIR	T-EH	Early Helladic II	Early Helladic II	2500	2300
+898	Tiryns	TIR	T-LHIIIB	Late Helladic IIIB	Late Helladic IIIB	1320	0
+898	Tiryns	TIR	T-LHIIIC	Late Helladic IIIC	Late Helladic III C	1200	0
+899	Titris Höyük	TH	TH	Early Bronze Age	Early Bronze Age	3200	2000
+905	Toumba Balomenou	TOB	TOB-EN	?early Neolithic	early Neolithic	6400	0
+905	Toumba Balomenou	TOB	TOB-MN	?middle Neolithic	middle Neolithic	1	0
+905	Toumba Balomenou	TOB	TOB-LN	Late Neolithic	Late Neolithic	1	5200
+911	Troia	TRO	TRO_unstrat	unstratified material, komplex B	Unknown	1	0
+911	Troia	TRO	TRO_I	Troia I,	Early Bronze Age	3200	2000
+911	Troia	TRO	TRO_II	"Troia II, ""Maritime Troja Culture"" (2600-2480 BC)"	Early Bronze Age	3200	2000
+911	Troia	TRO	TRO_IIAM	Megaron IIA	Early Bronze Age	3200	2000
+911	Troia	TRO	TRO_III	Troia III	Early Bronze Age III	2400	2200
+911	Troia	TRO	TRO_IV-V	"Troia IV-V, ""Anatolian Troia Culture"" (2000-1750 BC)"	Middle Bronze Age	1800	1600
+911	Troia	TRO	TRO_VI	"Troia VI, ""Trojan High Culture"", Troy a-f (1700-1400 BC)"	Middle Bronze Age	1800	1600
+911	Troia	TRO	TRO_VI_L	"""Trojan High Culture"", Troia VI late (g and h)"	Late Bronze Age	1500	1200
+911	Troia	TRO	TRO_VIIA	"Troia VIIa, ""Trojan High Culture"" (1250-1180 BC)"	Late Bronze Age	1500	1200
+911	Troia	TRO	TRO_VI_VII	NA	Late Bronze Age	1500	1200
+911	Troia	TRO	TRO_VIIB	Troia VIIb, 1180-1000 BC	Iron Age	1000	500
+911	Troia	TRO	TRO_VIIB2	"Troia VIIb2, ""Trojan Culture with Balkan influences"" (1150-1000 BC)"	Iron Age	1000	500
+911	Troia	TRO	TRO_VIIIA	Archaic period	Archaic period	700	400
+911	Troia	TRO	TRO_VIIIC	Classical period	Classical period	500	323
+911	Troia	TRO	TRO_VIIIH	Hellenistic period	Archaic period	700	400
+912	Tsani	TSA	TSA	Middle Bronze Age	Middle Bronze Age	1800	1600
+913	Tuleilat Ghassul	TG	TG	Chalcolithic	Chalcolithic	5200	3000
+1053	Türbe Höyük	TURB	TURB_LBA	Late Bronze Age	Late Bronze Age	1500	1200
+1053	Türbe Höyük	TURB	TURB_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_LA	Late Assyrian period (882 - 611 BC), Bronze Palace	Late Iron Age	800	600
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_MIT	Mitanni	Mittani	1500	1300
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_MA	Middle Assyrian	Middle Assyrian	1392	934
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_EIA	Early Iron Age	Early Iron Age	1200	900
+1008	Tušhan (Ziyaret Tepe)	TUSH	TUSH_LA-OE	Late Assyrian	Late Iron Age	800	600
+917	Tutankhamun tomb	TUT	TUT-G	NA	Late Bronze Age	1500	1200
+919	Tzafit	TZ	TZ	Iron Age/Roman	Iron Age	1000	0
+920	Udhruh	UDH	UDH	Iron Age to Roman period	Iron Age	1000	0
+921	Ulu Burun	U	U	Late Bronze Age	Late Bronze Age	1500	1200
+10	Ulucak	AQ	AQ	238 BC- AD 224	Parthian	238	0
+987	Ulucak	ULUC	ULUC_VI	Aceramic Neolithic 7040-6470 cal. BC (architectural phases VIa-b)	Aceramic Neolithic	8700	5400
+987	Ulucak	ULUC	ULUC_Ve	Neolithic 6660-6030 cal. BC (architectural phases Vd-f)	Neolithic	6400	4200
+987	Ulucak	ULUC	ULUC_VL	Neolithic 6590-5885 cal. BC (architectural phases Va-c)	Neolithic	6400	4200
+987	Ulucak	ULUC	ULUC_IV	Neolithic 6030-5660 cal. BC  (architectural phases IVa-k)	Neolithic	6400	4200
+987	Ulucak	ULUC	ULUC_CH	Early Copper Period (phase III)	Early Chalcolithic	5100	0
+987	Ulucak	ULUC	ULUC_EBII	Early Bronze Age II (phase II)	Early Bronze Age II	2800	2600
+923	Umbashi	UMB	UMB_EBA	Early Bronze Age	Early Bronze Age	3200	2000
+923	Umbashi	UMB	UMB_MBA	Middle Bronze Age	Middle Bronze Age	1800	1600
+925	Umm el-Marra	UEM	UEM_II	1600-1200 BC	Late Bronze Age	1500	1200
+925	Umm el-Marra	UEM	UEM_IIIA-C	MB II; 1800-1600 BC	Middle Bronze Age II	1800	1600
+925	Umm el-Marra	UEM	UEM_IIID	MB I; 2000-1800 BC	Middle Bronze Age I	2000	1800
+925	Umm el-Marra	UEM	UEM_V-IV	2500-2000 BC	Early Bronze Age	3200	2000
+926	Umm el-Qaab	UEQ	UEQ	Predynastic period	Predynastic period	5500	3200
+927	Umm Qseir	UQ	UQ	late Halaf	Early Chalcolithic	5100	0
+930	unknown1	ARTI_G77_1	ARTI_G77_1A	modern	NA	NA	NA
+936	Ur	UR	UR	Early Bronze Age	Early Bronze Age	3200	2000
+941	Vrsnik	VRS	Vk	early Neolithic	early Neolithic	6400	0
+946	Wadi Fidan	WF	WFA	late PPNB	late Prepottery Neolithic B	7500	7000
+946	Wadi Fidan	WF	WFC	final PPNB	final PPNB	7000	6500
+946	Wadi Fidan	WF	WF-E	Chalcolithic / Early Bronze Age	Chalcolithic_EBA	5200	2000
+948	Wadi Hammeh 27	WHAM	WH27	late Epipalaeolithic	late Epipalaeolithic	11200	9600
+949	Wadi Jilat 7	WJ	WJ7I	early PPNB	early Prepottery Neolithic B	8800	8400
+949	Wadi Jilat 7	WJ	WJ7II	MIDDLE/late PPNB	Prepottery Neolithic B	8700	6500
+949	Wadi Jilat 7	WJ	WJ-LN	early Late Neolithic (Wadi Jilat 13)	Late Neolithic	1	5200
+1025	Yarikkaya	YARI	YARI_LC_EBI	Early Bronze Age	Early Bronze Age	3200	2000
+959	Yarim Höyük	YAHO	YAHÖ_KV_U	Kurban V / Uruk	Late Chalcolithic Uruk	4000	0
+959	Yarim Höyük	YAHO	YAHÖ_U	late Uruk	late Uruk	3500	3100
+960	Yarim Tepe I	YATE	YTI	PN	Pottery Neolithic	5400	0
+961	Yassi Ada	YA	YA_B	Byzantine period	Byzantine	1	0
+964	Yenibademli Höyük	YEN	YEN_EBA_II	Early Bronze Age II (2900-2700 BC)	Early Bronze Age II	2800	2600
+967	Yiftah'el	YIF	Y	middle PPNB	middle PPNB	8400	7500
+1034	Yoncatepe (Van)	YON	YON_IA	Iron Age 1st millennium BC	Iron Age	1000	0
+1065	Zahrat adh-Dhra 1	ZAD	ZAD_MBA	Middle Bronze Age II A und II B	Middle Bronze Age II	1800	1600

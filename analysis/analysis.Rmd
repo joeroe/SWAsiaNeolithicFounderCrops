@@ -1,0 +1,176 @@
+---
+title: '"Founder Crops" in the Neolithic of Southwest Asia'
+author: "Joe Roe"
+date: `r Sys.Date()`
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library("SWAsiaNeolithicFounderCrops")
+library("swapdata")
+library("sf")
+library("here")
+library("gt")
+```
+
+## Data
+
+### Study region and period
+
+```{r regions, include=FALSE}
+sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
+```
+
+```{r periods, include=FALSE}
+periods <- tribble(
+  ~period,          ~agriculture,                    ~start_bp, ~end_bp,
+  "Epipal.",        "Foraging",                      25000,     11700,
+  "PPNA",           "Pre-domestication cultivation", 11700,     10700,
+  "EPPNB",          "Domestication",                 10700,     10200,
+  "MPPNB",          "Domestication",                 10200,     9500,
+  "LPPNB",          "Agriculture",                   9500,      8500,
+  "Late Neo.",      "Agriculture",                   8500,      6500,
+  "Later",          "Agriculture",                   6500,      0
+)
+```
+
+```{r periods-table, echo=FALSE}
+periods %>% 
+  gt() %>% 
+  cols_label(period = "Period", agriculture = "Agricultural stage",
+             start_bp = "Start (yrs cal BP)", end_bp = "End (yrs cal BP")
+```
+
+### Archaeobotanical data
+
+We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018, @Fuller2018], and ADEMNES [@Riehl2005].
+
+Notes on collation:
+
+* Standardised site names
+* Calculated sample-level proportions for DBs missing it (COMPAG & ADEMNES)
+* When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES)
+
+Notes of caution on mixing different quantification/sampling schemes?
+
+We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–6,500 BP) of interest,
+with a buffer of ±1,000 years to reduce "edge effects" in our time series analyses.
+
+```{r data-flora, include=FALSE}
+flora <- collate_flora(
+  origins_path = here("analysis/data/raw_data/origins/"),
+  ademnes_path = here("analysis/data/raw_data/ademnes"),
+  compag_path = here("analysis/data/raw_data/compag2018"),
+  region = sw_asia,
+  start_bp = max(periods$start_bp[2:(nrow(periods)-1)]) + 1000,
+  end_bp = min(periods$end_bp[2:(nrow(periods)-1)]) - 1000
+)
+
+# TODO: check if affected by duplicate sample names between sites
+n_samples <- length(unique(flora$sample))
+n_sites <- length(unique(flora$site_name))
+```
+
+The resulting collated dataset (included as supplement?) includes `n_samples` discrete samples from `n_sites` sites.
+
+### Chronology
+
+All three databases include rough calibrated date ranges for each sample, so we will use that for now.
+We might look into using actual radiocarbon dates and incorporating the associated uncertainty into the analysis.
+
+```{r sample-periods}
+flora <- mutate(
+  flora,
+  age_mid = age_end + ((age_start - age_end) / 2),
+  period = cut(-age_mid, 
+               breaks = -c(periods$start_bp, last(periods$end_bp)), 
+               labels = periods$period,
+               ordered_result = TRUE)
+)
+```
+
+```{r sample-periods-table}
+flora %>% 
+  distinct(period, site_name, sample) %>% 
+  add_count(period, name ="n_samples") %>% 
+  distinct(period, site_name, n_samples) %>% 
+  add_count(period, name = "n_sites") %>% 
+  distinct(period, n_samples, n_sites) %>% 
+  select(period, n_sites, n_samples) %>% 
+  arrange(period) %>%
+  gt() %>% 
+  cols_label(period = "Period", n_sites = "Sites", n_samples = "Samples") 
+```
+
+### Classification of taxa
+
+Our dataset contains records on `r nrow(distinct(flora, taxon))` distinct taxa.
+To simplify this, we will classify these as either a "founder crop" (*Triticum dicoccum*, *Triticum monococcum*, *Hordeum vulgare*, *Lens culinaris*, *Pisum sativum*, *Cicer arietinum*, *Vicia ervilia*, *Linum usitatissimum*), another cultivated or "crop progenitor" taxon, or a wild plant. 
+The latter two categories are taken directly from the ORIGINS database.
+
+```{r taxa-classification, include=FALSE}
+founder_taxa <- c("Triticum dicoccum",
+                  "Triticum monococcum",
+                  "Triticum dicoccum/monococcum",
+                  "Triticum boeoticum/diccocoides/monococcum/dicoccum",
+                  "Triticum dicoccoides/dicoccum",
+                  "Triticum monococcum/boeoticum",
+                  "Hordeum vulgare",
+                  "Hordeum vulgare/spontaneum",
+                  "Hordeum vulgare distichum",
+                  "Hordeum vulgare hexastichum",
+                  "Hordeum vulgare var. coeleste",
+                  "Hordeum vulgare var. nudum",
+                  "Hordeum vulgare var. nudum/spontaneum",
+                  "Lens culinaris",
+                  "Lens orientalis/culinaris",
+                  "Pisum sativum",
+                  "Cicer arietinum",
+                  "Cicer arietinum reticulatum/arietinum",
+                  "Vicia ervilia",
+                  "Linum usitatissimum",
+                  "Linum bienne/usitatissimum")
+
+archaeobot %>% 
+  mutate(crop = recode(domesticated,
+                       Wild = "Wild",
+                       `Progenitor/Wild` = "Wild",
+                       `Crop Progenitor` = "Other crop",
+                       `Crop progenitor` = "Other crop",
+                       `Domesticate/Crop progenitor` = "Other crop",
+                       `Crop Domesticate/Progenitor` = "Other crop",
+                       `Likely crop/progenitor` = "Other crop",
+                       `Presumed Crop Domesticate/Progenitor` = "Other crop",
+                       `Domesticated crop` = "Other crop",
+                       `Domesticate crop` = "Other crop")) %>% 
+  mutate(crop = if_else(taxon %in% founder_taxa, "Founder crop", crop)) ->
+  archaeobot
+```
+
+## How prevelant were the founder crops?
+
+```{r crop-summary-plot, echo=FALSE}
+archaeobot %>% 
+  ggplot(aes(x = crop)) +
+  geom_bar()
+```
+
+```{r crop-propts-plot, echo=FALSE}
+archaeobot %>% 
+  group_by(phase_code, crop) %>% 
+  summarise(mid_bp = first(mid_bp),
+            mnpp = sum(mnpp)) %>% 
+  mutate(pmnpp = mnpp / sum(mnpp)) %>% 
+  filter(sum(mnpp) > 30) %>% 
+  drop_na(crop) %>% 
+  ggplot(aes(x = mid_bp, y = pmnpp, colour = crop)) +
+  geom_point() +
+  geom_smooth() +
+  xlab("cal BP") +
+  ylab("MNPP per site-phase") +
+  # scale_x_reverse(limits = c(max(periods$start_bp), min(periods$end_bp))) +
+  scale_x_reverse() +
+  scale_y_continuous(labels = scales::percent, limits = c(0,1), expand = c(0,0))
+```

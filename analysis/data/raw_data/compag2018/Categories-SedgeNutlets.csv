@@ -1,0 +1,28 @@
+taxon,taxon_code,domestic_wild_status,plant_part,family
+Scirpus lacustris,SCIRLAC,W,seed/grain,Cyperaceae
+Scirpus littoralis,SCIRLIT,w,seed/grain,Cyperaceae
+Scirpus maritimus,SCIRMAR,W,seeds & tubers,Cyperaceae
+Scirpus maritimus,SCIRMAR,W,seed/grain,Cyperaceae
+Scirpus sp.,SCIRSPE,W,seed/grain,Cyperaceae
+Scirpus tabernaemontani C.C.Gmelin,SCIRTAB,W,seed/grain,Cyperaceae
+Scirpus triquetius,SCIRTRI,w,seed/grain,Cyperaceae
+Scirpus tuberosus,SCIRTUB,W,tuber,Cyperaceae
+Scirpus/Schoenoplectus sp.,SCIRSCH,W,seed/grain,Cyperaceae
+Rumex acetosella L.,RUMEACE,W,seed/grain,Polygonaceae
+Rumex pulcher L.,RUMEPUL,W,achene,Polygonaceae
+Rumex pulcher L.,RUMEPUL,W,seed/grain,Polygonaceae
+Rumex pulcher type,RUMEPUT,W,seed/grain,Polygonaceae
+Rumex sp.,RUMESPE,W,seed/grain,Polygonaceae
+Rumex sp.,RUMESPE,W,fruit,Polygonaceae
+Polygonaceae indet.,POLYIND,W,seed/grain,Polygonaceae
+Polygonaceae indet.,POLYIND,W,endosperm,Polygonaceae
+Polygonaceae/Cyperaceae indeterminate,POLYCYP,w,seed/grain,Polygonaceae
+Polygonum aviculare L.,POLYAVI,W,seed/grain,Polygonaceae
+Polygonum convolvulus L.,POLYCON,W,seed/grain,Polygonaceae
+Polygonum corregioloides,POLYCOR,W,seed/grain,Polygonaceae
+Polygonum corregioloides type,POLYCOT,W,seed/grain,Polygonaceae
+Polygonum lapathifolium L.,POLYLAP,W,seed/grain,Polygonaceae
+Polygonum persicaria L.,POLYPER,W,seed/grain,Polygonaceae
+Polygonum sp.,POLYSPE,W,seed/grain,Polygonaceae
+Polygonum venantianum,POLYVEN,w,seed/grain,Polygonaceae
+Polygonum/Rumex sp.,POLYRUM,W,seed/grain,Polygonaceae

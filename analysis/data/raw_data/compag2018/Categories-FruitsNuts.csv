@@ -1,0 +1,52 @@
+taxon,taxon_code,domestic_wild_status,plant_part,family
+Ficus carica L.,FICUCAR,D,fruit,Moraceae
+Ficus carica L.,FICUCAR,D,seed/grain,Moraceae
+Ficus carica L. fruit,FICUCAF,W,seed/grain,Moraceae
+Ficus sp.,FICUSPE,W,seed/grain,Moraceae
+Ficus sp. Fragments of fruit pulp,FICUFFP,tree,seed/grain,Moraceae
+Olea europaea L.,OLEAEUR,D,stones,Oleaceae
+Olea europaea L.,OLEAEUR,D,seed/grain,Oleaceae
+Olea europaea L.,OLEAEUR,D,stone,Oleaceae
+Olea sp. L.,OLEASPE,W,seed/grain,Oleaceae
+Vitis sp.,VITISPE,W,seed/grain,Vitaceae
+Vitis sylvestris Gmelin,VITISYL,W,seed/grain,Vitaceae
+Vitis vinifera L. pips,VITIVIN,D,seed/grain,Vitaceae
+Amygdalus communis L.,AMYGCOM,D,nutshell,Rosaceae
+Amygdalus communis L.,AMYGCOM,D,seed/grain,Rosaceae
+Amygdalus communis/korschinskii,AMYCOKO,tree - nut bearing,nutshell,Rosaceae
+Amygdalus communis/korschinskii,AMYCOKO,tree - nut bearing,ecarp,Rosaceae
+Amygdalus sp.,AMYGSPE,W,ecarp,Rosaceae
+Amygdalus sp.,AMYGSPE,W,nutshell fragments,Rosaceae
+Amygdalus sp.,AMYGSPE,W,seed/grain,Rosaceae
+Amygdalus sp.,AMYGSPE,W,nutshell,Rosaceae
+Prunus divaricata/Amygdalus orientalis,PRDIAMO,tree - fruit bearing,seed/grain,Rosaceae
+Prunus sp.,PRUNSPE,D,endocarps,Rosaceae
+Prunus sp.,PRUNSPE,D,seed/grain,Rosaceae
+Celtis sp.,CELTSPE,W,nutshell,Ulmaceae
+Celtis sp.,CELTSPE,W,seed/grain,Ulmaceae
+Celtis tournefortii,CELTTOU,tree - fruit bearing,seed/grain,Ulmaceae
+Celtis tournefortii,CELTTOU,tree - fruit bearing,endocarp,Ulmaceae
+Celtis tournefortii/australis,CELTOAU,w,seed/grain,Ulmaceae
+Pistacia atlantica Desf.,PISTATL,D,nutlet,Anacardiaceae
+Pistacia atlantica Desf.,PISTATL,D,fruits,Anacardiaceae
+Pistacia atlantica Desf.,PISTATL,D,nutshell,Anacardiaceae
+Pistacia atlantica Desf.,PISTATL,D,seed/grain,Anacardiaceae
+Pistacia atlantica/palaestina,PISATPA,w,nutlet,Anacardiaceae
+Pistacia atlantica/palaestina,PISATPA,w,seed/grain,Anacardiaceae
+Pistacia khinjuk,PISTKHI,W,seed/grain,Anacardiaceae
+Pistacia sp.,PISTSPE,W,nutshell,Anacardiaceae
+Pistacia sp.,PISTSPE,W,seed/grain,Anacardiaceae
+Pistacia terebinthus/lentiscus,PISTELE,W,seed/grain,Anacardiaceae
+Quercus ithaburensis,QUERITH,tree - nut bearing,acorns,Fagaceae
+Quercus ithaburensis,QUERITH,tree - nut bearing,acorn frags,Fagaceae
+Quercus sp.,QUERSPE,W,seed/grain,Fagaceae
+Quercus sp.,QUERSPE,W,hilar scars,Fagaceae
+Quercus sp.,QUERSPE,W,nutshell,Fagaceae
+Capparis sp.,CAPPSPE,W,seed/grain,Capparaceae
+Capparis spinosa L.,CAPPSPI,W,seed/grain,Capparaceae
+Cornus mas L.,CORNMAS,W,seed/grain,Cornaceae
+Crataegus sp. L.,CRATSPE,W,pyrene,Rosaceae
+Crataegus sp. L.,CRATSPE,W,seed/grain,Rosaceae
+Pyrus sp. L.,PYRUSPE,W,seed/grain,Rosaceae
+Pyrus syriaca,PYRUSYR,tree - fruit bearing,seed/grain,Rosaceae
+Pyrus/Malus sp.,PYRUMAL,D,seed/grain,Rosaceae

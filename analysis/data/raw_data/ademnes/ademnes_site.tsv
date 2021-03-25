@@ -1,0 +1,410 @@
+id	site_name	site_code	location	geographic_unit	latitude	longitude	date_earliest	date_latest	recovery_methods	preservation_type	n_samples
+18	'Afula	AF	Israel	Southern Levant	32.61	35.29	3200 BC	500 BC	NA	carbonized	NA
+23	'Ain Dara	ADA	Syria	Northern Levant	36.852083	36.459361	1000 BC	500 BC	flotation	carbonized, mineralized	NA
+24	'Ain Ghazal	AGHAZ	Jordan	Jordan Valley	31.988889	35.977778	8700 BC	4000 BC	flotation - but no mention of what method or what mesh size used	charring	NA
+5	Abi'or cave	AC	Israel	Southern Levant	31.84	35.44	60 BC	400 AD	dry sieving	carbonized, uncarbonized	NA
+7	Abu Hamid	AHA	Jordan	Southern Levant	32.32	35.55	4800 BC	3800 BC	NA	NA	NA
+11	Abu Salabikh	AS	Iraq	Central Mesopotamia	32.252253	45.053296	3000 BC	2340 BC	wet sieving, flotation	NA	NA
+1035	Acemhöyük	ACEM	Turkey	Western and Central Anatolia	38.411589	33.835483	3400 BC	1923 AD	NA	NA	NA
+12	Achilleion	ACHIL	Greece	Thessaly	39.17	22.23	6400 BC	NA	bucket flotation	charring	NA
+21	Agios Mamas	AM	Greece	Aegean	40.27	23.32	2000 BC	NA	NA	carbonized	NA
+1046	Ain Mallaha (Eynan)	AINM	Israel	Southern Levant	33.086975	35.579159	12500 BC	10000 BC	F: water sieved with 2mm mesh	NA	NA
+35	Akrotiri	AK	Greece	Aegean	36.35	25.39	1500 BC	1200 BC	NA	NA	NA
+1020	Al-Madam 1 - Thuqeibah	THUQ	NA	Sharjah	NA	NA	918 BC	535 BC	NA	NA	NA
+44	Ali Kosh	KOSH	Iran	Deh Luran	32.557791	47.32475	8700 BC	6500 BC	bucket flotation (reference only to the use of a fine mesh sieve)	charring	NA
+59	Anza	ANZ	Greece	Macedonia	41.78	21.96	6400 BC	5200 BC	flotation - but no mention of what method	charring	NA
+61	Apliki	AP	Cyprus	Cyprus	35.07	32.84	1500 BC	1200 BC	NA	carbonized	NA
+65	Arad	A	Israel	Southern Levant	31.25	35.22	3200 BC	400 AD	NA	carbonized	NA
+66	Arapi Magoula	ARM	Greece	Aegean	39.6	22.38	NA	5200 BC	flotation - but no mention of what method	carbonized	NA
+69	Argissa-Magoula	ARG	Greece	Aegean	39.65	22.33	8700 BC	1500 BC	judgemental sampling, wet sieving	carbonized, uncarbonized	NA
+70	Arjoune	ARJ	Syria	Northern Levant	34.58	36.5	6400 BC	4200 BC	flotation	carbonized	NA
+1005	Arkadikos	ARKA	Greece	NA	NA	NA	NA	5200 BC	Flotation	NA	NA
+73	Arslantepe	ARST	Turkey	Eastern Anatolia	38.381894	38.36103	3200 BC	2600 BC	dry sieving	carbonized	NA
+1028	Ashdod	ASHD	Israel	Southern Levant	31.783333	34.65	1300 BC	1100 BC	NA	carbonized	NA
+1016	Ashkelon	ASH	Israel	Southern Levant	31.666667	34.566667	6400 BC	500 BC	judgmental sampling + 1x1m grid sampling, floatation	carbonized, Boraginaceae mineralized	NA
+76	Asikli Hoyuk	ASIK	Turkey	Central Anatolia	38.349	34.23	8400 BC	7500 BC	bucket flotation (no mesh size given)	charring	NA
+77	Assiros Toumba	AT	Greece	Aegean	40.82	23.02	1600 BC	900 BC	froth and hand flotation	carbonized	NA
+78	Asvan Kale (Asvan)	ASK	Turkey	Eastern Anatolia	38.9	38.95	2800 BC	1900 AD	flotation	charred	NA
+79	Asvan region	ASVR	Turkey	Eastern Anatolia	38.89	38.95	5200 BC	1000 AD	wet sieving	carbonized	NA
+89	Ayios Dhemetrios	AD	Cyprus	Cyprus	34.92	32.82	1500 BC	1200 BC	froth flotation, water sieving	carbonized	NA
+90	Ayios Epiktitos Vrysi	AEV	Cyprus	northern	35.33	33.42	5400 BC	NA	froth flotation (machine; smallest mesh size used was 0.5mm)	charring	NA
+95	Azraq 31	AZ	Jordan	Eastern (Azraq Basin)	31.8	36.82	7500 BC	7000 BC	machine flotation (0.3mm mesh used)	charring	NA
+97	Bab'edh Dhra	BDRA	Jordan	Southern Levant	31.253225	35.533194	3200 BC	2000 BC	judgemental sampling, flotation	carbonized	NA
+991	Bademagaci	BADE	Turkey	Western and Central Anatolia	37.223056	30.498056	6400 BC	2000 BC	Fauna: hand collecting, sieving (only the EN I levels)	NA	NA
+1043	Barcin Höyük	BARC	Turkey	Western and Central Anatolia	40.267214	29.601578	NA	5200 BC	NA	NA	NA
+115	Basta	BAST	Jordan	southern	30.57144	31.514112	7500 BC	7000 BC	flotation - but no mention of what method (mesh size not given)	charring	NA
+116	Bastam	B	Iran	Western Iran	38.88619	44.950281	840 BC	1500 AD	wet sieving	carbonized, uncarbonized	NA
+1052	Başur Höyük	BASU	Turkey	Tigridian Region	37.98	41.779	1800 BC	1600 BC	NA	NA	NA
+120	Beer-Sheba	BESH	Israel	Southern Levant	31.23	34.78	1200 BC	800 BC	NA	carbonized	NA
+121	Beidha	BEID	Jordan	southern	30.370833	35.447778	11000 BC	7500 BC	bucket flotation (0.3mm mesh used)	charring and impressions in clay/plaster	NA
+1057	Beisamoun	BEIS	Israel	Southern Levant	33.05	35.583333	5400 BC	NA	NA	NA	NA
+123	Bendebal	BEN	Iran	Western Iran	32.33	48.27	5200 BC	3000 BC	NA	carbonized	NA
+128	Beth Shean	BS	Israel	Southern Levant	32.5	35.43	3200 BC	1200 AD	collecting, sieving	carbonized	NA
+1014	Bethsaida	BETH	Israel	Southern Levant	32.90995	35.630536	980 BC	840 BC	hand-picked	carbonized	NA
+129	Beycesultan	BEYS	Turkey	Western Anatolia	38.256676	29.700789	1500 BC	1100 AD	NA	NA	NA
+144	Bnei Beraq	BB	Israel	Southern Levant	32.1	34.82	5200 BC	3000 BC	NA	NA	NA
+147	Bogazköy	BK	Turkey	Central Anatolia	40.015199	34.615003	3400 BC	1100 BC	hand picking, flotation	carbonized	NA
+150	Bosra	BOS	Syria	Southern Levant	32.5175	36.479167	800 AD	1750 AD	hand-picked, flotation	carbonized	NA
+153	Bouqras	BOUQ	Syria	Euphrates Valley	35.0666	40.4333	7500 BC	5400 BC	bucket flotation (no mesh size given)	charring	NA
+1041	Büyüktepe Höyük	BÜYÜ	Turkey	Eastern Anatolia	40.2	39.9	3200 BC	500 BC	NA	NA	NA
+163	Çadir Höyük	CADH	Turkey	Central Anatolia	39.67	35.15	5200 BC	1100 AD	flotation	carbonized	NA
+164	Cafer Hoyuk	CAF	Turkey	Southeast Anatolia	38.41666	38.75	8700 BC	6500 BC	bucket flotation (300micron mesh)	charring	NA
+1044	Çamlıbel Tarlası	CAML	Turkey	Western and Central Anatolia	40.019604	34.607501	4800 BC	3800 BC	NA	NA	NA
+165	Can Hasan III	HASAN	Turkey	Southeast Anatolia	37.263	33.3313	8700 BC	6000 BC	machine flotation (possibly 1.0mm mesh)	charring	NA
+168	Cape Andreas Kastros	CAK	Cyprus	northeast	35.7	34.58	6400 BC	4200 BC	flotation - but no mention of what method or the mesh size	charring	NA
+1030	Çatalhöyük	CAT	Turkey	NA	37.6675	32.828333	8700 BC	4200 BC	flotation (light- and heavy-residue recovery)	charred, mineralized, siliceous/calcerous	NA
+1026	Çavi Tarlası	CAVI	Turkey	Eastern Anatolia	37.749114	38.970459	5500 BC	4500 BC	NA	NA	NA
+171	Cayboyu (Asvan)	CB	Turkey	Eastern Anatolia	38.9166	38.95	4800 BC	3800 BC	flotation	charred	NA
+172	Cayonu	CAY	Turkey	Southeast Anatolia	38.218723	39.728824	9800 BC	1100 BC	bucket flotation (no mesh size given)	charring	NA
+180	Choga Mami	CM	Iraq	Central Mesopotamia	33.73	45.52	5200 BC	2000 BC	flotation	carbonized	NA
+183	City of David	CD	Israel	Southern Levant	31.78	35.2	3000 BC	100 BC	collection	carbonized	NA
+188	Corinth	C	Greece	Aegean	37.93	22.93	700 BC	323 BC	water- and dry-sieving	NA	NA
+1015	Deir el-Balah	DB	Israel	Southern Levant	31.416667	34.35	1300 BC	1100 BC	hand-picked	carbonized	NA
+200	Deir'Alla	DA	Jordan	Southern Levant	32.196364	35.620788	1500 BC	500 BC	sieving	carbonized	NA
+202	Demircihüyük	DH	Turkey	Western Anatolia	39.85	30.27	3200 BC	2000 BC	wet sieving	carbonized, uncarbonized	NA
+203	Dendra	DEN	Greece	Aegean	37.6	22.73	1050 BC	1000 BC	NA	NA	NA
+211	Dhali Agridhi	DAGR	Cyprus	Cyprus	35.02	33.42	6400 BC	4200 BC	NA	NA	NA
+1058	Dhiban	DHI	Jordan	Southern Levant	NA	NA	1000 BC	500 BC	flotation	carbonized	NA
+212	Dhuweila	DHU	Jordan	Southern Levant	32.08	37.25	7500 BC	5200 BC	bucket flotation	charring	NA
+213	Diban 11	DIBX	Syria	Middle Euphrates	35.02	40.5	500 AD	1500 AD	floation	carbonized	NA
+214	Diban 5	DIBV	Syria	Middle Euphrates	35	40.52	500 AD	1500 AD	flotation	carbonized	NA
+216	Dikili Tash	DT	Greece	Aegean	41	24.27	NA	5200 BC	machine flotation?	carbonized	NA
+218	Dilkaya Höyük	DIL	Turkey	Eastern Anatolia	38.36	43.14	3200 BC	2000 BC	flotation	carbonized	NA
+219	Dimini	DIM	Greece	Aegean	39.37	22.88	6400 BC	4200 BC	NA	NA	NA
+995	Dinkha Tepe	DITE	Iran	Jezirah	37.007863	45.165759	3400 BC	500 BC	NA	NA	NA
+223	Djade	DJA	Syria	Euphrates Valley	36.61666	38.21666	9800 BC	6500 BC	machine flotation (0.3mm mesh used)	charring	NA
+1019	Domuztepe	DOMU	Turkey	Eastern Anatolia	37.320944	37.035693	5700 BC	5500 BC	fauna: mainly hand collecting, some remains found by flotation	NA	NA
+231	Drachmani	DRA	Greece	Aegean	38.63	22.75	1800 BC	1600 BC	NA	NA	NA
+235	Ebla	EBL	Syria	NA	35.798	36.798	2350 BC	2000 BC	NA	NA	NA
+246	El Kowm I	KOW1	Syria	central	35.22	38.82	7500 BC	7000 BC	bucket flotation (mesh size not given)	charring	NA
+247	El Kowm II	KOW2	Syria	central	35.22	38.82	7500 BC	6500 BC	bucket flotation (300micron mesh)	charring	NA
+255	El-Lejjun	ELEJ	Jordan	Southern Levant	31.236944	35.868333	3200 BC	1750 AD	"water flotation
+fauna: sieved using a 3mm mesh screen"	carbonized	NA
+258	Emar	EM	Syria	Middle Euphrates	35.986637	38.111194	3200 BC	1200 BC	NA	NA	NA
+260	En Besor	EBES	Israel	Southern Levant	31.32	34.47	3200 BC	2000 BC	NA	NA	NA
+261	En Boqeq	EB	Israel	Southern Levant	31.17	35.33	400 AD	NA	NA	NA	NA
+263	En Rahel	ER	Israel	Southern Levant	31.3	34.72	1000 BC	400 AD	NA	NA	NA
+264	Erbaba	ERB	Turkey	Central Anatolia	37.77	31.68	5400 BC	NA	flotation - but no mention of what method	charring	NA
+269	Eridu	E	Iraq	Southern Mesopoatmia	30.817228	45.995684	5200 BC	3000 BC	NA	carbonized	NA
+278	Ez Zantur	EZ	Jordan	Southern Levant	30.35	35.47	400 AD	NA	dry-sieving	carbonized	NA
+1055	Fikirtepe	FITE	Turkey	Western and Central Anatolia	40.993611	29.050278	6400 BC	4200 BC	NA	NA	NA
+286	Franchthi Cave	FC	Greece	Aegean	37.43	23.13	8000 BC	5200 BC	flotation (large scale - using gravity to supply w	carbonized	NA
+287	Ganj Dareh Tepe	GDT	Iran	Zagros	34.25	47.5	8700 BC	6500 BC	flotation - but no mention of what method (no mesh size given), also some hand picked samples	charring	NA
+303	Ghediki	GHED	Greece	Thessaly	NA	NA	8000 BC	NA	no details are given of the recovery methods used (no mesh size given)	charring	NA
+1049	Giricano	GIRI	Turkey	Tigridian Region	37.815853	40.749149	1800 BC	1200 BC	NA	NA	NA
+307	Girikihaciyan	GH	Turkey	Eastern Anatolia	38.2333	39.9666	5100 BC	NA	flotation	carbonized	NA
+309	Gla	GLA	Greece	Aegean	38.43	23.15	1500 BC	1200 BC	NA	carbonized	NA
+310	Göbekli Tepe	GOB	Turkey	southern	37.223221	38.922468	9800 BC	8800 BC	NA	NA	NA
+962	Gordion (Yassihöyük)	YAS	Turkey	Western and Central Anatolia	39.650103	31.97857	1800 BC	1500 AD	NA	NA	NA
+316	Gournia	GOU	Crete	Aegean	35.12	25.78	3400 BC	1100 BC	NA	NA	NA
+317	Gre Virike	GV	Turkey	Middle Euphrates	36.922586	38.015328	3000 BC	1500 AD	flotation	carbonized	NA
+318	Gritille	GRI	Turkey	Middle Euphrates	37.55	38.5666	8700 BC	1750 AD	flotation	carbonized	NA
+323	Hacilar	HCI	Turkey	Western Anatolia	37.57	30.07	8400 BC	7500 BC	not clear from the report - one sample was separated using carbon tetrachloride (no mesh size given)	charring	NA
+324	Hacinebi Tepe	HACT	Turkey	Northern Levant	37.0596	37.975217	4800 BC	3800 BC	flotation	carbonized	NA
+328	Hagia Triada	HAT	Crete	Aegean	34.98	24.8	3400 BC	1100 BC	NA	NA	NA
+330	Hajji Ibrahim	HI	Syria	Middle Euphrates	36.34	38.21	3200 BC	2000 BC	flotation	carbonized	NA
+332	Hala Sultan Tekke	HAST	Cyprus	Cyprus	34.75	33.37	1200 BC	1100 BC	flotation	carbonized, impressions	NA
+335	Hallan Cemi Tepesi	HCT	Turkey	Eastern Anatolia	38.25	41.21666	12500 BC	10000 BC	machine flotation	charring	NA
+336	Halula	HALU	Syria	Euphrates Valley	36.429839	38.196882	8700 BC	6500 BC	machine flotation (0.3mm mesh used)	charring	NA
+340	Hassek Höyük	HH	Turkey	Middle Euphrates	37.75	38.91666	5200 BC	2000 BC	drying, soaking in H2O2, wet sieving	carbonized	NA
+342	Hayonim Cave	HAYO	Israel	northern	32.93	35.18	11200 BC	9600 BC	wet sieving and/or flotation (details unclear)	charring	NA
+1045	Hazor	HAZO	Israel	Southern Levant	33.018236	35.569053	1800 BC	1100 BC	NA	NA	NA
+346	Herakleion	HER	Crete	Aegean	35.35	25.13	3400 BC	1100 BC	NA	NA	NA
+347	Hierakonpolis	HP	Egypt	Egypt	25.08	32.75	5500 BC	2250 BC	NA	carbonized, dessicated	NA
+1036	Hili N (Al Ain)	HILI	NA	United Arab Emirates	24.293109	55.794729	3200 BC	2000 BC	NA	carbonised mass of pitted dates	NA
+1051	Hirbemerdon Tepe	HIRB	Turkey	Tigridian Region	37.46	41	1800 BC	500 BC	NA	NA	NA
+349	Hirbet el-Msas (Tel Masos)	HM	Israel	Southern Levant	31.23	34.93	5200 BC	1100 AD	NA	carbonized	NA
+350	Hirbet ez-Zeraqon	HEZ	Jordan	Southern Levant	32.58638	35.948439	2800 BC	2600 BC	bucket/hand flotation	carbonized, uncarbonized	NA
+1068	Hirbet Iskander	HII	Jordan	Southern Levant	NA	NA	NA	NA	hand picking	carbonized	NA
+353	Horbat Rosh Zayit	HRZ	Israel	Southern Levant	32.88	35.22	1000 BC	500 BC	flotation	carbonized	NA
+354	Horum Hüyük	HOR	Turkey	Middle Euphrates	37.1	37.86666	4800 BC	1500 AD	flotation	carbonized	NA
+355	Horvat Beter	HB	Israel	Southern Levant	31.23	34.78	5200 BC	3000 BC	NA	NA	NA
+357	Höyücek	HOY	Turkey	Western and Central Anatolia	37.45	30.58	6400 BC	4200 BC	dry sieving	charred material, mostly whole seeds and fruit	NA
+359	Idalion	IDA	Cyprus	Cyprus	35.015389	33.423972	900 BC	400 BC	NA	NA	NA
+362	Ikiztepe	IT	Turkey	Northern Anatolia	38.566667	39.316667	5200 BC	1600 BC	NA	carbonized	NA
+363	Ilipinar	ILI	Turkey	Western and Central Anatolia	40.45	29.3	6400 BC	3000 BC	NA	NA	NA
+364	Imamoglu	IMA	Turkey	Jezirah	38.48333	38.45	3200 BC	2000 BC	NA	NA	NA
+369	Iolkos	IOL	Greece	Aegean	39.37	22.94	1500 BC	700 BC	flotation	carbonized	NA
+372	Iraq ed Dubb	DUBB	Jordan	north/upper Jordan Valley	32.36	35.73	11200 BC	8800 BC	bucket flotation (0.3mm mesh used)	charring	NA
+374	Iria	I	Greece	Aegean	37.48	23.02	1050 BC	1000 BC	NA	NA	NA
+1060	Jaffa	JAFFA	Isreal	Southern Levant	NA	NA	1200 BC	1100 BC	flotation and hand picking	carbonized	NA
+386	Jaffarabad	JAF	Iran	Western Iran	32.18	48.45	6400 BC	3000 BC	NA	carbonized	NA
+1031	Jarma	JARMA	NA	Libya	26.544	13.064	60 BC	1750 AD	NA	NA	NA
+388	Jawa	JAW	Jordan	Southern Levant	37.003333	32.335	5200 BC	535 BC	dry sieving	carbonized	NA
+389	Jebel Abu Thawwab	JAT	Jordan	Southern Levant	32.165	35.8336	3200 BC	2000 BC	NA	NA	NA
+392	Jerf al Ahmar	AHM	Syria	Euphrates Valley	36.391667	38.208333	9800 BC	8800 BC	machine flotation (0.3mm mesh used)	charring and impressions in pise	NA
+393	Jericho	J	Palestine	Southern Levant	31.855444	35.462181	9800 BC	1600 BC	NA	carbonized	NA
+409	Kalapodi	KAL	Greece	Aegean	38.63	22.88	1200 BC	500 AD	wet sieving	carbonized and uncarbonized	NA
+410	Kalavasos village	KV	Cyprus	Cyprus	34.73	33.28	1800 BC	1600 BC	froth flotation	carbonized	NA
+413	Kalopsidha	KALS	Cyprus	Cyprus	35.1	33.79	3200 BC	1200 BC	NA	imprints in pottery	NA
+414	Kaman-Kalehöyük	KAMK	Turkey	Western and Central Anatolia	39.362734	33.786498	3200 BC	1923 AD	dry sieving, flotation	carbonized	NA
+415	Kamid el-Loz	KEL	Lebanon	Northern Levant	33.623818	35.821434000000004	1800 BC	900 BC	NA	NA	NA
+1023	Karataş-Semayük	KASE	Turkey	Western and Central Anatolia	36.75	29.966667	3400 BC	1100 BC	NA	NA	NA
+430	Kastanas	KAS	Greece	Aegean	40.82	22.65	3200 BC	400 BC	judgemental sampling, wet sieving	carbonized, uncarbonized	NA
+1048	Kavuşan Höyük	KAVU	Turkey	Tigridian Region	37.79347	40.793047	1500 BC	700 BC	F: Hand collecting	NA	NA
+438	Kellis	K	Egypt	Egypt	25.67	28.87	60 BC	400 AD	floation	carbonized an uncarbonized	NA
+439	Kenan Tepe	KT	Turkey	Tigridian region	37.83057	40.813337	5200 BC	500 BC	flotation	carbonized	NA
+440	Kephallenia	KEPH	Greece	Aegean	38.25	20.5	1050 BC	1000 BC	NA	NA	NA
+455	Khirbat al-Mudaybi	KAM	Jordan	Southern Levant	31.05	35.85	325 AD	1900 AD	machine flotation	carbonized	NA
+456	Khirbat Faris	KF	Jordan	Southern Levant	31.4	35.73	800 AD	1750 AD	flotation	carbonized	NA
+457	Khirbet en-Nahas	KEN	Jordan	Southern Levant	30.680914	35.436251	1200 BC	500 BC	collecting by hand	carbonized wood	NA
+1022	Khirbet er-Rasm	KRAS	Israel	Southern Levant	31.533	34.9652	918 BC	535 BC	floatation	carbonized	NA
+458	Khirokitia	KHIR	Cyprus	Cyprus	34.8	33.33	6400 BC	4200 BC	NA	NA	NA
+462	Kinet Höyük	KIH	Turkey	Northern Levant	36.853752	36.15682	1800 BC	1500 AD	NA	NA	NA
+466	Kish	KISH	Iraq	Central Mesopotamia	32.55	44.65	5500 BC	3200 BC	NA	NA	NA
+467	Kissonerga	KISS	Cyprus	Cyprus	34.82	32.4	8800 BC	3800 BC	flotation	carbonized	NA
+468	Kissufim Road	KR	Israel	Southern Levant	31.38	34.38	5200 BC	3000 BC	NA	carbonized	NA
+470	Knossos	KNO	Crete	Aegean	35.297778	25.163611	8000 BC	1100 BC	NA	carbonized	NA
+473	Kom el-Hisn	KEH	Egypt	Egypt	30.795124	30.600597	2700 BC	2300 BC	flotation	carbonized	NA
+475	Kom Rab'ia	KRAB	Egypt	Egypt	29.85	31.25	1500 BC	NA	flotation	carbonized	NA
+476	Kommos	KOM	Crete	Aegean	35.41	24.77	1750 BC	500 BC	mainly hand picking	NA	NA
+1000	Konar Sandal	KONSAL	Iran	southeastern Iran	28.458889	57.782222	3200 BC	500 BC	Flotation	carbonization	NA
+480	Körtik Tepe	KÖT	Turkey	Southeast Anatolia	37.814417	40.983894	9800 BC	6500 BC	NA	NA	NA
+481	Korucutepe	KOR	Turkey	Eastern Anatolia	38.46666	39.55	5200 BC	1500 AD	NA	carbonized, uncarbonized	NA
+483	Kosak Shamali	KS	Syria	Middle Euphrates	36.557611	38.279769	5500 BC	3000 BC	NA	carbonized	NA
+1013	Kouphovouno	KOUP	Greece	southern Greece	NA	NA	NA	5200 BC	Fauna: mostly collected by hand	NA	NA
+992	Küllüoba	KÜLL	Turkey	Western and Central Anatolia	39.549	30.749	4800 BC	2800 BC	NA	NA	NA
+1039	Kültepe-Kanesh	KANE	Turkey	Western and Central Anatolia	38.85	35.633333	1800 BC	1600 BC	NA	NA	NA
+489	Kumtepe	KU	Turkey	Aegean	39.95	26.2	5200 BC	3000 BC	NA	NA	NA
+1021	Kuntillet 'Ajrud	KAJ	Israel	Southern Levant	30.193056	34.421111	918 BC	535 BC	hand picked	desiccated	NA
+492	Kurban Höyük	KUH	Turkey	Middle Euphrates	37.475974	38.429231	5100 BC	1600 BC	collection by hand; flotation	carbonized	NA
+494	Kuruçay Höyük	KUR	Turkey	Western Anatolia	37.78	30.55	4800 BC	3800 BC	NA	NA	NA
+496	Kusakli	KUS	Turkey	Central Anatolia	39.3083	36.909575	1800 BC	500 BC	NA	NA	NA
+504	Lachish	LH	Palestine	Southern Levant	31.565	34.849	3200 BC	500 BC	NA	carbonized	NA
+518	Larsa	L	Iraq	Southern Mesopotamia	31.282894	45.853303	238 BC	224 AD	NA	NA	NA
+520	Lefkandi	LEF	Greece	Aegean	38.42	23.68	1050 BC	1000 BC	NA	NA	NA
+522	Lemba-Lakkous	LL	Cyprus	Cyprus	34.78	32.4	5200 BC	3000 BC	NA	carbonized	NA
+523	Lerna	LER	Greece	Aegean	37.53	22.72	2500 BC	323 BC	NA	carbonized	NA
+527	Liliana	LIL	Crete	Aegean	35.054139	24.834222	3400 BC	1100 BC	NA	NA	NA
+589	M'lefaat	MLE	Iraq	northern	36.3	43.55	9800 BC	8800 BC	machine flotation	charring	NA
+535	Maadi	MD	Egypt	Egypt	30.05	31.32	5500 BC	3200 BC	sieving, flotation	NA	NA
+539	Magzalia	MAG	Iraq	northern Jazireh	36.41666	42.4	7500 BC	5400 BC	no details given	charring	NA
+540	Mahmudiya	M	Iraq	Tigridian region	36.9	42.17	700 BC	300 BC	flotation	carbonized	NA
+1007	Makri	MAKRI	Greece	NA	NA	NA	NA	5200 BC	Flotation	NA	NA
+1006	Makriyalos	MAKRY	Greece	NA	NA	NA	NA	5200 BC	Flotation	NA	NA
+546	Mallia	MAL	Crete	Aegean	35.293179	25.492742	3400 BC	1100 BC	NA	NA	NA
+547	Malyan	MALY	Iran	Western Iran	30.05	52.42	3400 BC	1800 BC	judgemental sampling, flotation	carbonized, uncarbonized	NA
+548	Manahat	MT	Israel	Southern Levant	31.75	35.18	1700 BC	1600 BC	water flotation	carbonized	NA
+559	Marki-Alonia	MA	Cyprus	Cyprus	35.02	33.32	1800 BC	1200 BC	flotation, wet sieving	carbonized	NA
+560	Marmariani	MAR	Greece	Aegean	39.73	22.6	1050 BC	1000 BC	NA	NA	NA
+563	Masada	MAS	Israel	Southern Levant	31.35	35.37	60 BC	400 AD	collection	uncarbonized, some carbonized	NA
+1011	Megiddo	MEG	Israel	Southern Levant	32.585	35.184167	3200 BC	500 BC	water floatation, hand collecting	mostly carbonized, few mineralized	NA
+573	Menelaion	MEN	Greece	Aegean	37.03	22.47	1050 BC	1000 BC	NA	NA	NA
+1042	Menteşe	MENT	Turkey	Western and Central Anatolia	40.276645	29.523892	5100 BC	5200 BC	NA	NA	NA
+578	Merv	MV	Iran	Turkmenistan	37.5	62	205 AD	651 AD	flotation	carbonized	NA
+583	Mezraa Hoyük	MH	Turkey	Middle Euphrates	36.97056	37.997684	8700 BC	1500 AD	flotation	carbonized	NA
+585	Miletos (Kalabaktepe/Zeytintepe)	MS	Turkey	Western and Central Anatolia	37.531111	27.275556	700 BC	400 BC	flotation	carbonized, mineralized	NA
+590	Moa	MOA	Israel	Southern Levant	30.48	34.98	1000 BC	400 AD	NA	NA	NA
+1050	Müslümantepe	MUSL	Turkey	Tigridian Region	39.32	38.45	1800 BC	1200 BC	NA	NA	NA
+596	Mycenae	MYC	Greece	Aegean	37.730556	22.756944	1050 BC	1000 BC	NA	NA	NA
+597	Mylouthkia	MYL	Cyprus	Cyprus	34.85	32.4	5100 BC	3800 BC	bucket flotation	carbonized	NA
+598	Myrtos	MYR	Crete	Aegean	35.03	25.57	3200 BC	2000 BC	NA	carbonized, imprints	NA
+600	Nagada-Khattara	NK	Egypt	Egypt	25.88	32.45	5200 BC	2000 BC	NA	NA	NA
+602	Nahal Hemar	NAHE	Israel	southern	31.15	35.18	8700 BC	6500 BC	dry sieving?	desiccation	NA
+603	Nahal Mishmar	NM	Israel	Southern Levant	31.380936	35.364347	5200 BC	400 AD	NA	NA	NA
+604	Nahal Qanah Cave	NQC	Israel	Southern Levant	32.15	35.1	5200 BC	3000 BC	gathering by hand	carbonized	NA
+605	Nahal Yattir	NY	Israel	Southern Levant	31.23	34.78	60 BC	400 AD	dry sieving	carbonized	NA
+611	Nea Nikomedeia	NEANIK	Greece	NA	40.6	22.27	6400 BC	NA	hand picked, by eye	charring	NA
+614	Netiv Hagdud	NETHAG	Israel	Southern Levant	32	35.41666	9800 BC	8800 BC	flotation - but no mention of what method (0.5mm mesh used)	charring	NA
+615	Nevali Cori	NEVCO	Turkey	Southeast Anatolia	37.58333	38.65	8700 BC	6500 BC	bucket flotation? (mention of a 'hand sieve' of 0.35mm in the text)	charring	NA
+620	Nimrud	NIM	Iraq	Tigridian region	36.098634	43.329322	1392 BC	150 BC	NA	carbonized	NA
+621	Niruchiani	NIR	Crete	Aegean	35.35	25.25	3400 BC	1100 BC	NA	NA	NA
+625	Numeira	NU	Israel	Southern Levant	31.5	35.57	2400 BC	2200 BC	judgemental sampling, flotation	carbonized	NA
+626	Nush-i Jan	NJ	Iran	Western Iran	34.37	48.65	750 BC	50 AD	NA	carbonized, uncarbonized (copper corrosion)	NA
+629	Ohalo II	OHA	Israel	Sea of Galilee	32.75	35.58	12500 BC	10800 BC	wet sieving (mesh sizes of 2.0 & 0.5mm used)	charring	NA
+632	Orchomenos	OR	Greece	Aegean	38.5	22.98	1050 BC	1000 BC	NA	NA	NA
+634	Otzaki Magoula	OTZMA	Greece	Thessaly	39.67	22.35	6400 BC	NA	flotation - but no mention of what method	charring	NA
+637	Oylum Höyük	OH	Turkey	Northern Levant	36.69864	37.179031	5200 BC	3000 BC	wet sieving	carbonized	NA
+638	Palaikastro	PAL	Crete	Aegean	35.195438	26.275572	3400 BC	1100 BC	NA	NA	NA
+644	Parekklisha-Shillourokambos	SHILL	Cyprus	southern	34.75	33.17	8800 BC	7000 BC	flotation - but no mention of what method (0.5mm mesh used)	charring and impressions/charred specimens in mudbrick/plaster	NA
+645	Patnos	PAT	Turkey	Eastern Anatolia	39.235833	42.868611	1500 BC	1200 BC	sieving	carbonized	NA
+647	Pefkakia-Magoula	PEF	Greece	Aegean	39.33	22.93	3200 BC	1500 BC	judgemental sampling, wet sieving	carbonized, uncarbonized	NA
+1066	Pella	PEL	Jordan	Southern Levant	NA	NA	1600 BC	900 BC	flotation	carbonized	NA
+648	Phaistos	PHA	Crete	Aegean	35.051389	24.813611	3400 BC	1100 BC	NA	NA	NA
+653	Pirak	PI	Pakistan	NA	32.4	72.19	1800 BC	900 BC	NA	NA	NA
+655	Platia Magoula Zarkou	PMZ	Greece	Aegean	39.6	22.12	3200 BC	1600 BC	NA	carbonized	NA
+661	Prodromos	PRODRO	Greece	Thessaly	34.949722	32.830556	6400 BC	NA	hand picked, by eye	charring	NA
+662	Pylos	PYL	Greece	Aegean	36.91	21.69	1050 BC	1000 BC	NA	NA	NA
+663	Pyrasos	PY	Greece	Aegean	39.28	22.8	NA	5200 BC	no details are given of the recovery methods used	carbonized	NA
+665	Qal'eh Ismail Aqa	QI	Iran	Western Iran	37.88	44.78	800 BC	1750 AD	water flotation/sieving	carbonized	NA
+668	Qaryat Medad	QAME	Syria	Middle Euphrates	35.2	40.35	500 AD	1500 AD	flotation	carbonized	NA
+671	Qermez Dere	QERM	Iraq	northern	36.3666	42.45	9800 BC	8800 BC	machine flotation	charring	NA
+673	Qubur al-Walaydah	QW	Israel	Southern Levant	31.33333	34.48333	918 BC	535 BC	NA	NA	NA
+1032	Ras an-Numayra	RAN	Jordan	Southern Levant	31.5	35.57	3200 BC	3000 BC	dry sieving	carbonized, some mineralized	NA
+686	Rifa'at	R	Syria	Northern Levant	36.47	37.13	NA	NA	NA	carbonized	NA
+689	Rukeis	RK	Jordan	Southern Levant	32.333333	36.566667	3400 BC	1100 BC	NA	carbonized	NA
+695	Safat ez Zerr	SEZ	Syria	Middle Euphrates	35.13	40.45	750 AD	900 AD	flotation	carbonized	NA
+702	Salamis (Cellarka)	SAL	Cyprus	Cyprus	35.25	33.88	700 BC	400 BC	NA	carbonized	NA
+704	Saliagos	SG	Greece	Aegean	37.05	25.08	NA	5200 BC	hand picked samples (+ some flotation)	carbonized, impressions	NA
+709	Samos Heraion	SH	Greece	Aegean	37.75	26.97	750 BC	480 BC	wet sieving	uncarbonized, carbonized	NA
+713	Saqqara	SAQ	Egypt	Egypt	29.85	31.22	3200 BC	2000 BC	NA	NA	NA
+718	Sataf	SAT	Israel	Southern Levant	31.82	34.98	5200 BC	2800 BC	NA	NA	NA
+722	Serce Limani	SL	Turkey	ship wreck	36.57	28.08	400 BC	1500 AD	suspension-flotation	NA	NA
+723	Servia	SER	Greece	Aegean	40.17	22	NA	5200 BC	flotation - but no mention of what method	carbonized	NA
+724	Sesklo	SES	Greece	Aegean	39.35	22.83	8000 BC	4200 BC	NA	NA	NA
+993	Shah Tepe	SHTE	Iran	Western Iran	36.939898	54.351372	3200 BC	1400 AD	NA	NA	NA
+726	Shahr-i Sokhta	SIS	Iran	Iran	31	61	3200 BC	2000 BC	judgemental sampling	carbonized, uncarbonized (by salt)	NA
+994	Shams ed-Din Tannira	SHED	Syria	Middle Euphrates	36.25	38.166667	5500 BC	4500 BC	NA	NA	NA
+731	Sharafabad	SF	Iran	Western Iran	32.05	48.78	4000 BC	NA	NA	NA	NA
+1001	Sheikh-e Abad	ABAD	Iran	NA	NA	NA	9800 BC	6500 BC	Flotation	NA	NA
+735	Shheil 1	SHH	Syria	Middle Euphrates	35.1	40.43	500 AD	1500 AD	flotation	carbonized	NA
+736	Shheil 5	SHHV	Syria	Middle Euphrates	35.1	40.45	750 AD	900 AD	flotation	carbonized	NA
+737	Shiloh	SHI	Israel	Southern Levant	32.07	35.3	1600 BC	500 BC	NA	carbonized	NA
+738	Shiqmim	SQ	Israel	Southern Levant	31.13	34.7	5200 BC	3000 BC	hand flotation	carbonized	NA
+1017	Shoham (North)	SHO	Israel	Southern Levant	32.0081	34.9461	5200 BC	2000 BC	dry-sieving (soil)	carbonized	NA
+743	Sia	SIA	Syria	NA	32.703775	36.689747	60 BC	400 AD	hand-picked, flotation	carbonized	NA
+1061	Sidon	SID	Lebanon	Southern Levant	NA	NA	2400 BC	535 BC	NA	NA	NA
+756	Slavokambos	SLA	Crete	Aegean	35.3	24.95	3400 BC	1100 BC	NA	NA	NA
+1040	Sos Höyük	SOSH	Turkey	Eastern Anatolia	39.9938	41.5223	3200 BC	500 BC	NA	NA	NA
+764	Sotira Kaminoudhia	SK	Cyprus	Cyprus	34.7	32.82	3200 BC	2000 BC	flotation	carbonized	NA
+766	Soufli	SOUF	Greece	Thessaly	39.68	22.45	6400 BC	NA	no details are given of the recovery methods used	charring	NA
+772	Susa, Ville Royale	SUS	Iran	Western Iran	32.18922	48.257785	1100 BC	224 AD	hand flotation	carbonized	NA
+774	Synoro	SYN	Greece	Aegean	37.58	23.2	2500 BC	2300 BC	NA	NA	NA
+780	Tahirbaj Tepe	TAT	Iran	Western Iran	37.51	62	1000 BC	500 BC	flotation	carbonized	NA
+997	Tall-e Bakun	BAKUN	Iran	NA	29.91	52.88	5400 BC	NA	Flotation	NA	NA
+998	Tall-e Jari	JARI	Iran	NA	29.865572	52.979153	5400 BC	NA	Flotation	NA	NA
+996	Tall-e Mushki	MUSHKI	Iran	NA	29.874325	52.9713	5400 BC	NA	Flotation	NA	NA
+782	Tamara	TAMA	Israel	Southern Levant	31.03	35.23	1000 BC	400 AD	NA	NA	NA
+783	Tappeh Gijlar	TAG	Iran	Western Iran	37.93	45.3	5200 BC	539 BC	water flotation/sieving	carbonized, uncarbonized	NA
+785	Taskun Kale (Asvan)	TK	Turkey	Eastern Anatolia	38.87	38.95	500 AD	1500 AD	flotation	charred	NA
+786	Taskun Mevkii (Asvan)	TASM	Turkey	Eastern Anatolia	38.87	38.97	3000 BC	2800 BC	flotation	charred	NA
+794	Tel 'Ira	TIRA	Israel	Southern Levant	31.2331	34.985828	1000 BC	1100 AD	collecting	NA	NA
+1059	Tel Beth Yerah	TBY	Isreal	Southern Levant	NA	NA	3000 BC	2600 BC	flotation	carbonized	NA
+793	Tel Dalit	TD	Israel	Southern Levant	32	34.95	2800 BC	2600 BC	hand collection	carbonized	NA
+1004	Tel Dor	Dor	Israel	Southern Levant	32.617428	34.916364	1200 BC	900 BC	Fauna: hand collecting	NA	NA
+1027	Tel Kedesh	TKED	Israel	Southern Levant	33	35	980 BC	840 BC	Floatation	Carbonized	NA
+1033	Tel Kinrot	TKIN	Israel	Southern Levant	32	35	3200 BC	840 BC	NA	carbonized	NA
+1062	Tel Malhat	MALHAT	Israel	Southern Levant	NA	NA	918 BC	535 BC	NA	carbonized	NA
+795	Tel Michal	TMIC	Israel	Southern Levant	32.25	34.82	1800 BC	1516 AD	NA	NA	NA
+796	Tel Nami	TN	Israel	Southern Levant	32.660668	34.925513	1800 BC	1100 BC	NA	NA	NA
+797	Tel Saf	SAF	Israel	Southern Levant	32.17	35.43	5200 BC	3000 BC	NA	NA	NA
+1056	Tel Te'o	TEO	Israel	Southern Levant	33.080282	35.562702	8700 BC	2000 BC	NA	NA	NA
+1024	Tel Yarmouth	TYAR	Israel	Southern Levant	31.70829	34.975019	3000 BC	2200 BC	Flotation	NA	NA
+799	Tell Abu al-Kharaz	TAK	Jordan	Southern Levant	32.45	35.63	3200 BC	500 BC	flotation	carbonized	NA
+1029	Tell Abu Duwari (Mashkar sharif)	DUWA	Iraq	Southern Mesopotamia	32.405528	45.220972	1800 BC	1600 BC	NA	NA	NA
+800	Tell Abu Hureyra	ABUHU	Syria	Euphrates Valley	35.869111	38.385322	12500 BC	6500 BC	machine flotation (1.0mm mesh used)	charring	NA
+801	Tell Abu Matar	TAM	Israel	Southern Levant	31.23	34.78	5200 BC	3000 BC	NA	carbonized, imprints	NA
+803	Tell Afis	TAF	Syria	Northern Levant	35.905	36.798753	4800 BC	500 BC	wet sieving	carbonized	NA
+804	Tell al-Raqa'i	TAR	Syria	Jezirah	36.43	40.87	3200 BC	2000 BC	hand flotation	carbonized	NA
+805	Tell al-Rawda	RAW	Syria	Northern Levant	35.181017	37.632857	3200 BC	2000 BC	flotation	carbonized	NA
+806	Tell Aphek	TAPH	Israel	Southern Levant	32.08	34.95	3200 BC	840 BC	floatation	carbonized	NA
+807	Tell Aqab	TAQ	Syria	Jezirah	37.058022	40.895733	5000 BC	NA	froth flotation	carbonized	NA
+1012	Tell Arbid	TEAR	Syria	Jezirah	36.872364	41.021558	3100 BC	1950 BC	NA	NA	NA
+809	Tell Aswad	ASW	Syria	Damascus Basin	33.4	36.55	9800 BC	7500 BC	bucket flotation (no mesh size given)	charring	NA
+810	Tell Atchana	ALA	Turkey	Northern Levant	36.237605	36.384184	1800 BC	1100 BC	flotation	carbonized	NA
+811	Tell Atij	TA	Syria	Jezirah	36.43	40.85	3200 BC	2000 BC	flotation	carbonized	NA
+812	Tell Bderi	TBD	Syria	Jezirah	36.387553	40.813687	3400 BC	1100 BC	judgemental sampling, flotation	carbonized	NA
+815	Tell Brak	TBR	Syria	Jezirah	36.667327	41.057934	4800 BC	1600 BC	judgemental sampling, hand flotation	carbonized	NA
+817	Tell Burak	TBU	Lebanon	Northern Levant	33.482113	35.322447	800 BC	600 BC	NA	NA	NA
+818	Tell Chragh	TCHRA	Iraq	NA	35.207672	45.806033	5300 BC	4100 BC	NA	carbonized	NA
+819	Tell Chuera	CHU	Syria	Jezirah	36.63333	39.5	3100 BC	2700 BC	NA	NA	NA
+820	Tell ed-Der	TED	Iraq	Central Mesopotamia	33.1	44.3	2000 BC	1200 BC	flotation	carbonized	NA
+821	Tell el Ifshar	TEIF	Israel	Southern Levant	32.1	34.8	3200 BC	1100 AD	water flotation	carbonized	NA
+822	Tell el'Abd	TEA	Syria	Middle Euphrates	36.25	38.18	3200 BC	2000 BC	NA	NA	NA
+828	Tell el'Oueili	TO	Iraq	Southern Mesopotamia	31.22	45.87	6400 BC	3800 BC	flotation	carbonized, uncarbonized	NA
+1054	Tell el-'Orēme	OREM	Israel	Southern Levant	32.873056	35.549167	918 BC	535 BC	NA	NA	NA
+823	Tell el-Fara'in	TEF	Egypt	Egypt	32.2	35.35	5200 BC	3000 BC	flotation	carbonized	NA
+1063	Tell el-Fukhar	TFU	Jordan	Southern Levant	NA	NA	2800 BC	2600 BC	NA	NA	NA
+824	Tell el-Handaquq	TEH	Jordan	Southern Levant	32.30192	35.59481	3000 BC	2600 BC	NA	carbonized	NA
+825	Tell el-Hayyat	TEHAY	Jordan	Southern Levant	32.4227	35.579	3200 BC	500 BC	flotation	carbonized	NA
+826	Tell el-Hesi	TELH	Israel	Southern Levant	31.55	34.57	400 BC	NA	flotation	carbonized	NA
+827	Tell el-Iswid	TEI	Egypt	Egypt	30.75	31.8	5500 BC	2700 BC	flotation	carbonized	NA
+1047	Tell el-Mafjer	MAFJ	Israel	Southern Levant	31.8825	35.459722	5200 BC	3000 BC	F: mainly hand collecting, sieving and flotation to a lesser extend	NA	NA
+1010	Tell el-Mazar II	TMAZ	Israel	Southern Levant	32.13993	35.48497	1000 BC	500 BC	NA	carbonized	NA
+830	Tell es-Sa'idiyeh	TESA	Jordan	Southern Levant	32.321944	35.56	3200 BC	2000 BC	dry-sieving, bucket flotation	carbonized, mineralized	NA
+1037	Tell es-Safi/Gath	SAFI	NA	NA	NA	NA	1500 BC	500 BC	Flotation	NA	NA
+831	Tell es-Sweyhat	SWE	Syria	Middle Euphrates	36.273587	38.253974	3200 BC	500 AD	judgemental sampling, flotation	carbonized	NA
+829	Tell Esh-Shuna	TESH	Jordan	Southern Levant	32.65	35.68	5100 BC	NA	flotation	carbonized	NA
+832	Tell Fadous-Kfarabida	TFA	Lebanon	Northern Levant	34.224148	35.655155	5200 BC	1600 BC	NA	NA	NA
+833	Tell Gerisa	TGER	Israel	Southern Levant	32.1	34.78	1800 BC	1200 BC	NA	NA	NA
+834	Tell Gezer	TGE	Israel	Southern Levant	31.87	34.92	3200 BC	2000 BC	NA	NA	NA
+835	Tell Ghoraifé	GHOR	Syria	Damascus Basin	33.5	36.53	8700 BC	6500 BC	bucket flotation (no mesh size given)	charring	NA
+836	Tell Guftan	GUF	Syria	Middle Euphrates	35.27	40.27	500 AD	1500 AD	flotation	carbonized	NA
+1067	Tell Hadar	THA	Israel	Southern Levant	NA	NA	1150 BC	980 BC	hand picking	carbonized	NA
+837	Tell Hadidi	HAD	Syria	Middle Euphrates	36.263683	38.150893	3400 BC	1516 AD	flotation	carbonized	NA
+838	Tell Halaf	THAL	Syria	northern Mesopotamia	36.826191	40.039505	1000 BC	500 BC	machine flotation	charred	NA
+839	Tell Halif	THF	Israel	Southern Levant	31.42	34.83	5200 BC	1516 AD	NA	carbonized	NA
+840	Tell Hammam et-Turkman	THT	Syria	Middle Euphrates	36.482536	39.057	4800 BC	1600 BC	flotation	carbonized	NA
+841	Tell Hesban	THES	Jordan	Southern Levant	31.800556	35.809026	1000 BC	1750 AD	water flotation	carbonized, uncarbonized	NA
+842	Tell Hrim	HRIM	Syria	Middle Euphrates	35.200151	40.338912	1200 AD	1250 AD	flotation	carbonized	NA
+843	Tell Hwes	HWES	Syria	Jezirah	36.547931	40.756606	1500 BC	1200 BC	NA	carbonized	NA
+844	Tell Ibrahim Awad	TIA	Egypt	Egypt	30.849522	31.830109	5500 BC	2700 BC	flotation	NA	NA
+845	Tell Ilbol	TI	Syria	Northern Levant	36.594582	37.188793	5200 BC	3000 BC	NA	carbonized	NA
+846	Tell Jerablus Tahtani	TJT	Syria	Middle Euphrates	36.790106	38.021156	4800 BC	2000 BC	flotation	carbonized	NA
+847	Tell Karrana	TKA	Iraq	Tigridian region	36.71666	42.91666	5200 BC	2000 BC	flotation	carbonized	NA
+848	Tell Keisan	TKEI	Israel	Southern Levant	32.873096	35.15082	1000 BC	500 BC	NA	carbonized	NA
+849	Tell Kerma	TKE	Syria	Jezirah	36.44842	40.837	3200 BC	2000 BC	flotation	carbonized	NA
+851	Tell Kurdu	TKU	Turkey	Northern Levant	36.330032	36.444892	5100 BC	NA	flotation	carbonized	NA
+852	Tell Leilan	LEIL	Syria	NA	36.95722	41.50528	2300 BC	2200 BC	NA	NA	NA
+1064	Tell Miqne	TMQ	Israel	Southern Levant	NA	NA	1300 BC	1100 BC	NA	NA	NA
+855	Tell Mishrifeh	TEMI	Syria	Northern Levant	34.834477	36.866085	3200 BC	500 BC	hand flotation	carbonized	NA
+856	Tell Mozan	TM	Syria	Jezirah	37.056944	40.997222	3400 BC	1100 BC	NA	NA	NA
+858	Tell Munbāqa	TMUN	Syria	Middle Euphrates	36.217454	38.129759	2350 BC	1200 BC	judgemental sampling	carbonized	NA
+859	Tell Mureybit	MUREY	Syria	Euphrates Valley	36.0666	38.0833	12500 BC	6500 BC	bucket flotation (no mesh size given)	charring and impressions in pise	NA
+860	Tell Nebi Mend (Kadesh)	TNM	Syria	Northern Levant	34.555572	36.51879	3200 BC	500 BC	Flotation	carbonized (uncarbonized)	NA
+861	Tell Qara Quzaq	TQQ	Syria	Middle Euphrates	36.63333	38.21666	2400 BC	1600 BC	flotation	carbonized	NA
+862	Tell Qaramel	TQA	Syria	Northern Levant	36.377752	37.275072	3400 BC	1100 BC	NA	carbonized	NA
+863	Tell Qarqur	TQR	Syria	Northern Levant	35.742034	36.330521	2350 BC	1100 AD	flotation	carbonized	NA
+864	Tell Qashish	TQASH	Israel	Southern Levant	32.7	35.1	3200 BC	2000 BC	NA	NA	NA
+865	Tell Qasile	TQAS	Israel	Southern Levant	32.101572	34.795024	1000 BC	500 BC	NA	carbonized	NA
+866	Tell Qiri	TQI	Israel	Southern Levant	32.73	34.97	1500 BC	500 BC	collection	carbonized	NA
+867	Tell Qurtass	TQ	Iraq	NA	35.079153	45.931747	2100 BC	1940 BC	NA	NA	NA
+868	Tell Ramad	RAM	Syria	Damascus Basin	33.360178	35.948949	7500 BC	7000 BC	bucket flotation (no mesh size given)	charring	NA
+869	Tell Ras Shamra	SHAM	Syria	northwest	35.602121	35.785574	7500 BC	7000 BC	bucket flotation (no mesh size given)	charring	NA
+1002	Tell Rehov	TERE	Israel	Southern Levant	32.457125	35.498242	1200 BC	535 BC	fauna: hand collecting	NA	NA
+870	Tell Sabi Abyad	TSABA	Syria	Middle Euphrates	36.50357	39.09023	5400 BC	5200 BC	flotation	carbonized	NA
+1009	Tell Sabi Abyad II	SAII	Syria	Northern Syria	36.503611	39.092917	8700 BC	6500 BC	NA	NA	NA
+871	Tell Schech Hamad	TSH	Syria	Jezirah	35.645642	40.743255	1392 BC	700 BC	hand flotation	carbonized	NA
+872	Tell Selenkahiye	SLK	Syria	Middle Euphrates	36.1	38.05	2350 BC	2000 BC	flotation	carbonized	NA
+873	Tell Sera	TSE	Israel	Southern Levant	31.4	34.67	1500 BC	1200 BC	NA	NA	NA
+874	Tell Shiukh Fawqani	TSF	Syria	Middle Euphrates	36.76667	38.05	4800 BC	1750 AD	NA	carbonized	NA
+876	Tell Taannach	TTAA	Israel	Southern Levant	32.522222	35.219444	3200 BC	1200 BC	NA	NA	NA
+878	Tell Taya	TT	Iraq	Central Mesopotamia	36.332595	42.493712	3100 BC	2200 BC	flotation	carbonized	NA
+1003	Tell Tuneinir	TETU	Syria	Jezirah	36.416667	40.833333	800 AD	1750 AD	fauna: hand collecting	NA	NA
+880	Tell Yoqneam	TYOG	Israel	Southern Levant	32.664667	35.108832	1800 BC	840 BC	hand picked	carbonized	NA
+881	Tell Zagan	ZAG	Syria	Jezirah	36.549334	40.751912	3100 BC	2700 BC	NA	carbonized	NA
+884	Tepe Abdul Hosein	ABDU	Iran	Zagros	34.3	48.5	8400 BC	7500 BC	? bucket flotation (although it is not entirely clear whether this was the method used)	charring (? + some impressions in daub)	NA
+885	Tepe Farukhabad	TF	Iran	Western Iran	32.587327	47.224095	4500 BC	1300 BC	flotation	carbonized	NA
+886	Tepe Hasanlu	TEPHA	Iran	Western Iran	37	45.47	6400 BC	3000 BC	NA	NA	NA
+887	Tepe Hissar	TEPHI	Iran	Western Iran	36.15	54.07	3200 BC	1600 BC	hand flotation	carbonized	NA
+888	Tepe Musiyan	TMU	Iran	Western Iran	36.15	54.07	6400 BC	4200 BC	NA	NA	NA
+889	Tepe Sabz	TS	Iran	Western Iran	32.637251	47.219591	5100 BC	NA	NA	NA	NA
+999	Tepe Sialk	SIALK	Iran	NA	33.968889	51.404722	6400 BC	535 BC	Flotation	NA	NA
+890	Tepe Yahya	TY	Iran	Iran	28.3309	56.867423	4800 BC	300 BC	NA	NA	NA
+891	Tepecik	TEP	Turkey	Eastern Anatolia	38.65	39.45	4500 BC	1200 BC	flotation	NA	NA
+893	Thebes	THE	Greece	Aegean	38.32	23.3	1500 BC	1200 BC	NA	NA	NA
+894	Therasia	THER	Greece	Aegean	36.43	25.33	1500 BC	1200 BC	NA	NA	NA
+897	Tilbeshar	TB	Turkey	Middle Euphrates	36.872777	37.559311	5200 BC	1500 AD	NA	carbonized	NA
+1018	Timnah (Tel Batash) III	TIM	Israel	Southern Levant	31.784755	34.910934	1700 BC	400 BC	NA	carbonized	NA
+898	Tiryns	TIR	Greece	Aegean	37.599444	22.8	2500 BC	2300 BC	hand flotation, followed by wet sieving	NA	NA
+899	Titris Höyük	TH	Turkey	Middle Euphrates	37.48	38.62	3200 BC	2000 BC	water flotation	carbonized	NA
+905	Toumba Balomenou	TOB	Greece	Aegean	38.494625	22.844344	6400 BC	5200 BC	NA	NA	NA
+911	Troia	TRO	Turkey	Western and Central Anatolia	39.957518	26.238304	3200 BC	323 BC	NA	NA	NA
+912	Tsani	TSA	Greece	Aegean	39.33	22.15	1800 BC	1600 BC	NA	NA	NA
+913	Tuleilat Ghassul	TG	Jordan	Southern Levant	31.8609	35.6405	5200 BC	3000 BC	NA	NA	NA
+1053	Türbe Höyük	TURB	Turkey	Tigridian Region	37.7745	41.811	1800 BC	1200 BC	NA	NA	NA
+1008	Tušhan (Ziyaret Tepe)	TUSH	Turkey	Tigridian Region	37.79347	40.793047	3200 BC	600 BC	NA	NA	NA
+917	Tutankhamun tomb	TUT	Egypt	Egypt	25.8	32.37	1500 BC	1200 BC	NA	NA	NA
+919	Tzafit	TZ	Israel	Southern Levant	31.72	34.9	1000 BC	400 AD	NA	NA	NA
+920	Udhruh	UDH	Jordan	Southern Levant	30.35	35.6	1000 BC	400 AD	NA	carbonized	NA
+921	Ulu Burun	U	Turkey	ship wreck	36.12872	29.68575	1500 BC	1200 BC	suspension-flotation	NA	NA
+10	Ulucak	AQ	Iraq	NA	33.145288	44.217493	238 BC	224 AD	flotation	carbonized	NA
+987	Ulucak	ULUC	Turkey	Western and Central Anatolia	38.466689	27.352405	8700 BC	2600 BC	hand collecting	NA	NA
+923	Umbashi	UMB	Syria	Northern Levant	33.054399	36.97371	3200 BC	1600 BC	hand-picked, flotation	carbonized	NA
+925	Umm el-Marra	UEM	Syria	Northern Levant	36.134026	37.693473	3200 BC	1200 BC	flotation	carbonized	NA
+926	Umm el-Qaab	UEQ	Egypt	Egypt	26.183333	31.916667	5500 BC	3200 BC	collection	uncarbonized	NA
+927	Umm Qseir	UQ	Syria	Jezirah	36.40605	40.84901	5100 BC	NA	froth flotation	carbonized	NA
+930	unknown1	ARTI_G77_1	Russia	NA	NA	NA	NA	NA	NA	modern	NA
+936	Ur	UR	Iraq	Southern Mesopotamia	30.961805	46.10512	3200 BC	2000 BC	collection by hand	carbonized	NA
+941	Vrsnik	VRS	Greece	Macedonia	41.81	22.23	6400 BC	NA	no details are given of the recovery methods used	charring	NA
+946	Wadi Fidan	WF	Jordan	Southern Levant	30.83	35.5	7500 BC	2000 BC	NA	NA	NA
+948	Wadi Hammeh 27	WHAM	Jordan	north/upper Jordan Valley	32.53	35.63	11200 BC	9600 BC	bucket flotation (0.3mm mesh used)	charring	NA
+949	Wadi Jilat 7	WJ	Jordan	Eastern (Azraq Basin)	31.5	36.42	8800 BC	5200 BC	machine flotation (0.3mm mesh used)	charring	NA
+1025	Yarikkaya	YARI	Turkey	Central Anatolia	40.025821	34.63197	3200 BC	2000 BC	NA	NA	NA
+959	Yarim Höyük	YAHO	Turkey	Southeast Anatolia	37.025	37.97	4000 BC	3100 BC	flotation	carbonized	NA
+960	Yarim Tepe I	YATE	Iraq	northern	36.340392	42.352066	5400 BC	NA	no details are given of the recovery methods used	charring	NA
+961	Yassi Ada	YA	Turkey	ship wreck	36.98	27.18	325 AD	1100 AD	suspension-flotation	NA	NA
+964	Yenibademli Höyük	YEN	Turkey	Western and Central Anatolia	40.23	25.91	2800 BC	2600 BC	hand flotation	carbonized	NA
+967	Yiftah'el	YIF	Israel	northern	32.755375	35.227725	8400 BC	7500 BC	collection from pure storage contexts (? dry sieving - no details in reports)	charring	NA
+1034	Yoncatepe (Van)	YON	Turkey	Van province in eastern Turkey	38.436056	43.450639	1000 BC	400 AD	NA	NA	NA
+1065	Zahrat adh-Dhra 1	ZAD	Jordan	Southern Levant	NA	NA	1800 BC	1600 BC	NA	NA	NA

@@ -1,0 +1,140 @@
+site,country,region,Latitude,Longitude,Georef rank,Abot sampling,dating,Phase,start date,end date,Median age,-,-,-,-,-,-,-,-,-,-,-,-,references
+Abu Hureyra 2A-C,Syria,LN,35.87,38.4,2,3,AMS,Middle PPNB,-7800,-7000,-7400, Tm2,Td,Hv,Sec,Le,Ci,?Pis,?Vic,Vicf,?La,Linu,-7400,de Moulins 1997; 2000
+Abu Hureyra I,Syria,LN,35.87,38.4,2,3,AMS,Epipalaeolithic,-11150,-10450,-10800,Tm2,-,-,Sec,Le,-,-,Vic,-,-,Linu,-10800,Colledge and Conolly 2010; Hillman 2000
+Ain Ghazal,Jordan,LS,31.98,35.97,2,3,C14,PPNB,-8300,-6600,-7450,-,Td,Hv,-,Le,Ci,Pis,-,Vicf,-,Linu,-7450,Rollefson et al. 1985.
+Ais Yiorkis,Cyprus,Cy,34.926482,32.56299,2,3,AMS,MPPNB,-7900,-7500,-7700,Tm Tm2 ,-,Hv,-,Le,-,Pis,-,-,-,-,-7700,"Lucas, 2014; Lucas et al 2012"
+Ali Kosh,Iran,E,32.638336,48.17487,3,2,C14,PPNB,-7650,-6800,-7225,Tm,Td,Hv,-,-,-,-,-,-,-,Linu,-7225,Helbaek 1969
+Ali Kosh,Iran,E,32.638336,48.17487,3,2,C14,LPNB,-6800,-6100,-6450,Tm,Td,Hv,-,Le,-,-,-,-,-,-,-6450,Helbaek 1969
+Arjoune,Syria,LN,34.559115,36.533226,2,3,C14,Neolithic,-5670,-5370,-5520,Tm,Td,Hv,-,Le,-,-,-,Vicf,-,-,-5520,"Moffett, 2003"
+Asikli Hoyuk,Turkey,CA,38.349099,34.229505,3,3,C14,MPPNB,-7820,-7520,-7670,Tm,Td Tng,Hv,-,Le,?Ci,Pis,Vic,-,-,-,-7670,van Zeist and de Roller 1995
+Atlit-Yam,Israel  ,LS,32.71082778,34.93515,3,3,AMS,PPNC,-7250,-6550,-6900,-,Td,Hv,-,Le,Ci ,-,-,-,-,-,-6900,Kislev et al 2004; Hartmann et al. 2015
+Azraq 31,Jordan,LS,31.8,36.82,1,3,C14,PPNB,-7490,-7180,-7335,-,-,Hv,-,-,-,-,?Vic,-,-,-,-7335,Colledge 2001
+Basta,Jordan,LS,30.22,35.53,1,3,C14,PPNB,-7550,-7050,-7300,Tm,Td,Hv,-,Le,-,Pis,Vic,-,-,-,-7300,Neef 2004
+Beidha,Jordan,LS,30.33,35.43,1,3,C14,PPNB,-8300,-7550,-7925,Tm,Td,Hv,-,Le,Ci,-,Vic,-,-,-,-7925,Colledge 2001
+Cafer Hoyuk,Turkey,N,38.42,38.75,1,3,C14,Middle PPNB,-8400,-7800,-8100,Tm,Td,Hv,wSec,Le,?Ci,Pis,Vic,Vicf,La,-,-8100,de Moulins 1997
+Cafer Hoyuk,Turkey,N,38.42,38.75,1,3,C14,M/LPPNB,-8250,-7300,-7800,Tm,Td,Hv,wSec,Le,-,-,Vic,-,La,-,-7800,de Moulins 1997
+Cafer Hoyuk,Turkey,N,38.42,38.75,1,3,C14,Late PPNB,-7700,-7000,-7350,Tm,Td,Hv,wSec,Le,-,-,-,-,La,-,-7350,de Moulins 1997
+Can Hassan III,Turkey,CA,37.263492,33.327873,3,3,C14,Mid/Late PPNB,-7650,-6650,-7150,Tm Tm2,Td Tng,Hv,Sec,Le,-,Pis,Vic,-,-,-,-7150,Hillman 1972; 1978; Renfrew 1968
+Cape Andreas-Kastros ,Cyprus,Cy,35.694067,34.585598,2,-,C14,LPPNB,-6800,-6100,-6450,Tm,Td,Hv,-,Le,-,Pis,Vic,?Vicf,-,-,-6450,Van Zeist 1981
+Catalhoyuk East,Turkey,CA,37.66587,32.826889,3,3,AMS,PPNB,-7100,-6400,-6750,Tm Tm2,Td Tng,Hv,?Sec,Le,Ci,Pis,Vic,-,La,?wLin,-6750,Fairbairn et al. 2002; Bogaard et al 2017
+Catalhoyuk West,Turkey,CA,37.660201,32.806836,2,3,C14,Chalcolithic,-6000,-5750,-5500,Tm Tm2,Td Tng,Hv,-,Le,Ci,Pis,Vic,-,La,-,-5500,Bogaard et al. 2017
+Cayonu (CA1a),Turkey,N,38.21815,39.725498,3,2,ass,PPNA,-10200,-8800,-9500,?Tm,?Td,-,-,Le,-,-,-,-,La,-,-9500,van Zeist and de Roller 1992
+Cayonu (CA1b),Turkey,N,38.21815,39.725498,3,2,C14,EPPNB,-8800,-8300,-8550,Tm,Td,Hv,-,Le,Ci,Pis,Vic,-,La,-,-8550,van Zeist and de Roller 1992
+Cayonu (CA1b/c),Turkey,N,38.21815,39.725498,3,2,C14,E/MPPNB,-8500,-8000,-8250,Tm,Td,Hv,-,Le,-,Pis,Vic,-,La,Linu,-8250,van Zeist and de Roller 1992
+Cayonu (CA1c),Turkey,N,38.21815,39.725498,3,2,C14,MPPNB,-8000,-7530,-7765,Tm,Td,Hv,-,Le,Ci,Pis,Vic,-,-,-,-7765,van Zeist and de Roller 1992
+Cayonu (CA1d),Turkey,N,38.21815,39.725498,3,2,C14,LPPNB,-7140,-6820,-6980,Tm,Td,Hv,-,Le,-,Pis,Vic,-,-,-,-6980,van Zeist and de Roller 1992
+Cayonu (CAY_PN),Turkey,N,38.21815,39.725498,3,2,ass,PN,-6600,-6200,-6400,Tm,Td,Hv,-,Le,Ci,-,Vic,-,-,-,-6400,van Zeist and de Roller 1992
+Chaga Sefid,Iran,E,32.580209,47.338174,3,2,ass,Neolithic,-6000,-5000,-5500,-,Td,Hv,-,-,-,-,-,-,-,-,-5500,Hole 1977
+Chia Sabz,Iran,E,33.322403,47.170139,3,3,ass,PPNB,-8400,-7700,-8050,?Tm,?Td,Hv,-,Le,-,-,-,-,-,-,-8050,Riehl et al. 2012
+Choga Mami,Iraq,E,33.72999954,45.52000046,2,2,C14,Pottery Neolithic,-5980,-5610,-5795,Tm,Td,Hv,-,Le,-,-,-,-,-,Linu,-5795,Helbaek 1972b
+Choga Mami,Iraq,E,33.72999954,45.52000046,2,2,ass,Chal,-5850,-5050,-5450,Tm,Td,Hv,-,Le,-,-,-,-,La,Linu,-5450,Helbaek 1972b
+Chogha Bonut,Iran,E,32.22261,48.504769,2,1,C-14,7600-6900,-7600,-6900,-7250,Tm,Td,Hv,-,Le,-,-,-,-,-,Linu,-7250,Miller 2003
+Chogha Golan,Iran,E,33.391085,46.274762,2,3,AMS,PPNA/EPPNB,-9300,-8450,-8875,?Tm Tm2,?Td,Hv,Sec,Le,-,?Pis,-,-,?La,-,-8875,Riehl et al. 2012; 2015
+Chogha Golan,Iran,E,33.391085,46.274762,2,3,AMS,MPPNB,-8750,-7800,-8275,Tm,?Td,Hv,-,Le,-,?Pis,-,-,?La,-,-8275,Riehl et al. 2012; 2015
+Chogha Golan,Iran,E,33.391085,46.274762,2,3,AMS,MPPNB,-8350,-7600,-7975,?Tm,Td,Hv,-,Le,-,?Pis,-,-,-,-,-7975,Riehl et al. 2012; 2015
+Demirkoy,Iraq,N,37.88333333,41.08333333,2,2,C14,PPNA,-9440,-9280,-9360,-,-,wHv,-,Le,-,-,-,-,-,-,-9360,Savard et al. 2006
+Dja’de,Syria,LN,36.67,38.18,2,3,AMS,Early PPNB,-8700,-8270,-8485,Tm,Td,Hv,Sec,Le,-,Pis,Vic,Vicf,-,-,-8485,Willcox et al 2008; 2009
+El Kowm I (EkIa),Syria,LN,35.191122,38.85632,3,2,ass,LPPNB,-7000,-6350,-6675,-,Td,Hv,-,-,-,Pis,-,-,-,-,-6675,van Zeist 1986
+El Kowm I (EkIb),Syria,LN,35.191122,38.85632,3,2,C14,Pottery Neolithic,-6350,-6090,-6220,-,Td,Hv,-,Le,-,-,-,-,-,-,-6220,van Zeist 1986
+El Kowm II,Syria,LN,35.203005,38.853486,2,3,C14,Late PPNB,-7100,-6350,-6725,Tm,Td,Hv,-,-,-,-,-,Vicf,-,-,-6725,de Moulins 1997
+El-Hemmeh,Jordan,LS,30.967353,35.730341,3,3,C14,PPNA,-9150,-8350,-8750,-,Td,Hv,-,Le,?Ci,-,-,-,-,-,-8750,White and Makarewicz 2012.
+El-Hemmeh,Jordan,LS,30.967353,35.730341,3,3,C14,LPPNB,-7740,-6090,-6915,Tm  ,-,Hv,-,Le,?Ci,-,-,-,-,-,-6915,White and Makarewicz 2012.
+Erbaba,Turkey,CA,37.77,31.68,2,3,C14,PN,-7100,-5800,-6450,Tm,Td,Hv,-,Le,-,Pis,Vic,-,-,-,-6450,van Zeist and Buitenhuis 1983
+Feyda,Syria,N,36.564806,40.483925,2,1,C14,LPPNB,-7042,-6378,-6710,-,Td,Hv,-,Le,-,-,-,-,-,-,-6710,McCorriston and Weisberg 2002
+Fistikli Hoyuk,Turkey,LN,37.058207,37.885417,1,3,AMS,Halaf,-5900,-5680,-5790,Tm,Td,Hv,-,-,-,-,-,Vicf,La,-,-5790,Bernbeck and Pollck 2003
+Ganj Dareh,Iran,E,34.45,48.116667,2,3,C14,MPPNB,-8240,-7840,-8040,-,-,Hv,-,Le,-,-,-,-,-,-,-8040,van Zeist et al. 1986
+Gilgal I,Israel  ,LS,32.03277778,35.47568889,2,2,AMS,PPNA,-9550,-9100,-9325,-,?Td,Hv,-,-,-,-,-,-,-,-,-9325,Kislev et al. 2006; Kislev et al. 2004a; Weiss et al. 2006
+Girikihaciyan (Gerikihaciyan - Ekinciyan),Turkey,N,38.145189,39.989696,3,2,?C14,Halaf,-5300,-5000,-5150,Tm,Td,-,-,Le,Ci,-,Ve,-,-,Linu,-5150,Watson and Lablanc 1990
+Gobekli Tepe,Turkey,N,37.142234,38.541423,3,1,C14,PPNA,-9200,-8600,-8900,Tm,-,Hv,-,Le,-,-,-,-,-,-,-8900,Neef 2003
+Hacilar,Turkey,CA,37.57,30.07,1,1,ass,LPPNB,-6500,-6050,-6275,Tm,Td,Hv,-,Le,-,-,?Vic,-,-,-,-6275,Helbaek 1970
+Hacilar,Turkey,CA,37.57,30.07,1,1,ass,PN ,-5700,-5600,-5650,Tm,Td,Hv,-,Le,Ci,Pis,Ve,-,Ls,-,-5650,Helbaek 1970
+Hajji Firuz,Iran,E,36.994394,45.474393,2,2,C14,Neolithic,-6250,-5650,-5950,-,Td,?Hv,-,Le,-,-,-,-,-,-,-5950,Voigt 1983; dating from Maeda et al. 2016
+Halaf,Syria,N,36.826472,40.039758,3,1,C14,LPPNB,-6692,-6424,-6558,-,Td,Hv,-,Le,-,-,-,-,-,-,-6558,McCorriston and Weisberg 2002
+Hallan Cemi,Turkey,N,38.23333333,41.25,2,3,C14,PPNA,-9670,-9300,-9485,-,-,-,-,-,-,?Pis,?Vic,-,?La,-,-9485,Savard 2005
+Hasankeyf Höyük,Turkey,N,37.710354,41.42493,2,2,C14,PPNA,-9660,-9220,-9440,-,-,-,-,?Le,-,-,Vic,Vicf,-,-,-9440,Miyake et al 2012
+Hayonim Cave,Israel  ,LS,32.93,35.18,1,2,ass,Epipal   ,-,-,-11700,-,-,wHv,wild,-,-,?wPis,-,-,-,-,-11700,Hopf and Bar-Yosef 1987
+Höyücek,Turkey,CA,37.45,30.58,2,2,C14,Neolithic,-6500,-4200,-5350,Tm,Td,Hv,-,Le,Ci,Pis,Ve,-,La,-,-5350,Martinoli and Nesbitt 2003
+Ilipinar,Turkey,CA,40.45000076,29.29999924,2,3,C14,Neolithic,-6030,-5800,-5915,Tm  ,Td,Hv,-,Le,Ci ,Pis,Vic,-,La,Linu,-5915,van Zeist and Waterbolk-van Rooijen 1995
+Iraq ed-Dubb,Jordan,LS,32.32,35.67,2,3,C14,PPNA,-9660,-8800,-9230,?Tm,?Td,Hv,-,Le,-,-,-,?Vicf,-,-,-9230,Colledge 2001
+Jarmo,Iraq,E,35.548889,44.950278,3,1,ass,Late PPNB/Pneo,-8000,-6600,-7300,Tm,Td,Hv,-,Le,-,Pis,-,-,-,-,-7300,Helbaek 1960; Fuller Lucas & Gonzalez Carretero unpublished
+Jarmo,Iraq,E,35.548889,44.950278,3,3,ass,PPNB,-7500,-7000,-7250,?Tm,Td,Hv,-,Le,-,Pis,Vic,Vicf,La,Linu,-7250,Helbaek 1960; Fuller Lucas & Gonzalez Carretero unpublished
+Jebel Abu Thawwb (Er-Rumman),Jordan,LS,32.178583,35.852186,2,3,ass,Pottery Neolithic,-6000,-5000,-5500,?Tm,Td,Hv,-,Le,-,Pis,-,-,-,-,-5500,Neef 2001
+Jerf el Ahmar,Syria,LN,36.4,38.22,2,3,C14,PPNA,-9450,-8700,-9075,Tm,-,Hv,Sec,Le,-,?Pis,Vic,-,-,-,-9075,Willcox et al. 2008; 2009; Willcox and Strodeur 2012
+Jericho  (PPNA),Palestinian Territories,LS,31.85,35.45,2,1,C14,PPNA,-9150,-8300,-8725,Tm,Td,Hv,-,Le,Ci,-,-,-,-,-,-8725,Hopf 1983
+Jericho (PN),Palestinian Territories,LS,31.85,35.43,2,1,C14,PN,-7000,-5000,-6000,Tm,Td,Hv,-,Le,-,-,-,-,-,-,-6000,Hopf 1983
+Jericho (PN),Palestinian Territories,LS,31.85,35.43,2,1,C14,PN,-7000,-5000,-6000,Tm,Td,Hv,-,Le,-,-,-,-,-,-,-6000,Hopf 1983
+Jericho (PPNB),Palestinian Territories,LS,31.85,35.45,2,1,C14,PPNB,-8200,-7500,-7850,Tm,Td,Hv,-,Le,Ci,Pis,-,-,-,Linu,-7850,Hopf 1983
+Kalavasos Tenta (5-1),Cyprus,Cy,34.752581,33.303209,3,3,ass,MPPNB,-8000,-7500,-7750,Tm Tm2 ,Td,Hv,-,Le,-,Pis,-,-,-,-,-7750,Hansen 2005
+Kashkashok II,Syria,N,36.614197,40.660165,2,2,C14,PNeo,-6430,-6220,-6325,-,Td,Hv,-,Le,-,-,-,-,-,-,-6325,McCorriston and Weisberg 2002
+Khirokitia,Cyprus,Cy,34.795514,33.344138,2,3,C14,LPPNB,-6400,-6100,-6250,Tm,Td,Hv,-,Le,-,Pis,?Vic,?Vicf,-,-,-6250,Hansen 1989; 1994; Waines and Staney-Price 1977
+Klimonas,Cyprus,Cy,34.738467,33.153309,3,1i,C14,PPNA,-9120,-8630,-8875,-,Td,Hv,-,-,-,-,-,-,-,-,-8875,Vigne et al. 2011
+Körtik Tepe,Turkey,N,37.81441667,40.98389444,3,3,AMS,PPNA,-9680,-9320,-9500,-,-,Hv,Sec,-,-,-,-,-,-,-,-9500,Riehl et al. 2012
+Kosak Shamali,Syria,LN,36.52999878,38.25,1,3,C14,Chalcolithic,-6450,-4800,-5625,-,Td,Hv,-,Le,-,Pis,-,-,-,Linu,-5625,Willcox 2003
+M'lefaat,Iraq,N,36.3,43.53,1,2,C14,PPNA,-9500,-8800,-9150,?Tm,?Td,Hv,-,Le,-,-,Vic,-,-,-,-9150,Nesbitt 1998; Savard et al. 2006
+Mureybet I-III,Syria,LN,36.02,38.15,1,3,C14,PPNA,-9700,-8500,-9100,Tm,-,Hv,wSec,Le,-,Pis,-,-,-,Linu,-9100,van Zeist 1970; van Zeist and Bakker-Heeres 1986a
+Mureybet IV,Syria,LN,36.02,38.15,1,3,C14,Early PPNB,-8750,-7950,-8350,Tm,-,Hv,-,Le,-,Pis,-,-,-,-,-8350,Willcox 2008; Willcox and Fornite 1999
+Mylouthkia (IA),Cyprus,Cy,34.833,32.383,2,3,C14,EPPNB,-8700,-8200,-8450,Tm,Td,Hv,-,Le,-,-,Vic,-,-,Linu,-8450,Murray 2003; Colledge 2003
+Nahal Hemar,Israel  ,LS,31.14166667,35.37222222,3,3,C14,PPNB,-8000,-7050,-7525,-,Td,Hv,-,Le,-,-,-,-,La,Linu,-7525,Bar-Yosef 1985; Kislev 1988.
+Nahal Zehora II,Israel  ,LS,32.616026,35.098316,3,2,C14,Pottery Neolithic,-6250,-5850,-6050,-,Td,Hv,-,Le,-,-,-,Vicf,-,Linu,-6050,Kislev and Hartmann 2012
+Nahal Zehora II,Israel  ,LS,32.616026,35.098316,3,2,ass,PN,-5900,-5000,-5450,-,Td,Hv,-,Le,-,-,-,Vicf,-,-,-5450,Kislev and Hartmann 2012
+Nemrik 9,Iraq,N,36.71666667,42.85,2,2,C14,PPNA,-9900,-8200,-9050,-,-,-,-,Le,-,Pis,-,-,-,-,-9050,Charles 2007; Nesbitt 1992
+Netiv Hagdud,Israel  ,LS,31.98333333,35.45,2,3,AMS,PPNA,-9310,-8850,-9080,-,wTd,wHv,-,Le,-,-,Vic,-,-,-,-9080,Kislev 1997; Kislev et al. 2004; Melamed et al. 2008
+Nevali Cori,Turkey,N,37.58,38.65,1,2,C14,PPNB,-8600,-7950,-8275,Tm,Td,Hv,-,Le,?Ci,Pis,Vic,Vicf,La,-,-8275,Pasternak 1998; Tanno and Willcox 2006a; Willcox et 2008
+Qermez Dere,Iraq,N,36.372372,42.418336,3,2,C14,PPNA,-10100,-8800,-9450,-,-,wHv,-,Le,-,-,Vic,-,-,-,-9450,Savard et al. 2006
+Ramad,Syria,LS,33.429237,36.090871,2,3,C14,Late PPNB,-7300,-7040,-7170,Tm,Td,Hv,-,Le,Ci,Pis,Vic,-,-,Linu,-7170,van Zeist and Bakker-Heeres 1985 [1982].
+Ramad,Syria,LS,33.429237,36.090871,2,3,C14,Late PPNB,-6910,-6640,-6775,Tm,Td,Hv,-,Le,Ci,Pis,-,-,-,Linu,-6775,van Zeist and Bakker-Heeres 1985 [1982].
+Ramad,Syria,LS,33.429237,36.090871,2,3,ass,pottery Neolithic,-6700,-5500,-6100,Tm,Td,Hv,-,Le,Ci ,Pis,Vic,-,-,Linu,-6100,van Zeist and Bakker-Heeres 1985 [1982].
+Ras Shamra,Syria,LN,35.62,35.78,2,3,C14,LPPNB,-7550,-6650,-7100,-,Td,Hv,-,Le,-,Pis,-,-,-,Linu,-7100,van Zeist and Bakker-Heeres 1986b [1984b].
+Ras Shamra,Syria,LN,35.62,35.78,2,3,ass,LPPNB,-6640,-6250,-6445,Tm,Td,Hv,-,Le,-,Pis,-,-,La,Linu,-6445,van Zeist and Bakker-Heeres 1986b [1984b].
+Ras Shamra,Syria,LN,35.62,35.78,2,3,ass,Pottery Neolithic,-6000,-5700,-5850,Tm,Td,Hv,-,Le,-,Pis,-,-,-,Linu,-5850,van Zeist and Bakker-Heeres 1986b [1984b].
+Ras Shamra,Syria,LN,35.62,35.78,2,3,ass,Pottery Neolithic,-5700,-5100,-5400,Tm,Td,Hv,-,Le,-,Pis,-,-,-,Linu,-5400,van Zeist and Bakker-Heeres 1986b [1984b].
+Sabi Abyad,Syria,LN,36.5,39.11999893,1,3,C14,Neolithic,-6750,-6020,-6385,Tm  ,Td,Hv,-,Le,-,-,-,-,-,Linu,-6385,van Zeist 1999; van Zeist and de Roller 2000
+Sabi Abyad,Syria,LN,36.5,39.11999893,1,3,C14,Halaf,-6020,-5810,-5915,Tm  ,Td,Hv,-,Le,-,Pis,Vic,-,La,Linu,-5915,van Zeist 1999; van Zeist and de Roller 2000
+Sabi Abyad II,Syria,LN,36.5,39.11999893,1,3,C14,Middle PPNB,-7650,-6750,-7200,Tm,Td,Hv,-,Le,-,-,-,-,-,Linu,-7200,van Zeist 1999; van Zeist and de Roller 2000
+Salat Camii Yani,Turkey,N,37.813443,40.90865,1,2,C14,PPNB,-6480,-6210,-6345,  ?Tm,?Td,Hv,-,Le,wCi,-,-,-,-,-,-6345,Miyake 2011
+Sang-i-Chakhmaq East,Iran,E,36.500111,55.002135,3,1,C14,Pottery Neo/Djeitun,-6200,-5700,-5950,Tm,Td,Hv,-,Le,-,-,-,-,-,-,-5950,Roustaei et al 2015
+Sarab,Iran,E,34.366667,47.083333,2,1,ass,Neolithic,-6000,-5000,-5500,-,Td,?Hv,-,-,-,-,-,-,-,-,-5500,Bökönyi 1977; Mellaart 1975
+Sha'ar Hagolan,Israel  ,LS,32.686582,35.604023,2,2,C14,PPNB,-6400,-6060,-6230,Tm  ,Td,Hv,-,Le,-,-,-,-,-,-,-6230,Allen 2002
+Sheikh-e Abad,Iran,E,34.611697,47.269695,2,3,AMS,PPNB I,-8230,-7730,-7980,-,-,Hv,-,Le,Ci,Pis,Ve,-,La,-,-7980,Whitlam et al 2018
+Sheikh-e Abad,Iran,E,34.611697,47.269695,2,3,AMS,PPNB II,-7640,-7580,-7610,-,-,Hv,-,Le,-,-,Ve,-,La,-,-7610,Whitlam et al 2018
+Shillourokambos,Cyprus,Cy,34.739044,33.098486,2,2,C14,MPPNB,-8250,-7350,-7800,-,Td,Hv,-,Le,-,-,-,-,La,-,-7800,Willcox 2001
+Tall-e Jari,Iran,E,29.865572,52.979153,2,1,ass,PNeo,-6250,-5750,-6000,Tm,Td,Hv, ,-,-,-,-,-,-,-,-6000,Miller and Kimiaie 2006
+Tall-e Jari,Iran,E,29.865572,52.979153,2,1,ass,PNeo,-6250,-5750,-6000,Tm,Td,Hv,-,-,-,-,-,-,-,-,-6000,Miller and Kimiaie 2006
+Tall-e Mushki,Iran,E,29.874325,52.9713,2,1,ass,PNeo,-6400,-6050,-6225,Tm,Td,Hv, ,-,-,-,-,-,-,-,-6225,Miller and Kimiaie 2006
+Tell ‘Abr 3,Syria,LN,36.682518,38.086223,3,3,C14,PPNA,-9280,-8960,-9120,Tm2,-,Hv,Sec,Le,-,-,-,-,-,-,-9120,Wilcox et al 2008
+Tell Ain el-Kherkh,Syria,LN,35.823854,36.467403,3,3,AMS,MPPNB,-8550,-8310,-8430,Tm Tm2,Td,Hv,-,Le,Ci,-,-,Vicf,La,-,-8430,Tsuneki et al. 2006; Tanno and Willcox 2006a; 2006b; 2012; Maeda et al 2016
+Tell Ain el-Kherkh,Syria,LN,35.823854,36.467403,3,3,ass,LPPNB,-7550,-6240,-6895,Tm Tm2 ,Td,Hv,-,Le,Ci,-,Vic,Vicf,-,-,-6895,Tsuneki et al. 2006; Tanno and Willcox 2006a; 2006b; 2012; Maeda et al 2016
+Tell Aqab,Syria,N,37.06999969,40.90000153,1,2,C14,Pottery Neolithic,-5580,-4995,-5287.5,-,Td,Hv,-,Le,-,-,Vic,-,-,Linu,-5287.5,McCorriston and Weisberg 2002
+Tell Aswad I,Syria,LS,33.40415,36.550062,3,3,C14,Early PPNB,-8700,-8300,-8500,Tm,Td,Hv,-,Le,-,Pis,Vic,-,-,-,-8500,van Zeist and Bakker-Heeres 1985 [1982].
+Tell Aswad II,Syria,LS,33.40415,36.550062,3,3,C14,Middle PPNB,-8200,-7500,-7850,Tm,Td,Hv,-,Le,-,Pis,-,-,-,Linu,-7850,van Zeist and Bakker-Heeres 1985 [1982].
+Tell Bouqras,Syria,LN,35.08,40.38,1,3,C14,M/L PPNB,-7500,-6300,-6900,Tm,Td,Hv,-,Le,-,Pis,-,-,-,Linu,-6900,van Zeist and Waterbolk-van Rooijen 1985
+Tell el'Oueili,Iraq,E,31.21999931,45.86999893,2,1,C14,Neolithic,-6400,-6100,-6250,Tm,?Td,Hv, ,-,-,-,-,-,-,-,-6250,"Neef, 1991"
+Tell el'Oueili,Iraq,E,31.21999931,45.86999893,2,1,C14,Chalclithic/Ubaid,-5800,-4400,-5100,?Tm,?Td,Hv,-,-,-,-,-,-,-,Linu,-5100,"Neef, 1991"
+Tell es-Sawwan,Iraq,E,34.11666667,43.9,2,2,ass,Pottery Neolithic,-6000,-5000,-5500,Tm,Td,Hv,-,-,-,-,-,-,-,-,-5500,Helbaek 1965
+Tell Ghoraife,Syria,LS,33.507799,36.547273,2,3,C14,Middle/Late PPNB,-7800,-7050,-7425,Tm,Td,Hv,-,Le,Ci,Pis,Vic,-,-,Linu,-7425,van Zeist and Bakker-Heeres 1985 [1982].
+Tell Halula,Syria,LN,36.42241667,38.18226667,2,3,C14,Middle PPNB,-8000,-7100,-7550,Tm,Td,Hv,-,Le,-,Pis,Vic,-,La,Linu,-7550,Ferrio et al 2012
+Tell Halula,Syria,LN,36.42241667,38.18226667,2,3,C14,Late PPNB,-7450,-7190,-7320,-,Td,Hv,wSec,Le,-,-,-,-,-,Linu,-7320,Ferrio et al 2012
+Tell Halula,Syria,LN,36.42241667,38.18226667,2,3,C14,Pottery Neolithic,-6850,-6250,-6550,Tm,Td,Hv,-,-,-,-,-,Vicf,-,Linu,-6550,Ferrio et al 2012
+Tell Halula,Syria,LN,36.42241667,38.18226667,2,3,C14,Halaf,-6250,-5600,-5925,Tm  ,Td,Hv,-,Le,-,-,-,Vicf,-,Linu,-5925,Ferrio et al 2012
+Tell Kurdu,Turkey,LN,36.33000183,36.45000076,1,2,C14,Pottery Neolithic,-5990,-5510,-5750,Tm  ,-,Hv,-,Le,Ci ,-,-,-,-,-,-5750,Yener et al. 2000
+Tell Maghzaliyeh (Magzalia),Iraq,N,36.398,42.324,2,2,C-14,LPPNB,-7050,-6250,-6650,Tm,Td,Hv,-,Le,-,-,-,-,-,Linu,-6700,Willcox 2006
+Tell Nebi Mend (Kadesh),Syria,LN,34.555077,36.518235,3,3,C14,Late PPNB,-7030,-6630,-6830,Tm,Td,Hv,-,Le,-,-,-,-,-,-,-6830,Smith and Moffett 2015
+Tell Qaramel,Syria,LN,36.27999878,37.33000183,2,2,C14,PPNA,-10300,-8850,-9575,Tm,Td,Hv,-,Le,-,-,Vic,-,-,-,-9575,Willcox et al. 2009; Willcox et al 2008; Willcox and Hervuex 2013
+Tell Qarassa North,Syria,LS,32.7,36.3,2,3,AMS,EPPNB,-8700,-8400,-8550,Tm,Td,Hv,-,Le,Ci,Pis,Vice,Vicf,La,-,-8550,Arranz-Otaegui et al 2016a; Arranz-Otaegui et al 2016b
+Tell Teo,Israel  ,LS,33.115761,35.569655,2,2ph,ass,PPNB,-7500,-6500,-7000,?Tm,?Td,Hv,-,-,-,-,-,-,-,-,-7000,Rosen 1989
+Tell Teo,Israel  ,LS,33.115761,35.569655,2,2ph,ass,Pneo,-6500,-5000,-5750,?Tm,?Td,Hv,-,-,-,-,-,-,-,-,-5750,Rosen 1989
+Tepe Abdul Hosein,Iran,E,33.774761,47.967613,1,2,C14,PPNB,-8300,-7800,-8050,-,Td,Hv,-,Le,-,-,-,-,-,-,-8050,Hubbard 1990
+Tepe Marani,Iraq,E,35.210612,45.921059,3,3,AMS,Halaf,-5600,-5000,-5300,-,Td,Hv,-,Le,-,Pis,Vic,-,La,Linu,-5300,Wengrow et al 2016
+Tepe Sialk north,Iran,E,33.974365,51.407387,1,3,C14,Sialk I (end of 6th millenium),-5894,-5725,-5809.5,-,Td,Hv,-,-,-,-,-,-,-,-,-5809.5,Tengberg 2004
+Tepe Yahya,Iran,E,28.330833,56.8675,3,1,ass,Neolithic,-5500,-5000,-5250,Tm  ,Td,Hv,-,-,-,-,-,-,-,-,-5250,Costantini and Costantini-Biasini 1985.
+Umm Dabaghiyah,Iraq,N,35.59999847,42.56999969,1,1,ass,PPNB,-6900,-5500,-6200,-,Td,Hv,-,-,-,-,-,-,-,-,-6200,Helbaek 1972a
+Umm Qseir,Syria,N,36.38000107,40.84999847,1,2,C14,Pottery Neolithic,-5845,-5630,-5737.5,-,Td,Hv,-,Le,Ci ,-,Vic,-,-,-,-5737.5,McCorriston 1992
+Wadi Faynan 16,Jordan,LS,30.66083333,35.45008292,3,3,C14,PPNA,-10600,-8200,-9400,-,-,Hv,-,-,-,-,-,-,-,-,-9400,Kennedy 2007
+Wadi Fidan A,Jordan,LS,30.82999992,35.5,2,3,ass,PPNB,-7300,-6750,-7025,Tm,Td,Hv,-,-,-,-,-,-,-,-,-7025,Colledge 2001
+Wadi Fidan C,Jordan,LS,30.62,35.5,2,3,ass,LPPNB/PPNC,-6000,-5500,-6250,Tm Tm2,?Td,Hv,-,Le,-,-,-,-,-,-,-6250,Colledge 2001
+Wadi Hammeh b27,Jordan,LS,32.53,35.63,2,3,C14,Natufian,-12200,-11600,-11900,-,-,wHv,-,Le,-,-,-,-,-,-,-11900,Colledge 2001
+Wadi Jilat 13,Jordan,LS,31.5,36.42,2,3,C14,PPNB,-7030,-6600,-6815,Tm,Td,Hv,-,Le,-,-,-,-,-,-,-6815,Colledge 2001
+Wadi Jilat 7,Jordan,LS,31.5,36.42,2,3,ass,PPNB,-8200,-7350,-7775,Tm Tm2,Td,Hv,-,Le,?Ci,-,Vic,-,-,-,-7775,Colledge 2001
+Yarim Tepe ,Iraq,N,36.34,42.352,3,3,C14,Pottery Neo.,-6800,-6000,-6400,-,Td,Hv,-,-,-,-,-,-,-,-,-6400,Bakhteyev and Yanushevich 1980
+Yiftahel,Israel  ,LS,32.75570556,35.23021944,3,2,C14,PPNB,-8200,-7650,-7925,?Tm,?Td,-,-,Le,-,-,-,Vicf,-,-,-7925,Garfinkel 1987; Garfinkel et al. 1988; Kislev 1985
+Zahrat adh-Dhra (ZAD 2),Jordan,LS,31.25521944,35.56623611,3,3,AMS,PPNA,-9160,-8830,-8995,-,?Td,Hv,-,Le,-,?Pis,?Vic,-,?La,-,-8995,Edwards et al. 2004; Meadows 2004

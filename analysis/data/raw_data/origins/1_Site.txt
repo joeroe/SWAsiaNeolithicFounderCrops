@@ -1,0 +1,76 @@
+"SiteName","SiteCode","Region-Coarse","Latitude","Longitude"
+"Abu Hureyra","ABHU","N Levant",35.87,38.40
+"Ain Ghazal","AIGH","S Levant",31.98,35.97
+"Ais Yiorkis","AIYI","Cyprus",34.92,32.56
+"Asikli Höyük","ASHO","C Anatolia",38.37,34.25
+"Atlit-Yam","ATYA","S Levant",32.68,34.93
+"Ayn Abu Nukhayla","AANU","S Levant",29.84,35.24
+"Azraq 31","AZ31","S Levant",31.80,36.82
+"Basta I","BAS1","S Levant",30.22,35.53
+"Beidha","BEID","S Levant",30.33,35.43
+"Cafer Höyük","CAFH","N Levant",38.42,38.75
+"Can Hasan III","CAH3","C Anatolia",37.26,33.33
+"Çatalhöyük East","CATE","C Anatolia",37.65,32.82
+"Çayönü","CAYO","N Levant",38.22,39.72
+"Chia Sabz","CHSA","E Fertile Crescent",33.29,47.20
+"Chogha Bonut","CHBO","E Fertile Crescent",32.22,48.50
+"Chogha Golan","CHGO","E Fertile Crescent",33.41,46.26
+"Demirkoy","DEMI","E Fertile Crescent",37.96,41.12
+"Dhuweilla","DHUW","S Levant",32.08,37.25
+"Dj'ade","DJAD","N Levant",36.67,38.18
+"Douara Cave","DOUC","N Levant",34.64,38.45
+"El Kowm I","ELK1","N Levant",35.22,38.82
+"El Kowm II","ELK2","N Levant",35.22,38.82
+"el-Hemmeh","EHEM","S Levant",31.01,35.52
+"Erbaba","ERBA","C Anatolia",37.77,31.68
+"Ganj Dareh Tepe","GADT","E Fertile Crescent",34.25,47.50
+"Gesher","GESH","S Levant",32.60,35.55
+"Gesher Benot Yaaqov","GBYA","S Levant",33.10,35.62
+"Gilgal","GILG","S Levant",31.98,35.45
+"Göbekli Tepe","GOTE","N Levant",37.22,38.92
+"Gritille","GRIT","N Levant",37.61,38.64
+"Hacilar","HACI","C Anatolia",37.57,30.07
+"Hallan Çemi","HACE","E Fertile Crescent",38.23,41.25
+"Halula","HALU","N Levant",36.43,38.18
+"Hayonim Cave","HAYC","S Levant",32.93,35.18
+"Iraq ed-Dubb","IEDU","S Levant",32.32,35.67
+"Jarmo","JARM","E Fertile Crescent",35.56,44.92
+"Jerf el Ahmar","JEAH","N Levant",36.40,38.22
+"Jericho","JERI","S Levant",31.85,35.43
+"Kastros","KAST","Cyprus",35.69,34.58
+"Kebara Cave","KEBC","S Levant",32.72,35.04
+"Kortik Tepe","KORT","E Fertile Crescent",37.81,40.98
+"Mlefaat","MLEF","E Fertile Crescent",36.30,43.53
+"Mureybet","MURE","N Levant",36.02,38.15
+"Mylouthkia","MYLO","Cyprus",34.82,32.39
+"Nahal Hemar","NAHE","S Levant",31.16,35.16
+"Nahal Oren","NAOR","S Levant",32.74,34.97
+"Nemrik 9","NEM9","E Fertile Crescent",36.71,42.85
+"Netiv Hagdud","NEHA","S Levant",31.98,35.38
+"Nevali Çori","NECO","N Levant",37.60,38.70
+"Ohalo II","OHA2","S Levant",32.75,35.58
+"Qermez Dere","QEDE","E Fertile Crescent",36.38,42.42
+"Sheikh-e Abad","SHEA","E Fertile Crescent",34.61,47.26
+"Shkarat Msaied","SHMS","S Levant",30.45,35.42
+"Tell Abr","TABR","N Levant",36.68,38.08
+"Tell Ain el-Kerkh","TAEK","N Levant",35.82,36.46
+"Tell Aswad","TASW","S Levant",33.49,36.61
+"Tell Bouqras","TBOU","N Levant",35.08,40.38
+"Tell Ghoraifé","TGHO","S Levant",33.50,36.53
+"Tell Maghzaliyeh","TMAG","E Fertile Crescent",36.45,42.10
+"Tell Qaramel","TQAR","N Levant",36.37,37.27
+"Tell Ramad","TRAM","S Levant",33.42,36.10
+"Tell Ras Shamra","TRAS","N Levant",35.60,35.78
+"Tell Sabi Abyad II","TSA2","N Levant",36.50,39.08
+"Tepe Abdul Hosein","TAHO","E Fertile Crescent",33.80,48.25
+"Tepe Ali Kosh","TAKO","E Fertile Crescent",32.55,47.40
+"Wadi al-Hammeh 27","WH27","S Levant",32.53,35.63
+"Wadi el-Jilat 13","WJ13","S Levant",31.50,36.42
+"Wadi el-Jilat 6","WJ06","S Levant",31.50,36.42
+"Wadi el-Jilat 7","WJ07","S Levant",31.50,36.42
+"Wadi Faynan 16","WF16","S Levant",30.63,35.45
+"Wadi Fidan A","WFIA","S Levant",30.62,35.50
+"Wadi Fidan C","WFIC","S Levant",30.62,35.50
+"Yarym Tepe","YATE","E Fertile Crescent",36.28,42.36
+"Yiftahel","YIFT","S Levant",32.75,35.23
+"Zahrat adh-Dhra 2","ZAD2","S Levant",31.25,35.56

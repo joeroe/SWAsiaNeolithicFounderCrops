@@ -1,0 +1,165 @@
+taxon,taxon_code,domestic_wild_status,plant_part,family
+Hordeum sativum / nudum grains (indeterminate hulled) asymmetrical,HORDNUA,D,seed/grain,Poaceae
+Hordeum sativum / nudum grains (indeterminate hulled) symmetrical,HORDNUS,D,seed/grain,Poaceae
+Hordeum sativum grains (2-row hulled),HORDSAT,D,seed/grain,Poaceae
+Hordeum sativum grains (6 row hulled),HORDSAS,D,seed/grain,Poaceae
+Hordeum sativum grains (indeterminate hulled),HORDSAI,D,seed/grain,Poaceae
+Hordeum sativum grains (indeterminate hulled) asymmetrical,HORDASY,D,seed/grain,Poaceae
+Hordeum sativum grains (indeterminate hulled) symmetrical,HORDSSY,D,seed/grain,Poaceae
+Hordeum sativum hulled or naked grains,HORSASN,D,seed/grain,Poaceae
+Hordeum sativum hulled or naked rachis internodes,HORSSNR,D,chaff,Poaceae
+Hordeum sativum naked grains,HORDSAN,D,seed/grain,Poaceae
+Hordeum sativum naked rachis internodes,HORDSNR,D,rachis,Poaceae
+Hordeum sativum naked rachis internodes,HORDSNR,D,chaff,Poaceae
+Hordeum sativum rachis internodes,HORDSRA,D,seed/grain,Poaceae
+Hordeum sativum rachis internodes,HORDSRA,D,chaff,Poaceae
+Hordeum sativum rachis internodes (2-row hulled),HORDSRT,D,seed/grain,Poaceae
+Hordeum sativum rachis internodes (2-row hulled),HORDSRT,D,chaff,Poaceae
+Hordeum sativum rachis internodes (indeterminate hulled),HORDSRI,D,rachis,Poaceae
+Hordeum sativum rachis internodes (indeterminate hulled),HORDSRI,D,rachis internodes,Poaceae
+Hordeum sativum rachis internodes (indeterminate hulled),HORDSRI,D,seed/grain,Poaceae
+Hordeum sativum rachis internodes (indeterminate hulled),HORDSRI,D,chaff,Poaceae
+Hordeum spontaneum glume base,HORDSGB,w,glume base,Poaceae
+Hordeum spontaneum Koch,HORDSPO,W,grains/triplets/spikelets,Poaceae
+Hordeum spontaneum Koch,HORDSPO,W,seed/grain,Poaceae
+Hordeum spontaneum rachis internodes,HORDSPR,W,seed/grain,Poaceae
+Hordeum spontaneum rachis internodes,HORDSPR,W,chaff,Poaceae
+Hordeum spontaneum/sativum grains,HORSPSA,W,seed/grain,Poaceae
+Hordeum spontaneum/sativum lateral floret base,HORSPLF,w,chaff - rachis,Poaceae
+Hordeum spontaneum/sativum rachis internodes,HORSPSR,wild/domestic cereal,rachis internodes,Poaceae
+Hordeum spontaneum/sativum rachis internodes,HORSPSR,wild/domestic cereal,chaff-rachis,Poaceae
+Hordeum spontaneum/sativum rachis internodes,HORSPSR,wild/domestic cereal,chaff,Poaceae
+Hordeum spontaneum/sativum spikelet fork,HOSPSAS,w/d,chaff - spikelet fork,
+Triticum aestivum/spelta grains,TRIFHSP,D,seed/grain,Poaceae
+Triticum aestivum/spelta terminal rachis,TRIFHTR,D,chaff,Poaceae
+Triticum boeoticum glume bases,TRITBOG,wild cereal,seed/grain,Poaceae
+Triticum boeoticum glume bases,TRITBOG,wild cereal,chaff,Poaceae
+Triticum boeoticum grains (1/2g),TRITBOE,W,seed/grain,Poaceae
+Triticum boeoticum grains (1g),TRITBOO,W,seed/grain,Poaceae
+Triticum boeoticum grains (2g),TRITBOT,wild cereal,seed/grain,Poaceae
+Triticum boeoticum spikelet forks,TRITBOS,W,chaff,Poaceae
+Triticum boeoticum spikelet forks,TRITBOS,W,seed/grain,Poaceae
+Triticum boeoticum/monococcum glume bases,TRIBOMG,wild/domestic cereal,chaff,Poaceae
+Triticum boeoticum/monococcum grains,TRIBOMO,W,seed/grain,Poaceae
+Triticum boeoticum/monococcum grains 2g urartu,TRIDCDT,W/D,seed/grain,Poaceae
+Triticum boeoticum/monococcum spikelet forks,TRIBOMS,wild/domestic cereal,chaff - spikelet fork,Poaceae
+Triticum boeoticum/monococcum spikelet forks,TRIBOMS,wild/domestic cereal,chaff,Poaceae
+Triticum boeoticum/Secale montanum grains,TRBOSEM,wild cereal,seed/grain,Poaceae
+Triticum dicoccoides grains,TRITDID,wild cereal,seed/grain,Poaceae
+Triticum dicoccoides spikelet forks,TRIDIDS,D,seed/grain,Poaceae
+Triticum dicoccoides spikelet forks,TRIDIDS,D,chaff,Poaceae
+Triticum dicoccum glume bases,TRITDIG,D,chaff - glume base,Poaceae
+Triticum dicoccum glume bases,TRITDIG,D,glume bases,Poaceae
+Triticum dicoccum glume bases,TRITDIG,D,glume base,Poaceae
+Triticum dicoccum glume bases,TRITDIG,D,chaff,Poaceae
+Triticum dicoccum grains,TRITDIC,D,spikelets,Poaceae
+Triticum dicoccum grains,TRITDIC,D,seed/grain,Poaceae
+Triticum dicoccum rachis,TRITDRA,d,basal rachis,Poaceae
+Triticum dicoccum rachis,TRITDRA,d,chaff,Poaceae
+Triticum dicoccum spikelet fork terminal,TRITDIT,D,chaff,Poaceae
+Triticum dicoccum spikelet forks,TRITDIS,D,fork,Poaceae
+Triticum dicoccum spikelet forks,TRITDIS,D,spikelet forks,Poaceae
+Triticum dicoccum spikelet forks,TRITDIS,D,chaff,Poaceae
+Triticum dicoccum/dicoccoides grains,TRIDCDD,W,seed/grain,Poaceae
+Triticum dicoccum/dicoccoides spikelet forks,TRIDCDS,wild/domestic cereal,chaff - spikelet fork/gb,Poaceae
+Triticum dicoccum/spelta grains,TRIDISP,D,seed/grain,Poaceae
+Triticum indeterminate glume wheat rachis,TRIGLWR,d,chaff,Poaceae
+Triticum monococcum glume bases,TRITMOG,D,glume base,Poaceae
+Triticum monococcum glume bases,TRITMOG,D,chaff,Poaceae
+Triticum monococcum grains (1/2g),TRITMON,D,glume bases,Poaceae
+Triticum monococcum grains (1/2g),TRITMON,D,seed/grain,Poaceae
+Triticum monococcum grains (1g),TRITMOO,D,seed/grain,Poaceae
+Triticum monococcum grains (2g),TRITMOT,D,seed/grain,Poaceae
+Triticum monococcum spikelet forks,TRITMOS,D,seed/grain,Poaceae
+Triticum monococcum spikelet forks,TRITMOS,D,chaff,Poaceae
+Triticum monococcum spikelet forks,TRITMOS,D,spikelet forks,Poaceae
+Triticum monococcum/dicoccum glume bases,TRIMODG,D,chaff - glume base,Poaceae
+Triticum monococcum/dicoccum glume bases,TRIMODG,D,glume fragments,Poaceae
+Triticum monococcum/dicoccum glume bases,TRIMODG,D,glume base,Poaceae
+Triticum monococcum/dicoccum glume bases,TRIMODG,D,seed/grain,Poaceae
+Triticum monococcum/dicoccum glume bases,TRIMODG,D,chaff,Poaceae
+Triticum monococcum/dicoccum grains,TRIMODI,D,grain frags,Poaceae
+Triticum monococcum/dicoccum grains,TRIMODI,D,seed/grain,Poaceae
+Triticum monococcum/dicoccum rachis,TRIMDRA,d,chaff,Poaceae
+Triticum monococcum/dicoccum spikelet forks,TRIMODS,D,seed/grain,Poaceae
+Triticum monococcum/dicoccum spikelet forks,TRIMODS,D,spikelet fork,Poaceae
+Triticum monococcum/dicoccum spikelet forks,TRIMODS,D,spike parts,Poaceae
+Triticum monococcum/dicoccum spikelet forks,TRIMODS,D,chaff,Poaceae
+Triticum sp. Chaff,TRITSCH,d,chaff - spikelet fork,Poaceae
+Triticum sp. glume base,TRITSGB,w,glume base,Poaceae
+Triticum sp. 'speltoid' type,TRITSPT,W,seed/grain,Poaceae
+Triticum species free threshing wheat hexaploid grains,TRITFTH,D,seed/grain,Poaceae
+Triticum species free threshing wheat hexaploid rachis,TRIFTHR,D,chaff,Poaceae
+Triticum species free threshing wheat tetraploid grains,TRITFTT,D,seed/grain,Poaceae
+Triticum species free threshing wheat tetraploid rachis,TRIFTTR,D,chaff,Poaceae
+Triticum species indeterminate fr thr/gl wheat awn,TRITSPA,D,chaff,Poaceae
+"Triticum species indeterminate fr thr/gl wheat glumes, husk",TRITSPH,D,chaff,Poaceae
+Triticum species indeterminate fr thr/gl wheat grains,TRITSPE,D,seed/grain frags,Poaceae
+Triticum species indeterminate fr thr/gl wheat grains,TRITSPE,D,seed/grain,Poaceae
+Triticum species indeterminate fr thr/gl wheat rachis,TRITSPR,D,chaff,Poaceae
+Triticum species indeterminate free threshing wheat grains,TRITFTW,D,seed/grain,Poaceae
+Triticum species indeterminate free threshing wheat rachis,TRITFTR,D,chaff,Poaceae
+Triticum species indeterminate free threshing wheat rachis base,TRIGLWB,D,chaff - rachis base,Poaceae
+Triticum species indeterminate glume wheat glume bases,TRIGLWG,D,glume base,Poaceae
+Triticum species indeterminate glume wheat glume bases,TRIGLWG,D,chaff- glume bases,Poaceae
+Triticum species indeterminate glume wheat glume bases,TRIGLWG,D,chaff - glume base,Poaceae
+Triticum species indeterminate glume wheat glume bases,TRIGLWG,D,seed/grain,Poaceae
+Triticum species indeterminate glume wheat glume bases,TRIGLWG,D,glume bases,Poaceae
+Triticum species indeterminate glume wheat glume bases,TRIGLWG,D,chaff,Poaceae
+Triticum species indeterminate glume wheat grains,TRITGLW,D,seed/grain,Poaceae
+Triticum species indeterminate glume wheat spikelet forks,TRIGLWS,D,chaff - spikelet forks,Poaceae
+Triticum species indeterminate glume wheat spikelet forks,TRIGLWS,D,spikelet forks,Poaceae
+Triticum species indeterminate glume wheat spikelet forks,TRIGLWS,D,spikelet fork,Poaceae
+Triticum species indeterminate glume wheat spikelet forks,TRIGLWS,D,chaff,Poaceae
+Triticum species new type glume wheat glume bases,TRINTGB,D,glume base,Poaceae
+Triticum species new type glume wheat grains,TRINTWG,D,seed/grain,Poaceae
+Triticum species new type glume wheat spikelet forks,TRINTSF,D,spikelet forks,Poaceae
+Triticum spelta grains,TRITSPL,D,seed/grain,Poaceae
+Triticum turgidum spikelet forks,TRITTUS,domestic cereal,chaff,Poaceae
+Triticum/Secale,TRITSEC,D,seed/grain,Poaceae
+riticumtroploid wheat rachis,TRITTWR,d,chaff,Poaceae
+Secale cereale grains,SECACEG,D,seed/grain,Poaceae
+Secale cereale rachis,SECACER,D,chaff,Poaceae
+Secale cereale ssp. segetale grains,SECASEG,wild cereal,seed/grain,Poaceae
+Secale cereale ssp. vavilovii grains,SECAVAV,wild cereal,seed/grain,Poaceae
+Secale montanum grains,SECAMON,wild cereal,seed/grain,Poaceae
+Secale montanum/vavilovii grains,SECMOVA,wild cereal,seed/grain,Poaceae
+Secale montanum/vavilovii rachis,SECMOVR,wild cereal,chaff,Poaceae
+Secale sp.,SECASPE,W,seed/grain,Poaceae
+Secale sp. rachis,SECARAC,w,rachis,Poaceae
+Secale sp. rachis,SECARAC,w,seed/grain,Poaceae
+Linum bienne,LINUBIE,wild oil/fibre plant,seed/grain,Linaceae
+Linum sp.,LINUSPE,W,seed/grain,Linaceae
+Linum usitatissimum L.,LINUUSI,D,nutlet,Linaceae
+Linum usitatissimum L.,LINUUSI,D,seed/grain,Linaceae
+Pisum elatius Bieb.,PISUELA,W,seed/grain,Fabaceae
+Pisum sativum L.,PISUSAT,D,seed/grain,Fabaceae
+Pisum sp.,PISUSPE,W,seed/grain,Fabaceae
+Pisum/Lathyrus sp.,PISULAT,D,seed/grain,Fabaceae
+Pisum/Vicia sp.,PISUVIC,D,seed/grain,Fabaceae
+Pisum/Vicia/Lathyrus,PISVILA,w,seed/grain,Fabaceae
+Lens culinaris Medik.,LENSCUL,D,seed/grain,Fabaceae
+Lens orientalis,LENSORI,wild pulse,seed/grain,Leguminosae
+Lens sp.,LENSSPE,D,seed/grain,Fabaceae
+Vicia ervilia (L.) Willd.,VICIERV,D,seed/grain,Fabaceae
+Vicia faba L.,VICIFAB,D,seed/grain frags,Fabaceae
+Vicia faba L.,VICIFAB,D,seed/grain,Fabaceae
+Vicia faba/narbonensis,VICFANA,wild/domestic pulse,seed/grain,Leguminosae
+Vicia narbonensis L.,VICINAR,W,seed/grain,Fabaceae
+Vicia narbonensis L.,VICINAR,W,seed coat,Fabaceae
+Vicia palastina,VICIPAL,,,
+Vicia peregrina L.,VICIPER,W,seed/grain,Fabaceae
+Vicia sativa L.,VICISAT,D,seed/grain,Fabaceae
+Vicia sp.,VICISPE,D,seed/grain,Fabaceae
+Vicia/Lathyrus,VICILAT,W,seed/grain,Fabaceae
+Vicia/Pisum,VICIPIS,D,seed/grain,Fabaceae
+Cicer arietinum L.,CICEARI,D,seed/grain,Fabaceae
+Cicer sp.,CICESPE,W,seed/grain,Fabaceae
+Lathyrus aphaca L.,LATHAPH,W,seed/grain,Fabaceae
+Lathyrus cicera L.,LATHCIC,W,seed/grain,Fabaceae
+Lathyrus cicera/sativus,LATCISA,D,seed/grain,Fabaceae
+Lathyrus hirsutus L.,LATHHIR,W,seed/grain,Fabaceae
+Lathyrus nissolia,LATHNIS,w,seed/grain,Leguminosae
+Lathyrus sativus L.,LATHSAT,D,seed/grain,Fabaceae
+Lathyrus sp.,LATHSPE,W,seed/grain,Fabaceae
+Lathyrus type,LATHTYP,W,seed/grain,Fabaceae
