@@ -1,6 +1,6 @@
 #' @export
-collate_flora <- function(origins_path, ademnes_path, compag_path, region,
-                          start_bp, end_bp, quiet = TRUE) {
+collate_flora <- function(origins_path, ademnes_path, compag_path, taxa_path,
+                          region, start_bp, end_bp, quiet = TRUE) {
   # READ DATA
   origins <- read_origins(origins_path)
   ademnes <- read_ademnes(ademnes_path)
@@ -8,6 +8,21 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
 
   # EXCLUDE NON-SITES
   ademnes <- filter(ademnes, !site_name %in% c("unknown1", "Asvan region"))
+
+  # FILTER BY REGION
+  # TODO: COMPAG
+  origins <- sf::st_as_sf(origins, coords = c("longitude", "latitude"),
+                          remove = FALSE)
+  sf::st_crs(origins) <- 4326
+  origins <- origins[region,]
+  origins <- tibble::as_tibble(origins)
+
+  ademnes <- filter(ademnes, location != "Greece" | is.na(location))
+  ademnes <- sf::st_as_sf(ademnes, coords = c("longitude", "latitude"),
+                          remove = FALSE)
+  sf::st_crs(ademnes) <- 4326
+  ademnes <- ademnes[region,]
+  ademnes <- tibble::as_tibble(ademnes)
 
   # NORMALISE
   # Dates to ages BP
@@ -129,20 +144,12 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   # FILTER BY PERIOD
   flora <- dplyr::filter(flora, age_end <= start_bp & age_start >= end_bp)
 
-  # FILTER BY REGION
-  # TODO: do
-  # origins <- sf::st_as_sf(origins, coords = c("longitude", "latitude"),
-  #                         remove = FALSE)
-  # sf::st_crs(origins) <- 4326
-  # origins <- origins[region,]
-  # origins <- tibble::as_tibble(origins)
-  #
-  # # No coordinates for ADEMNES, so subset by country in the first instance
-  # countries <- rnaturalearth::ne_countries(returnclass = "sf")
-  # countries <- countries[region,]$name
-  # ademnes <- dplyr::mutate(ademnes,
-  #                          country = dplyr::recode(country, "Crete" = "Greece"))
-  # ademnes <- dplyr::filter(ademnes, country %in% countries)
+
+  # STANDARDISE AND CLASSIFY TAXA
+  taxa <- read_tsv(taxa_path, col_types = "cccccccl")
+  flora <- select(flora, -family, -genus)
+  flora <- left_join(flora, taxa, by = c("taxon" = "variant"))
+  flora <- rename(flora, taxon_source = taxon, taxon = canon)
 
   return(flora)
 }
@@ -280,6 +287,44 @@ read_ademnes <- function(path) {
                                by = c("id", "site_name", "site_code"))
   ademnes <- dplyr::right_join(ademnes, flora,
                                by = c("id", "site_name", "site_code", "phase_code"))
+
+  # Add missing coordinates (from Wikidata)
+  ademnes <- mutate(
+    ademnes,
+    latitude = recode(site_name,
+                      "Dhiban" = 31.50,
+                      "Hirbet Iskander" = 31.56,
+                      "Jaffa" = 32.05,
+                      "Pella" = 32.45,
+                      "Sheikh-e Abad" = 34.61,
+                      "Sidon" = 33.56,
+                      "Tel Beth Yerah" = 32.72,
+                      "Tel Malhat" = 31.22,
+                      "Tell el-Fukhar" = 32.56,
+                      "Tell es-Safi/Gath" = 31.70,
+                      "Tell Hadar" = 32.85,
+                      "Tell Miqne" = 31.78,
+                      "Zahrat adh-Dhra 1" = 31.255,
+                      .default = latitude
+    ),
+    longitude = recode(site_name,
+                       "Dhiban" = 35.78,
+                       "Hirbet Iskander" = 35.77,
+                       "Jaffa" = 34.75,
+                       "Pella" = 35.61,
+                       "Sheikh-e Abad" = 47.27,
+                       "Sidon" = 35.40,
+                       "Tel Beth Yerah" = 35.57,
+                       "Tel Malhat" = 35.03,
+                       "Tell el-Fukhar" = 35.85,
+                       "Tell es-Safi/Gath" = 34.84,
+                       "Tell Hadar" = 35.65,
+                       "Tell Miqne" = 34.85,
+                       "Zahrat adh-Dhra 1" = 35.57,
+                       .default = latitude
+    ),
+  )
+
 
   # Return, dropping empty column n_samples
   dplyr::select(ademnes, -n_samples)
