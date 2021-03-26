@@ -1,29 +1,50 @@
 ---
-title: '"Founder Crops" in the Neolithic of Southwest Asia'
+title: '"Founder Crops" in the Neolithic of Southwest Asia – Data Analysis'
+subtitle: "Data analysis"
 author: "Joe Roe"
-date: `r Sys.Date()`
-output: html_document
+date: "`r Sys.Date()`"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 4
+bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(
+  echo = FALSE,
+  message = FALSE
+)
+```
 
+```{r deps}
+library("tidyverse")
 library("SWAsiaNeolithicFounderCrops")
 library("swapdata")
 library("sf")
 library("here")
 library("gt")
+library("glue")
 ```
 
-## Data
+## Materials
 
 ### Study region and period
 
-```{r regions, include=FALSE}
+```{r region, warning=FALSE, results='hide', fig.cap='Study region.'}
 sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
+
+coast <- rnaturalearth::ne_coastline(scale = 50, returnclass = "sf")
+coast <- st_crop(coast, sw_asia)
+
+ggplot() +
+  geom_sf(data = sw_asia) +
+  geom_sf(data = coast)
 ```
 
-```{r periods, include=FALSE}
+We aimed to collate archaeobotanical data from Southwest Asia (fig. \@ref(fig:region)) during from the Neolithic to Chalcolithic period, c. 11.700 – 5000 BP.
+
+```{r periods, fig.cap='Definition of cultural periods used in the analysis.'}
 periods <- tribble(
   ~period,           ~agriculture,                    ~start_bp, ~end_bp,
   "Epipalaeolithic", "Foraging",                      25000,     11700,
@@ -35,18 +56,16 @@ periods <- tribble(
   "Chalcolithic",    "Agriculture",                   6500,      5000,
   "Later",           "Agriculture",                   5000,      0
 )
-```
 
-```{r periods-table, echo=FALSE}
 periods %>% 
   gt() %>% 
   cols_label(period = "Period", agriculture = "Agricultural stage",
-             start_bp = "Start (yrs cal BP)", end_bp = "End (yrs cal BP")
+             start_bp = "Start (cal BP)", end_bp = "End (cal BP")
 ```
 
 ### Archaeobotanical data
 
-We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018, @Fuller2018], and ADEMNES [@Riehl2005].
+We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018; @Fuller2018], and ADEMNES [@Riehl2005].
 
 Notes on collation:
 
@@ -56,12 +75,10 @@ Notes on collation:
 * ORIGINS is recorded by sample; COMPAG and ADEMNES by phases. Aggregated ORIGINS by phase for comparability, and because individual samples are more likely to be 'noisy'
 * Calculated phase-level proportions for COMPAG
 
-Notes of caution on mixing different quantification/sampling schemes?
-
 We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–5000 BP) of interest,
 with a buffer of ±2,000 years to reduce "edge effects" in our time series analyses.
 
-```{r data-flora, include=FALSE}
+```{r data-flora}
 start_bp <- periods$start_bp[periods$period == "PPNA"]
 end_bp <- periods$end_bp[periods$period == "Chalcolithic"]
 flora <- collate_flora(
@@ -85,6 +102,8 @@ The resulting collated dataset (included as supplement?) includes archaeobotanic
 All three databases include rough calibrated date ranges for each sample, so we will use that for now.
 We might look into using actual radiocarbon dates and incorporating the associated uncertainty into the analysis.
 
+Using this data, each phase was classified into one of the periods defined above using its mid-point date.
+
 ```{r sample-periods}
 flora <- mutate(
   flora,
@@ -94,9 +113,7 @@ flora <- mutate(
                labels = periods$period,
                ordered_result = TRUE)
 )
-```
 
-```{r sample-periods-table}
 flora %>% 
   distinct(period, site_name, phase) %>% 
   add_count(period, name ="n_phases") %>% 
@@ -109,73 +126,48 @@ flora %>%
   cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
 ```
 
-### Classification of taxa
+## Results
 
-Our dataset contains records on `r nrow(distinct(flora, taxon))` distinct taxa.
-To simplify this, we will classify these as either a "founder crop" (*Triticum dicoccum*, *Triticum monococcum*, *Hordeum vulgare*, *Lens culinaris*, *Pisum sativum*, *Cicer arietinum*, *Vicia ervilia*, *Linum usitatissimum*), another cultivated or "crop progenitor" taxon, or a wild plant. 
-The latter two categories are taken directly from the ORIGINS database.
+### Occurrence of the founder crops
 
-```{r taxa-classification, include=FALSE}
-founder_taxa <- c("Triticum dicoccum",
-                  "Triticum monococcum",
-                  "Triticum dicoccum/monococcum",
-                  "Triticum boeoticum/diccocoides/monococcum/dicoccum",
-                  "Triticum dicoccoides/dicoccum",
-                  "Triticum monococcum/boeoticum",
-                  "Hordeum vulgare",
-                  "Hordeum vulgare/spontaneum",
-                  "Hordeum vulgare distichum",
-                  "Hordeum vulgare hexastichum",
-                  "Hordeum vulgare var. coeleste",
-                  "Hordeum vulgare var. nudum",
-                  "Hordeum vulgare var. nudum/spontaneum",
-                  "Lens culinaris",
-                  "Lens orientalis/culinaris",
-                  "Pisum sativum",
-                  "Cicer arietinum",
-                  "Cicer arietinum reticulatum/arietinum",
-                  "Vicia ervilia",
-                  "Linum usitatissimum",
-                  "Linum bienne/usitatissimum")
+* Number & proportion of sites with founder crops reported
+  * By period
+* Number & proportion of sites with founder crops above P
 
-archaeobot %>% 
-  mutate(crop = recode(domesticated,
-                       Wild = "Wild",
-                       `Progenitor/Wild` = "Wild",
-                       `Crop Progenitor` = "Other crop",
-                       `Crop progenitor` = "Other crop",
-                       `Domesticate/Crop progenitor` = "Other crop",
-                       `Crop Domesticate/Progenitor` = "Other crop",
-                       `Likely crop/progenitor` = "Other crop",
-                       `Presumed Crop Domesticate/Progenitor` = "Other crop",
-                       `Domesticated crop` = "Other crop",
-                       `Domesticate crop` = "Other crop")) %>% 
-  mutate(crop = if_else(taxon %in% founder_taxa, "Founder crop", crop)) ->
-  archaeobot
-```
 
-## How prevelant were the founder crops?
+### Founder crops through time
 
-```{r crop-summary-plot, echo=FALSE}
-archaeobot %>% 
-  ggplot(aes(x = crop)) +
-  geom_bar()
-```
+absolute counts (separating PPNA, PPNB-PPNC and PN), similar to the diagram in Quaternary Science Reviews but including the Pottery Neolithic. 
+It would also be cool to do it by species, to see how the exploitation for each of the taxa increase/decreases over time.
+I.e. vertical axis (absolute counts), horizontal axis (time), species represented by different colors?
 
-```{r crop-propts-plot, echo=FALSE}
-archaeobot %>% 
-  group_by(phase_code, crop) %>% 
-  summarise(mid_bp = first(mid_bp),
-            mnpp = sum(mnpp)) %>% 
-  mutate(pmnpp = mnpp / sum(mnpp)) %>% 
-  filter(sum(mnpp) > 30) %>% 
-  drop_na(crop) %>% 
-  ggplot(aes(x = mid_bp, y = pmnpp, colour = crop)) +
-  geom_point() +
-  geom_smooth() +
-  xlab("cal BP") +
-  ylab("MNPP per site-phase") +
-  # scale_x_reverse(limits = c(max(periods$start_bp), min(periods$end_bp))) +
-  scale_x_reverse() +
-  scale_y_continuous(labels = scales::percent, limits = c(0,1), expand = c(0,0))
-```
+
+### Other categories through time
+
+* Grasses over time, based on counts (separating PPNA, PPNB-PPNC and PN).
+Separating the different species listed in the table.
+* Legumes over time, based on counts (separating PPNA, PPNB-PPNC and PN).
+Separating the different species listed in the table.
+* "wild plants" over time, based on counts (separating PPNA, PPNB-PPNC and PN). Separating the different species listed in the table.
+* Fruits and nuts over time, based on counts (separating PPNA, PPNB-PPNC and PN). Separating the different species listed in the table.
+
+
+### Earliest attested occurrence
+
+-Chronology for the appearance of T. aestivum/durum. 
+Reference to 2-3 sites.
+
+-Chronology for the appearance of T. spelta in southwest Asia.
+Reference to 2-3 sites.
+
+-Hordeum spontaneum/vulgare (wild/domestic barley). 
+Reference to 2-3 Pottery Neolithic sites where barley remains are found in significant amounts.
+
+-Avena (include the different species)
+Reference to 2-3 sites where oat remains are significant (I have Gilgal so far…) 
+
+-T. monococcum 1 grained
+Reference to 2-3 sites contemporary to Çatal Höyuk or later, specially Pottery Neolithic, where one-grained einkorn is found at a significant amount.
+
+-Flax.
+Reference to sites with evidence of flax.
