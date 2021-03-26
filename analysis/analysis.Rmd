@@ -1,7 +1,16 @@
 ---
 title: '"Founder Crops" in the Neolithic of Southwest Asia – Data Analysis'
 subtitle: "Data analysis"
-author: "Joe Roe"
+author:
+  - first_name: "Joe"
+    last_name: "Roe"
+    url: https://joeroe.io
+    affiliation: University of Copenhagen
+    orcid_id: 0000-0002-1011-1244
+  - first_name: "Amaia"
+    last_name: "Arranz Otaegui"
+    affiliation: Muséum National d'Histoire Naturelle, Paris
+    orcid_id: 0000-0002-5091-6426
 date: "`r Sys.Date()`"
 output: 
   distill::distill_article:
@@ -26,6 +35,8 @@ library("here")
 library("gt")
 library("glue")
 ```
+
+This research compendium accompanies the paper `...`.
 
 ## Materials
 

@@ -2,8 +2,12 @@ Package: SWAsiaNeolithicFounderCrops
 Type: Package
 Title: "Founder Crops" in the Neolithic of Southwest Asia
 Version: 0.1.0
-Authors@R: person("Joe", "Roe", email = "jwg983@hum.ku.dk", 
-  role = c("aut", "cre"))
+Authors@R: c(
+    person("Joe", "Roe", email = "joe@joeroe.io", role = c("aut", "cre"),
+    comment = c(ORCID = "0000-0002-1011-1244")),
+    person("Amaia", "Arranz Otaegui", email = "kch860@hum.ku.dk",
+    role = c("aut"), comment = c(ORCID = "0000-0002-5091-6426"))
+  )
 Description: Research compendium...
 License: MIT + file LICENSE
 Encoding: UTF-8
