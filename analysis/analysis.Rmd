@@ -80,7 +80,8 @@ We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wa
 
 Notes on collation:
 
-* Standardised site names
+* Standardised site names across databases
+* Standardised taxa across databases and classified by ...
 * When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES)
 * Some sites in ADEMNES have an N/prop. of 0 for all taxa. I assumed this meant that they were present but that quantification data was not available.
 * ORIGINS is recorded by sample; COMPAG and ADEMNES by phases. Aggregated ORIGINS by phase for comparability, and because individual samples are more likely to be 'noisy'
@@ -96,6 +97,7 @@ flora <- collate_flora(
   origins_path = here("analysis/data/raw_data/origins/"),
   ademnes_path = here("analysis/data/raw_data/ademnes"),
   compag_path = here("analysis/data/raw_data/compag2018"),
+  taxa_path = here("analysis/data/raw_data/taxa_thesaurus.tsv"),
   region = sw_asia,
   start_bp = start_bp + 1000,
   end_bp = end_bp - 1000
@@ -141,9 +143,21 @@ flora %>%
 
 ### Occurrence of the founder crops
 
-* Number & proportion of sites with founder crops reported
-  * By period
-* Number & proportion of sites with founder crops above P
+Number & percentage of assemblages with founder crops reported, by period:
+
+```{r occ-founder}
+flora %>% 
+  group_by(period, phase_code) %>% 
+  summarise(founder_crop = any(!is.na(crop_type) & crop_type == "Founder crop"),
+            .groups = "drop_last") %>% 
+  summarise(n = sum(founder_crop), prop = sum(founder_crop) / n(),
+            .groups = "drop_last") %>% 
+  gt() %>% 
+  cols_label(period = "Period", n = "N", prop = "%") %>% 
+  fmt_percent(vars(prop))
+```
+
+Number & percentage of assemblages with founder crops making up `P`% of the assemblage, by period:
 
 
 ### Founder crops through time
@@ -165,20 +179,152 @@ Separating the different species listed in the table.
 
 ### Earliest attested occurrence
 
--Chronology for the appearance of T. aestivum/durum. 
-Reference to 2-3 sites.
+#### *T. aestivum/durum.*
 
--Chronology for the appearance of T. spelta in southwest Asia.
-Reference to 2-3 sites.
+Earliest reported occurrences:
 
--Hordeum spontaneum/vulgare (wild/domestic barley). 
-Reference to 2-3 Pottery Neolithic sites where barley remains are found in significant amounts.
+```{r occ-t-aestivum-durum, layout='l-body-outset'}
+flora %>% 
+  filter(taxon %in% c("Triticum aestivum", "Triticum durum") | 
+           taxon_source %in% c("Triticum aestivum/durum",
+                               "Triticum dicoccum/aestivum",
+                               "Triticum dicoccum/durum")) %>% 
+  arrange(-age_start) %>% 
+  group_by(source, site_name, taxon_source) %>% 
+  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
+            n = sum(n), reference = first(reference),
+            .groups = "drop") %>% 
+  mutate(reference = str_remove(reference, ";.*")) %>% 
+  arrange(-earliest_age) %>% 
+  slice(1:10) %>% 
+  gt() %>% 
+  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
+             taxon_source = "Reported taxon", 
+             earliest_age = "Reported age (earliest)", n = "N",
+             reference = "References")
+```
 
--Avena (include the different species)
-Reference to 2-3 sites where oat remains are significant (I have Gilgal so far…) 
+#### *T. spelta*
 
--T. monococcum 1 grained
+Rarely reported, so all sites it occurs at, ordered by age:
+
+```{r occ-t-spelta, layout='l-body-outset'}
+flora %>% 
+  filter(taxon == "Triticum spelta" | 
+           taxon_source %in% c("Triticum dicoccum/spelta",
+                               "Triticum dicoccum/spelta grains")) %>% 
+  arrange(-age_start) %>% 
+  group_by(source, site_name, taxon_source) %>% 
+  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
+            n = sum(n), reference = first(reference),
+            .groups = "drop") %>% 
+  mutate(reference = str_remove(reference, ";.*")) %>% 
+  arrange(-earliest_age) %>% 
+  slice(1:10) %>% 
+  gt() %>% 
+  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
+             taxon_source = "Reported taxon", 
+             earliest_age = "Reported age (earliest)", n = "N",
+             reference = "References")
+```
+
+#### *T. monococcum 1 grained*
+
+Earliest reported assemblages with >5%, from the LPPNB or later.
+**AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
+
+```{r occ-monococcum, layout='l-body-outset'}
+flora %>% 
+  filter(taxon == "Triticum monococcum") %>% 
+  filter(prop > 0.05) %>% 
+  filter(age_start < periods$start_bp[periods$period == "LPPNB"]) %>% 
+  arrange(-age_start) %>% 
+  group_by(source, site_name, taxon_source) %>% 
+  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
+            prop = max(prop), reference = first(reference),
+            .groups = "drop") %>% 
+  mutate(reference = str_remove(reference, ";.*")) %>% 
+  arrange(-earliest_age) %>% 
+  slice(1:10) %>% 
+  gt() %>% 
+  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
+             taxon_source = "Reported taxon", 
+             earliest_age = "Reported age (earliest)", prop = "Highest %",
+             reference = "References") %>% 
+  fmt_percent(vars(prop))
+```
+
 Reference to 2-3 sites contemporary to Çatal Höyuk or later, specially Pottery Neolithic, where one-grained einkorn is found at a significant amount.
 
--Flax.
-Reference to sites with evidence of flax.
+#### *Hordeum spontaneum/vulgare* (wild/domestic barley)
+
+Earliest reported assemblages with >5%.
+**AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
+
+```{r occ-hordeum, layout='l-body-outset'}
+flora %>% 
+  filter(taxon %in% c("Hordeum spontaneum", "Hordeum vulgare")) %>% 
+  filter(prop > 0.05) %>% 
+  arrange(-age_start) %>% 
+  group_by(source, site_name, taxon_source) %>% 
+  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
+            prop = max(prop), reference = first(reference),
+            .groups = "drop") %>% 
+  mutate(reference = str_remove(reference, ";.*")) %>% 
+  arrange(-earliest_age) %>% 
+  slice(1:10) %>% 
+  gt() %>% 
+  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
+             taxon_source = "Reported taxon", 
+             earliest_age = "Reported age (earliest)", prop = "Highest %",
+             reference = "References") %>% 
+  fmt_percent(vars(prop))
+```
+
+#### *Avena*
+
+Earliest reported assemblages with >2% (there aren't many).
+**AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
+
+```{r occ-avena, layout='l-body-outset'}
+flora %>% 
+  filter(genus == "Avena") %>% 
+  filter(prop > 0.02) %>% 
+  arrange(-age_start) %>% 
+  group_by(source, site_name, taxon_source) %>% 
+  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
+            prop = max(prop), reference = first(reference),
+            .groups = "drop") %>% 
+  mutate(reference = str_remove(reference, ";.*")) %>% 
+  arrange(-earliest_age) %>% 
+  slice(1:10) %>% 
+  gt() %>% 
+  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
+             taxon_source = "Reported taxon", 
+             earliest_age = "Reported age (earliest)", prop = "Highest %",
+             reference = "References") %>% 
+  fmt_percent(vars(prop))
+```
+
+#### Flax
+
+Earliest reported occurrences of *Linum usitatissimum* specifically:
+
+```{r occ-flax, layout='l-body-outset'}
+flora %>% 
+  filter(taxon == "Linum usitatissimum" | 
+           taxon_source == "Linum bienne/usitatissimum") %>% 
+  arrange(-age_start) %>% 
+  group_by(source, site_name, taxon_source) %>% 
+  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
+            n = sum(n), reference = first(reference),
+            .groups = "drop") %>% 
+  mutate(reference = str_remove(reference, ";.*")) %>% 
+  arrange(-earliest_age) %>% 
+  slice(1:10) %>% 
+  gt() %>% 
+  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
+             taxon_source = "Reported taxon", 
+             earliest_age = "Reported age (earliest)", n = "N",
+             reference = "References")
+```
