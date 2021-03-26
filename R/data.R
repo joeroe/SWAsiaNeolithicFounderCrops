@@ -6,7 +6,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   ademnes <- read_ademnes(ademnes_path)
   compag <- read_compag2018(compag_path)
 
-  # FILTER ANOMOLOUS ROWS
+  # EXCLUDE NON-SITES
   ademnes <- filter(ademnes, !site_name %in% c("unknown1", "Asvan region"))
 
   # NORMALISE
@@ -21,9 +21,26 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
                    age_start = -date_start + 1950,
                    age_end = -date_end + 1950)
 
+  # Aggregate ORIGINS samples by phase
+  origins %>%
+    group_by(site_code, phase_code, taxon) %>%
+    summarise(
+      id = glue("{min(id)}–{max(id)}"),
+      site = first(site), site_code = first(site_code),
+      latitude = first(latitude), longitude = first(longitude),
+      phase = first(phase), phase_description = first(phase_description),
+      samples = glue_collapse(sample, sep = ";"),
+      n = sum(n, na.rm = TRUE), mnpp = sum(mnpp, na.rm = TRUE),
+      age_start = max(age_start), age_end = min(age_end),
+      family = first(family), genus = first(genus),
+      reference = glue_collapse(reference, ";"),
+      .groups = "drop"
+    ) ->
+    origins
+
   # N to proportions
   origins %>%
-    dplyr::group_by(sample) %>%
+    dplyr::group_by(phase_code) %>%
     dplyr::mutate(prop = n / sum(n, na.rm = TRUE)) %>%
     ungroup() ->
     origins
@@ -37,7 +54,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   origins <- dplyr::transmute(
     origins,
     source = "ORIGINS",
-    source_id = id,
+    source_id = as.character(id),
     source_site_name = site,
     site_name = swapdata::swap_control_site_name(source_site_name, quiet = TRUE),
     latitude,
@@ -47,7 +64,6 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
     phase_code,
     age_start,
     age_end,
-    sample,
     family,
     genus,
     taxon,
@@ -59,7 +75,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   ademnes <- dplyr::transmute(
     ademnes,
     source = "ADEMNES",
-    source_id = id,
+    source_id = as.character(id),
     source_site_name = site_name,
     site_name = swapdata::swap_control_site_name(source_site_name, quiet = TRUE),
     latitude,
@@ -69,7 +85,6 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
     phase_code,
     age_start,
     age_end,
-    sample = phase_code,
     family = NA,
     genus = NA,
     taxon,
@@ -81,7 +96,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
   compag <- dplyr::transmute(
     compag,
     source = "COMPAG",
-    source_id = NA,
+    source_id = NA_character_,
     source_site_name = site_abot,
     site_name = site_canon,
     latitude,
@@ -91,7 +106,6 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, region,
     phase_code,
     age_start,
     age_end,
-    sample = phase_code,
     family = NA,
     genus = NA,
     taxon,

@@ -74,11 +74,11 @@ flora <- collate_flora(
 )
 
 # TODO: check if affected by duplicate sample names between sites
-n_samples <- length(unique(flora$sample))
+n_phases <- length(unique(flora$phase_code))
 n_sites <- length(unique(flora$site_name))
 ```
 
-The resulting collated dataset (included as supplement?) includes `r n_samples` discrete samples from `r n_sites` sites.
+The resulting collated dataset (included as supplement?) includes archaeobotanical assemblages representing `r n_phases` distinct phases from `r n_sites` sites.
 
 ### Chronology
 
@@ -98,15 +98,15 @@ flora <- mutate(
 
 ```{r sample-periods-table}
 flora %>% 
-  distinct(period, site_name, sample) %>% 
-  add_count(period, name ="n_samples") %>% 
-  distinct(period, site_name, n_samples) %>% 
+  distinct(period, site_name, phase) %>% 
+  add_count(period, name ="n_phases") %>% 
+  distinct(period, site_name, n_phases) %>% 
   add_count(period, name = "n_sites") %>% 
-  distinct(period, n_samples, n_sites) %>% 
-  select(period, n_sites, n_samples) %>% 
+  distinct(period, n_phases, n_sites) %>% 
+  select(period, n_sites, n_phases) %>% 
   arrange(period) %>%
   gt() %>% 
-  cols_label(period = "Period", n_sites = "Sites", n_samples = "Samples") 
+  cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
 ```
 
 ### Classification of taxa
