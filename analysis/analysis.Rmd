@@ -25,14 +25,15 @@ sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
 
 ```{r periods, include=FALSE}
 periods <- tribble(
-  ~period,          ~agriculture,                    ~start_bp, ~end_bp,
-  "Epipal.",        "Foraging",                      25000,     11700,
-  "PPNA",           "Pre-domestication cultivation", 11700,     10700,
-  "EPPNB",          "Domestication",                 10700,     10200,
-  "MPPNB",          "Domestication",                 10200,     9500,
-  "LPPNB",          "Agriculture",                   9500,      8500,
-  "Late Neo.",      "Agriculture",                   8500,      6500,
-  "Later",          "Agriculture",                   6500,      0
+  ~period,           ~agriculture,                    ~start_bp, ~end_bp,
+  "Epipalaeolithic", "Foraging",                      25000,     11700,
+  "PPNA",            "Pre-domestication cultivation", 11700,     10700,
+  "EPPNB",           "Domestication",                 10700,     10200,
+  "MPPNB",           "Domestication",                 10200,     9500,
+  "LPPNB",           "Agriculture",                   9500,      8500,
+  "Late Neolithic",  "Agriculture",                   8500,      6500,
+  "Chalcolithic",    "Agriculture",                   6500,      5000,
+  "Later",           "Agriculture",                   5000,      0
 )
 ```
 
@@ -50,22 +51,26 @@ We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wa
 Notes on collation:
 
 * Standardised site names
-* Calculated sample-level proportions for DBs missing it (COMPAG & ADEMNES)
 * When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES)
+* Some sites in ADEMNES have an N/prop. of 0 for all taxa. I assumed this meant that they were present but that quantification data was not available.
+* ORIGINS is recorded by sample; COMPAG and ADEMNES by phases. Aggregated ORIGINS by phase for comparability, and because individual samples are more likely to be 'noisy'
+* Calculated phase-level proportions for COMPAG
 
 Notes of caution on mixing different quantification/sampling schemes?
 
-We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–6,500 BP) of interest,
-with a buffer of ±1,000 years to reduce "edge effects" in our time series analyses.
+We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–5000 BP) of interest,
+with a buffer of ±2,000 years to reduce "edge effects" in our time series analyses.
 
 ```{r data-flora, include=FALSE}
+start_bp <- periods$start_bp[periods$period == "PPNA"]
+end_bp <- periods$end_bp[periods$period == "Chalcolithic"]
 flora <- collate_flora(
   origins_path = here("analysis/data/raw_data/origins/"),
   ademnes_path = here("analysis/data/raw_data/ademnes"),
   compag_path = here("analysis/data/raw_data/compag2018"),
   region = sw_asia,
-  start_bp = max(periods$start_bp[2:(nrow(periods)-1)]) + 1000,
-  end_bp = min(periods$end_bp[2:(nrow(periods)-1)]) - 1000
+  start_bp = start_bp + 1000,
+  end_bp = end_bp - 1000
 )
 
 # TODO: check if affected by duplicate sample names between sites
