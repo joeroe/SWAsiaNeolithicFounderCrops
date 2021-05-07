@@ -38,11 +38,11 @@ library("glue")
 
 This research compendium accompanies the paper `...`.
 
-## Materials
+## Methods & Materials
 
 ### Study region and period
 
-```{r region, warning=FALSE, results='hide', fig.cap='Study region.'}
+```{r region, warning=FALSE, results='hide', fig.cap='Study region and sites.'}
 sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
 
 coast <- rnaturalearth::ne_coastline(scale = 50, returnclass = "sf")
@@ -139,9 +139,11 @@ flora %>%
   cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
 ```
 
-## Results
+## Results – Question 1
 
-### Occurrence of the founder crops
+Were the founder crops the *most important* plants?
+
+### Founder crops
 
 Number & percentage of assemblages with founder crops reported, by period:
 
@@ -159,27 +161,25 @@ flora %>%
 
 Number & percentage of assemblages with founder crops making up `P`% of the assemblage, by period:
 
-
-### Founder crops through time
+TODO
 
 absolute counts (separating PPNA, PPNB-PPNC and PN), similar to the diagram in Quaternary Science Reviews but including the Pottery Neolithic. 
 It would also be cool to do it by species, to see how the exploitation for each of the taxa increase/decreases over time.
 I.e. vertical axis (absolute counts), horizontal axis (time), species represented by different colors?
 
+### Grasses
 
-### Other categories through time
+### Legumes
 
-* Grasses over time, based on counts (separating PPNA, PPNB-PPNC and PN).
-Separating the different species listed in the table.
-* Legumes over time, based on counts (separating PPNA, PPNB-PPNC and PN).
-Separating the different species listed in the table.
-* "wild plants" over time, based on counts (separating PPNA, PPNB-PPNC and PN). Separating the different species listed in the table.
-* Fruits and nuts over time, based on counts (separating PPNA, PPNB-PPNC and PN). Separating the different species listed in the table.
+### Wild plants
 
+### Fruits and nuts
 
-### Earliest attested occurrence
+## Results – Question 2
 
-#### *T. aestivum/durum.*
+Were the founder crops the *earliest* plants?
+
+### *T. aestivum/durum.*
 
 Earliest reported occurrences:
 
@@ -201,10 +201,10 @@ flora %>%
   cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
              taxon_source = "Reported taxon", 
              earliest_age = "Reported age (earliest)", n = "N",
-             reference = "References")
+             reference = "Reference")
 ```
 
-#### *T. spelta*
+### *T. spelta*
 
 Rarely reported, so all sites it occurs at, ordered by age:
 
@@ -225,10 +225,10 @@ flora %>%
   cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
              taxon_source = "Reported taxon", 
              earliest_age = "Reported age (earliest)", n = "N",
-             reference = "References")
+             reference = "Reference")
 ```
 
-#### *T. monococcum 1 grained*
+### *T. monococcum*
 
 Earliest reported assemblages with >5%, from the LPPNB or later.
 **AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
@@ -250,13 +250,13 @@ flora %>%
   cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
              taxon_source = "Reported taxon", 
              earliest_age = "Reported age (earliest)", prop = "Highest %",
-             reference = "References") %>% 
+             reference = "Reference") %>% 
   fmt_percent(vars(prop))
 ```
 
 Reference to 2-3 sites contemporary to Çatal Höyuk or later, specially Pottery Neolithic, where one-grained einkorn is found at a significant amount.
 
-#### *Hordeum spontaneum/vulgare* (wild/domestic barley)
+### *H. spontaneum/vulgare*
 
 Earliest reported assemblages with >5%.
 **AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
@@ -277,11 +277,11 @@ flora %>%
   cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
              taxon_source = "Reported taxon", 
              earliest_age = "Reported age (earliest)", prop = "Highest %",
-             reference = "References") %>% 
+             reference = "Reference") %>% 
   fmt_percent(vars(prop))
 ```
 
-#### *Avena*
+### *Avena*
 
 Earliest reported assemblages with >2% (there aren't many).
 **AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
@@ -302,13 +302,13 @@ flora %>%
   cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
              taxon_source = "Reported taxon", 
              earliest_age = "Reported age (earliest)", prop = "Highest %",
-             reference = "References") %>% 
+             reference = "Reference") %>% 
   fmt_percent(vars(prop))
 ```
 
-#### Flax
+### *Linum usitatissimum*
 
-Earliest reported occurrences of *Linum usitatissimum* specifically:
+Earliest reported occurrences of *Linum usitatissimum* (flax) specifically:
 
 ```{r occ-flax, layout='l-body-outset'}
 flora %>% 
@@ -326,5 +326,6 @@ flora %>%
   cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
              taxon_source = "Reported taxon", 
              earliest_age = "Reported age (earliest)", n = "N",
-             reference = "References")
+             reference = "Reference")
 ```
+
