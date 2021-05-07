@@ -10,7 +10,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, taxa_path,
   ademnes <- filter(ademnes, !site_name %in% c("unknown1", "Asvan region"))
 
   # FILTER BY REGION
-  # TODO: COMPAG
+  # NB. Not necessary for COMPAG
   origins <- sf::st_as_sf(origins, coords = c("longitude", "latitude"),
                           remove = FALSE)
   sf::st_crs(origins) <- 4326
@@ -321,7 +321,7 @@ read_ademnes <- function(path) {
                        "Tell Hadar" = 35.65,
                        "Tell Miqne" = 34.85,
                        "Zahrat adh-Dhra 1" = 35.57,
-                       .default = latitude
+                       .default = longitude
     ),
   )
 

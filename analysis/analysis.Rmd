@@ -31,9 +31,11 @@ library("tidyverse")
 library("SWAsiaNeolithicFounderCrops")
 library("swapdata")
 library("sf")
+library("ggspatial")
 library("here")
 library("gt")
 library("glue")
+library("patchwork")
 ```
 
 This research compendium accompanies the paper `...`.
@@ -42,30 +44,42 @@ This research compendium accompanies the paper `...`.
 
 ### Study region and period
 
-```{r region, warning=FALSE, results='hide', fig.cap='Study region and sites.'}
+```{r data-spatial, fig.cap='Study region and sites.'}
+proj <- 22770
+unproj <- 4326
+
 sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
 
-coast <- rnaturalearth::ne_coastline(scale = 50, returnclass = "sf")
-coast <- st_crop(coast, sw_asia)
+land <- st_union(rnaturalearth::ne_countries(scale = 50, returnclass = "sf"))
+rivers <- st_read(here("analysis/data/raw_data/ne/ne_50m_rivers_lake_centerlines_scale_rank.shp"))
+lakes <- st_read(here("analysis/data/raw_data/ne/ne_50m_lakes.shp"))
+highland <- st_read(here("analysis/data/raw_data/srtm/srtm30_sw_asia_1000m.geojson"))
+highland <- filter(highland, above_1000m == 1)
 
-ggplot() +
-  geom_sf(data = sw_asia) +
-  geom_sf(data = coast)
+base_map <- ggplot() +
+  shadow_spatial(st_bbox(sw_asia), fill = NA) +
+  annotation_spatial(land, fill = "white") +
+  annotation_spatial(highland, fill = "#f0f0f0", colour = NA) +
+  annotation_spatial(rivers, colour = "#555555", size = 0.5) +
+  annotation_spatial(lakes, fill = "lightblue") +
+  coord_sf(expand = FALSE, crs = proj)
+
+base_map
 ```
 
-We aimed to collate archaeobotanical data from Southwest Asia (fig. \@ref(fig:region)) during from the Neolithic to Chalcolithic period, c. 11.700 – 5000 BP.
+We aimed to collate archaeobotanical data from Southwest Asia (fig. \@ref(fig:region)) from the Neolithic period, c. 11,700 – 6500 BP.
+To mitigate against an "edge effect", we also included samples in the source databases dated to the preceding Late Epipalaeolithic (c. 15,000–11,700 BP) and succeeding Chalcolithic (c. 6500–5000 BP).
 
 ```{r periods, fig.cap='Definition of cultural periods used in the analysis.'}
 periods <- tribble(
   ~period,           ~agriculture,                    ~start_bp, ~end_bp,
-  "Epipalaeolithic", "Foraging",                      25000,     11700,
+  "Late Epipal.",    "Foraging",                      15000,     11700,
   "PPNA",            "Pre-domestication cultivation", 11700,     10700,
   "EPPNB",           "Domestication",                 10700,     10200,
   "MPPNB",           "Domestication",                 10200,     9500,
   "LPPNB",           "Agriculture",                   9500,      8500,
   "Late Neolithic",  "Agriculture",                   8500,      6500,
   "Chalcolithic",    "Agriculture",                   6500,      5000,
-  "Later",           "Agriculture",                   5000,      0
 )
 
 periods %>% 
@@ -87,20 +101,20 @@ Notes on collation:
 * ORIGINS is recorded by sample; COMPAG and ADEMNES by phases. Aggregated ORIGINS by phase for comparability, and because individual samples are more likely to be 'noisy'
 * Calculated phase-level proportions for COMPAG
 
-We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–5000 BP) of interest,
+We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–6500 BP) of interest,
 with a buffer of ±2,000 years to reduce "edge effects" in our time series analyses.
 
 ```{r data-flora}
-start_bp <- periods$start_bp[periods$period == "PPNA"]
-end_bp <- periods$end_bp[periods$period == "Chalcolithic"]
+start_bp <- first(periods$start_bp)
+end_bp <- last(periods$end_bp)
 flora <- collate_flora(
   origins_path = here("analysis/data/raw_data/origins/"),
   ademnes_path = here("analysis/data/raw_data/ademnes"),
   compag_path = here("analysis/data/raw_data/compag2018"),
   taxa_path = here("analysis/data/raw_data/taxa_thesaurus.tsv"),
   region = sw_asia,
-  start_bp = start_bp + 1000,
-  end_bp = end_bp - 1000
+  start_bp = start_bp,
+  end_bp = end_bp
 )
 
 # TODO: check if affected by duplicate sample names between sites
@@ -115,14 +129,14 @@ The resulting collated dataset (included as supplement?) includes archaeobotanic
 All three databases include rough calibrated date ranges for each sample, so we will use that for now.
 We might look into using actual radiocarbon dates and incorporating the associated uncertainty into the analysis.
 
-Using this data, each phase was classified into one of the periods defined above using its mid-point date.
+Using this data, each phase was classified into one of the cultural periods defined above using its mid-point date.
 
 ```{r sample-periods}
 flora <- mutate(
   flora,
   age_mid = age_end + ((age_start - age_end) / 2),
   period = cut(-age_mid, 
-               breaks = -c(periods$start_bp, last(periods$end_bp)), 
+               breaks = -c(periods$start_bp, 0), 
                labels = periods$period,
                ordered_result = TRUE)
 )
@@ -139,9 +153,98 @@ flora %>%
   cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
 ```
 
+For a finer-grained chronology, we also sliced the assemblages into century bins.
+
+```{r sample-centuries}
+centuries <- seq(from = first(periods$start_bp),
+                 to = last(periods$end_bp),
+                 by = -100)
+names(centuries) <- centuries
+
+flora %>% 
+  mutate(century = map_dfc(centuries, ~. < age_start & . > age_end)) %>% 
+  unpack(century) %>% 
+  pivot_longer((ncol(flora)+1):ncol(.), names_to = "century",
+               names_transform = list(century = as.integer)) %>% 
+  filter(value) %>% 
+  select(-value) %>% 
+  mutate(period = cut(-century, 
+               breaks = -c(periods$start_bp, last(periods$end_bp)), 
+               labels = periods$period,
+               ordered_result = TRUE)) ->
+  flora_ts
+```
+
+### Sample coverage
+
+```{r sample-summary}
+flora %>% 
+  group_by(site_name, phase_code) %>% 
+  summarise(across(c(source, latitude, longitude, phase, age_start, age_end,
+                     period), first),
+            .groups = "drop") ->
+  flora_phases
+```
+
+
+```{r sample-map, fig.cap='Geographical distribution of sampled archaeobotanical assemblages'}
+p1 <- base_map + 
+  geom_spatial_point(data = flora_phases, 
+                     mapping = aes(longitude, latitude),
+                     size = 0.5) +
+  labs(x = NULL, y = NULL)
+  
+p1_left <- p1 + facet_wrap(vars("All"))
+p1_right <- p1 + 
+  facet_wrap(vars(period)) + 
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())
+
+p1_left + p1_right
+```
+
+
+```{r sample-chronology, fig.cap='Chronological distribution of sampled archaeobotanical assemblages'}
+p2_top <- flora_phases %>% 
+  count(period) %>% 
+  left_join(periods) %>% 
+  mutate(period = ordered(period, levels = periods$period)) %>% 
+  ggplot(aes(xmin = start_bp, xmax = end_bp, ymin = 0, ymax = n,
+             fill = period)) +
+  geom_rect() +
+  scale_x_reverse(limits = c(15000, 5000),
+                  breaks = seq(15000, 5000, -1000)) +
+  scale_y_continuous(limits = c(0, 150)) +
+  khroma::scale_fill_discreterainbow() +
+  labs(x = NULL, y = "Samples by period", fill = "Period") +
+  theme(legend.position = "top", 
+        axis.text.x = element_blank(), axis.ticks.x = element_blank())
+
+p2_bottom <- flora_ts %>% 
+  group_by(site_name, phase_code, century) %>% 
+  summarise(period = first(period), .groups = "drop") %>% 
+  ggplot(aes(century, fill = period)) +
+  geom_bar(width = 100) +
+  scale_x_reverse(limits = c(15000, 5000), 
+                  breaks = seq(15000, 5000, -1000)) +
+  scale_y_reverse(limits = c(150, 0)) +
+  khroma::scale_fill_discreterainbow(guide = guide_none()) +
+  labs(x = "cal BP", y = "Samples by century") +
+  theme(legend.position = "bottom")
+
+p2_top / p2_bottom
+```
+
 ## Results – Question 1
 
 Were the founder crops the *most important* plants?
+
+### Table of occurrences
+
+```{r occ-all}
+
+
+```
 
 ### Founder crops
 
