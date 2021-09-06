@@ -249,9 +249,33 @@ Were the founder crops the *most important* plants?
 
 ### Table of occurrences
 
+For each plant category (grass, legume, etc.), take the top X controlled taxa, and calculate:
+
+* n and proportion of site-phases where it is present
+* n and proportion of site-phases where it is >50%
+* n and proportion of site-phases where it is >25%
+* earliest recorded presence
+* earliest recorded presence outside of SWA??
+
 ```{r occ-all}
-
-
+flora %>% 
+  drop_na(category, taxon) %>% 
+  group_by(category, taxon, phase_code) %>% 
+  summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop_last") %>% 
+  summarise(
+    n_present = sum(prop > 0),
+    n_gthalf = sum(prop > 0.5),
+    n_gtqrtr = sum(prop > 0.25),
+    .groups = "drop_last"
+  ) %>% 
+  arrange(-n_present, .by_group = TRUE) %>% 
+  mutate(
+    pct_present = round(n_present / n_phases * 100, 2),
+    pct_gthalf = round(n_gthalf / n_phases * 100, 2),
+    pct_gtqrtr = round(n_gtqrtr / n_phases * 100, 2)
+  ) %>% 
+  write_csv("occ_all.csv")
+  # slice_max(n_present, n = , with_ties = FALSE)
 ```
 
 ### Founder crops

@@ -1,0 +1,547 @@
+category,taxon,n_present,n_gthalf,n_gtqrtr,pct_present,pct_gthalf,pct_gtqrtr
+Fruits/nuts,Pistacia sp.,97,2,7,31.49,0.65,2.27
+Fruits/nuts,Ficus sp.,48,1,3,15.58,0.32,0.97
+Fruits/nuts,Capparis sp.,28,0,0,9.09,0,0
+Fruits/nuts,Ficus carica,20,1,2,6.49,0.32,0.65
+Fruits/nuts,Prunus sp.,15,0,0,4.87,0,0
+Fruits/nuts,Vitis sp.,14,0,0,4.55,0,0
+Fruits/nuts,Vitis vinifera,14,0,0,4.55,0,0
+Fruits/nuts,Olea sp.,11,0,0,3.57,0,0
+Fruits/nuts,Crataegus sp.,10,0,0,3.25,0,0
+Fruits/nuts,Olea europaea,10,0,2,3.25,0,0.65
+Fruits/nuts,Pistacia atlantica,7,0,0,2.27,0,0
+Fruits/nuts,Amygdalus sp.,6,0,1,1.95,0,0.32
+Fruits/nuts,Quercus sp.,6,0,0,1.95,0,0
+Fruits/nuts,Capparis spinosa,5,0,0,1.62,0,0
+Fruits/nuts,Vitis sylvestris,4,0,0,1.3,0,0
+Fruits/nuts,Pyrus sp.,3,0,0,0.97,0,0
+Fruits/nuts,Quercus ithaburensis,3,0,0,0.97,0,0
+Fruits/nuts,Juglans regia,2,0,0,0.65,0,0
+Fruits/nuts,Rubus sp.,2,0,0,0.65,0,0
+Fruits/nuts,Cupressus sempervirens,1,0,0,0.32,0,0
+Fruits/nuts,Phoenix theophrasti,1,0,0,0.32,0,0
+Fruits/nuts,Pinus halepensis,1,0,0,0.32,0,0
+Fruits/nuts,Pistacia lentiscus,1,0,0,0.32,0,0
+Fruits/nuts,Pistacia palaestina,1,0,0,0.32,0,0
+Fruits/nuts,Pistacia terebinthus,1,0,0,0.32,0,0
+Fruits/nuts,Punica granatum,1,0,0,0.32,0,0
+Fruits/nuts,Punica sp.,1,0,0,0.32,0,0
+Fruits/nuts,Rosa sp.,1,0,0,0.32,0,0
+Fruits/nuts,Rubus sanguineus,1,0,0,0.32,0,0
+Fruits/nuts,Tamarix aphylla,1,0,0,0.32,0,0
+Fruits/nuts,Vitex agnus-castus,1,0,0,0.32,0,0
+Fruits/nuts,Amygdalus communis,0,0,0,0,0,0
+Fruits/nuts,Cedrus libani,0,0,0,0,0,0
+Fruits/nuts,Crataegus azarolus,0,0,0,0,0,0
+Fruits/nuts,Crataegus monogyna,0,0,0,0,0,0
+Fruits/nuts,Fraxinus sp.,0,0,0,0,0,0
+Fruits/nuts,Juniperus sp.,0,0,0,0,0,0
+Fruits/nuts,Malus sp.,0,0,0,0,0,0
+Fruits/nuts,Phoenix dactylifera,0,0,0,0,0,0
+Fruits/nuts,Prunus dulcis,0,0,0,0,0,0
+Fruits/nuts,Prunus microcarpa,0,0,0,0,0,0
+Fruits/nuts,Quercus infectoria,0,0,0,0,0,0
+Fruits/nuts,Rubus fruticosus,0,0,0,0,0,0
+Fruits/nuts,Tamarix nilotica,0,0,0,0,0,0
+Fruits/nuts,Ziziphus sp.,0,0,0,0,0,0
+Fruits/nuts,Ziziphus spina-christi,0,0,0,0,0,0
+Grasses,Triticum sp.,185,26,56,60.06,8.44,18.18
+Grasses,Hordeum sp.,153,4,15,49.68,1.3,4.87
+Grasses,Triticum dicoccum,115,2,15,37.34,0.65,4.87
+Grasses,Lolium sp.,94,0,8,30.52,0,2.6
+Grasses,Hordeum vulgare,91,4,7,29.55,1.3,2.27
+Grasses,Bromus sp.,77,0,0,25,0,0
+Grasses,Aegilops sp.,68,0,2,22.08,0,0.65
+Grasses,Triticum monococcum,62,0,2,20.13,0,0.65
+Grasses,Hordeum spontaneum,61,2,5,19.81,0.65,1.62
+Grasses,Phalaris sp.,61,0,1,19.81,0,0.32
+Grasses,Stipa sp.,44,0,0,14.29,0,0
+Grasses,Avena sp.,39,0,0,12.66,0,0
+Grasses,Eremopyrum sp.,32,0,1,10.39,0,0.32
+Grasses,Triticum boeoticum,29,1,1,9.42,0.32,0.32
+Grasses,Hordeum distichum,27,3,10,8.77,0.97,3.25
+Grasses,Taeniatherum sp.,15,0,0,4.87,0,0
+Grasses,Echinaria sp.,13,0,0,4.22,0,0
+Grasses,Eragrostis sp.,10,0,0,3.25,0,0
+Grasses,Lolium temulentum,10,0,1,3.25,0,0.32
+Grasses,Secale sp.,10,0,0,3.25,0,0
+Grasses,Secale cereale,9,0,0,2.92,0,0
+Grasses,Setaria sp.,9,0,0,2.92,0,0
+Grasses,Triticum aestivum,9,0,0,2.92,0,0
+Grasses,Agrostis sp.,8,0,1,2.6,0,0.32
+Grasses,Triticum dicoccoides,8,0,0,2.6,0,0
+Grasses,Brachypodium distachyon,7,0,0,2.27,0,0
+Grasses,Crypsis sp.,7,0,0,2.27,0,0
+Grasses,Phleum sp.,7,0,0,2.27,0,0
+Grasses,Hordeum bulbosum,6,0,0,1.95,0,0
+Grasses,Hordeum murinum,6,0,1,1.95,0,0.32
+Grasses,Taeniatherum caput-medusae,6,0,0,1.95,0,0
+Grasses,Avena sterilis,5,0,1,1.62,0,0.32
+Grasses,Lolium rigidum,5,0,0,1.62,0,0
+Grasses,Phalaris paradoxa,5,0,0,1.62,0,0
+Grasses,Phragmites australis,5,0,0,1.62,0,0
+Grasses,Poa bulbosa,5,0,0,1.62,0,0
+Grasses,Triticum durum,5,0,0,1.62,0,0
+Grasses,Aegilops crassa,4,0,0,1.3,0,0
+Grasses,Cutandia sp.,4,0,0,1.3,0,0
+Grasses,Poa sp.,4,0,0,1.3,0,0
+Grasses,Bromus sterilis,3,0,0,0.97,0,0
+Grasses,Crithopsis delileana,3,0,0,0.97,0,0
+Grasses,Cynodon sp.,3,0,0,0.97,0,0
+Grasses,Henrardia pubescens,3,0,0,0.97,0,0
+Grasses,Lolium remotum,3,0,0,0.97,0,0
+Grasses,Secale montanum,3,0,0,0.97,0,0
+Grasses,Triticum aestivocompactum,3,0,0,0.97,0,0
+Grasses,Triticum spelta,3,0,0,0.97,0,0
+Grasses,Vulpia sp.,3,0,0,0.97,0,0
+Grasses,Aegilops speltoides,2,0,0,0.65,0,0
+Grasses,Avena fatua,2,0,0,0.65,0,0
+Grasses,Elymus sp.,2,0,0,0.65,0,0
+Grasses,Eremopyrum bonaepartis,2,0,0,0.65,0,0
+Grasses,Herniaria sp.,2,0,0,0.65,0,0
+Grasses,Hordeum marinum,2,0,0,0.65,0,0
+Grasses,Psilurus incurvus,2,0,0,0.65,0,0
+Grasses,Stipa capensis,2,0,0,0.65,0,0
+Grasses,Tragus sp.,2,0,0,0.65,0,0
+Grasses,Aegilops kotschyi,1,0,0,0.32,0,0
+Grasses,Aegilops umbellulata,1,0,0,0.32,0,0
+Grasses,Aeluropus sp.,1,0,0,0.32,0,0
+Grasses,Alopecurus utriculatus,1,0,0,0.32,0,0
+Grasses,Avena barbata,1,0,0,0.32,0,0
+Grasses,Avena sativa,1,0,0,0.32,0,0
+Grasses,Bromus secalinus,1,0,0,0.32,0,0
+Grasses,Dactylis glomerata,1,0,0,0.32,0,0
+Grasses,Echinochloa crus-galli,1,0,0,0.32,0,0
+Grasses,Echinochloa sp.,1,0,0,0.32,0,0
+Grasses,Festuca sp.,1,0,0,0.32,0,0
+Grasses,Gaudiniopsis sp.,1,0,0,0.32,0,0
+Grasses,Imperata sp.,1,0,0,0.32,0,0
+Grasses,Melica persica,1,0,0,0.32,0,0
+Grasses,Panicum sp.,1,0,0,0.32,0,0
+Grasses,Phalaris minor,1,0,0,0.32,0,0
+Grasses,Phalaris tuberosa,1,0,0,0.32,0,0
+Grasses,Piptatherum miliaceum,1,0,0,0.32,0,0
+Grasses,Psilurus sp.,1,0,0,0.32,0,0
+Grasses,Stipa gigantea,1,0,0,0.32,0,0
+Grasses,Stipagrostis obtusa,1,0,0,0.32,0,0
+Grasses,Stipagrostis plumosa,1,0,0,0.32,0,0
+Grasses,Triticum parvicoccum,1,0,0,0.32,0,0
+Grasses,Triticum turgidum,1,0,0,0.32,0,0
+Grasses,Aegilops peregrina,0,0,0,0,0,0
+Grasses,Agropyron sp.,0,0,0,0,0,0
+Grasses,Alopecurus sp.,0,0,0,0,0,0
+Grasses,Avena clauda,0,0,0,0,0,0
+Grasses,Avena wiestii,0,0,0,0,0,0
+Grasses,Bromus arvensis,0,0,0,0,0,0
+Grasses,Bromus danthoniae,0,0,0,0,0,0
+Grasses,Bromus diandrus,0,0,0,0,0,0
+Grasses,Cutandia dichotoma,0,0,0,0,0,0
+Grasses,Cutandia memphitica,0,0,0,0,0,0
+Grasses,Cynodon dactylon,0,0,0,0,0,0
+Grasses,Eragrostis barrelieri,0,0,0,0,0,0
+Grasses,Hordeum glaucum,0,0,0,0,0,0
+Grasses,Setaria viridis,0,0,0,0,0,0
+Grasses,Taeniatherum rachis,0,0,0,0,0,0
+Pulses,Lens sp.,108,3,5,35.06,0.97,1.62
+Pulses,Vicia sp.,75,0,2,24.35,0,0.65
+Pulses,Astragalus sp.,64,0,1,20.78,0,0.32
+Pulses,Vicia ervilia,44,2,2,14.29,0.65,0.65
+Pulses,Trigonella sp.,41,0,1,13.31,0,0.32
+Pulses,Medicago sp.,40,0,1,12.99,0,0.32
+Pulses,Lens culinaris,39,1,3,12.66,0.32,0.97
+Pulses,Pisum sp.,37,0,2,12.01,0,0.65
+Pulses,Trigonella astroites,25,0,4,8.12,0,1.3
+Pulses,Coronilla sp.,22,0,0,7.14,0,0
+Pulses,Medicago radiata,21,0,0,6.82,0,0
+Pulses,Trifolium sp.,21,0,1,6.82,0,0.32
+Pulses,Lathyrus sp.,20,0,0,6.49,0,0
+Pulses,Onobrychis sp.,18,0,0,5.84,0,0
+Pulses,Cicer sp.,16,0,0,5.19,0,0
+Pulses,Melilotus sp.,16,0,0,5.19,0,0
+Pulses,Pisum sativum,13,0,1,4.22,0,0.32
+Pulses,Cicer arietinum,12,0,0,3.9,0,0
+Pulses,Lathyrus sativus,11,0,0,3.57,0,0
+Pulses,Prosopis farcta,11,0,0,3.57,0,0
+Pulses,Vicia faba,10,0,0,3.25,0,0
+Pulses,Scorpiurus sp.,9,0,1,2.92,0,0.32
+Pulses,Scorpiurus muricatus,8,0,0,2.6,0,0
+Pulses,Lathryrus sp.,5,0,0,1.62,0,0
+Pulses,Lathyrus aphaca,5,0,0,1.62,0,0
+Pulses,Glycyrrhiza sp.,4,0,0,1.3,0,0
+Pulses,Pisum elatius,3,0,0,0.97,0,0
+Pulses,Prosopis sp.,3,0,0,0.97,0,0
+Pulses,Trigonella arabica,3,1,2,0.97,0.32,0.65
+Pulses,Vicia narbonense,3,0,0,0.97,0,0
+Pulses,Alhagi sp.,2,0,2,0.65,0,0.65
+Pulses,Ceratonia siliqua,2,0,0,0.65,0,0
+Pulses,Colutea sp.,2,0,0,0.65,0,0
+Pulses,Lathyrus cicera,2,0,0,0.65,0,0
+Pulses,Lathyrus hirsutus,2,0,0,0.65,0,0
+Pulses,Lens orientalis,2,0,0,0.65,0,0
+Pulses,Lupinus sp.,2,0,0,0.65,0,0
+Pulses,Medicago minima,2,0,0,0.65,0,0
+Pulses,Vicia sativa,2,0,0,0.65,0,0
+Pulses,Acacia nilotica,1,0,0,0.32,0,0
+Pulses,Astragalus callichrous,1,0,0,0.32,0,0
+Pulses,Lathyrus nissolia,1,0,0,0.32,0,0
+Pulses,Lupinus angustifolius,1,0,0,0.32,0,0
+Pulses,Medicago laciniata,1,0,0,0.32,0,0
+Pulses,Medicago orbicularis,1,0,0,0.32,0,0
+Pulses,Medicago polymorpha,1,0,0,0.32,0,0
+Pulses,Medicago truncatula,1,0,0,0.32,0,0
+Pulses,Onobrychis crista-galli,1,0,0,0.32,0,0
+Pulses,Ononis serrata,1,0,0,0.32,0,0
+Pulses,Ononis sp.,1,0,0,0.32,0,0
+Pulses,Retama raetam,1,0,0,0.32,0,0
+Pulses,Sophora sp.,1,0,0,0.32,0,0
+Pulses,Trigonella noeana,1,0,0,0.32,0,0
+Pulses,Trigonella sibthorpii,1,0,0,0.32,0,0
+Pulses,Vicia peregrina,1,0,0,0.32,0,0
+Pulses,Acacia raddiana,0,0,0,0,0,0
+Pulses,Acacia sp.,0,0,0,0,0,0
+Pulses,Astragalus annularis,0,0,0,0,0,0
+Pulses,Astragalus tribuloides,0,0,0,0,0,0
+Pulses,Glycyrrhiza glabra,0,0,0,0,0,0
+Pulses,Hippocrepis unisiliquosa,0,0,0,0,0,0
+Pulses,Lupinus albus,0,0,0,0,0,0
+Pulses,Lupinus pilosus,0,0,0,0,0,0
+Pulses,Ononis viscosa,0,0,0,0,0,0
+Wild plants,Galium sp.,74,0,1,24.03,0,0.32
+Wild plants,Malva sp.,64,0,0,20.78,0,0
+Wild plants,Silene sp.,47,0,0,15.26,0,0
+Wild plants,Heliotropium sp.,43,0,0,13.96,0,0
+Wild plants,Rumex sp.,37,0,0,12.01,0,0
+Wild plants,Arnebia decumbens,36,2,6,11.69,0.65,1.95
+Wild plants,Buglossoides tenuiflora,35,0,1,11.36,0,0.32
+Wild plants,Centaurea sp.,35,0,0,11.36,0,0
+Wild plants,Bolboschoenus maritimus,34,0,0,11.04,0,0
+Wild plants,Adonis sp.,33,0,0,10.71,0,0
+Wild plants,Chenopodium sp.,31,0,0,10.06,0,0
+Wild plants,Androsace maxima,28,0,0,9.09,0,0
+Wild plants,Buglossoides arvensis,27,1,1,8.77,0.32,0.32
+Wild plants,Plantago sp.,27,0,0,8.77,0,0
+Wild plants,Linum sp.,26,1,1,8.44,0.32,0.32
+Wild plants,Scirpus sp.,24,0,0,7.79,0,0
+Wild plants,Atriplex sp.,23,0,0,7.47,0,0
+Wild plants,Bellevalia sp.,22,0,0,7.14,0,0
+Wild plants,Erodium sp.,22,0,0,7.14,0,0
+Wild plants,Suaeda sp.,22,0,0,7.14,0,0
+Wild plants,Fumaria sp.,21,0,0,6.82,0,0
+Wild plants,Linum usitatissimum,19,0,2,6.17,0,0.65
+Wild plants,Arnebia linearifolia,18,0,0,5.84,0,0
+Wild plants,Carex sp.,17,0,1,5.52,0,0.32
+Wild plants,Polygonum sp.,17,1,1,5.52,0.32,0.32
+Wild plants,Glaucium sp.,16,0,0,5.19,0,0
+Wild plants,Thymelaea sp.,16,0,0,5.19,0,0
+Wild plants,Alyssum sp.,14,0,0,4.55,0,0
+Wild plants,Ornithogalum sp.,14,0,0,4.55,0,0
+Wild plants,Gypsophila sp.,13,0,1,4.22,0,0.32
+Wild plants,Teucrium sp.,13,0,0,4.22,0,0
+Wild plants,Helianthemum sp.,12,0,0,3.9,0,0
+Wild plants,Papaver sp.,12,0,0,3.9,0,0
+Wild plants,Vaccaria pyramidata,12,0,0,3.9,0,0
+Wild plants,Ziziphora sp.,12,0,0,3.9,0,0
+Wild plants,Lithospermum tenuiflorum,11,0,1,3.57,0,0.32
+Wild plants,Salsola sp.,11,0,0,3.57,0,0
+Wild plants,Arenaria sp.,10,0,0,3.25,0,0
+Wild plants,Carex divisa,10,0,0,3.25,0,0
+Wild plants,Chenopodium album,10,0,0,3.25,0,0
+Wild plants,Scirpus maritimus,10,0,0,3.25,0,0
+Wild plants,Aizoon hispanicum,9,0,1,2.92,0,0.32
+Wild plants,Cyperus sp.,9,0,0,2.92,0,0
+Wild plants,Polygonum corrigioloides,9,0,1,2.92,0,0.32
+Wild plants,Amaranthus sp.,8,0,0,2.6,0,0
+Wild plants,Buglossoides sp.,8,0,0,2.6,0,0
+Wild plants,Celtis sp.,8,1,1,2.6,0.32,0.32
+Wild plants,Eleocharis sp.,8,0,0,2.6,0,0
+Wild plants,Rumex pulcher,8,0,0,2.6,0,0
+Wild plants,Verbascum sp.,8,0,0,2.6,0,0
+Wild plants,Ajuga sp.,7,0,0,2.27,0,0
+Wild plants,Bolboschoenus glaucus,7,0,0,2.27,0,0
+Wild plants,Brassica sp.,7,0,0,2.27,0,0
+Wild plants,Convolvulus sp.,7,0,0,2.27,0,0
+Wild plants,Crucianella sp.,7,0,0,2.27,0,0
+Wild plants,Gypsophila pilosa,7,0,0,2.27,0,0
+Wild plants,Polygonum venantianum,7,0,0,2.27,0,0
+Wild plants,Ammi majus,6,0,0,1.95,0,0
+Wild plants,Bassia arabica,6,0,0,1.95,0,0
+Wild plants,Draba sp.,6,0,0,1.95,0,0
+Wild plants,Echium sp.,6,0,0,1.95,0,0
+Wild plants,Linum bienne,6,0,0,1.95,0,0
+Wild plants,Salsola kali,6,0,0,1.95,0,0
+Wild plants,Valerianella dentata,6,0,0,1.95,0,0
+Wild plants,Adonis dentata,5,0,0,1.62,0,0
+Wild plants,Aizoon sp.,5,1,2,1.62,0.32,0.65
+Wild plants,Arenaria serpyllifolia,5,0,0,1.62,0,0
+Wild plants,Arnebia sp.,5,0,0,1.62,0,0
+Wild plants,Asparagus sp.,5,0,0,1.62,0,0
+Wild plants,Capsella sp.,5,0,0,1.62,0,0
+Wild plants,Carthamus sp.,5,0,0,1.62,0,0
+Wild plants,Cephalaria syriaca,5,0,0,1.62,0,0
+Wild plants,Euphorbia sp.,5,0,0,1.62,0,0
+Wild plants,Gypsophila elegans,5,0,0,1.62,0,0
+Wild plants,Lepidium perfoliatum,5,0,0,1.62,0,0
+Wild plants,Lepidium sp.,5,0,0,1.62,0,0
+Wild plants,Lycium sp.,5,0,1,1.62,0,0.32
+Wild plants,Potentilla sp.,5,0,0,1.62,0,0
+Wild plants,Ranunculus sp.,5,0,0,1.62,0,0
+Wild plants,Rumex dentatus,5,0,0,1.62,0,0
+Wild plants,Vaccaria sp.,5,0,0,1.62,0,0
+Wild plants,Verbena officinalis,5,0,0,1.62,0,0
+Wild plants,Verbena sp.,5,0,0,1.62,0,0
+Wild plants,Artemisia sp.,4,0,0,1.3,0,0
+Wild plants,Atriplex prostrata,4,0,0,1.3,0,0
+Wild plants,Chrozophora sp.,4,0,0,1.3,0,0
+Wild plants,Citrullus colocynthis,4,0,0,1.3,0,0
+Wild plants,Cyperus rotundus,4,0,0,1.3,0,0
+Wild plants,Fumaria densiflora,4,0,0,1.3,0,0
+Wild plants,Heliotropium europaeum,4,0,0,1.3,0,0
+Wild plants,Hyoscyamus sp.,4,0,0,1.3,0,0
+Wild plants,Lithospermum arvense,4,0,0,1.3,0,0
+Wild plants,Lithospermum sp.,4,0,0,1.3,0,0
+Wild plants,Portulaca oleracea,4,0,0,1.3,0,0
+Wild plants,Salvia cryptantha,4,0,0,1.3,0,0
+Wild plants,Sherardia arvensis,4,0,0,1.3,0,0
+Wild plants,Solanum sp.,4,0,0,1.3,0,0
+Wild plants,Adonis flammea,3,0,0,0.97,0,0
+Wild plants,Bupleurum sp.,3,0,0,0.97,0,0
+Wild plants,Cerastium sp.,3,0,0,0.97,0,0
+Wild plants,Chenopodium murale,3,0,0,0.97,0,0
+Wild plants,Cleome sp.,3,0,0,0.97,0,0
+Wild plants,Euclidium syriacum,3,0,0,0.97,0,0
+Wild plants,Galium aparine,3,0,0,0.97,0,0
+Wild plants,Glaucium aleppicum,3,0,0,0.97,0,0
+Wild plants,Helianthemum ledifolium,3,0,0,0.97,0,0
+Wild plants,Hypericum sp.,3,0,0,0.97,0,0
+Wild plants,Muscari sp.,3,0,0,0.97,0,0
+Wild plants,Neslia sp.,3,0,0,0.97,0,0
+Wild plants,Peganum harmala,3,0,0,0.97,0,0
+Wild plants,Reboudia pinnata,3,0,0,0.97,0,0
+Wild plants,Solanum nigrum,3,0,0,0.97,0,0
+Wild plants,Stachys sp.,3,0,0,0.97,0,0
+Wild plants,Suaeda fruticosa,3,0,0,0.97,0,0
+Wild plants,Valerianella sp.,3,0,0,0.97,0,0
+Wild plants,Zygophyllum fabago,3,0,0,0.97,0,0
+Wild plants,Alkanna sp.,2,0,0,0.65,0,0
+Wild plants,Anagallis sp.,2,0,0,0.65,0,0
+Wild plants,Anchusa sp.,2,0,0,0.65,0,0
+Wild plants,Androsace sp.,2,0,0,0.65,0,0
+Wild plants,Anthemis cotula,2,0,0,0.65,0,0
+Wild plants,Anthemis pseudocotula,2,0,0,0.65,0,0
+Wild plants,Asperula sp.,2,0,0,0.65,0,0
+Wild plants,Asphodelus aestivus,2,0,0,0.65,0,0
+Wild plants,Asphodelus sp.,2,0,0,0.65,0,0
+Wild plants,Atriplex leucoclada,2,0,0,0.65,0,0
+Wild plants,Bassia prostrata,2,0,0,0.65,0,0
+Wild plants,Beta sp.,2,0,0,0.65,0,0
+Wild plants,Bifora sp.,2,0,0,0.65,0,0
+Wild plants,Bryonia sp.,2,0,0,0.65,0,0
+Wild plants,Camphorosma monspeliaca,2,0,0,0.65,0,0
+Wild plants,Capsella bursa-pastoris,2,0,0,0.65,0,0
+Wild plants,Celtis tournefortii,2,0,0,0.65,0,0
+Wild plants,Cephalaria sp.,2,0,0,0.65,0,0
+Wild plants,Cladium mariscus,2,0,0,0.65,0,0
+Wild plants,Cleome ornithopodioides,2,0,0,0.65,0,0
+Wild plants,Cornus mas,2,0,0,0.65,0,0
+Wild plants,Erodium ciconium,2,0,0,0.65,0,0
+Wild plants,Euclidium sp.,2,0,0,0.65,0,0
+Wild plants,Galium tricornutum,2,0,0,0.65,0,0
+Wild plants,Geranium sp.,2,0,0,0.65,0,0
+Wild plants,Halothamnus hierochunticus,2,0,0,0.65,0,0
+Wild plants,Helianthemum salicifolium,2,0,0,0.65,0,0
+Wild plants,Heliotropium persicum,2,0,0,0.65,0,0
+Wild plants,Heteranthelium piliferum,2,0,0,0.65,0,0
+Wild plants,Hyacinthus sp.,2,0,0,0.65,0,0
+Wild plants,Juncus sp.,2,0,0,0.65,0,0
+Wild plants,Krascheninnikovia ceratoides,2,0,0,0.65,0,0
+Wild plants,Lepidium ruderale,2,0,0,0.65,0,0
+Wild plants,Lithospermum incrassatum,2,0,0,0.65,0,0
+Wild plants,Malva parviflora,2,0,0,0.65,0,0
+Wild plants,Malva sylvestris,2,0,0,0.65,0,0
+Wild plants,Micromeria sp.,2,0,0,0.65,0,0
+Wild plants,Minuartia rubella,2,0,0,0.65,0,0
+Wild plants,Minuartia sp.,2,0,0,0.65,0,0
+Wild plants,Moltkia coerulea,2,0,0,0.65,0,0
+Wild plants,Plantago lagopus,2,0,0,0.65,0,0
+Wild plants,Plantago lanceolata,2,0,0,0.65,0,0
+Wild plants,Plantago major,2,0,0,0.65,0,0
+Wild plants,Plantago ovata,2,0,0,0.65,0,0
+Wild plants,Polygonum aviculare,2,0,0,0.65,0,0
+Wild plants,Polygonum convolvulus,2,0,0,0.65,0,0
+Wild plants,Polygonum persicaria,2,0,0,0.65,0,0
+Wild plants,Ranunculus repens,2,0,0,0.65,0,0
+Wild plants,Reseda lutea,2,0,0,0.65,0,0
+Wild plants,Reseda sp.,2,0,0,0.65,0,0
+Wild plants,Rumex maritimus,2,0,0,0.65,0,0
+Wild plants,Scirpus lacustris,2,0,0,0.65,0,0
+Wild plants,Scirpus setaceus,2,0,0,0.65,0,0
+Wild plants,Scirpus tabernaemontani,2,0,0,0.65,0,0
+Wild plants,Sisymbrium sp.,2,0,0,0.65,0,0
+Wild plants,Torilis nodosa,2,0,0,0.65,0,0
+Wild plants,Torularia torulosa,2,0,0,0.65,0,0
+Wild plants,Tribulus terrestris,2,0,0,0.65,0,0
+Wild plants,Abutilon teophrasti,1,0,0,0.32,0,0
+Wild plants,Achillea sp.,1,0,0,0.32,0,0
+Wild plants,Adonis aestivalis,1,0,0,0.32,0,0
+Wild plants,Adonis annua,1,0,0,0.32,0,0
+Wild plants,Adonis microcarpa,1,0,0,0.32,0,0
+Wild plants,Aellinia sp.,1,0,0,0.32,0,0
+Wild plants,Alcea sp.,1,0,0,0.32,0,0
+Wild plants,Alkanna orientalis,1,0,0,0.32,0,0
+Wild plants,Alyssum damascenus,1,0,0,0.32,0,0
+Wild plants,Anabasis articulata,1,0,0,0.32,0,0
+Wild plants,Anagallis arvensis,1,0,0,0.32,0,0
+Wild plants,Anthemis arvensis,1,0,0,0.32,0,0
+Wild plants,Anthemis sp.,1,0,0,0.32,0,0
+Wild plants,Antirrhinum orontium,1,0,0,0.32,0,0
+Wild plants,Anvillea garcinii,1,0,0,0.32,0,0
+Wild plants,Asteriscus graveolens,1,0,0,0.32,0,0
+Wild plants,Asterolinon linum-stellatum,1,0,0,0.32,0,0
+Wild plants,Atriplex lasiantha,1,0,0,0.32,0,0
+Wild plants,Atriplex rosea,1,0,0,0.32,0,0
+Wild plants,Ballota sp.,1,0,0,0.32,0,0
+Wild plants,Bassia muricata,1,0,0,0.32,0,0
+Wild plants,Brassica nigra,1,0,0,0.32,0,0
+Wild plants,Bupleurum rotundifolium,1,0,0,0.32,0,0
+Wild plants,Bupleurum subovatum,1,0,0,0.32,0,0
+Wild plants,Calendula sp.,1,0,0,0.32,0,0
+Wild plants,Camelina microcarpa,1,0,0,0.32,0,0
+Wild plants,Camelina sativa,1,0,0,0.32,0,0
+Wild plants,Camphorosma sp.,1,0,0,0.32,0,0
+Wild plants,Cannabis sativa,1,0,0,0.32,0,0
+Wild plants,Carduus australis,1,0,0,0.32,0,0
+Wild plants,Carrichtera annua,1,0,1,0.32,0,0.32
+Wild plants,Carthamus tenuis,1,0,0,0.32,0,0
+Wild plants,Caylusea hexagyna,1,0,0,0.32,0,0
+Wild plants,Chenopodium glaucum,1,0,0,0.32,0,0
+Wild plants,Chenopodium rubrum,1,0,0,0.32,0,0
+Wild plants,Chrysanthemum coronarium,1,0,0,0.32,0,0
+Wild plants,Clematis sp.,1,0,0,0.32,0,0
+Wild plants,Convolvulus arvensis,1,0,0,0.32,0,0
+Wild plants,Cordia sinensis,1,0,0,0.32,0,0
+Wild plants,Coriandrum sativum,1,0,0,0.32,0,0
+Wild plants,Corydalis sp.,1,0,0,0.32,0,0
+Wild plants,Crepis sp.,1,0,0,0.32,0,0
+Wild plants,Crupina crupinastrum,1,0,0,0.32,0,0
+Wild plants,Cucumis melo,1,0,0,0.32,0,0
+Wild plants,Cucumis sp.,1,0,0,0.32,0,0
+Wild plants,Cuminum cyminum,1,0,0,0.32,0,0
+Wild plants,Cuscuta sp.,1,0,0,0.32,0,0
+Wild plants,Datura sp.,1,0,0,0.32,0,0
+Wild plants,Descurainia sp.,1,1,1,0.32,0.32,0.32
+Wild plants,Dianthus sp.,1,0,0,0.32,0,0
+Wild plants,Equisetum sp.,1,0,0,0.32,0,0
+Wild plants,Erodium gruinum,1,0,0,0.32,0,0
+Wild plants,Erucaria sp.,1,0,0,0.32,0,0
+Wild plants,Frankenia sp.,1,0,0,0.32,0,0
+Wild plants,Fumaria parviflora,1,0,0,0.32,0,0
+Wild plants,Galium mollugo,1,0,0,0.32,0,0
+Wild plants,Galium spurium,1,0,0,0.32,0,0
+Wild plants,Glaucium corniculatum,1,0,0,0.32,0,0
+Wild plants,Gundelia tournefortii,1,0,0,0.32,0,0
+Wild plants,Gypsophila obionica,1,0,0,0.32,0,0
+Wild plants,Heliotropium rotundifolium,1,0,0,0.32,0,0
+Wild plants,Heliotropium suaveolens,1,0,0,0.32,0,0
+Wild plants,Heteranthelium sp.,1,0,0,0.32,0,0
+Wild plants,Lallemantia sp.,1,0,0,0.32,0,0
+Wild plants,Lepidium niloticum,1,0,0,0.32,0,0
+Wild plants,Linum mucronatum,1,0,0,0.32,0,0
+Wild plants,Malcolmia sp.,1,0,0,0.32,0,0
+Wild plants,Malva nicaeensis,1,0,0,0.32,0,0
+Wild plants,Matricaria sp.,1,0,0,0.32,0,0
+Wild plants,Mesembryanthemum nodiflorum,1,0,0,0.32,0,0
+Wild plants,Neslia paniculata,1,0,0,0.32,0,0
+Wild plants,Notobasis syriaca,1,0,0,0.32,0,0
+Wild plants,Papaver setigerum,1,0,0,0.32,0,0
+Wild plants,Plantago amplexicaulis,1,0,0,0.32,0,0
+Wild plants,Plantago coronopus,1,0,0,0.32,0,0
+Wild plants,Plantago psyllium,1,0,0,0.32,0,0
+Wild plants,Plantago squarrosa,1,0,0,0.32,0,0
+Wild plants,Polygonum lapathifolium,1,0,0,0.32,0,0
+Wild plants,Portulaca,1,0,0,0.32,0,0
+Wild plants,Potamogeton sp.,1,0,0,0.32,0,0
+Wild plants,Pulicaria sp.,1,0,0,0.32,0,0
+Wild plants,Ranunculus acris,1,0,0,0.32,0,0
+Wild plants,Ranunculus sceleratus,1,0,0,0.32,0,0
+Wild plants,Reseda decursiva,1,0,0,0.32,0,0
+Wild plants,Reseda luteola,1,0,0,0.32,0,0
+Wild plants,Rumex acetocella,1,0,0,0.32,0,0
+Wild plants,Ruppia sp.,1,0,0,0.32,0,0
+Wild plants,Saponaria sp.,1,0,0,0.32,0,0
+Wild plants,Schoenoplectus sp.,1,0,0,0.32,0,0
+Wild plants,Schoenoplectus triquetius,1,0,0,0.32,0,0
+Wild plants,Scleranthus sp.,1,0,0,0.32,0,0
+Wild plants,Scrophularia sp.,1,0,0,0.32,0,0
+Wild plants,Sherardia sp.,1,0,0,0.32,0,0
+Wild plants,Silene aegyptiaca,1,0,0,0.32,0,0
+Wild plants,Silene arabica,1,0,0,0.32,0,0
+Wild plants,Silene colorata,1,0,0,0.32,0,0
+Wild plants,Silene dichotoma,1,0,0,0.32,0,0
+Wild plants,Solanum dulcamara,1,0,0,0.32,0,0
+Wild plants,Spergularia arvensis,1,0,0,0.32,0,0
+Wild plants,Spergularia sp.,1,0,0,0.32,0,0
+Wild plants,Suaeda palaestina,1,0,0,0.32,0,0
+Wild plants,Teucrium polium,1,0,0,0.32,0,0
+Wild plants,Thalictrum sp.,1,0,0,0.32,0,0
+Wild plants,Thlaspi sp.,1,0,0,0.32,0,0
+Wild plants,Thymelaea hirsuta,1,0,0,0.32,0,0
+Wild plants,Torilis sp.,1,0,0,0.32,0,0
+Wild plants,Tragopogon sp.,1,0,0,0.32,0,0
+Wild plants,Urtica urens,1,0,0,0.32,0,0
+Wild plants,Vaccaria segetalis,1,0,0,0.32,0,0
+Wild plants,Valerianella coronata,1,0,0,0.32,0,0
+Wild plants,Veronica sp.,1,0,0,0.32,0,0
+Wild plants,Viola sp.,1,0,0,0.32,0,0
+Wild plants,Zilla spinosa,1,0,0,0.32,0,0
+Wild plants,Zygophyllum sp.,1,0,0,0.32,0,0
+Wild plants,Achillea wilhelmsii,0,0,0,0,0,0
+Wild plants,Agrostemma githago,0,0,0,0,0,0
+Wild plants,Ajuga iva,0,0,0,0,0,0
+Wild plants,Allium sativum,0,0,0,0,0,0
+Wild plants,Apium graveolens,0,0,0,0,0,0
+Wild plants,Arctium lappa,0,0,0,0,0,0
+Wild plants,Asphodelus tenuifolius,0,0,0,0,0,0
+Wild plants,Balanites aegyptiaca,0,0,0,0,0,0
+Wild plants,Bassia sp.,0,0,0,0,0,0
+Wild plants,Beta vulgaris,0,0,0,0,0,0
+Wild plants,Bupleurum lancifolium,0,0,0,0,0,0
+Wild plants,Calendula arvensis,0,0,0,0,0,0
+Wild plants,Camelina sp.,0,0,0,0,0,0
+Wild plants,Centaurea pallescens,0,0,0,0,0,0
+Wild plants,Ceratocephalus sp.,0,0,0,0,0,0
+Wild plants,Chara sp.,0,0,0,0,0,0
+Wild plants,Chrysanthemum sp.,0,0,0,0,0,0
+Wild plants,Cotula sp.,0,0,0,0,0,0
+Wild plants,Cyperus articulatus,0,0,0,0,0,0
+Wild plants,Cyperus papyrus,0,0,0,0,0,0
+Wild plants,Euphorbia falcata,0,0,0,0,0,0
+Wild plants,Fimbristylis sp.,0,0,0,0,0,0
+Wild plants,Galium verrucosum,0,0,0,0,0,0
+Wild plants,Geum sp.,0,0,0,0,0,0
+Wild plants,Iphiona mucronata,0,0,0,0,0,0
+Wild plants,Lycopus sp.,0,0,0,0,0,0
+Wild plants,Malva aegyptia,0,0,0,0,0,0
+Wild plants,Mentha sp.,0,0,0,0,0,0
+Wild plants,Minuartia hybrida,0,0,0,0,0,0
+Wild plants,Onopordum sp.,0,0,0,0,0,0
+Wild plants,Oxalis sp.,0,0,0,0,0,0
+Wild plants,Papaver dubium,0,0,0,0,0,0
+Wild plants,Picris sp.,0,0,0,0,0,0
+Wild plants,Polygonum salicifolium,0,0,0,0,0,0
+Wild plants,Pulicaria crispa,0,0,0,0,0,0
+Wild plants,Ranunculus arvensis L. uncarbonized,0,0,0,0,0,0
+Wild plants,Raphanus sp.,0,0,0,0,0,0
+Wild plants,Rhamnus sp.,0,0,0,0,0,0
+Wild plants,Rumex crispus,0,0,0,0,0,0
+Wild plants,Rumex simpliciflorus,0,0,0,0,0,0
+Wild plants,Rumex spinosus,0,0,0,0,0,0
+Wild plants,Salsola inermis,0,0,0,0,0,0
+Wild plants,Salsola volkensii,0,0,0,0,0,0
+Wild plants,Schoenoplectus litoralis,0,0,0,0,0,0
+Wild plants,Senecio sp.,0,0,0,0,0,0
+Wild plants,Silene gallica,0,0,0,0,0,0
+Wild plants,Sisymbrium irio,0,0,0,0,0,0
+Wild plants,Sonchus sp.,0,0,0,0,0,0
+Wild plants,Typha sp.,0,0,0,0,0,0
+Wild plants,Veronica persica,0,0,0,0,0,0
+Wild plants,Ziziphora tenuir,0,0,0,0,0,0
