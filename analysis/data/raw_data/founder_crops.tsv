@@ -39,24 +39,24 @@ Suaeda sp.	cf. Suaeda sp. uncarbonized	Suaeda	Amaranthaceae	Wild plants	NA	leave
 Suaeda sp.	Suaeda	Suaeda	Amaranthaceae	Wild plants	NA	NA	NA	NA	NA
 Suaeda sp.	Suaeda sp.	Suaeda	Amaranthaceae	Wild plants	NA	leaves, stems	NA	NA	NA
 Allium sativum	Allium sativum	Allium	Amaryllidaceae	Wild plants	NA	bulb	NA	NA	NA
-Pistacia atlantica	Pistacia atlantica	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia atlantica	Pistacia atlantica Desf.	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia atlantica	Pistacia atlantica Desf. wood	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	TRUE
-Pistacia lentiscus	Pistacia lentiscus	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia lentiscus	Pistacia lentiscus L. wood	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	TRUE
-Pistacia palaestina	Pistacia palaestina	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia palaestina	Pistacia palaestina wood	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	TRUE
-Pistacia sp.	cf. Pistacia sp.	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pistacia	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pistacia atlantica/khinjuk	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pistacia atlantica/palaestina	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pistacia atlantica/terebinthus	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pistacia sp.	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pistacia terebinthus/lentiscus	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia terebinthus	Pistacia terebinthus	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia terebinthus	Pistacia terebinthus L.	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia vera	Pistacia vera L.	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Pistacia sp.	Pisticia spp.	Pistacia	Anacardiaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia atlantica	Pistacia atlantica	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia atlantica	Pistacia atlantica Desf.	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia atlantica	Pistacia atlantica Desf. wood	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Pistacia lentiscus	Pistacia lentiscus	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia lentiscus	Pistacia lentiscus L. wood	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Pistacia palaestina	Pistacia palaestina	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia palaestina	Pistacia palaestina wood	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Pistacia sp.	cf. Pistacia sp.	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pistacia	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pistacia atlantica/khinjuk	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pistacia atlantica/palaestina	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pistacia atlantica/terebinthus	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pistacia sp.	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pistacia terebinthus/lentiscus	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia terebinthus	Pistacia terebinthus	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia terebinthus	Pistacia terebinthus L.	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia vera	Pistacia vera L.	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pistacia sp.	Pisticia spp.	Pistacia	Anacardiaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Ammi majus	Ammi majus	Ammi	Apiaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Apium graveolens	Apium graveolens	Apium	Apiaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Bifora sp.	Bifora	Bifora	Apiaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
@@ -149,7 +149,7 @@ Senecio sp.	Senecio sp. L.	Senecio	Asteraceae	Wild plants	NA		NA	NA	NA
 Sonchus oleraceus	Sonchus oleraceus L.	Sonchus	Asteraceae	Wild plants	NA		NA	NA	NA
 Sonchus sp.	Sonchus type	Sonchus	Asteraceae	Wild plants	NA		NA	NA	NA
 Tragopogon sp.	Tragopogon	Tragopogon	Asteraceae	Wild plants	NA		NA	NA	NA
-Corylus avellana	Corylus avellana	Corylus	Betulaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Corylus avellana	Corylus avellana	Corylus	Betulaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Alkanna orientalis	Alkanna orientalis	Alkanna	Boraginaceae	Wild plants	NA		NA	NA	NA
 Alkanna sp.	Alkanna	Alkanna	Boraginaceae	Wild plants	NA		NA	NA	NA
 Alkanna sp.	Alkanna Tausch sp.	Alkanna	Boraginaceae	Wild plants	NA		NA	NA	NA
@@ -244,13 +244,13 @@ Celtis australis	Celtis australis L.	Celtis	Cannabaceae	Wild plants	NA	Edible se
 Celtis sp.	Celtis	Celtis	Cannabaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Celtis sp.	Celtis sp.	Celtis	Cannabaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Celtis tournefortii	Celtis tournefortii	Celtis	Cannabaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
-Capparis sp.	Capparis	Capparis	Capparaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Capparis sp.	Capparis sp.	Capparis	Capparaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Capparis sp.	cf. Capparis sp.	Capparis	Capparaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Capparis sp.	Capparis	Capparis	Capparaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Capparis sp.	Capparis sp.	Capparis	Capparaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Capparis sp.	cf. Capparis sp.	Capparis	Capparaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Capparis sp.	Chenopodiaceae/Capparis	Capparis	Capparaceae	NA	NA		NA	NA	NA
-Capparis spinosa	Capparis spinosa	Capparis	Capparaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Capparis spinosa	Capparis spinosa L.	Capparis	Capparaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Capparis spinosa	Capparis spinosa var. aegyptiaca	Capparis	Capparaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Capparis spinosa	Capparis spinosa	Capparis	Capparaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Capparis spinosa	Capparis spinosa L.	Capparis	Capparaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Capparis spinosa	Capparis spinosa var. aegyptiaca	Capparis	Capparaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Cleome chrysantha	Cleome chrysantha	Cleome	Capparaceae	Wild plants	NA		NA	NA	NA
 Cleome ornithopodioides	Cleome ornithopodioides	Cleome	Capparaceae	Wild plants	NA		NA	NA	NA
 Cleome sp.	Cleome	Cleome	Capparaceae	Wild plants	NA		NA	NA	NA
@@ -350,8 +350,8 @@ Cucumis sp.	Cucumis sp. uncarbonized	Cucumis	Cucurbitaceae	Wild plants	NA	Edible
 NA	Cucumis/Citrullus	NA	Cucurbitaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 NA	Cucurbitaceae	NA	Cucurbitaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 NA	Cucurbitaceae indeterminate	NA	Cucurbitaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
-Cupressus sempervirens	Cupressus sempervirens	Cupressus	Cupressaceae	Fruit/nuts	NA		NA	NA	NA
-Juniperus sp.	Juniperus sp.	Juniperus	Cupressaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Cupressus sempervirens	Cupressus sempervirens	Cupressus	Cupressaceae	Fruits/nuts	NA		NA	NA	NA
+Juniperus sp.	Juniperus sp.	Juniperus	Cupressaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Cuscuta sp.	Cuscuta	Cuscuta	Cuscutaceae	Wild plants	NA		NA	NA	NA
 Bolboschoenus glaucus	Bolboschoenus glaucus	Bolboschoenus	Cyperaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Bolboschoenus maritimus	Bolboschoenus maritimus	Bolboschoenus	Cyperaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
@@ -546,11 +546,11 @@ Vicia sp.	Vicia faba/narbonense	Vicia	Fabaceae	Pulses	NA	Edible seed/fruit	NA	La
 Vicia sp.	Vicia sp.	Vicia	Fabaceae	Pulses	NA	Edible seed/fruit	NA	Large/medium-seeded	NA
 Vicia sp.	Vicia spp.	Vicia	Fabaceae	Pulses	NA	Edible seed/fruit	NA	Large/medium-seeded	NA
 Vicia sp.	Vicia type	Vicia	Fabaceae	Pulses	NA	Edible seed/fruit	NA	Large/medium-seeded	NA
-Quercus infectoria	Quercus infectoria type wood	Quercus	Fagaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	TRUE
-Quercus ithaburensis	Quercus ithaburensis	Quercus	Fagaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Quercus sp.	Quercus	Quercus	Fagaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Quercus sp.	Quercus sp.	Quercus	Fagaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Quercus sp.	Quercus sp., wood	Quercus	Fagaceae	Fruit/nuts	NA	NA	NA	NA	TRUE
+Quercus infectoria	Quercus infectoria type wood	Quercus	Fagaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Quercus ithaburensis	Quercus ithaburensis	Quercus	Fagaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Quercus sp.	Quercus	Quercus	Fagaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Quercus sp.	Quercus sp.	Quercus	Fagaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Quercus sp.	Quercus sp., wood	Quercus	Fagaceae	Fruits/nuts	NA	NA	NA	NA	TRUE
 Frankenia sp.	Frankenia hirsuta/revoluta	Frankenia	Frankeniaceae	Wild plants	NA		NA	NA	NA
 Erodium ciconium	Erodium ciconium	Erodium	Geraniaceae	Wild plants	NA		NA	NA	NA
 Erodium gruinum	Erodium gruinum	Erodium	Geraniaceae	Wild plants	NA		NA	NA	NA
@@ -563,7 +563,7 @@ NA	Geraniaceae	NA	Geraniaceae	Wild plants	NA		NA	NA	NA
 Hypericum sp.	Hypericum sp.	Hypericum	Hypericaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Hypericum sp.	Hypericum type	Hypericum	Hypericaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Isoetes duriei	Isoëtes duriei Bory	Isoetes	Isoetaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
-Juglans regia	Juglans regia	Juglans	Juglandaceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Juglans regia	Juglans regia	Juglans	Juglandaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Juncus rigidus	Juncus rigidus Desf.	Juncus	Juncaceae	Wild plants	NA		NA	NA	NA
 Juncus sp.	Juncus	Juncus	Juncaceae	Wild plants	NA		NA	NA	NA
 Juncus sp.	Juncus sp.	Juncus	Juncaceae	Wild plants	NA		NA	NA	NA
@@ -589,7 +589,7 @@ Stachys sp.	Stachys type uncarbonized	Stachys	Lamiaceae	Wild plants	NA		NA	NA	NA
 Teucrium polium	Teucrium polium L.	Teucrium	Lamiaceae	Wild plants	NA		NA	NA	NA
 Teucrium sp.	Teucrium	Teucrium	Lamiaceae	Wild plants	NA		NA	NA	NA
 Teucrium sp.	Teucrium sp.	Teucrium	Lamiaceae	Wild plants	NA		NA	NA	NA
-Vitex agnus-castus	Vitex agnus-castus	Vitex	Lamiaceae	Fruit/nuts	NA		NA	NA	NA
+Vitex agnus-castus	Vitex agnus-castus	Vitex	Lamiaceae	Fruits/nuts	NA		NA	NA	NA
 Ziziphora sp.	cf. Ziziphora sp.	Ziziphora	Lamiaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Ziziphora sp.	Ziziphora	Ziziphora	Lamiaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Ziziphora tenuir	Ziziphora tenuir	Ziziphora	Lamiaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
@@ -625,12 +625,12 @@ Malva sylvestris	Malva sylvestris	Malva	Malvaceae	Wild plants	NA		NA	NA	NA
 Malva sylvestris	Malva sylvestris L.	Malva	Malvaceae	Wild plants	NA		NA	NA	NA
 NA	Malvaceae	NA	Malvaceae	Wild plants	NA		NA	NA	NA
 NA	Malvaceae indet.	NA	Malvaceae	Wild plants	NA		NA	NA	NA
-Ficus carica	Ficus carica	Ficus	Moraceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Ficus carica	Ficus carica L.	Ficus	Moraceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Ficus carica	Ficus carica L., uncarbonized	Ficus	Moraceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Ficus sp.	Ficus	Ficus	Moraceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-Ficus sp.	Ficus sp.	Ficus	Moraceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
-NA	Moraceae	NA	Moraceae	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+Ficus carica	Ficus carica	Ficus	Moraceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Ficus carica	Ficus carica L.	Ficus	Moraceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Ficus carica	Ficus carica L., uncarbonized	Ficus	Moraceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Ficus sp.	Ficus	Ficus	Moraceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Ficus sp.	Ficus sp.	Ficus	Moraceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	Moraceae	NA	Moraceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Aellinia sp.	Aellinia sp.	Aellinia	Caryophyllaceae	Wild plants	NA		NA	NA	NA
 NA	Brassicaceae and Chenopodiaceae	NA	NA	Wild plants	NA		NA	NA	NA
 NA	category: wet loving species	NA	NA	Wild plants	NA		NA	NA	NA
@@ -639,9 +639,9 @@ NA	Chenopodiaceae/Caryophyllaceae indeterminate	NA	NA	Wild plants	NA		NA	NA	NA
 NA	Chenopodiaceae/Crucifer	NA	NA	Wild plants	NA		NA	NA	NA
 NA	Compositae/Labiatae	NA	NA	Wild plants	NA		NA	NA	NA
 NA	Dipsacaceae/Compositae	NA	NA	Wild plants	NA		NA	NA	NA
-NA	fruits/nuts	NA	NA	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	fruits/nuts	NA	NA	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 NA	Gramineae/Cyperaceae	NA	NA	NA	NA		NA	NA	NA
-NA	indet nut/fruit	NA	NA	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	indet nut/fruit	NA	NA	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 NA	indet wild	NA	NA	Wild plants	NA		NA	NA	NA
 NA	indet. (large pulse)	NA	Fabaceae	Pulses	NA		NA	Large/medium-seeded	NA
 NA	indeterminata	NA	NA	NA	NA		NA	NA	NA
@@ -649,18 +649,18 @@ NA	indeterminate wood	NA	NA	NA	NA		NA	NA	TRUE
 NA	LSLEG	NA	Fabaceae	Pulses	NA		NA	NA	NA
 NA	other weeds total including indet. Types	NA	NA	Wild plants	NA		NA	NA	NA
 NA	Parenchyma	NA	NA	Wild plants	NA		NA	NA	NA
-NA	Pistacia/Celtis	NA	NA	Fruit/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	Pistacia/Celtis	NA	NA	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 NA	sedges/nutlets	NA	NA	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 NA	Suaeda/Scirpus maritimus	NA	NA	Wild plants	NA		NA	NA	NA
 Peganum harmala	Peganum harmala	Peganum	Nitrariaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Peganum harmala	Peganum harmala L.	Peganum	Nitrariaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Peganum sp.	Peganum sp.	Peganum	Nitrariaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
-Fraxinus sp.	Fraxinus sp. wood	Fraxinus	Oleaceae	Fruit/nut	NA		NA	NA	TRUE
-Olea europaea	Olea europaea L.	Olea	Oleaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Olea europaea	Olea europaea L. wood	Olea	Oleaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	TRUE
-Olea europaea	Olea europea	Olea	Oleaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Olea sp.	Olea	Olea	Oleaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Olea sp.	Olea sp. L.	Olea	Oleaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Fraxinus sp.	Fraxinus sp. wood	Fraxinus	Oleaceae	Fruits/nuts	NA		NA	NA	TRUE
+Olea europaea	Olea europaea L.	Olea	Oleaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Olea europaea	Olea europaea L. wood	Olea	Oleaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Olea europaea	Olea europea	Olea	Oleaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Olea sp.	Olea	Olea	Oleaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Olea sp.	Olea sp. L.	Olea	Oleaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Oxalis sp.	Oxalis sp.	Oxalis	Oxalidaceae	Wild plants	NA		NA	NA	NA
 Corydalis sp.	Corydalis	Corydalis	Papaveraceae	Wild plants	NA		NA	NA	NA
 Corydalis sp.	Corydalis sp.	Corydalis	Papaveraceae	Wild plants	NA		NA	NA	NA
@@ -682,11 +682,11 @@ Papaver setigerum	Papaver setigerum	Papaver	Papaveraceae	Wild plants	NA	Edible s
 Papaver sp.	Papaver	Papaver	Papaveraceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Papaver sp.	Papaver sp.	Papaver	Papaveraceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Papaver sp.	Papaver sp. (mineralized)	Papaver	Papaveraceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
-Phoenix dactylifera	Phoenix dactylifera L.	Phoenix	Phoeniaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Phoenix dactylifera	Phoenix dactylifera L. wood	Phoenix	Phoeniaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	TRUE
-Phoenix theophrasti	Phoenix theophrasti	Phoenix	Phoeniaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Cedrus libani	Cedrus libani wood	Cedrus	Pinaceae	Fruit/nut	NA		NA	NA	TRUE
-Pinus halepensis	Pinus halepensis	Pinus	Pinaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Phoenix dactylifera	Phoenix dactylifera L.	Phoenix	Phoeniaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Phoenix dactylifera	Phoenix dactylifera L. wood	Phoenix	Phoeniaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Phoenix theophrasti	Phoenix theophrasti	Phoenix	Phoeniaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Cedrus libani	Cedrus libani wood	Cedrus	Pinaceae	Fruits/nuts	NA		NA	NA	TRUE
+Pinus halepensis	Pinus halepensis	Pinus	Pinaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Antirrhinum orontium	Antirrhinum orontium	Antirrhinum	Plantaginaceae	Wild plants	NA		NA	NA	NA
 NA	Plantaginaceae indeterminate	NA	Plantaginaceae	Wild plants	NA		NA	NA	NA
 Plantago amplexicaulis	Plantago amplexicaulis	Plantago	Plantaginaceae	Wild plants	NA		NA	NA	NA
@@ -1073,9 +1073,9 @@ Androsace sp.	Androsace	Androsace	Primulaceae	Wild plants	NA		NA	NA	NA
 Androsace sp.	Androsace sp. L.	Androsace	Primulaceae	Wild plants	NA		NA	NA	NA
 Asterolinon linum-stellatum	Asterolinon linum-stellatum	Asterolinon	Primulaceae	Wild plants	NA		NA	NA	NA
 NA	Primulaceae	NA	Primulaceae	Wild plants	NA		NA	NA	NA
-Punica granatum	Punica granatum	Punica	Punicaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Punica sp.	Punica	Punica	Punicaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Punica sp.	Punica sp. L.	Punica	Punicaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Punica granatum	Punica granatum	Punica	Punicaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Punica sp.	Punica	Punica	Punicaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Punica sp.	Punica sp. L.	Punica	Punicaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Adonis aestivalis	Adonis aestivalis	Adonis	Ranunculaceae	Wild plants	NA		NA	NA	NA
 Adonis annua	Adonis annua	Adonis	Ranunculaceae	Wild plants	NA		NA	NA	NA
 Adonis annua	Adonis annua type	Adonis	Ranunculaceae	Wild plants	NA		NA	NA	NA
@@ -1105,46 +1105,46 @@ Reseda luteola	Reseda luteola L.	Reseda	Resedaceae	Wild plants	NA		NA	NA	NA
 Reseda sp.	Reseda	Reseda	Resedaceae	Wild plants	NA		NA	NA	NA
 Reseda sp.	Reseda sp.	Reseda	Resedaceae	Wild plants	NA		NA	NA	NA
 Rhamnus sp.	Rhamnus sp., wood	Rhamnus	Rhamnaceae	Wild plants	NA		NA	NA	TRUE
-Ziziphus sp.	Ziziphus sp. wood	Ziziphus	Rhamnaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	TRUE
-Ziziphus spina-christi	Ziziphus spina-christi var. aucheri (Boiss.) M.Qaiser & S.Nazimuddin	Ziziphus	Rhamnaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Amygdalus communis	Amygdalus communis L.	Amygdalus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Amygdalus sp.	Amygdalus	Amygdalus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Amygdalus sp.	Amygdalus sp.	Amygdalus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Amygdalus sp.	Amygdalus sp. wood	Amygdalus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	TRUE
-Crataegus azarolus	Crataegus azarolus	Crataegus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Crataegus monogyna	Crataegus monogyna Jacq.	Crataegus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Crataegus sp.	Crataegus	Crataegus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Crataegus sp.	Crataegus sp. L.	Crataegus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Fragaria sp.	cf. Fragaria sp. (mineralized)	Fragaria	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Ziziphus sp.	Ziziphus sp. wood	Ziziphus	Rhamnaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Ziziphus spina-christi	Ziziphus spina-christi var. aucheri (Boiss.) M.Qaiser & S.Nazimuddin	Ziziphus	Rhamnaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Amygdalus communis	Amygdalus communis L.	Amygdalus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Amygdalus sp.	Amygdalus	Amygdalus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Amygdalus sp.	Amygdalus sp.	Amygdalus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Amygdalus sp.	Amygdalus sp. wood	Amygdalus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	TRUE
+Crataegus azarolus	Crataegus azarolus	Crataegus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Crataegus monogyna	Crataegus monogyna Jacq.	Crataegus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Crataegus sp.	Crataegus	Crataegus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Crataegus sp.	Crataegus sp. L.	Crataegus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Fragaria sp.	cf. Fragaria sp. (mineralized)	Fragaria	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Geum sp.	Geum sp.	Geum	Rosaceae	Wild plants	NA		NA	NA	NA
-Malus sp.	Malus sp.	Malus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Malus sylvestris	Malus sylvestris Miller	Malus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-NA	Amygdaloideae	NA	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-NA	Pyrus/Malus	NA	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-NA	Pyrus/Malus sp.	NA	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-NA	Rosaceae	NA	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Malus sp.	Malus sp.	Malus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Malus sylvestris	Malus sylvestris Miller	Malus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	Amygdaloideae	NA	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	Pyrus/Malus	NA	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	Pyrus/Malus sp.	NA	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+NA	Rosaceae	NA	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Potentilla sp.	Potentilla	Potentilla	Rosaceae	Wild plants	NA		NA	NA	NA
 Potentilla sp.	Potentilla sp. (uncarbonized)	Potentilla	Rosaceae	Wild plants	NA		NA	NA	NA
 Potentilla supina	Potentilla supina L.	Potentilla	Rosaceae	Wild plants	NA		NA	NA	NA
-Prunus dulcis	Prunus dulcis	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus microcarpa	Prunus microcarpa C. A. Meyer	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	Cerasus/Prunus	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	cf. Prunus sp.	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	Prunus	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	Prunus divaricata/argentea	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	Prunus dulcis/korshinskyi	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	Prunus sp.	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus sp.	Prunus webbii/argentea	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Prunus spinosa	Prunus spinosa L.	Prunus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Pyrus sp.	Pyrus	Pyrus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Pyrus sp.	Pyrus spp.	Pyrus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rosa sp.	Rosa	Rosa	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rubus caesius	Rubus caesius L.	Rubus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rubus fruticosus	Rubus fruticosus agg.	Rubus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rubus idaeus	Rubus idaeus L.	Rubus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rubus sanguineus	Rubus sanguineus	Rubus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rubus sp.	Rubus	Rubus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Rubus sp.	Rubus sp.	Rubus	Rosaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Prunus dulcis	Prunus dulcis	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus microcarpa	Prunus microcarpa C. A. Meyer	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	Cerasus/Prunus	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	cf. Prunus sp.	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	Prunus	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	Prunus divaricata/argentea	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	Prunus dulcis/korshinskyi	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	Prunus sp.	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus sp.	Prunus webbii/argentea	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Prunus spinosa	Prunus spinosa L.	Prunus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pyrus sp.	Pyrus	Pyrus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Pyrus sp.	Pyrus spp.	Pyrus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rosa sp.	Rosa	Rosa	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rubus caesius	Rubus caesius L.	Rubus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rubus fruticosus	Rubus fruticosus agg.	Rubus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rubus idaeus	Rubus idaeus L.	Rubus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rubus sanguineus	Rubus sanguineus	Rubus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rubus sp.	Rubus	Rubus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Rubus sp.	Rubus sp.	Rubus	Rosaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Sarcopoterium spinosum	Sarcopoterium spinosum (L.) Spach	Sarcopoterium	Rosaceae	Wild plants	NA	Edible seed/fruit	NA	NA	NA
 Asperula sp.	Asperula sp.	Asperula	Rubiaceae	Wild plants	NA		NA	NA	NA
 Crucianella sp.	Crucianella	Crucianella	Rubiaceae	Wild plants	NA		NA	NA	NA
@@ -1185,9 +1185,9 @@ Solanum nigrum	Solanum nigrum L.	Solanum	Solanaceae	Wild plants	NA		NA	NA	NA
 Solanum nigrum	Solanum nigrum L. uncarbonized	Solanum	Solanaceae	Wild plants	NA		NA	NA	NA
 Solanum sp.	Solanum	Solanum	Solanaceae	Wild plants	NA		NA	NA	NA
 Solanum sp.	Solanum sp.	Solanum	Solanaceae	Wild plants	NA		NA	NA	NA
-Tamarix aphylla	Tamarix aphylla	Tamarix	Tamaricaceae	Fruit/nut	NA		NA	NA	NA
+Tamarix aphylla	Tamarix aphylla	Tamarix	Tamaricaceae	Fruits/nuts	NA		NA	NA	NA
 Tamarix aphylla	Tamarix aphylla wood	Tamarix	Tamaricaceae	NA	NA		NA	NA	TRUE
-Tamarix nilotica	Tamarix nilotica	Tamarix	Tamaricaceae	Fruit/nut	NA		NA	NA	NA
+Tamarix nilotica	Tamarix nilotica	Tamarix	Tamaricaceae	Fruits/nuts	NA		NA	NA	NA
 Tamarix nilotica	Tamarix nilotica wood	Tamarix	Tamaricaceae	NA	NA		NA	NA	TRUE
 Tamarix sp.	Tamarix sp. wood	Tamarix	Tamaricaceae	NA	NA		NA	NA	TRUE
 Thymelaea hirsuta	Thymelaea hirsuta	Thymelaea	Thymelaea	Wild plants	NA		NA	NA	NA
@@ -1208,14 +1208,14 @@ Verbena sp.	Verbena sp.	Verbena	Verbenaceae	Wild plants	NA		NA	NA	NA
 Verbena sp.	Verbena sp. uncarbonized	Verbena	Verbenaceae	Wild plants	NA		NA	NA	NA
 Verbena sp.	Verbena type	Verbena	Verbenaceae	Wild plants	NA		NA	NA	NA
 Viola sp.	Viola	Viola	Violaceae	Wild plants	NA		NA	NA	NA
-Vitis sp.	Vitis	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis sp.	Vitis sp.	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis sp.	Vitis sp. uncarbonized	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis sylvestris	Vitis sylvestris	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis sylvestris	Vitis sylvestris Gmelin	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis vinifera	Vitis vinfera L. stalks	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis vinifera	Vitis vinifera	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
-Vitis vinifera	Vitis vinifera L. pips	Vitis	Vitaceae	Fruit/nut	NA	Edible seed/fruit	NA	NA	NA
+Vitis sp.	Vitis	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis sp.	Vitis sp.	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis sp.	Vitis sp. uncarbonized	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis sylvestris	Vitis sylvestris	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis sylvestris	Vitis sylvestris Gmelin	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis vinifera	Vitis vinfera L. stalks	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis vinifera	Vitis vinifera	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
+Vitis vinifera	Vitis vinifera L. pips	Vitis	Vitaceae	Fruits/nuts	NA	Edible seed/fruit	NA	NA	NA
 Balanites aegyptiaca	Balanites aegyptiaca Delile	Balanites	Zygophyllaceae	Wild plants	NA		NA	NA	NA
 Tribulus terrestris	Tribulus terrestris	Tribulus	Zygophyllaceae	Wild plants	NA		NA	NA	NA
 Zygophyllum fabago	Zygophyllum fabago	Zygophyllum	Zygophyllaceae	Wild plants	NA		NA	NA	NA
