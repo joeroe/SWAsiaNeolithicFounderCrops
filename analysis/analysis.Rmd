@@ -5,7 +5,7 @@ author:
   - first_name: "Joe"
     last_name: "Roe"
     url: https://joeroe.io
-    affiliation: University of Copenhagen
+    affiliation: Institute of Archaeological Sciences, University of Bern
     orcid_id: 0000-0002-1011-1244
   - first_name: "Amaia"
     last_name: "Arranz Otaegui"
@@ -111,7 +111,7 @@ flora <- collate_flora(
   origins_path = here("analysis/data/raw_data/origins/"),
   ademnes_path = here("analysis/data/raw_data/ademnes"),
   compag_path = here("analysis/data/raw_data/compag2018"),
-  taxa_path = here("analysis/data/raw_data/taxa_thesaurus.tsv"),
+  taxa_path = here("analysis/data/raw_data/founder_crops.tsv"),
   region = sw_asia,
   start_bp = start_bp,
   end_bp = end_bp
@@ -202,8 +202,8 @@ p1_right <- p1 +
 
 p1_left + p1_right
 
-ggsave(here("analysis/figures/sample-map.pdf"), width = 235, height = 160, 
-       units = "mm")
+# ggsave(here("analysis/figures/sample-map.pdf"), width = 235, height = 160, 
+#        units = "mm")
 ```
 
 
@@ -254,13 +254,12 @@ Were the founder crops the *most important* plants?
 
 ### Founder crops
 
-Number & percentage of assemblages with founder crops reported, by period (excluding taxa with indeterminate "founder crop" status:
+Number & percentage of assemblages with *all* the founder crops reported, by period (excluding taxa with indeterminate "founder crop" status:
 
 ```{r occ-founder}
 flora %>% 
-  drop_na(founder_crop) %>% 
   group_by(period, phase_code) %>% 
-  summarise(founder_crop = any(founder_crop), .groups = "drop_last") %>% 
+  summarise(founder_crop = any(!is.na(founder_crop)), .groups = "drop_last") %>% 
   summarise(n = sum(founder_crop), prop = sum(founder_crop) / n(),
             .groups = "drop_last") %>% 
   gt() %>% 
@@ -284,13 +283,13 @@ I.e. vertical axis (absolute counts), horizontal axis (time), species represente
 # Strategy A: presence/absence
 flora_ts %>% 
   group_by(century, site_name, phase_code) %>% 
-  summarise(founder_crop = any(founder_crop, na.rm = TRUE), .groups = "drop") %>% 
+  summarise(founder_crop = any(!is.na(founder_crop)), .groups = "drop") %>% 
   group_by(century) %>% 
   summarise(prop = sum(founder_crop) / n()) %>% 
   ggplot(aes(century, prop)) +
   geom_area() +
   scale_x_reverse() +
-  labs(x = "cal BP", y = "Proportion of assemblages with founder crops") +
+  labs(x = "cal BP", y = "Proportion of assemblages with any founder crops") +
   theme(legend.position = "bottom")
 
 ggsave(here("analysis/figures/fig2a.pdf"), width = 160, height = 100, 
