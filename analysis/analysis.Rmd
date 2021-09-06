@@ -239,8 +239,8 @@ p2_bottom <- flora_ts %>%
 
 p2_top / p2_bottom
 
-ggsave(here("analysis/figures/sample-chronology.pdf"), width = 160, height = 100, 
-       units = "mm")
+# ggsave(here("analysis/figures/sample-chronology.pdf"), width = 160, height = 100, 
+#        units = "mm")
 ```
 
 ## Results – Question 1
@@ -294,8 +294,8 @@ flora_ts %>%
   labs(x = "cal BP", y = "Proportion of assemblages with any founder crops") +
   theme(legend.position = "bottom")
 
-ggsave(here("analysis/figures/fig2a.pdf"), width = 160, height = 100, 
-       units = "mm")
+# ggsave(here("analysis/figures/fig2a.pdf"), width = 160, height = 100, 
+#        units = "mm")
 
 # Strategy B: ubiquity cutoff
 flora_ts %>%
@@ -321,8 +321,8 @@ flora_ts %>%
   labs(x = "cal BP", y = "Proportion of assemblages with >X% founder crops") +
   theme(legend.position = "bottom")
 
-ggsave(here("analysis/figures/fig2b.pdf"), width = 160, height = 200, 
-       units = "mm")
+# ggsave(here("analysis/figures/fig2b.pdf"), width = 160, height = 200, 
+#        units = "mm")
 
 # Strategy C: average proportion
 flora_ts %>%
@@ -346,8 +346,8 @@ flora_ts %>%
   labs(x = "cal BP", y = "Average proportion of samples", fill = NULL) +
   theme(legend.position = "bottom")
 
-ggsave(here("analysis/figures/fig2c.pdf"), width = 160, height = 100, 
-       units = "mm")
+# ggsave(here("analysis/figures/fig2c.pdf"), width = 160, height = 100, 
+#        units = "mm")
 ```
 
 ### Grasses
