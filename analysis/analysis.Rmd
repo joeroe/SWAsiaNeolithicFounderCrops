@@ -50,6 +50,8 @@ unproj <- 4326
 
 sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
 
+# TODO: NE broken. Again.
+
 land <- st_union(rnaturalearth::ne_countries(scale = 50, returnclass = "sf"))
 rivers <- st_read(here("analysis/data/raw_data/ne/ne_50m_rivers_lake_centerlines_scale_rank.shp"))
 lakes <- st_read(here("analysis/data/raw_data/ne/ne_50m_lakes.shp"))
