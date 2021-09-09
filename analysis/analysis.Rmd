@@ -316,17 +316,59 @@ flora %>%
 
 ### Founder crops
 
-Number & percentage of assemblages with *all* the founder crops reported, by period (excluding taxa with indeterminate "founder crop" status:
+Number & percentage of assemblages with *all* the founder crops reported, by period:
 
 ```{r occ-founder}
 flora %>% 
-  group_by(period, phase_code) %>% 
-  summarise(founder_crop = any(!is.na(founder_crop)), .groups = "drop_last") %>% 
-  summarise(n = sum(founder_crop), prop = sum(founder_crop) / n(),
-            .groups = "drop_last") %>% 
+  mutate(founder_crop = recode(founder_crop,
+                               "emmer wheat" = "wheat",
+                               "einkorn wheat" = "wheat",
+                               .default = founder_crop)) %>% 
+  group_by(period, site_name, phase_code) %>% 
+  summarise(n_founder_crop = n_distinct(founder_crop, na.rm = TRUE),
+            .groups = "drop") %>% 
+  group_by(period) %>% 
+  summarise(
+    n_assemb = n(),
+    n_atleast7 = sum(n_founder_crop >= 7),
+    p_atleast7 = n_atleast7 / n_assemb,
+    n_atleast6 = sum(n_founder_crop >= 6),
+    p_atleast6 = n_atleast6 / n_assemb,
+    n_atleast5 = sum(n_founder_crop >= 5),
+    p_atleast5 = n_atleast5 / n_assemb,
+    n_atleast4 = sum(n_founder_crop >= 4),
+    p_atleast4 = n_atleast4 / n_assemb,
+    n_atleast3 = sum(n_founder_crop >= 3),
+    p_atleast3 = n_atleast3 / n_assemb,
+    n_atleast2 = sum(n_founder_crop >= 2),
+    p_atleast2 = n_atleast2 / n_assemb,
+    n_atleast1 = sum(n_founder_crop >= 1),
+    p_atleast1 = n_atleast1 / n_assemb
+  ) %>% 
   gt() %>% 
-  cols_label(period = "Period", n = "N", prop = "%") %>% 
-  fmt_percent(vars(prop))
+  fmt_percent(starts_with("p_")) %>% 
+  cols_merge_n_pct(n_atleast7, p_atleast7) %>% 
+  cols_merge_n_pct(n_atleast6, p_atleast6) %>% 
+  cols_merge_n_pct(n_atleast5, p_atleast5) %>% 
+  cols_merge_n_pct(n_atleast4, p_atleast4) %>% 
+  cols_merge_n_pct(n_atleast3, p_atleast3) %>% 
+  cols_merge_n_pct(n_atleast2, p_atleast2) %>% 
+  cols_merge_n_pct(n_atleast1, p_atleast1) %>% 
+  tab_spanner("Number of assemblages with N founder crops present:",
+              columns = starts_with("n_atleast"), id = "n_atleast") %>% 
+  cols_label(
+    period = "Period",
+    n_assemb = "Total assemblages",
+    n_atleast7 = "All",
+    n_atleast6 = ">= 6",
+    n_atleast5 = ">= 5",
+    n_atleast4 = ">= 4",
+    n_atleast3 = ">= 3",
+    n_atleast2 = ">= 2",
+    n_atleast1 = ">= 1"
+  ) %>% 
+  tab_footnote("Emmer wheat and einkorn wheat are counted as one crop.",
+               locations = cells_column_spanners())
 ```
 
 Number & percentage of assemblages with founder crops making up `P`% of the assemblage, by period:
