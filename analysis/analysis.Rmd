@@ -50,9 +50,7 @@ unproj <- 4326
 
 sw_asia <- st_read(here("analysis/data/raw_data/regions/swasia.geojson"))
 
-# TODO: NE broken. Again.
-
-land <- st_union(rnaturalearth::ne_countries(scale = 50, returnclass = "sf"))
+land <- st_read(here("analysis/data/raw_data/ne/ne_50m_land.shp"))
 rivers <- st_read(here("analysis/data/raw_data/ne/ne_50m_rivers_lake_centerlines_scale_rank.shp"))
 lakes <- st_read(here("analysis/data/raw_data/ne/ne_50m_lakes.shp"))
 highland <- st_read(here("analysis/data/raw_data/srtm/srtm30_sw_asia_1000m.geojson"))
@@ -168,6 +166,12 @@ flora %>%
   filter(period %in% neolithic) %>% 
   nrow() ->
   n_assemb_neolithic
+
+flora %>% 
+  filter(period %in% neolithic) %>% 
+  distinct(site_name) %>% 
+  nrow() ->
+  n_site_neolithic
 ```
 
 For a finer-grained chronology, we also sliced the assemblages into century bins.
@@ -211,7 +215,7 @@ p1 <- base_map +
                      size = 0.5) +
   labs(x = NULL, y = NULL)
   
-p1_left <- p1 + facet_wrap(vars("All"))
+p1_left <- p1 + facet_wrap(vars("All sites"))
 p1_right <- p1 + 
   facet_wrap(vars(period)) + 
   theme(axis.text = element_blank(),
@@ -221,6 +225,8 @@ p1_left + p1_right
 
 # ggsave(here("analysis/figures/sample-map.pdf"), width = 235, height = 160, 
 #        units = "mm")
+# ggsave(here("analysis/figures/sample-map.png"), width = 160, height = 80,
+#        units = "mm", dpi = 300)
 ```
 
 
@@ -305,7 +311,7 @@ flora %>%
   tab_style(cell_text(style = "italic"), cells_body(taxon)) ->
   occ_all
 
-gtsave(occ_all, "figures/occ_all.html")
+# gtsave(occ_all, "figures/occ_all.html")
 ```
 
 ### Founder crops
