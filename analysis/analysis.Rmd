@@ -84,6 +84,8 @@ periods <- tribble(
   "Chalcolithic",    "Agriculture",                   6500,      5000,
 )
 
+neolithic <- c("PPNA", "EPPNB", "MPPNB", "LPPNB", "Late Neolithic")
+
 periods %>% 
   gt() %>% 
   cols_label(period = "Period", agriculture = "Agricultural stage",
@@ -119,12 +121,19 @@ flora <- collate_flora(
   end_bp = end_bp
 )
 
-# TODO: check if affected by duplicate sample names between sites
-n_phases <- length(unique(flora$phase_code))
-n_sites <- length(unique(flora$site_name))
+# Summary totals
+flora %>% 
+  distinct(site_name) %>% 
+  nrow() ->
+  n_site
+
+flora %>% 
+  distinct(site_name, phase_code) %>% 
+  nrow() ->
+  n_assemb
 ```
 
-The resulting collated dataset (included as supplement?) includes archaeobotanical assemblages representing `r n_phases` distinct phases from `r n_sites` sites.
+The resulting collated dataset (included as supplement?) includes archaeobotanical assemblages representing `r n_assemb` distinct phases from `r n_site` sites.
 
 ### Chronology
 
@@ -153,6 +162,12 @@ flora %>%
   arrange(period) %>%
   gt() %>% 
   cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
+
+flora %>% 
+  distinct(site_name, phase_code, period) %>% 
+  filter(period %in% neolithic) %>% 
+  nrow() ->
+  n_assemb_neolithic
 ```
 
 For a finer-grained chronology, we also sliced the assemblages into century bins.
@@ -257,9 +272,12 @@ For each plant category (grass, legume, etc.), take the top X controlled taxa, a
 * earliest recorded presence
 * earliest recorded presence outside of SWA??
 
+Including only *Neolithic* site-phases.
+
 ```{r occ-all}
 flora %>% 
   drop_na(category, taxon) %>% 
+  filter(period %in% neolithic) %>% 
   group_by(category, taxon, phase_code) %>% 
   summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop_last") %>% 
   summarise(
@@ -268,14 +286,26 @@ flora %>%
     n_gtqrtr = sum(prop > 0.25),
     .groups = "drop_last"
   ) %>% 
-  arrange(-n_present, .by_group = TRUE) %>% 
   mutate(
-    pct_present = round(n_present / n_phases * 100, 2),
-    pct_gthalf = round(n_gthalf / n_phases * 100, 2),
-    pct_gtqrtr = round(n_gtqrtr / n_phases * 100, 2)
+    pct_present = n_present / n_assemb_neolithic,
+    pct_gthalf = n_gthalf / n_assemb_neolithic,
+    pct_gtqrtr = n_gtqrtr / n_assemb_neolithic
   ) %>% 
-  write_csv("occ_all.csv")
-  # slice_max(n_present, n = , with_ties = FALSE)
+  arrange(-n_present, .by_group = TRUE) %>% 
+  slice_max(n_present, n = 10, with_ties = FALSE) %>%
+  gt() %>% 
+  fmt_percent(c(pct_present, pct_gthalf, pct_gtqrtr)) %>% 
+  cols_merge_n_pct(n_present, pct_present) %>% 
+  cols_merge_n_pct(n_gthalf, pct_gthalf) %>% 
+  cols_merge_n_pct(n_gtqrtr, pct_gtqrtr) %>% 
+  cols_label(taxon = "Taxon",
+             n_present = "N (%) recorded present",
+             n_gthalf = "N (%) making up more than half of assemblage",
+             n_gtqrtr = "N (%) making up more than a quarter of assemblage") %>% 
+  tab_style(cell_text(style = "italic"), cells_body(taxon)) ->
+  occ_all
+
+gtsave(occ_all, "figures/occ_all.html")
 ```
 
 ### Founder crops
