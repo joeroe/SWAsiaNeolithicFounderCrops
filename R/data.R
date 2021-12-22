@@ -132,7 +132,6 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, taxa_path,
   # FILTER DUPLICATES
   # Preferring the database with the greatest detail,
   # i.e. ORIGINS > COMPAG > ADEMNES
-  # TODO: Deal with uncontrolled site names in ADEMNES data
   compag <- filter(compag, !site_name %in% origins$site_name)
   ademnes <- filter(ademnes,
                     !site_name %in% origins$site_name,
