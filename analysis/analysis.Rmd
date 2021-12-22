@@ -39,15 +39,15 @@ library("khroma")
 ```
 
 This document describes the quantitative analysis our paper *Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia* (Arranz-Otaegui & Roe 2022).
-The full *research compendium* containing the data and R code needed to reproduce the analysis can be accessed at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>).
+A research compendium containing the data and R code needed to reproduce the analysis can be accessed at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>).
 
 TODO: instructions for interactive use? (Binder?)
 
-# Methods & Materials
+## Methods & Materials
 
-## Study region and period
+### Study region and period
 
-```{r data-spatial, fig.cap='Study region and sites.'}
+```{r data-spatial, fig.cap='The study region', results='hide', layout='l-body-outset'}
 proj <- 22770
 unproj <- 4326
 
@@ -70,30 +70,30 @@ base_map <- ggplot() +
 base_map
 ```
 
-We aimed to collate archaeobotanical data from Southwest Asia (fig. \@ref(fig:region)) from the Neolithic period, c. 11,700 – 6500 BP.
+We aimed to collate archaeobotanical data from Southwest Asia (fig. \@ref(fig:data-spatial)) from the Neolithic period, c. 11,700 – 6500 BP (table \@ref(tab:periods)).
 To mitigate against an "edge effect", we also included samples in the source databases dated to the preceding Late Epipalaeolithic (c. 15,000–11,700 BP) and succeeding Chalcolithic (c. 6500–5000 BP).
 
-```{r periods, fig.cap='Definition of cultural periods used in the analysis.'}
+```{r periods}
 periods <- tribble(
-  ~period,           ~agriculture,                    ~start_bp, ~end_bp,
-  "Late Epipal.",    "Foraging",                      15000,     11700,
-  "PPNA",            "Pre-domestication cultivation", 11700,     10700,
-  "EPPNB",           "Domestication",                 10700,     10200,
-  "MPPNB",           "Domestication",                 10200,     9500,
+  ~period,             ~agriculture,                    ~start_bp, ~end_bp,
+  "Late Epipal.",      "Foraging",                      15000,     11700,
+  "PPNA",              "Pre-domestication cultivation", 11700,     10700,
+  "EPPNB",             "Domestication",                 10700,     10200,
+  "MPPNB",             "Domestication",                 10200,     9500,
   "LPPNB/C",           "Agriculture",                   9500,      8500,
-  "Pottery Neolithic",  "Agriculture",                   8500,      6500,
-  "Chalcolithic",    "Agriculture",                   6500,      5000,
+  "Pottery Neolithic", "Agriculture",                   8500,      6500,
+  "Chalcolithic",      "Agriculture",                   6500,      5000,
 )
 
 neolithic <- c("PPNA", "EPPNB", "MPPNB", "LPPNB/C", "Pottery Neolithic")
 
 periods %>% 
-  gt() %>% 
+  gt(caption = "Cultural periods used in the analysis") %>% 
   cols_label(period = "Period", agriculture = "Agricultural stage",
              start_bp = "Start (cal BP)", end_bp = "End (cal BP")
 ```
 
-## Archaeobotanical data
+### Archaeobotanical data
 
 We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018; @Fuller2018], and ADEMNES [@Riehl2005].
 
@@ -136,10 +136,10 @@ flora %>%
 
 The resulting collated dataset (`analysis/data/derived_data/swasia_neolithic_flora.tsv`) includes archaeobotanical assemblages representing `r n_assemb` distinct phases from `r n_site` sites.
 
-## Chronological data
+### Chronological data
 
 All three databases include rough absolute date ranges (in the vast majority of cases summarised the available radiocarbon dates) for each sample.
-Using this data, each phase was classified into one of the cultural periods defined above using its mid-point date.
+Using this data, each phase was classified into one of the cultural periods defined above using its mid-point date (table \@ref(tab:sample-periods)).
 
 ```{r sample-periods}
 flora <- mutate(
@@ -159,7 +159,7 @@ flora %>%
   distinct(period, n_phases, n_sites) %>% 
   select(period, n_sites, n_phases) %>% 
   arrange(period) %>%
-  gt() %>% 
+  gt(caption = "Sites and assemblages per period") %>% 
   cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
 
 flora %>% 
@@ -176,6 +176,7 @@ flora %>%
 ```
 
 For a finer-grained chronology, we also sliced the assemblages into century bins.
+An assemblage was considered to belong to a bin (e.g. 5000–5099 BP) if any part of its absolute date range falls within that bin – this results in the duplication of data across bins, but better reflects the inherent imprecision of radiocarbon dating.
 
 ```{r sample-centuries}
 centuries <- seq(from = first(periods$start_bp),
@@ -197,9 +198,9 @@ flora %>%
   flora_ts
 ```
 
-## Sample coverage
+### Sample coverage
 
-We are now in a position to inspect the geographical and temporal coverage of the data.
+We are now in a position to inspect the geographical (fig. \@ref(fig:sample-map)) and temporal \@ref(fig:sample-chronology) coverage of the data.
 Unsurprisingly, the distribution is uneven. 
 Notably, we have few Epipalaeolithic sites, but a very large number of Chalcolithic sites;
 the regional coverage reflects broader trends in the research history of the region, with a large body of evidence from the Southern Levant, especially for earlier periods, and the rest of the region more patchily covered.
@@ -215,7 +216,7 @@ flora %>%
 ```
 
 
-```{r sample-map, fig.cap='Geographical distribution of sampled archaeobotanical assemblages'}
+```{r sample-map, fig.cap='Geographical distribution of sampled archaeobotanical assemblages', layout='l-body-outset'}
 p1 <- base_map + 
   geom_spatial_point(data = flora_phases, 
                      mapping = aes(longitude, latitude),
@@ -237,7 +238,7 @@ p1_left + p1_right
 ```
 
 
-```{r sample-chronology, fig.cap='Chronological distribution of sampled archaeobotanical assemblages'}
+```{r sample-chronology, fig.cap='Chronological distribution of sampled archaeobotanical assemblages', layout='l-body-outset'}
 p2_top <- flora_phases %>% 
   count(period) %>% 
   left_join(periods) %>% 
@@ -273,15 +274,15 @@ p2_top / p2_bottom
 #        units = "mm")
 ```
 
-# Results
+## Results
 
-## Were the founder crops the *most important* plants?
+### Were the founder crops the *most important* plants?
 
-### Table of occurrences
+#### Table of occurrences
 
 The following table summarises the occurrence of each standardised taxon in Neolithic assemblages, broken down by plant-category.
 
-```{r occ-all}
+```{r occ-all, layout='l-body-outset'}
 flora %>% 
   drop_na(category, taxon) %>% 
   filter(period %in% neolithic) %>% 
@@ -316,11 +317,11 @@ occ_all
 # gtsave(occ_all, "figures/occ_all.html")
 ```
 
-### Founder crops by period
+#### Founder crops by period
 
 The following table shows the *occurrence* of the founder crop species in assemblages broken down by period, i.e. for each period, the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
 
-```{r occ-founder}
+```{r occ-founder, layout='l-body-outset'}
 flora %>% 
   mutate(founder_crop = recode(founder_crop,
                                "emmer wheat" = "wheat",
@@ -390,12 +391,12 @@ We will do the same for following analyses that use abundance measures.
 
 **TODO**
 
-### Founder crops by century
+#### Founder crops by century
 
 For a more fine-grained look at the time series, we can use the century bins calculated above, 
 Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
 
-```{r ts-founder-crops}
+```{r ts-founder-crops, fig.height=6, layout='l-body-outset'}
 # By ubiquity
 flora_ts %>% 
   mutate(founder_crop = recode(founder_crop,
@@ -450,19 +451,19 @@ ggsave(here("analysis/figures/ts-founder-crops.pdf"), width = 160, height = 160,
        units = "mm")
 ```
 
-### Grasses
+#### Grasses
  
-### Legumes
+#### Legumes
 
-### Wild plants
+#### Wild plants
 
-### Fruits and nuts
+#### Fruits and nuts
 
-## Were the founder crops the *earliest* plants?
+### Were the founder crops the *earliest* plants?
 
 Our discussion of the earliest occurrences of certain taxa was informed by the following interrogations of our combined flora dataset.
 
-### *T. aestivum/durum.*
+#### *T. aestivum/durum.*
 
 Earliest reported occurrences:
 
@@ -487,7 +488,7 @@ flora %>%
              reference = "Reference")
 ```
 
-### *T. spelta*
+#### *T. spelta*
 
 Rarely reported, so all sites it occurs at, ordered by age:
 
@@ -511,7 +512,7 @@ flora %>%
              reference = "Reference")
 ```
 
-### *T. monococcum*
+#### *T. monococcum*
 
 Earliest reported assemblages with >5%, from the LPPNB/C or later:
 
@@ -536,7 +537,7 @@ flora %>%
   fmt_percent(vars(prop))
 ```
 
-### *H. spontaneum/vulgare*
+#### *H. spontaneum/vulgare*
 
 Earliest reported assemblages with >5%:
 
@@ -560,7 +561,7 @@ flora %>%
   fmt_percent(vars(prop))
 ```
 
-### *Avena*
+#### *Avena*
 
 Earliest reported assemblages with >2% (there aren't many):
 
@@ -584,7 +585,7 @@ flora %>%
   fmt_percent(vars(prop))
 ```
 
-### *Linum usitatissimum*
+#### *Linum usitatissimum*
 
 Earliest reported occurrences of *Linum usitatissimum* (flax) specifically:
 
