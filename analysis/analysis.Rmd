@@ -30,6 +30,7 @@ library("SWAsiaNeolithicFounderCrops")
 library("swapdata")
 library("sf")
 library("ggspatial")
+library("ggstream")
 library("here")
 library("gt")
 library("glue")
@@ -453,9 +454,9 @@ ggsave(here("analysis/figures/ts-founder-crops.pdf"), width = 160, height = 160,
 
 ### Fruits and nuts
 
-## Results – Question 2
+## Were the founder crops the *earliest* plants?
 
-Were the founder crops the *earliest* plants?
+Our discussion of the earliest occurrences of certain taxa was informed by the following interrogations of our combined flora dataset.
 
 ### *T. aestivum/durum.*
 
@@ -463,7 +464,7 @@ Earliest reported occurrences:
 
 ```{r occ-t-aestivum-durum, layout='l-body-outset'}
 flora %>% 
-  filter(taxon %in% c("Triticum aestivum", "Triticum durum") | 
+  filter(taxon_detail %in% c("Triticum aestivum", "Triticum durum") | 
            taxon_source %in% c("Triticum aestivum/durum",
                                "Triticum dicoccum/aestivum",
                                "Triticum dicoccum/durum")) %>% 
@@ -488,7 +489,7 @@ Rarely reported, so all sites it occurs at, ordered by age:
 
 ```{r occ-t-spelta, layout='l-body-outset'}
 flora %>% 
-  filter(taxon == "Triticum spelta" | 
+  filter(taxon_detail == "Triticum spelta" | 
            taxon_source %in% c("Triticum dicoccum/spelta",
                                "Triticum dicoccum/spelta grains")) %>% 
   arrange(-age_start) %>% 
@@ -508,12 +509,11 @@ flora %>%
 
 ### *T. monococcum*
 
-Earliest reported assemblages with >5%, from the LPPNB/C or later.
-**AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
+Earliest reported assemblages with >5%, from the LPPNB/C or later:
 
 ```{r occ-monococcum, layout='l-body-outset'}
 flora %>% 
-  filter(taxon == "Triticum monococcum") %>% 
+  filter(taxon_detail == "Triticum monococcum") %>% 
   filter(prop > 0.05) %>% 
   filter(age_start < periods$start_bp[periods$period == "LPPNB/C"]) %>% 
   arrange(-age_start) %>% 
@@ -532,16 +532,13 @@ flora %>%
   fmt_percent(vars(prop))
 ```
 
-Reference to 2-3 sites contemporary to Çatal Höyuk or later, specially Pottery Neolithic, where one-grained einkorn is found at a significant amount.
-
 ### *H. spontaneum/vulgare*
 
-Earliest reported assemblages with >5%.
-**AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
+Earliest reported assemblages with >5%:
 
 ```{r occ-hordeum, layout='l-body-outset'}
 flora %>% 
-  filter(taxon %in% c("Hordeum spontaneum", "Hordeum vulgare")) %>% 
+  filter(taxon_detail %in% c("Hordeum spontaneum", "Hordeum vulgare")) %>% 
   filter(prop > 0.05) %>% 
   arrange(-age_start) %>% 
   group_by(source, site_name, taxon_source) %>% 
@@ -561,8 +558,7 @@ flora %>%
 
 ### *Avena*
 
-Earliest reported assemblages with >2% (there aren't many).
-**AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
+Earliest reported assemblages with >2% (there aren't many):
 
 ```{r occ-avena, layout='l-body-outset'}
 flora %>% 
@@ -590,7 +586,7 @@ Earliest reported occurrences of *Linum usitatissimum* (flax) specifically:
 
 ```{r occ-flax, layout='l-body-outset'}
 flora %>% 
-  filter(taxon == "Linum usitatissimum" | 
+  filter(taxon_detail == "Linum usitatissimum" | 
            taxon_source == "Linum bienne/usitatissimum") %>% 
   arrange(-age_start) %>% 
   group_by(source, site_name, taxon_source) %>% 
