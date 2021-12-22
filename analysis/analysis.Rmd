@@ -1,15 +1,13 @@
 ---
-title: '"Founder Crops" in the Neolithic of Southwest Asia – Data Analysis'
+title: 'Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia'
 subtitle: "Data analysis"
 author:
   - first_name: "Joe"
     last_name: "Roe"
     url: https://joeroe.io
-    affiliation: Institute of Archaeological Sciences, University of Bern
     orcid_id: 0000-0002-1011-1244
   - first_name: "Amaia"
-    last_name: "Arranz Otaegui"
-    affiliation: Muséum National d'Histoire Naturelle, Paris
+    last_name: "Arranz-Otaegui"
     orcid_id: 0000-0002-5091-6426
 date: "`r Sys.Date()`"
 output: 
@@ -36,9 +34,13 @@ library("here")
 library("gt")
 library("glue")
 library("patchwork")
+library("khroma")
 ```
 
-This research compendium accompanies the paper `...`.
+This document describes the quantitative analysis our paper *Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia* (Arranz-Otaegui & Roe 2022).
+The full *research compendium* containing the data and R code needed to reproduce the analysis can be accessed at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>).
+
+TODO: instructions for interactive use? (Binder?)
 
 ## Methods & Materials
 
