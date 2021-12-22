@@ -450,7 +450,7 @@ flora_ts %>%
   drop_na(founder_crop) %>% 
   ggplot(aes(century / 1000, n, fill = founder_crop)) +
   geom_stream(sorting = "onset") +
-  scale_x_reverse(breaks = scales::breaks_width(-2)) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   khroma::scale_fill_muted() +
   labs(title = "Founder crops: occurrence & abundance by century",
        subtitle = "Cross-assemblage ubiquity",
@@ -477,7 +477,7 @@ flora_ts %>%
   summarise(avg_prop = sum(prop) / first(n_assemb)) %>%
   ggplot(aes(century / 1000, avg_prop, fill = founder_crop)) +
   geom_stream(type = "ridge", sorting = "onset") +
-  scale_x_reverse(breaks = scales::breaks_width(-2)) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   scale_y_continuous(limits = c(0, 1), breaks = scales::breaks_pretty(5),
                      labels = scales::percent) +
   khroma::scale_fill_muted() +
@@ -488,17 +488,25 @@ flora_ts %>%
 
 p1 / p2
 
-ggsave(here("analysis/figures/ts-founder-crops.pdf"), width = 160, height = 160,
-       units = "mm")
+# ggsave(here("analysis/figures/ts-founder-crops.pdf"), width = 160, height = 160,
+       # units = "mm")
 ```
 
 #### Grasses
+
+TODO: specific figures/tables/analyses?
  
 #### Legumes
 
+TODO: specific figures/tables/analyses?
+
 #### Wild plants
 
+TODO: specific figures/tables/analyses?
+
 #### Fruits and nuts
+
+TODO: specific figures/tables/analyses?
 
 ### Were the founder crops the *earliest* plants?
 
