@@ -145,7 +145,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, taxa_path,
 
 
   # STANDARDISE AND CLASSIFY TAXA
-  taxa <- read_tsv(taxa_path, col_types = "cccccccccl")
+  taxa <- read_tsv(taxa_path, col_types = "ccccccccccl")
   flora <- select(flora, -family, -genus)
   flora <- left_join(flora, taxa, by = c("taxon" = "variant"))
   flora <- rename(flora, taxon_source = taxon, taxon_detail = canon, taxon = group)
