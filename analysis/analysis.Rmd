@@ -43,9 +43,9 @@ The full *research compendium* containing the data and R code needed to reproduc
 
 TODO: instructions for interactive use? (Binder?)
 
-## Methods & Materials
+# Methods & Materials
 
-### Study region and period
+## Study region and period
 
 ```{r data-spatial, fig.cap='Study region and sites.'}
 proj <- 22770
@@ -93,17 +93,17 @@ periods %>%
              start_bp = "Start (cal BP)", end_bp = "End (cal BP")
 ```
 
-### Archaeobotanical data
+## Archaeobotanical data
 
 We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018; @Fuller2018], and ADEMNES [@Riehl2005].
 
-Notes on collation:
+The process of importing, cleaning, and making these databases comparable (see R functions in `R/data.R` for full details) was fairly involved.
+In short, we:
 
-* Standardised site names across databases
-* Standardised taxa across databases and classified by ...
+* Standardised site names across databases using the thesaurus compiled at <https://github.com/joeroe/swapdata>
+* Standardised taxonomic names across databases and applied our additional classifications (described in `analysis/data/raw_data/founder_crops.tsv`)
 * When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES)
-* Some sites in ADEMNES have an N/prop. of 0 for all taxa. I assumed this meant that they were present but that quantification data was not available.
-* ORIGINS is recorded by sample; COMPAG and ADEMNES by phases. Aggregated ORIGINS by phase for comparability, and because individual samples are more likely to be 'noisy'
+* ORIGINS is recorded by sample, but COMPAG and ADEMNES by phase, so we aggregated ORIGINS by phase for comparability (and because individual samples are more likely to be 'noisy')
 * Calculated phase-level proportions for COMPAG
 
 We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–6500 BP) of interest,
@@ -134,13 +134,11 @@ flora %>%
   n_assemb
 ```
 
-The resulting collated dataset (included as supplement?) includes archaeobotanical assemblages representing `r n_assemb` distinct phases from `r n_site` sites.
+The resulting collated dataset (`analysis/data/derived_data/swasia_neolithic_flora.tsv`) includes archaeobotanical assemblages representing `r n_assemb` distinct phases from `r n_site` sites.
 
-### Chronology
+## Chronological data
 
-All three databases include rough calibrated date ranges for each sample, so we will use that for now.
-We might look into using actual radiocarbon dates and incorporating the associated uncertainty into the analysis.
-
+All three databases include rough absolute date ranges (in the vast majority of cases summarised the available radiocarbon dates) for each sample.
 Using this data, each phase was classified into one of the cultural periods defined above using its mid-point date.
 
 ```{r sample-periods}
@@ -199,7 +197,13 @@ flora %>%
   flora_ts
 ```
 
-### Sample coverage
+## Sample coverage
+
+We are now in a position to inspect the geographical and temporal coverage of the data.
+Unsurprisingly, the distribution is uneven. 
+Notably, we have few Epipalaeolithic sites, but a very large number of Chalcolithic sites;
+the regional coverage reflects broader trends in the research history of the region, with a large body of evidence from the Southern Levant, especially for earlier periods, and the rest of the region more patchily covered.
+Nevertheless, we have a decent baseline number of samples for each time slice in our analysis—the lowest is 11 assemblages, for the EPPNB—especially for the key Neolithic periods.
 
 ```{r sample-summary}
 flora %>% 
@@ -269,9 +273,9 @@ p2_top / p2_bottom
 #        units = "mm")
 ```
 
-## Results – Question 1
+# Results
 
-Were the founder crops the *most important* plants?
+## Were the founder crops the *most important* plants?
 
 ### Table of occurrences
 
@@ -386,7 +390,7 @@ We will do the same for following analyses that use abundance measures.
 
 **TODO**
 
-# Founder crops by century
+### Founder crops by century
 
 For a more fine-grained look at the time series, we can use the century bins calculated above, 
 Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
