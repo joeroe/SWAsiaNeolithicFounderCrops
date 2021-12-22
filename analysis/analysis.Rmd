@@ -270,17 +270,9 @@ p2_top / p2_bottom
 
 Were the founder crops the *most important* plants?
 
-### Table of occurrence
+### Table of occurrences
 
-For each plant category (grass, legume, etc.), take the top X controlled taxa, and calculate:
-
-* n and proportion of site-phases where it is present
-* n and proportion of site-phases where it is >50%
-* n and proportion of site-phases where it is >25%
-* earliest recorded presence
-* earliest recorded presence outside of SWA??
-
-Including only *Neolithic* site-phases.
+The following table summarises the occurrence of each standardised taxon in Neolithic assemblages, broken down by plant-category.
 
 ```{r occ-all}
 flora %>% 
@@ -317,9 +309,9 @@ occ_all
 # gtsave(occ_all, "figures/occ_all.html")
 ```
 
-### Founder crops
+### Founder crops by period
 
-Number & percentage of assemblages with *all* the founder crops reported, by period:
+The following table shows the *occurrence* of the founder crop species in assemblages broken down by period, i.e. for each period, the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
 
 ```{r occ-founder}
 flora %>% 
@@ -384,13 +376,17 @@ flora %>%
                locations = cells_column_spanners())
 ```
 
-Number & percentage of assemblages with founder crops making up `P`% of the assemblage, by period:
+We can also look at the abundance of the founder crops – this time varying *P*, the proportion of the assemblage accounted for by the founder crops.
 
-TODO
+Here we exclude some records from the source databases (primarily ADEMNES) which do not actually contain quantitative information in the 'proportion' field, and instead use it to represent presence/absence.
+We will do the same for following analyses that use abundance measures.
 
-absolute counts (separating PPNA, PPNB-PPNC and PN), similar to the diagram in Quaternary Science Reviews but including the Pottery Neolithic. 
-It would also be cool to do it by species, to see how the exploitation for each of the taxa increase/decreases over time.
-I.e. vertical axis (absolute counts), horizontal axis (time), species represented by different colors?
+**TODO**
+
+# Founder crops by century
+
+For a more fine-grained look at the time series, we can use the century bins calculated above, 
+Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
 
 ```{r ts-founder-crops}
 # By ubiquity
@@ -407,11 +403,11 @@ flora_ts %>%
   geom_stream(sorting = "onset") +
   scale_x_reverse(breaks = scales::breaks_width(-2)) +
   khroma::scale_fill_muted() +
-  labs(x = "ka cal BP", y = "number of assemblages", fill = NULL) +
-  theme(legend.position = "bottom")
-
-# ggsave(here("analysis/figures/fig2b.pdf"), width = 160, height = 200, 
-#        units = "mm")
+  labs(title = "Founder crops: occurrence & abundance by century",
+       subtitle = "Cross-assemblage ubiquity",
+       x = NULL, y = "n assemblages present", fill = NULL) +
+  theme_minimal() ->
+  p1
 
 # By average proportion
 flora_ts %>%
@@ -436,12 +432,15 @@ flora_ts %>%
   scale_y_continuous(limits = c(0, 1), breaks = scales::breaks_pretty(5),
                      labels = scales::percent) +
   khroma::scale_fill_muted() +
-  labs(x = "ka cal BP", y = "average proportion (by century)", fill = NULL) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+  labs(subtitle = "Relative abundance",
+       x = "ka cal BP", y = "average proportion", fill = NULL) +
+  theme_minimal() ->
+  p2
 
-# ggsave(here("analysis/figures/fig2c.pdf"), width = 160, height = 100, 
-#        units = "mm")
+p1 / p2
+
+ggsave(here("analysis/figures/ts-founder-crops.pdf"), width = 160, height = 160,
+       units = "mm")
 ```
 
 ### Grasses
