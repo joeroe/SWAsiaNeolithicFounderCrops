@@ -241,8 +241,9 @@ p2_top <- flora_phases %>%
   scale_x_reverse(limits = c(15000, 5000),
                   breaks = seq(15000, 5000, -1000)) +
   scale_y_continuous(limits = c(0, 150)) +
-  khroma::scale_fill_discreterainbow() +
+  khroma::scale_fill_muted() +
   labs(x = NULL, y = "Samples by period", fill = "Period") +
+  theme_minimal() +
   theme(legend.position = "top", 
         axis.text.x = element_blank(), axis.ticks.x = element_blank())
 
@@ -254,8 +255,9 @@ p2_bottom <- flora_ts %>%
   scale_x_reverse(limits = c(15000, 5000), 
                   breaks = seq(15000, 5000, -1000)) +
   scale_y_reverse(limits = c(150, 0)) +
-  khroma::scale_fill_discreterainbow(guide = guide_none()) +
+  khroma::scale_fill_muted(guide = guide_none()) +
   labs(x = "cal BP", y = "Samples by century") +
+  theme_minimal() +
   theme(legend.position = "bottom")
 
 p2_top / p2_bottom
@@ -268,7 +270,7 @@ p2_top / p2_bottom
 
 Were the founder crops the *most important* plants?
 
-### Table of occurrences
+### Table of occurrence
 
 For each plant category (grass, legume, etc.), take the top X controlled taxa, and calculate:
 
@@ -391,73 +393,52 @@ It would also be cool to do it by species, to see how the exploitation for each 
 I.e. vertical axis (absolute counts), horizontal axis (time), species represented by different colors?
 
 ```{r ts-founder-crops}
-# TODO: Decide on quantification strategy!
-# TODO: Deal with ADEMNES sites with sum(prop) = 0 better
-# TODO: Why are some sum(prop) over 1?
-
-# Strategy A: presence/absence
+# By ubiquity
 flora_ts %>% 
-  group_by(century, site_name, phase_code) %>% 
-  summarise(founder_crop = any(!is.na(founder_crop)), .groups = "drop") %>% 
-  group_by(century) %>% 
-  summarise(prop = sum(founder_crop) / n()) %>% 
-  ggplot(aes(century, prop)) +
-  geom_area() +
-  scale_x_reverse() +
-  labs(x = "cal BP", y = "Proportion of assemblages with any founder crops") +
+  mutate(founder_crop = recode(founder_crop,
+                               "einkorn wheat" = "wheat",
+                               "emmer wheat" = "wheat",
+                               # .missing = "other (not founder crop)",
+                               .default = founder_crop)) %>% 
+  count(century, founder_crop) %>% 
+  mutate(founder_crop = fct_reorder(founder_crop, n, .fun = median)) %>% 
+  drop_na(founder_crop) %>% 
+  ggplot(aes(century / 1000, n, fill = founder_crop)) +
+  geom_stream(sorting = "onset") +
+  scale_x_reverse(breaks = scales::breaks_width(-2)) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "number of assemblages", fill = NULL) +
   theme(legend.position = "bottom")
-
-# ggsave(here("analysis/figures/fig2a.pdf"), width = 160, height = 100, 
-#        units = "mm")
-
-# Strategy B: ubiquity cutoff
-# flora_ts %>%
-#   mutate(founder_crop = replace_na(founder_crop, FALSE),
-#          prop = replace_na(prop, 0)) %>% 
-#   group_by(century, site_name, phase_code) %>% 
-#   summarise(founder_crop = sum(founder_crop * prop), .groups = "drop") %>% 
-#   mutate(
-#     above_5 = founder_crop > 0.05,
-#     above_10 = founder_crop > 0.10,
-#     above_25 = founder_crop > 0.25,
-#     above_50 = founder_crop > 0.50
-#   ) %>% 
-#   pivot_longer(above_5:above_50, names_to = "cutoff", values_to = "above") %>% 
-#   mutate(cutoff = ordered(paste0(cutoff, "%"),
-#                           levels = c("above_5%", "above_10%", "above_25%", "above_50%"))) %>% 
-#   group_by(century, cutoff) %>% 
-#   summarise(prop = sum(above) / n()) %>% 
-#   ggplot(aes(century, prop)) +
-#   facet_wrap(vars(cutoff), ncol = 1) +
-#   geom_area() +
-#   scale_x_reverse() +
-#   labs(x = "cal BP", y = "Proportion of assemblages with >X% founder crops") +
-#   theme(legend.position = "bottom")
 
 # ggsave(here("analysis/figures/fig2b.pdf"), width = 160, height = 200, 
 #        units = "mm")
 
-# Strategy C: average proportion
-# flora_ts %>%
-#   group_by(century, site_name, phase_code) %>% 
-#   mutate(sumprop = sum(prop, na.rm = TRUE)) %>% 
-#   filter(sumprop != 0) %>% 
-#   group_by(century, site_name, phase_code, founder_crop) %>% 
-#   summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
-#   group_by(century, founder_crop) %>% 
-#   summarise(prop = sum(prop) / n(), .groups = "drop") %>% 
-#   mutate(
-#     founder_crop = factor(paste(founder_crop),
-#                           c("NA", "FALSE", "TRUE"),
-#                           c("Indeterminate", "Not founder crop", "Founder crop"),
-#                           ordered = TRUE)
-#   ) %>% 
-#   ggplot(aes(century, prop, fill = founder_crop)) +
-#   geom_area() +
-#   scale_x_reverse() +
-#   scale_fill_contrast(guide = guide_legend(reverse = TRUE)) +
-#   labs(x = "cal BP", y = "Average proportion of samples", fill = NULL) +
-#   theme(legend.position = "bottom")
+# By average proportion
+flora_ts %>%
+  group_by(site_name, phase_code) %>%
+  filter(sum(prop, na.rm = TRUE) != 0) %>% # Exclude site-phases with no quantitative data
+  ungroup() %>%
+  mutate(founder_crop = recode(founder_crop,
+                               "einkorn wheat" = "wheat",
+                               "emmer wheat" = "wheat",
+                               # .missing = "other (not founder crop)",
+                               .default = founder_crop)) %>% 
+  group_by(century, site_name, phase_code, founder_crop) %>% 
+  summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+  group_by(century) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  ungroup() %>% 
+  group_by(century, founder_crop) %>%
+  summarise(avg_prop = sum(prop) / first(n_assemb)) %>%
+  ggplot(aes(century / 1000, avg_prop, fill = founder_crop)) +
+  geom_stream(type = "ridge", sorting = "onset") +
+  scale_x_reverse(breaks = scales::breaks_width(-2)) +
+  scale_y_continuous(limits = c(0, 1), breaks = scales::breaks_pretty(5),
+                     labels = scales::percent) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "average proportion (by century)", fill = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
 
 # ggsave(here("analysis/figures/fig2c.pdf"), width = 160, height = 100, 
 #        units = "mm")
