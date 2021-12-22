@@ -311,6 +311,7 @@ flora %>%
   tab_style(cell_text(style = "italic"), cells_body(taxon)) ->
   occ_all
 
+occ_all
 # gtsave(occ_all, "figures/occ_all.html")
 ```
 
@@ -410,53 +411,53 @@ flora_ts %>%
 #        units = "mm")
 
 # Strategy B: ubiquity cutoff
-flora_ts %>%
-  mutate(founder_crop = replace_na(founder_crop, FALSE),
-         prop = replace_na(prop, 0)) %>% 
-  group_by(century, site_name, phase_code) %>% 
-  summarise(founder_crop = sum(founder_crop * prop), .groups = "drop") %>% 
-  mutate(
-    above_5 = founder_crop > 0.05,
-    above_10 = founder_crop > 0.10,
-    above_25 = founder_crop > 0.25,
-    above_50 = founder_crop > 0.50
-  ) %>% 
-  pivot_longer(above_5:above_50, names_to = "cutoff", values_to = "above") %>% 
-  mutate(cutoff = ordered(paste0(cutoff, "%"),
-                          levels = c("above_5%", "above_10%", "above_25%", "above_50%"))) %>% 
-  group_by(century, cutoff) %>% 
-  summarise(prop = sum(above) / n()) %>% 
-  ggplot(aes(century, prop)) +
-  facet_wrap(vars(cutoff), ncol = 1) +
-  geom_area() +
-  scale_x_reverse() +
-  labs(x = "cal BP", y = "Proportion of assemblages with >X% founder crops") +
-  theme(legend.position = "bottom")
+# flora_ts %>%
+#   mutate(founder_crop = replace_na(founder_crop, FALSE),
+#          prop = replace_na(prop, 0)) %>% 
+#   group_by(century, site_name, phase_code) %>% 
+#   summarise(founder_crop = sum(founder_crop * prop), .groups = "drop") %>% 
+#   mutate(
+#     above_5 = founder_crop > 0.05,
+#     above_10 = founder_crop > 0.10,
+#     above_25 = founder_crop > 0.25,
+#     above_50 = founder_crop > 0.50
+#   ) %>% 
+#   pivot_longer(above_5:above_50, names_to = "cutoff", values_to = "above") %>% 
+#   mutate(cutoff = ordered(paste0(cutoff, "%"),
+#                           levels = c("above_5%", "above_10%", "above_25%", "above_50%"))) %>% 
+#   group_by(century, cutoff) %>% 
+#   summarise(prop = sum(above) / n()) %>% 
+#   ggplot(aes(century, prop)) +
+#   facet_wrap(vars(cutoff), ncol = 1) +
+#   geom_area() +
+#   scale_x_reverse() +
+#   labs(x = "cal BP", y = "Proportion of assemblages with >X% founder crops") +
+#   theme(legend.position = "bottom")
 
 # ggsave(here("analysis/figures/fig2b.pdf"), width = 160, height = 200, 
 #        units = "mm")
 
 # Strategy C: average proportion
-flora_ts %>%
-  group_by(century, site_name, phase_code) %>% 
-  mutate(sumprop = sum(prop, na.rm = TRUE)) %>% 
-  filter(sumprop != 0) %>% 
-  group_by(century, site_name, phase_code, founder_crop) %>% 
-  summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
-  group_by(century, founder_crop) %>% 
-  summarise(prop = sum(prop) / n(), .groups = "drop") %>% 
-  mutate(
-    founder_crop = factor(paste(founder_crop),
-                          c("NA", "FALSE", "TRUE"),
-                          c("Indeterminate", "Not founder crop", "Founder crop"),
-                          ordered = TRUE)
-  ) %>% 
-  ggplot(aes(century, prop, fill = founder_crop)) +
-  geom_area() +
-  scale_x_reverse() +
-  scale_fill_contrast(guide = guide_legend(reverse = TRUE)) +
-  labs(x = "cal BP", y = "Average proportion of samples", fill = NULL) +
-  theme(legend.position = "bottom")
+# flora_ts %>%
+#   group_by(century, site_name, phase_code) %>% 
+#   mutate(sumprop = sum(prop, na.rm = TRUE)) %>% 
+#   filter(sumprop != 0) %>% 
+#   group_by(century, site_name, phase_code, founder_crop) %>% 
+#   summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+#   group_by(century, founder_crop) %>% 
+#   summarise(prop = sum(prop) / n(), .groups = "drop") %>% 
+#   mutate(
+#     founder_crop = factor(paste(founder_crop),
+#                           c("NA", "FALSE", "TRUE"),
+#                           c("Indeterminate", "Not founder crop", "Founder crop"),
+#                           ordered = TRUE)
+#   ) %>% 
+#   ggplot(aes(century, prop, fill = founder_crop)) +
+#   geom_area() +
+#   scale_x_reverse() +
+#   scale_fill_contrast(guide = guide_legend(reverse = TRUE)) +
+#   labs(x = "cal BP", y = "Average proportion of samples", fill = NULL) +
+#   theme(legend.position = "bottom")
 
 # ggsave(here("analysis/figures/fig2c.pdf"), width = 160, height = 100, 
 #        units = "mm")
