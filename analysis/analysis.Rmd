@@ -77,12 +77,12 @@ periods <- tribble(
   "PPNA",            "Pre-domestication cultivation", 11700,     10700,
   "EPPNB",           "Domestication",                 10700,     10200,
   "MPPNB",           "Domestication",                 10200,     9500,
-  "LPPNB",           "Agriculture",                   9500,      8500,
-  "Late Neolithic",  "Agriculture",                   8500,      6500,
+  "LPPNB/C",           "Agriculture",                   9500,      8500,
+  "Pottery Neolithic",  "Agriculture",                   8500,      6500,
   "Chalcolithic",    "Agriculture",                   6500,      5000,
 )
 
-neolithic <- c("PPNA", "EPPNB", "MPPNB", "LPPNB", "Late Neolithic")
+neolithic <- c("PPNA", "EPPNB", "MPPNB", "LPPNB/C", "Pottery Neolithic")
 
 periods %>% 
   gt() %>% 
@@ -506,14 +506,14 @@ flora %>%
 
 ### *T. monococcum*
 
-Earliest reported assemblages with >5%, from the LPPNB or later.
+Earliest reported assemblages with >5%, from the LPPNB/C or later.
 **AMAIA:** Arbitrarily chosen cutoff, let me know if you want me to adjust.
 
 ```{r occ-monococcum, layout='l-body-outset'}
 flora %>% 
   filter(taxon == "Triticum monococcum") %>% 
   filter(prop > 0.05) %>% 
-  filter(age_start < periods$start_bp[periods$period == "LPPNB"]) %>% 
+  filter(age_start < periods$start_bp[periods$period == "LPPNB/C"]) %>% 
   arrange(-age_start) %>% 
   group_by(source, site_name, taxon_source) %>% 
   summarise(phase_code = first(phase_code), earliest_age = first(age_start),
