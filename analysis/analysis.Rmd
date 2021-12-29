@@ -122,6 +122,11 @@ flora <- collate_flora(
   end_bp = end_bp
 )
 
+# TODO: final cleaning
+# - drop entries where n or p = 0,
+# - drop entries where p is NA
+# - drop entries where (canonical) taxon is NA
+
 # Summary totals
 flora %>% 
   distinct(site_name) %>% 
