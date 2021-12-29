@@ -75,21 +75,21 @@ To mitigate against an "edge effect", we also included samples in the source dat
 
 ```{r periods}
 periods <- tribble(
-  ~period,             ~agriculture,                    ~start_bp, ~end_bp,
-  "Late Epipal.",      "Foraging",                      15000,     11700,
-  "PPNA",              "Pre-domestication cultivation", 11700,     10700,
-  "EPPNB",             "Domestication",                 10700,     10200,
-  "MPPNB",             "Domestication",                 10200,     9500,
-  "LPPNB/C",           "Agriculture",                   9500,      8500,
-  "Pottery Neolithic", "Agriculture",                   8500,      6500,
-  "Chalcolithic",      "Agriculture",                   6500,      5000,
+  ~period,             ~agriculture,                          ~start_bp, ~end_bp,
+  "Late Epipal.",      "Foraging",                            15000,     11700,
+  "PPNA",              "Pre-domestication cultivation",       11700,     10700,
+  "EPPNB",             "Cultivation of domesticated species", 10700,     10200,
+  "MPPNB",             "Cultivation of domesticated species", 10200,     9500,
+  "LPPNB/C",           "Agriculture",                         9500,      8500,
+  "Pottery Neolithic", "Agriculture",                         8500,      6500,
+  "Chalcolithic",      "Agriculture",                         6500,      5000,
 )
 
 neolithic <- c("PPNA", "EPPNB", "MPPNB", "LPPNB/C", "Pottery Neolithic")
 
 periods %>% 
   gt(caption = "Cultural periods used in the analysis") %>% 
-  cols_label(period = "Period", agriculture = "Agricultural stage",
+  cols_label(period = "Period", agriculture = "Subsistence",
              start_bp = "Start (cal BP)", end_bp = "End (cal BP")
 ```
 
