@@ -281,9 +281,7 @@ p2_top / p2_bottom
 
 ## Results
 
-### Were the founder crops the *most important* plants?
-
-#### Table of occurrences
+### Taxonomic ubiquity in the Neolithic
 
 The following table summarises the occurrence of each standardised taxon in Neolithic assemblages, broken down by plant-category.
 
@@ -307,18 +305,19 @@ flora %>%
   group_by(category) %>% 
   arrange(-n_present, .by_group = TRUE) %>% 
   # slice_max(n_present, n = 20, with_ties = FALSE) %>%
-  gt("Occurrence of all taxa in Neolithic assemblages (founder crops in bold)") %>% 
+  gt(caption = "Occurrence of all taxa in Neolithic assemblages") %>% 
   cols_hide(c(founder_crop)) %>% 
   fmt_percent(c(pct_present, pct_gthalf, pct_gtqrtr)) %>% 
   cols_merge_n_pct(n_present, pct_present) %>% 
   cols_merge_n_pct(n_gthalf, pct_gthalf) %>% 
   cols_merge_n_pct(n_gtqrtr, pct_gtqrtr) %>% 
-  cols_label(taxon = "Taxon",
+  cols_label(taxon = "Taxa",
              n_present = "N (%) recorded present",
              n_gthalf = "N (%) making up more than half of assemblage",
              n_gtqrtr = "N (%) making up more than a quarter of assemblage") %>% 
-  tab_style(cell_text(style = "italic"), cells_body(taxon)) %>% 
-  tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop))) ->
+  # tab_style(cell_text(style = "italic"), cells_body(taxon)) %>% 
+  tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop))) %>% 
+  tab_footnote("Founder crops in bold.", cells_column_labels(taxon)) ->
   occ_all
 
 occ_all
@@ -363,9 +362,11 @@ flora %>%
 # gtsave(occ_all, "figures/occ_all.html")
 ```
 
-#### Founder crops by period
+### Founder crop ubiquity and abundance
 
-The following table shows the *occurrence* of the founder crop species in assemblages broken down by period, i.e. for each period, the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
+#### By period
+
+The following table shows the ubiquity of the founder crop species in assemblages broken down by period, i.e. for each period, the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
 
 ```{r occ-founder, layout='l-body-outset'}
 flora %>% 
@@ -437,7 +438,7 @@ We will do the same for following analyses that use abundance measures.
 
 **TODO**
 
-#### Founder crops by century
+#### By century
 
 For a more fine-grained look at the time series, we can use the century bins calculated above, 
 Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
@@ -497,168 +498,18 @@ p1 / p2
        # units = "mm")
 ```
 
-#### Grasses
+### Grasses
 
 TODO: specific figures/tables/analyses?
  
-#### Legumes
+### Legumes
 
 TODO: specific figures/tables/analyses?
 
-#### Wild plants
+### Wild plants
 
 TODO: specific figures/tables/analyses?
 
-#### Fruits and nuts
+### Fruits and nuts
 
 TODO: specific figures/tables/analyses?
-
-### Were the founder crops the *earliest* plants?
-
-Our discussion of the earliest occurrences of certain taxa was informed by the following interrogations of our combined flora dataset.
-
-#### *T. aestivum/durum.*
-
-Earliest reported occurrences:
-
-```{r occ-t-aestivum-durum, layout='l-body-outset'}
-flora %>% 
-  filter(taxon_detail %in% c("Triticum aestivum", "Triticum durum") | 
-           taxon_source %in% c("Triticum aestivum/durum",
-                               "Triticum dicoccum/aestivum",
-                               "Triticum dicoccum/durum")) %>% 
-  arrange(-age_start) %>% 
-  group_by(source, site_name, taxon_source) %>% 
-  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
-            n = sum(n), reference = first(reference),
-            .groups = "drop") %>% 
-  mutate(reference = str_remove(reference, ";.*")) %>% 
-  arrange(-earliest_age) %>% 
-  slice(1:10) %>% 
-  gt() %>% 
-  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
-             taxon_source = "Reported taxon", 
-             earliest_age = "Reported age (earliest)", n = "N",
-             reference = "Reference")
-```
-
-#### *T. spelta*
-
-Rarely reported, so all sites it occurs at, ordered by age:
-
-```{r occ-t-spelta, layout='l-body-outset'}
-flora %>% 
-  filter(taxon_detail == "Triticum spelta" | 
-           taxon_source %in% c("Triticum dicoccum/spelta",
-                               "Triticum dicoccum/spelta grains")) %>% 
-  arrange(-age_start) %>% 
-  group_by(source, site_name, taxon_source) %>% 
-  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
-            n = sum(n), reference = first(reference),
-            .groups = "drop") %>% 
-  mutate(reference = str_remove(reference, ";.*")) %>% 
-  arrange(-earliest_age) %>% 
-  slice(1:10) %>% 
-  gt() %>% 
-  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
-             taxon_source = "Reported taxon", 
-             earliest_age = "Reported age (earliest)", n = "N",
-             reference = "Reference")
-```
-
-#### *T. monococcum*
-
-Earliest reported assemblages with >5%, from the LPPNB/C or later:
-
-```{r occ-monococcum, layout='l-body-outset'}
-flora %>% 
-  filter(taxon_detail == "Triticum monococcum") %>% 
-  filter(prop > 0.05) %>% 
-  filter(age_start < periods$start_bp[periods$period == "LPPNB/C"]) %>% 
-  arrange(-age_start) %>% 
-  group_by(source, site_name, taxon_source) %>% 
-  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
-            prop = max(prop), reference = first(reference),
-            .groups = "drop") %>% 
-  mutate(reference = str_remove(reference, ";.*")) %>% 
-  arrange(-earliest_age) %>% 
-  slice(1:10) %>% 
-  gt() %>% 
-  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
-             taxon_source = "Reported taxon", 
-             earliest_age = "Reported age (earliest)", prop = "Highest %",
-             reference = "Reference") %>% 
-  fmt_percent(vars(prop))
-```
-
-#### *H. spontaneum/vulgare*
-
-Earliest reported assemblages with >5%:
-
-```{r occ-hordeum, layout='l-body-outset'}
-flora %>% 
-  filter(taxon_detail %in% c("Hordeum spontaneum", "Hordeum vulgare")) %>% 
-  filter(prop > 0.05) %>% 
-  arrange(-age_start) %>% 
-  group_by(source, site_name, taxon_source) %>% 
-  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
-            prop = max(prop), reference = first(reference),
-            .groups = "drop") %>% 
-  mutate(reference = str_remove(reference, ";.*")) %>% 
-  arrange(-earliest_age) %>% 
-  slice(1:10) %>% 
-  gt() %>% 
-  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
-             taxon_source = "Reported taxon", 
-             earliest_age = "Reported age (earliest)", prop = "Highest %",
-             reference = "Reference") %>% 
-  fmt_percent(vars(prop))
-```
-
-#### *Avena*
-
-Earliest reported assemblages with >2% (there aren't many):
-
-```{r occ-avena, layout='l-body-outset'}
-flora %>% 
-  filter(genus == "Avena") %>% 
-  filter(prop > 0.02) %>% 
-  arrange(-age_start) %>% 
-  group_by(source, site_name, taxon_source) %>% 
-  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
-            prop = max(prop), reference = first(reference),
-            .groups = "drop") %>% 
-  mutate(reference = str_remove(reference, ";.*")) %>% 
-  arrange(-earliest_age) %>% 
-  slice(1:10) %>% 
-  gt() %>% 
-  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
-             taxon_source = "Reported taxon", 
-             earliest_age = "Reported age (earliest)", prop = "Highest %",
-             reference = "Reference") %>% 
-  fmt_percent(vars(prop))
-```
-
-#### *Linum usitatissimum*
-
-Earliest reported occurrences of *Linum usitatissimum* (flax) specifically:
-
-```{r occ-flax, layout='l-body-outset'}
-flora %>% 
-  filter(taxon_detail == "Linum usitatissimum" | 
-           taxon_source == "Linum bienne/usitatissimum") %>% 
-  arrange(-age_start) %>% 
-  group_by(source, site_name, taxon_source) %>% 
-  summarise(phase_code = first(phase_code), earliest_age = first(age_start),
-            n = sum(n), reference = first(reference),
-            .groups = "drop") %>% 
-  mutate(reference = str_remove(reference, ";.*")) %>% 
-  arrange(-earliest_age) %>% 
-  slice(1:10) %>% 
-  gt() %>% 
-  cols_label(source = "Database", site_name = "Site", phase_code = "Phase",
-             taxon_source = "Reported taxon", 
-             earliest_age = "Reported age (earliest)", n = "N",
-             reference = "Reference")
-```
-
