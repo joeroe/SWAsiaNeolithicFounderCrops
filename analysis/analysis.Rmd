@@ -484,7 +484,7 @@ flora_ts %>%
   ggplot(aes(century / 1000, avg_prop, fill = founder_crop)) +
   geom_stream(type = "ridge", sorting = "onset") +
   scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(limits = c(0, 1), breaks = scales::breaks_pretty(5),
+  scale_y_continuous(limits = c(0, 0.5), breaks = scales::breaks_pretty(5),
                      labels = scales::percent) +
   khroma::scale_fill_muted() +
   labs(subtitle = "Relative abundance",
