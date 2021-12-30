@@ -43,6 +43,10 @@ It is generated from the compendium of R code and data available at <https://git
 
 ## Methods & Materials
 
+The nature of our data and quantitative methods are described in general terms in the body of the paper.
+Here, we explain in more detail the methods used to transform our raw data and produce the figures, tables, and results presented.
+For the precise steps needed to reproduce this analysis, see the underlying R code and data files available in the compendium.
+
 ### Study region and period
 
 ```{r data-spatial, fig.cap='The study region', results='hide', layout='l-body-outset'}
@@ -95,22 +99,20 @@ periods %>%
 
 ### Archaeobotanical data
 
-We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018; @Fuller2018], and ADEMNES [@Riehl2005].
+We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018, @Fuller2018; incorporating @Shennan2007, @Colledge2004], and ADEMNES [@Riehl2005].
+To clean and make these datasets comparable, we:
 
-The process of importing, cleaning, and making these databases comparable (see R functions in `R/data.R` for full details) was fairly involved.
-In short, we:
-
-* Standardised site names across databases using the thesaurus compiled at <https://github.com/joeroe/swapdata>
-* Standardised taxonomic names across databases and applied our additional classifications (described in `analysis/data/raw_data/founder_crops.tsv`)
-* When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES)
-* ORIGINS is recorded by sample, but COMPAG and ADEMNES by phase, so we aggregated ORIGINS by phase for comparability (and because individual samples are more likely to be 'noisy')
-* Calculated phase-level proportions for COMPAG
+* Standardised site names across databases (thesaurus available at <https://github.com/joeroe/swapdata>);
+* Standardised taxonomic names across databases and applied various additional classifications described below;
+* When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES);
+* ORIGINS is recorded by sample, but COMPAG and ADEMNES by phase, so aggregated ORIGINS by phase for comparability – and because individual samples are more likely to be 'noisy';
+* Calculated phase-level proportions for COMPAG, which only includes absolute frequencies;
 * Excluded records from the source databases that:
   * Were not taxonomically determined to at least the level of genus;
-  * Did not actually contain quantitative information (i.e. `n` is blank or missing)
+  * Did not actually contain quantitative information (i.e. `n` is blank or missing);
   * Described wood remains.
 
-We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–6500 BP) of interest,
+Finally we filtered this data to include only samples from our region (Southwest Asia) and period (11.7–6.5 ka cal BP) of interest,
 with a buffer of ±2,000 years to reduce "edge effects" in our time series analyses.
 
 ```{r data-flora}
@@ -608,7 +610,7 @@ flora_ts %>%
   group_by(century, category) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb)) %>%
   ggplot(aes(century / 1000, avg_prop, fill = category)) +
-  geom_stream(type = "mirror", sorting = "onset") +
+  geom_stream(type = "ridge", sorting = "onset") +
   scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
   khroma::scale_fill_muted() +
