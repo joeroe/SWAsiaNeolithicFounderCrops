@@ -301,9 +301,9 @@ p2_top / p2_bottom
 
 ### Taxonomic ubiquity in the Neolithic
 
-The following table summarises the occurrence of each standardised taxon in Neolithic assemblages, broken down by plant-category.
+Table \@ref(tab:all-ubiquity) summarises the occurrence of each standardised taxon across Neolithic assemblages, broken down by plant category.
 
-```{r occ-all, layout='l-body-outset'}
+```{r all-ubiquity, layout='l-body-outset'}
 flora %>% 
   drop_na(category, taxon) %>% 
   filter(period %in% neolithic) %>% 
@@ -323,7 +323,7 @@ flora %>%
   group_by(category) %>% 
   arrange(-n_present, .by_group = TRUE) %>% 
   # slice_max(n_present, n = 20, with_ties = FALSE) %>%
-  gt(caption = "Occurrence of all taxa in Neolithic assemblages") %>% 
+  gt(caption = "Ubiquity of all taxa across Neolithic assemblages. Founder crops are highlighted in bold.") %>% 
   cols_hide(c(founder_crop)) %>% 
   fmt_percent(c(pct_present, pct_gthalf, pct_gtqrtr)) %>% 
   cols_merge_n_pct(n_present, pct_present) %>% 
@@ -333,18 +333,12 @@ flora %>%
              n_present = "N (%) recorded present",
              n_gthalf = "N (%) making up more than half of assemblage",
              n_gtqrtr = "N (%) making up more than a quarter of assemblage") %>% 
-  # tab_style(cell_text(style = "italic"), cells_body(taxon)) %>% 
-  tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop))) %>% 
-  tab_footnote("Founder crops in bold.", cells_column_labels(taxon)) ->
-  occ_all
-
-occ_all
-# gtsave(occ_all, "figures/occ_all.html")
+  tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop)))
 ```
 
-We can show the same data graphically:
+This summary data underlies figure X in the main text.
 
-```{r occ-all-plot, fig.height=12, fig.cap='Occurrence of taxa in Neolithic assemblages (founder crops highlighted).', layout='l-body-outset'}
+```{r all-ubiquity-plot, fig.height=12, include=FALSE}
 flora %>% 
   drop_na(category, taxon) %>% 
   filter(period %in% neolithic) %>% 
@@ -382,9 +376,11 @@ flora %>%
 
 #### By period
 
-The following table shows the ubiquity of the founder crop species in assemblages broken down by period, i.e. for each period, the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
+Table \@ref(tab:founder-ubiquity) summarises the ubiquity of the founder crop species in assemblages broken down by period, i.e. for each period, it shows the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
+Given the inconsistent levels of identification between assemblages, emmer wheat and einkorn wheat are counted as one crop.
+Hence, the maximum possible number of founder crops present is seven rather than eight.
 
-```{r occ-founder, layout='l-body-outset'}
+```{r founder-ubiquity, layout='l-body-outset'}
 flora %>% 
   mutate(founder_crop = recode(founder_crop,
                                "emmer wheat" = "wheat",
@@ -432,27 +428,8 @@ flora %>%
     n_atleast3 = ">= 3",
     n_atleast2 = ">= 2",
     n_atleast1 = ">= 1"
-  ) %>% 
-  # Doesn't work with cols_merge_n_pct apparently :(
-  # data_color(
-  #   columns = starts_with("p_atleast"),
-  #   colors = scales::col_numeric(
-  #     palette = paletteer::paletteer_d(
-  #       palette = "ggsci::light_green_material"
-  #       ) %>% as.character(),
-  #     domain = c(0, 1)
-  #     )
-  # ) %>% 
-  tab_footnote("Emmer wheat and einkorn wheat are counted as one crop.",
-               locations = cells_column_spanners())
+  )
 ```
-
-We can also look at the abundance of the founder crops – this time varying *P*, the proportion of the assemblage accounted for by the founder crops.
-
-Here we exclude some records from the source databases (primarily ADEMNES) which do not actually contain quantitative information in the 'proportion' field, and instead use it to represent presence/absence.
-We will do the same for following analyses that use abundance measures.
-
-**TODO**
 
 #### By century
 
@@ -514,7 +491,7 @@ p1 / p2
        # units = "mm")
 ```
 
-## Plant categories
+### Plant categories
 
 To move beyond the concept of "founder crops" vs. "wild plants", we classified each taxonomic record in our dataset on a number of other axes:
 
@@ -623,18 +600,18 @@ flora_ts %>%
 
 In the following sections, we will analyse trends within these categories in more detail.
 
-### Grasses
+#### Grasses
 
 TODO: specific figures/tables/analyses?
  
-### Legumes
+#### Legumes
 
 TODO: specific figures/tables/analyses?
 
-### Wild plants
+#### Wild plants
 
 TODO: specific figures/tables/analyses?
 
-### Fruits and nuts
+#### Fruits and nuts
 
 TODO: specific figures/tables/analyses?
