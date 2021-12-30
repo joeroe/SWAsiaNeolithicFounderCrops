@@ -409,7 +409,7 @@ flora %>%
     n_atleast1 = sum(n_founder_crop >= 1),
     p_atleast1 = n_atleast1 / n_assemb
   ) %>% 
-  gt() %>% 
+  gt(caption = "Ubiquity of the founder crops by period.") %>% 
   fmt_percent(starts_with("p_")) %>% 
   cols_merge_n_pct(n_atleast7, p_atleast7) %>% 
   cols_merge_n_pct(n_atleast6, p_atleast6) %>% 
@@ -457,7 +457,7 @@ We will do the same for following analyses that use abundance measures.
 For a more fine-grained look at the time series, we can use the century bins calculated above, 
 Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
 
-```{r ts-founder-crops, fig.height=6, layout='l-body-outset'}
+```{r ts-founder-crops, fig.cap='Ubiquity and abundance of the founder crops by century', fig.height=6, layout='l-body-outset'}
 # By ubiquity
 flora_ts %>% 
   mutate(founder_crop = recode(founder_crop,
