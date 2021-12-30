@@ -342,7 +342,7 @@ occ_all
 
 We can show the same data graphically:
 
-```{r occ-all-plot, fig.cap='Occurrence of taxa in Neolithic assemblages (founder crops highlighted).', layout='l-body-outset'}
+```{r occ-all-plot, fig.height=12, fig.cap='Occurrence of taxa in Neolithic assemblages (founder crops highlighted).', layout='l-body-outset'}
 flora %>% 
   drop_na(category, taxon) %>% 
   filter(period %in% neolithic) %>% 
@@ -360,20 +360,18 @@ flora %>%
     pct_gtqrtr = n_gtqrtr / n_assemb_neolithic
   ) %>% 
   group_by(category) %>% 
-  slice_max(n_present, n = 10, with_ties = FALSE) %>% 
-  mutate(taxon = fct_reorder(taxon, n_present, .desc = TRUE)) %>% 
+  slice_max(n_present, n = 15, with_ties = FALSE) %>% 
+  mutate(taxon = fct_reorder(taxon, n_present, .desc = FALSE)) %>% 
   ggplot(aes(taxon, pct_present, fill = !is.na(founder_crop))) +
-  facet_wrap(vars(category), nrow = 1, scales = "free_x") +
+  facet_wrap(vars(category), ncol = 1, scales = "free_y") +
   geom_col(colour = "black") +
-  scale_x_discrete(labels = function(x) stringr::word(x, 1, 2)) +
+  coord_flip() +
+  scale_x_discrete(labels = function(x) str_trunc(x, 40)) +
   scale_y_continuous(labels = scales::label_percent()) +
   scale_fill_manual(values = c("white", "black"), guide = FALSE) +
   labs(x = NULL, y = "Assemblages present", 
-       caption = "Includes only the 10 most ubiquitous taxa in each category.") +
-  theme_minimal() +
-  theme(
-    axis.text.x = element_text(angle = 60, hjust = 1, vjust = 1)
-  )
+       caption = "Includes only the 15 most ubiquitous taxa in each category.") +
+  theme_minimal()
 
 # gtsave(occ_all, "figures/occ_all.html")
 ```
