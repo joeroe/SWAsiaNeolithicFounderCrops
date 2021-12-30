@@ -139,8 +139,6 @@ flora %>%
   select(-wood) ->
   flora
 
-# TODO: Are there still presence/absence records left?
-
 # Summary totals
 flora2 %>% 
   distinct(site_name) %>% 
