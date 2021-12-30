@@ -1,6 +1,6 @@
 ---
 title: 'Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia'
-subtitle: "Data analysis"
+subtitle: "Quantitative analysis"
 author:
   - first_name: "Joe"
     last_name: "Roe"
