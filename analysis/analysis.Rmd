@@ -478,7 +478,7 @@ flora_ts %>%
   # Refactor categories for plot
   mutate(
     founder_crop = fct_reorder(founder_crop, avg_prop, .fun = sum, .desc = FALSE),
-    founder_crop = fct_explicit_na(founder_crop, "Other (not founder crop)")
+    # founder_crop = fct_explicit_na(founder_crop, "Other (not founder crop)")
   ) %>% 
   drop_na(founder_crop) %>% 
   # Plot
@@ -609,7 +609,8 @@ flora_ts %>%
   scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
   khroma::scale_fill_muted() +
   labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal()
+  theme_minimal() +
+  theme(legend.position = "bottom")
 ```
 
 In the following sections, we will analyse trends within these categories in more detail.
@@ -649,11 +650,11 @@ flora_ts %>%
     taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
     taxon = fct_explicit_na(taxon, "Other")) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
   geom_area() +
   scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted() +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
   labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
   theme_minimal() +
   theme(legend.position = "bottom")
@@ -694,11 +695,11 @@ flora_ts %>%
     taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
     taxon = fct_explicit_na(taxon, "Other")) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
   geom_area() +
   scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted() +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
   labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
   theme_minimal() +
   theme(legend.position = "bottom")
@@ -739,11 +740,11 @@ flora_ts %>%
     taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
     taxon = fct_explicit_na(taxon, "Other")) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
   geom_area() +
   scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted() +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
   labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
   theme_minimal() +
   theme(legend.position = "bottom")
@@ -784,11 +785,11 @@ flora_ts %>%
     taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
     taxon = fct_explicit_na(taxon, "Other")) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
   geom_area() +
   scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
   scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted() +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
   labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
   theme_minimal() +
   theme(legend.position = "bottom")
