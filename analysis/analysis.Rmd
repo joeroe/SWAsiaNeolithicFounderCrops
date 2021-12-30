@@ -512,6 +512,115 @@ p1 / p2
        # units = "mm")
 ```
 
+## Plant categories
+
+To move beyond the concept of "founder crops" vs. "wild plants", we classified each taxonomic record in our dataset on a number of other axes:
+
+* Broad plant category, i.e. grasses, legumes, "wild plants", or fruits/nuts
+* Its edibility
+* For grasses and legumes, whether it is large/medium- or small-seeded
+
+```{r category-summary, layout='l-body-outset'}
+flora %>% 
+  filter(period %in% neolithic) %>% 
+  mutate(category = replace_na(category, "Unclassified")) %>% 
+  group_by(site_name, phase_code, category) %>%
+  summarise(
+    n = sum(n, na.rm = TRUE),
+    prop = sum(prop, na.rm = TRUE), 
+    .groups = "drop"
+  ) %>% 
+  group_by(category) %>% 
+  summarise(
+    prop_avg = mean(prop),
+    n_present = n(),
+    n_gthalf = sum(prop > 0.5),
+    n_gtqrtr = sum(prop > 0.25),
+    pct_present = n_present / n_assemb_neolithic,
+    pct_gthalf = n_gthalf / n_assemb_neolithic,
+    pct_gtqrtr = n_gtqrtr / n_assemb_neolithic,
+    .groups = "drop"
+  ) %>% 
+  arrange(desc(prop_avg)) %>% 
+  gt(caption = "Abundance and ubiquity of broad plant categories across Neolithic assemblages.") %>% 
+  cols_label(
+    category = "Category",
+    prop_avg = "Average proportion",
+    n_present = "Present",
+    n_gthalf = "More than ½",
+    n_gtqrtr = "More than ¼"
+  ) %>% 
+  cols_merge_n_pct(n_present, pct_present) %>% 
+  cols_merge_n_pct(n_gthalf, pct_gthalf) %>% 
+  cols_merge_n_pct(n_gtqrtr, pct_gtqrtr) %>% 
+  fmt_percent(starts_with("pct")) %>% 
+  fmt_percent(prop_avg) %>% 
+  cols_align("left", category)
+```
+
+```{r category-summary-byperiod, layout='l-body-outset'}
+flora %>% 
+  mutate(category = replace_na(category, "Unclassified")) %>% 
+  group_by(period, site_name, phase_code, category) %>%
+  summarise(
+    n = sum(n, na.rm = TRUE),
+    prop = sum(prop, na.rm = TRUE), 
+    .groups = "drop"
+  ) %>% 
+  group_by(period) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  group_by(period, category) %>% 
+  summarise(
+    prop_avg = mean(prop),
+    n_present = n(),
+    n_gthalf = sum(prop > 0.5),
+    n_gtqrtr = sum(prop > 0.25),
+    pct_present = n_present / first(n_assemb),
+    pct_gthalf = n_gthalf / first(n_assemb),
+    pct_gtqrtr = n_gtqrtr / first(n_assemb),
+    .groups = "drop_last"
+  ) %>% 
+  arrange(desc(prop_avg), .by_group = TRUE) %>% 
+  gt(caption = "Abundance and ubiquity of broad plant categories, by period.") %>% 
+  cols_label(
+    category = "Category",
+    prop_avg = "Average proportion",
+    n_present = "Present",
+    n_gthalf = "More than ½",
+    n_gtqrtr = "More than ¼"
+  ) %>% 
+  cols_merge_n_pct(n_present, pct_present) %>% 
+  cols_merge_n_pct(n_gthalf, pct_gthalf) %>% 
+  cols_merge_n_pct(n_gtqrtr, pct_gtqrtr) %>% 
+  fmt_percent(starts_with("pct")) %>% 
+  fmt_percent(prop_avg) %>% 
+  cols_align("left", category)
+```
+
+Table \@ref(tab:category-summary) summarises the ubiquity and abundance of the broad plant categories across Neolithic assemblages, \@ref(tab:category-summary-byperiod) the same data broken down by period, and figure \@ref(fig:category-ts) how this changed through time.
+
+```{r category-ts, fig.cap='Abundance of broad plant categories through time', layout='l-body-outset'}
+flora_ts %>% 
+  group_by(century, site_name, phase_code, category) %>% 
+  summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+  group_by(century) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  group_by(century, category) %>%
+  summarise(avg_prop = sum(prop) / first(n_assemb)) %>%
+  ggplot(aes(century / 1000, avg_prop, fill = category)) +
+  geom_stream(type = "mirror", sorting = "onset") +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
+  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
+  theme_minimal()
+
+# ggsave(here("analysis/figures/category-ts.pdf"), width = 160, height = 160,
+       # units = "mm")
+```
+
+In the following sections, we will analyse trends within these categories in more detail.
+
 ### Grasses
 
 TODO: specific figures/tables/analyses?
