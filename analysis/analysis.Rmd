@@ -142,12 +142,12 @@ flora %>%
   flora
 
 # Summary totals
-flora2 %>% 
+flora %>% 
   distinct(site_name) %>% 
   nrow() ->
   n_site
 
-flora2 %>% 
+flora %>% 
   distinct(site_name, phase_code) %>% 
   nrow() ->
   n_assemb
