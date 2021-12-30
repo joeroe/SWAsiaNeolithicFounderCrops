@@ -1,14 +1,15 @@
 Package: SWAsiaNeolithicFounderCrops
 Type: Package
-Title: "Founder Crops" in the Neolithic of Southwest Asia
+Title: The "Neolithic Founder Crops" in Southwest Asia: Research Compendium
 Version: 0.1.0
 Authors@R: c(
     person("Joe", "Roe", email = "joe@joeroe.io", role = c("aut", "cre"),
     comment = c(ORCID = "0000-0002-1011-1244")),
-    person("Amaia", "Arranz Otaegui", email = "kch860@hum.ku.dk",
+    person("Amaia", "Arranz Otaegui", email = "amaia.arranz@cchs.csic.es",
     role = c("aut"), comment = c(ORCID = "0000-0002-5091-6426"))
   )
-Description: Research compendium...
+Description: Research compendium containing data and code for our paper 
+    'Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia'.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

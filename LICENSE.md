@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2020 Joe Roe
+Copyright (c) 2020 Joe Roe and Amaia Arranz-Otaegui
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
