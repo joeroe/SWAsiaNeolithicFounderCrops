@@ -576,7 +576,7 @@ flora %>%
   cols_align("left", category)
 ```
 
-Table \@ref(tab:category-summary) summarises the ubiquity and abundance of the broad plant categories across Neolithic assemblages, \@ref(tab:category-summary-byperiod) the same data broken down by period, and figure \@ref(fig:category-ts) how this changed through time.
+Table \@ref(tab:category-summary) summarises the abundance of the broad plant categories across Neolithic assemblages, \@ref(tab:category-summary-byperiod) the same data broken down by period, and figure \@ref(fig:category-ts) how this changed through time.
 
 ```{r category-ts, fig.cap='Abundance of broad plant categories through time', layout='l-body-outset'}
 flora_ts %>% 
@@ -602,16 +602,180 @@ In the following sections, we will analyse trends within these categories in mor
 
 #### Grasses
 
-TODO: specific figures/tables/analyses?
- 
-#### Legumes
+```{r common-grasses}
+flora %>% 
+  filter(category == "Grasses", period %in% neolithic) %>% 
+  group_by(taxon) %>% 
+  summarise(n_present = n()) %>% 
+  arrange(desc(n_present)) %>% 
+  slice(1:8) %>% 
+  pull(taxon) ->
+  top_grasses
+```
 
-TODO: specific figures/tables/analyses?
+The eight most ubiquitous grass taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_grasses, collapse = ", ")`.
+Figure \@ref(fig:grasses-ts) shows how the abundance of these taxa changed through time.
+
+```{r grasses-ts, fig.cap='Abundance of grass taxa through time', layout='l-body-outset'}
+flora_ts %>% 
+  # Include only top 8 grasses
+  filter(category == "Grasses") %>% 
+  mutate(taxon = if_else(taxon %in% top_grasses, taxon, NA_character_)) %>% 
+  # Aggregate by taxon
+  # group_by(century, site_name, phase_code, taxon) %>% 
+  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+  # Add total number of assemblages per century
+  group_by(century) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  # Calculate average proportion per century
+  group_by(century, taxon) %>%
+  summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
+  # Refactor categories for plot
+  mutate(
+    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
+    taxon = fct_explicit_na(taxon, "Other")) %>% 
+  # Plot
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  geom_area() +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
+  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```
+ 
+#### Pulses
+
+```{r common-pulses}
+flora %>% 
+  filter(category == "Pulses", period %in% neolithic) %>% 
+  group_by(taxon) %>% 
+  summarise(n_present = n()) %>% 
+  arrange(desc(n_present)) %>% 
+  slice(1:8) %>% 
+  pull(taxon) ->
+  top_pulses
+```
+
+The eight most ubiquitous pulse taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_pulses, collapse = ", ")`.
+Figure \@ref(fig:pulses-ts) shows how the abundance of these taxa changed through time.
+
+```{r pulses-ts, fig.cap='Abundance of pulse taxa through time', layout='l-body-outset'}
+flora_ts %>% 
+  # Include only top 8 grasses
+  filter(category == "Pulses") %>% 
+  mutate(taxon = if_else(taxon %in% top_pulses, taxon, NA_character_)) %>% 
+  # Aggregate by taxon
+  # group_by(century, site_name, phase_code, taxon) %>% 
+  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+  # Add total number of assemblages per century
+  group_by(century) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  # Calculate average proportion per century
+  group_by(century, taxon) %>%
+  summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
+  # Refactor categories for plot
+  mutate(
+    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
+    taxon = fct_explicit_na(taxon, "Other")) %>% 
+  # Plot
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  geom_area() +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
+  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```
 
 #### Wild plants
 
-TODO: specific figures/tables/analyses?
+```{r common-wild-plants}
+flora %>% 
+  filter(category == "Wild plants", period %in% neolithic) %>% 
+  group_by(taxon) %>% 
+  summarise(n_present = n()) %>% 
+  arrange(desc(n_present)) %>% 
+  slice(1:8) %>% 
+  pull(taxon) ->
+  top_wild_plants
+```
+
+The eight most ubiquitous 'wild plant' taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_wild_plants, collapse = ", ")`.
+Figure \@ref(fig:wild-plants-ts) shows how the abundance of these taxa changed through time.
+
+```{r wild-plants-ts, fig.cap='Abundance of wild plant taxa through time', layout='l-body-outset'}
+flora_ts %>% 
+  # Include only top 8 grasses
+  filter(category == "Wild plants") %>% 
+  mutate(taxon = if_else(taxon %in% top_wild_plants, taxon, NA_character_)) %>% 
+  # Aggregate by taxon
+  # group_by(century, site_name, phase_code, taxon) %>% 
+  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+  # Add total number of assemblages per century
+  group_by(century) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  # Calculate average proportion per century
+  group_by(century, taxon) %>%
+  summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
+  # Refactor categories for plot
+  mutate(
+    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
+    taxon = fct_explicit_na(taxon, "Other")) %>% 
+  # Plot
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  geom_area() +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
+  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```
 
 #### Fruits and nuts
 
-TODO: specific figures/tables/analyses?
+```{r common-fruits-nuts}
+flora %>% 
+  filter(category == "Fruits/nuts", period %in% neolithic) %>% 
+  group_by(taxon) %>% 
+  summarise(n_present = n()) %>% 
+  arrange(desc(n_present)) %>% 
+  slice(1:8) %>% 
+  pull(taxon) ->
+  top_fruits_nuts
+```
+
+The eight most ubiquitous fruit/nut taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_fruits_nuts, collapse = ", ")`.
+Figure \@ref(fig:fruits-nuts-ts) shows how the abundance of these taxa changed through time.
+
+```{r fruits-nuts-ts, fig.cap='Abundance of fruit/nut taxa through time', layout='l-body-outset'}
+flora_ts %>% 
+  # Include only top 8 grasses
+  filter(category == "Fruits/nuts") %>% 
+  mutate(taxon = if_else(taxon %in% top_fruits_nuts, taxon, NA_character_)) %>% 
+  # Aggregate by taxon
+  # group_by(century, site_name, phase_code, taxon) %>% 
+  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
+  # Add total number of assemblages per century
+  group_by(century) %>% 
+  mutate(n_assemb = length(unique(phase_code))) %>% 
+  # Calculate average proportion per century
+  group_by(century, taxon) %>%
+  summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
+  # Refactor categories for plot
+  mutate(
+    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
+    taxon = fct_explicit_na(taxon, "Other")) %>% 
+  # Plot
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  geom_area() +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
+  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
+  khroma::scale_fill_muted() +
+  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
+  theme_minimal() +
+  theme(legend.position = "bottom")
+```
