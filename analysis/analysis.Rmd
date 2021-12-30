@@ -39,9 +39,7 @@ library("khroma")
 ```
 
 This document describes the quantitative analysis our paper *Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia* (Arranz-Otaegui & Roe 2022).
-A research compendium containing the data and R code needed to reproduce the analysis can be accessed at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>).
-
-TODO: instructions for interactive use? (Binder?)
+It is generated from the compendium of R code and data available at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>).
 
 ## Methods & Materials
 
@@ -105,6 +103,10 @@ In short, we:
 * When sites were in multiple databases, preferred records from the most detailed/recent one (i.e. ORIGINS > COMPAG > ADEMNES)
 * ORIGINS is recorded by sample, but COMPAG and ADEMNES by phase, so we aggregated ORIGINS by phase for comparability (and because individual samples are more likely to be 'noisy')
 * Calculated phase-level proportions for COMPAG
+* Excluded records from the source databases that:
+  * Were not taxonomically determined to at least the level of genus;
+  * Did not actually contain quantitative information (i.e. `n` is blank or missing)
+  * Described wood remains.
 
 We filtered this data to include only samples from our region (Southwest Asia) and period (11,700–6500 BP) of interest,
 with a buffer of ±2,000 years to reduce "edge effects" in our time series analyses.
@@ -122,18 +124,30 @@ flora <- collate_flora(
   end_bp = end_bp
 )
 
-# TODO: final cleaning
-# - drop entries where n or p = 0,
-# - drop entries where p is NA
-# - drop entries where (canonical) taxon is NA
+# TODO: Warnings in collate_flora()
+
+# Final cleaning
+# Drop records that are insufficiently taxonomically determined (taxon = NA) or
+# which don't actually have quantitative information, to make sure they don't
+# throw off our ubiquity measures. 
+# We don't update prop, so they are still accounted for in abundance measures.
+flora %>% 
+  drop_na(taxon) %>% 
+  drop_na(prop) %>% 
+  filter(prop != 0)  %>% 
+  filter(!wood | is.na(wood)) %>% 
+  select(-wood) ->
+  flora
+
+# TODO: Are there still presence/absence records left?
 
 # Summary totals
-flora %>% 
+flora2 %>% 
   distinct(site_name) %>% 
   nrow() ->
   n_site
 
-flora %>% 
+flora2 %>% 
   distinct(site_name, phase_code) %>% 
   nrow() ->
   n_assemb
