@@ -84,6 +84,8 @@ periods <- tribble(
 )
 
 neolithic <- c("PPNA", "EPPNB", "MPPNB", "LPPNB/C", "Pottery Neolithic")
+neolithic_start <- max(filter(periods, period %in% neolithic) %>% select(start_bp))
+neolithic_end <- min(filter(periods, period %in% neolithic) %>% select(end_bp))
 
 periods %>% 
   gt(caption = "Cultural periods used in the analysis") %>% 
@@ -255,7 +257,7 @@ p1_left + p1_right
 ```
 
 
-```{r sample-chronology, fig.cap='Chronological distribution of sampled archaeobotanical assemblages', layout='l-body-outset'}
+```{r sample-chronology, fig.cap='Distribution of sampled archaeobotanical assemblages by cultural period. Black lines indicate our period of interest (the Neolithic).', layout='l-body-outset'}
 p2_top <- flora_phases %>% 
   count(period) %>% 
   left_join(periods) %>% 
@@ -263,13 +265,14 @@ p2_top <- flora_phases %>%
   ggplot(aes(xmin = start_bp, xmax = end_bp, ymin = 0, ymax = n,
              fill = period)) +
   geom_rect() +
+  geom_vline(xintercept = c(neolithic_start, neolithic_end)) +
   scale_x_reverse(limits = c(15000, 5000),
                   breaks = seq(15000, 5000, -1000)) +
   scale_y_continuous(limits = c(0, 150)) +
   khroma::scale_fill_muted() +
   labs(x = NULL, y = "Samples by period", fill = "Period") +
   theme_minimal() +
-  theme(legend.position = "top", 
+  theme(legend.position = "right", 
         axis.text.x = element_blank(), axis.ticks.x = element_blank())
 
 p2_bottom <- flora_ts %>% 
@@ -277,6 +280,7 @@ p2_bottom <- flora_ts %>%
   summarise(period = first(period), .groups = "drop") %>% 
   ggplot(aes(century, fill = period)) +
   geom_bar(width = 100) +
+  geom_vline(xintercept = c(neolithic_start, neolithic_end)) +
   scale_x_reverse(limits = c(15000, 5000), 
                   breaks = seq(15000, 5000, -1000)) +
   scale_y_reverse(limits = c(150, 0)) +
