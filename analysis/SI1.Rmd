@@ -1,6 +1,5 @@
 ---
-title: 'Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia'
-subtitle: "Quantitative analysis"
+title: 'Supplementary Information 1: Meta-analysis of Neolithic archaeobotanic assemblages from southwest Asia'
 author:
   - first_name: "Joe"
     last_name: "Roe"
