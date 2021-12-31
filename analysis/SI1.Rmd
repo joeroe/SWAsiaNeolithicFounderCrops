@@ -29,7 +29,6 @@ library("SWAsiaNeolithicFounderCrops")
 library("swapdata")
 library("sf")
 library("ggspatial")
-library("ggstream")
 library("here")
 library("gt")
 library("glue")
@@ -96,9 +95,9 @@ periods %>%
              start_bp = "Start (cal BP)", end_bp = "End (cal BP")
 ```
 
-### Archaeobotanical data
+### Archaeobotanical data (Southwest Asia)
 
-We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018, @Fuller2018; incorporating @Shennan2007, @Colledge2004], and ADEMNES [@Riehl2005].
+We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018, @Fuller2018; incorporating @Colledge2004, @Shennan2007], and ADEMNES [@Riehl2005].
 To clean and make these datasets comparable, we:
 
 * Standardised site names across databases (thesaurus available at <https://github.com/joeroe/swapdata>);
@@ -155,6 +154,22 @@ flora %>%
 ```
 
 The resulting collated dataset (`analysis/data/derived_data/swasia_neolithic_flora.tsv`) includes archaeobotanical assemblages representing `r n_assemb` distinct phases from `r n_site` sites.
+
+### Archaeobotanical data (Europe)
+
+```{r data-flora-europe}
+flora_europe <- read_colledge2004(here("analysis/data/raw_data/colledge2004/"),
+                                  europe_only = TRUE)
+
+n_assemb_europe <- length(unique(flora_europe$phase))
+n_site_europe <- length(unique(flora_europe$site))
+```
+
+We also used Colledge et al.'s [-@Colledge2004; see also [@Shennan2007] compilation of European data.
+Since this data did not need to be formally incorporated into the rest of the analyses, we simply imported Colledge et al.'s dataset as is, excluding non-European countries (for completeness Cyprus was included in both the European and Southwest Asian datasets).
+It includes `r n_assemb_europe` assemblages from `r n_site_europe` Neolithic sites across Europe, but only presence data.
+
+We used the European data to quantitatively assess early evidence for translocation of certain crops from Southwest Asia to Europe, reported in table X of the main text.
 
 ### Chronological data
 
@@ -298,7 +313,7 @@ p2_top / p2_bottom
 
 ## Results
 
-### Taxonomic ubiquity in the Neolithic
+### Ubiquity of all taxa in the Neolithic
 
 Table \@ref(tab:all-ubiquity) summarises the occurrence of each standardised taxon across Neolithic assemblages, broken down by plant category.
 
@@ -498,7 +513,7 @@ p1 / p2
        # units = "mm")
 ```
 
-### Plant categories
+### Abundance of plant categories
 
 To move beyond the concept of "founder crops" vs. "wild plants", we classified each taxonomic record in our dataset on a number of other axes:
 
@@ -793,3 +808,5 @@ flora_ts %>%
   theme_minimal() +
   theme(legend.position = "bottom")
 ```
+
+

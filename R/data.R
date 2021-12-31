@@ -434,3 +434,43 @@ read_compag2018 <- function(path) {
                 n,
                 references)
 }
+
+#' @export
+read_colledge2004 <- function(path, europe_only = FALSE) {
+  # Read
+  phases <- readr::read_csv(fs::path(path, "phases.csv"), col_types = "cccc")
+  samples <- readr::read_csv(fs::path(path, "samples.csv"), col_types = "ccc")
+  sites <- readr::read_csv(fs::path(path, "sites.csv"), col_types = "ccc")
+  taxa <- readr::read_csv(fs::path(path, "taxa.csv"), col_types = "ccccc")
+
+  # Hot fixes
+  samples$PHASE <- recode(
+    samples$PHASE,
+    "KnH" = "KNH",
+    "NHe" = "Nhe",
+    "PCa" = "Pca",
+    "SGy" = "Sgy",
+    "SMa" = "Sma"
+  )
+
+  # Join
+  colledge2004 <- left_join(samples, taxa, by = "TAXON")
+  colledge2004 <- right_join(phases, colledge2004, by = "PHASE")
+  colledge2004 <- right_join(sites, colledge2004, by = "SITE")
+
+  # Normalise names
+  names(colledge2004) <- tolower(names(colledge2004))
+
+  # Filter if desired
+  if (isTRUE(europe_only)) {
+    europe <- setdiff(
+      unique(colledge2004$country),
+      c("Iran", "Iraq", "Israel", "Jordan", "Palestinian Territories", "Syria",
+        "Turkey")
+    )
+    colledge2004 <- dplyr::filter(colledge2004, country %in% europe)
+  }
+
+  # Return
+  colledge2004
+}

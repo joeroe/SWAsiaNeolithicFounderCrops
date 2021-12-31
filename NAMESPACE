@@ -2,5 +2,6 @@
 
 export(collate_flora)
 export(read_ademnes)
+export(read_colledge2004)
 export(read_compag2018)
 export(read_origins)
