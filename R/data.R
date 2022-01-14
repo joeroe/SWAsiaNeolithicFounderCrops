@@ -341,8 +341,13 @@ read_compag2018 <- function(path) {
                   n_max = 42) ->
     compag_data
   readr::read_csv(fs::path(path, "AbotSitesrefs.csv"),
+                  col_names = c("site", "country", "region", "Latitude",
+                                "Longitude", "Georef rank", "Abot sampling",
+                                "dating", "Phase", "start date", "end date",
+                                "Median age", paste0("X", 1:12), "references"),
                   col_types = "cccddicccdddccccccccccccc",
                   na = c("", "NA", "-"),
+                  skip = 1,
                   locale = readr::locale(encoding = "windows-1252")) ->
     compag_site
 
@@ -363,7 +368,7 @@ read_compag2018 <- function(path) {
 
   # Clean and tidy site table
   compag_site %>%
-    tidyr::unite("characters", X13:X23, sep = ";", na.rm = TRUE) %>%
+    tidyr::unite("characters", X1:X11, sep = ";", na.rm = TRUE) %>%
     dplyr::transmute(
       site,
       country,
