@@ -413,7 +413,7 @@ read_compag2018 <- function(path) {
   compag_data <- dplyr::mutate(
     compag_data,
     date_mid = stringr::str_extract(phase_code, "[^- ]+"),
-    date_mid = -as.numeric(date_mid)
+    date_mid = suppressWarnings(-as.numeric(date_mid))
   )
   compag <- right_join(compag_site, compag_data, by = c("site_canon", "date_mid"),
                        suffix = c("_site", "_abot"))

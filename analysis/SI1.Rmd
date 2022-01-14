@@ -126,8 +126,6 @@ flora <- collate_flora(
   end_bp = end_bp
 )
 
-# TODO: Warnings in collate_flora()
-
 # Final cleaning
 # Drop records that are insufficiently taxonomically determined (taxon = NA) or
 # which don't actually have quantitative information, to make sure they don't
