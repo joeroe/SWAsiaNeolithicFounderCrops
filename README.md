@@ -3,7 +3,7 @@
 
 # The “Neolithic Founder Crops” in Southwest Asia: Research Compendium
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joeroe/SWAsiaNeolithicFounderCrops/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joeroe/SWAsiaNeolithicFounderCrops/main?urlpath=rstudio)
 
 This repository contains the data and code for our paper:
 
@@ -14,7 +14,7 @@ This repository contains the data and code for our paper:
 <!--
 Our pre-print is online here:
 
-> Authors, (YYYY). _Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia_. Name of journal/book, Accessed 30 Dec 2021. Online at <https://doi.org/xxx/xxx>
+> Authors, (YYYY). _Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia_. Name of journal/book, Accessed 20 Jan 2022. Online at <https://doi.org/xxx/xxx>
 -->
 
 ## Contents
@@ -61,9 +61,9 @@ the `analysis.html` and `analysis.pdf`.
 
 In addition to our paper above, please cite this compendium as:
 
-> Roe, Joe and Arranz-Otaegui, Amaia, (2021). *Compendium of R code and
+> Roe, Joe and Arranz-Otaegui, Amaia, (2022). *Compendium of R code and
 > data for ‘Revisiting the concept of the “Neolithic Founder Crops” in
-> southwest Asia’*. Accessed 30 Dec 2021. Available at
+> southwest Asia’*. Accessed 20 Jan 2022. Available at
 > <https://doi.org/xxx/xxx>
 
 ## Licenses
