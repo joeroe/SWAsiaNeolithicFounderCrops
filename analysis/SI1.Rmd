@@ -1,5 +1,6 @@
 ---
-title: "Supplementary Information 1: Quantitative Analysis"
+title: 'Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia'
+subtitle: "Supplementary Information 1 – Quantitative Analysis"
 author:
   - first_name: "Joe"
     last_name: "Roe"
@@ -13,6 +14,9 @@ output:
   distill::distill_article:
     toc: true
     toc_depth: 4
+  bookdown::pdf_book:
+    toc_depth: 4
+papersize: a4
 bibliography: references.bib
 ---
 
@@ -36,16 +40,20 @@ library("patchwork")
 library("khroma")
 ```
 
-This document describes the quantitative analysis our paper *Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia* (Arranz-Otaegui & Roe 2022).
-It is generated from the compendium of R code and data available at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>).
+# Introduction
 
-## Methods & Materials
+This document describes the quantitative analysis supporting our paper:
 
-The nature of our data and quantitative methods are described in general terms in the body of the paper.
-Here, we explain in more detail the methods used to transform our raw data and produce the figures, tables, and results presented.
-For the precise steps needed to reproduce this analysis, see the underlying R code and data files available in the compendium.
+> Arranz-Otaegui, Amaia and Roe, Joe. in prep. Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia. Submitted to *Vegetation History and Archaeobotany*.
 
-### Study region and period
+It is generated from the compendium of R code and data available at *insert Zenodo link* or as a git repository at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>.
+
+# Methods & Materials
+
+Please refer to accompanying publication for an introduction and justification for the data and quantitative approaches selected.
+Here, we explain in more detail the steps necessary to reproduce the figures, tables, and other results presented in the main text, and present some supplementary results that were not included due to length constraints.
+
+## Study region and period
 
 ```{r data-spatial, fig.cap='The study region', results='hide', layout='l-body-outset'}
 proj <- 22770
@@ -95,7 +103,7 @@ periods %>%
              start_bp = "Start (cal BP)", end_bp = "End (cal BP")
 ```
 
-### Archaeobotanical data (Southwest Asia)
+## Archaeobotanical data (Southwest Asia)
 
 We collated data from three large-scale archaeobotanical databases: ORIGINS [@Wallace2018], and COMPAG [@Lucas2018, @Fuller2018; incorporating @Colledge2004, @Shennan2007], and ADEMNES [@Riehl2005].
 To clean and make these datasets comparable, we:
@@ -153,7 +161,7 @@ flora %>%
 
 The resulting collated dataset (`analysis/data/derived_data/swasia_neolithic_flora.tsv`) includes archaeobotanical assemblages representing `r n_assemb` distinct phases from `r n_site` sites.
 
-### Archaeobotanical data (Europe)
+## Archaeobotanical data (Europe)
 
 ```{r data-flora-europe}
 flora_europe <- read_colledge2004(here("analysis/data/raw_data/colledge2004/"),
@@ -163,13 +171,14 @@ n_assemb_europe <- length(unique(flora_europe$phase))
 n_site_europe <- length(unique(flora_europe$site))
 ```
 
-We also used Colledge et al.'s [-@Colledge2004; see also [@Shennan2007] compilation of European data.
-Since this data did not need to be formally incorporated into the rest of the analyses, we simply imported Colledge et al.'s dataset as is, excluding non-European countries (for completeness Cyprus was included in both the European and Southwest Asian datasets).
+We also used Colledge et al.'s [-@Colledge2004] compilation of European data [see also @Shennan2007].
+Since this data did not need to be formally incorporated into the rest of the analyses, we simply imported Colledge et al.'s dataset as is, excluding non-European countries. 
 It includes `r n_assemb_europe` assemblages from `r n_site_europe` Neolithic sites across Europe, but only presence data.
+For completeness, Cyprus was included in both the European and Southwest Asian datasets.
 
-We used the European data to quantitatively assess early evidence for translocation of certain crops from Southwest Asia to Europe, reported in table X of the main text.
+We used this data to quantitatively assess early evidence for translocation of certain crops from Southwest Asia to Europe, reported in table X of the main text.
 
-### Chronological data
+## Chronological data
 
 All three databases include rough absolute date ranges (in the vast majority of cases summarised the available radiocarbon dates) for each sample.
 Using this data, each phase was classified into one of the cultural periods defined above using its mid-point date (table \@ref(tab:sample-periods)).
@@ -231,13 +240,13 @@ flora %>%
   flora_ts
 ```
 
-### Sample coverage
+## Sample coverage
 
 We are now in a position to inspect the geographical (fig. \@ref(fig:sample-map)) and temporal \@ref(fig:sample-chronology) coverage of the data.
 Unsurprisingly, the distribution is uneven. 
-Notably, we have few Epipalaeolithic sites, but a very large number of Chalcolithic sites;
-the regional coverage reflects broader trends in the research history of the region, with a large body of evidence from the Southern Levant, especially for earlier periods, and the rest of the region more patchily covered.
-Nevertheless, we have a decent baseline number of samples for each time slice in our analysis—the lowest is 11 assemblages, for the EPPNB—especially for the key Neolithic periods.
+Notably, we have few Epipalaeolithic sites, but a very large number of Chalcolithic sites.
+The regional coverage reflects broader trends in the research history of the region, with a large body of evidence from the Southern Levant, especially for earlier periods, and the rest of the region more patchily covered.
+Nevertheless, we consider that we have a sufficient baseline number of samples for each time slice in our analysis—the lowest is 11 assemblages, for the EPPNB—especially for the key Neolithic periods.
 
 ```{r sample-summary}
 flora %>% 
@@ -309,9 +318,9 @@ p2_top / p2_bottom
 #        units = "mm")
 ```
 
-## Results
+# Results
 
-### Ubiquity of all taxa in the Neolithic
+## Ubiquity of all taxa in the Neolithic
 
 Table \@ref(tab:all-ubiquity) summarises the occurrence of each standardised taxon across Neolithic assemblages, broken down by plant category.
 
@@ -376,7 +385,7 @@ flora %>%
   coord_flip() +
   scale_x_discrete(labels = function(x) str_trunc(x, 40)) +
   scale_y_continuous(labels = scales::label_percent()) +
-  scale_fill_manual(values = c("white", "black"), guide = FALSE) +
+  scale_fill_manual(values = c("white", "black"), guide = "none") +
   labs(x = NULL, y = "Assemblages present", 
        caption = "Includes only the 15 most ubiquitous taxa in each category.") +
   theme_minimal()
@@ -384,9 +393,9 @@ flora %>%
 # gtsave(occ_all, "figures/occ_all.html")
 ```
 
-### Founder crop ubiquity and abundance
+## Founder crop ubiquity and abundance
 
-#### By period
+### By period
 
 Table \@ref(tab:founder-ubiquity) summarises the ubiquity of the founder crop species in assemblages broken down by period, i.e. for each period, it shows the number of assemblages where *N* distinct founder species are present, for varying values of *N*.
 Given the inconsistent levels of identification between assemblages, emmer wheat and einkorn wheat are counted as one crop.
@@ -443,7 +452,7 @@ flora %>%
   )
 ```
 
-#### By century
+### By century
 
 For a more fine-grained look at the time series, we can use the century bins calculated above, 
 Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
@@ -511,7 +520,7 @@ p1 / p2
        # units = "mm")
 ```
 
-### Abundance of plant categories
+## Abundance of plant categories
 
 To move beyond the concept of "founder crops" vs. "wild plants", we classified each taxonomic record in our dataset on a number of other axes:
 
@@ -627,7 +636,7 @@ flora_ts %>%
 
 In the following sections, we will analyse trends within these categories in more detail.
 
-#### Grasses
+### Grasses
 
 ```{r common-grasses}
 flora %>% 
@@ -672,7 +681,7 @@ flora_ts %>%
   theme(legend.position = "bottom")
 ```
  
-#### Pulses
+### Pulses
 
 ```{r common-pulses}
 flora %>% 
@@ -717,7 +726,7 @@ flora_ts %>%
   theme(legend.position = "bottom")
 ```
 
-#### Wild plants
+### Wild plants
 
 ```{r common-wild-plants}
 flora %>% 
@@ -762,7 +771,7 @@ flora_ts %>%
   theme(legend.position = "bottom")
 ```
 
-#### Fruits and nuts
+### Fruits and nuts
 
 ```{r common-fruits-nuts}
 flora %>% 
