@@ -24,6 +24,7 @@ Imports:
     ggspatial,
     gt,
     patchwork,
+    cowplot,
     khroma,
     rmarkdown,
     bookdown,

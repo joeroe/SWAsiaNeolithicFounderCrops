@@ -37,6 +37,7 @@ library("here")
 library("gt")
 library("glue")
 library("patchwork")
+library("cowplot")
 library("khroma")
 ```
 
@@ -193,7 +194,8 @@ flora <- mutate(
                ordered_result = TRUE)
 )
 
-flora %>% 
+# MS Table 2
+table2 <- flora %>% 
   distinct(period, site_name, phase) %>% 
   add_count(period, name ="n_phases") %>% 
   distinct(period, site_name, n_phases) %>% 
@@ -201,9 +203,27 @@ flora %>%
   distinct(period, n_phases, n_sites) %>% 
   select(period, n_sites, n_phases) %>% 
   arrange(period) %>%
+  left_join(periods, by = "period") %>%
+  transmute(
+    period,
+    ka_cal_bp = paste0(start_bp / 1000, "–", end_bp / 1000),
+    agriculture,
+    n_sites,
+    n_phases
+  ) %>% 
   gt(caption = "Sites and assemblages per period") %>% 
-  cols_label(period = "Period", n_sites = "Sites", n_phases = "Assemblages") 
+  cols_label(
+    period = "Period", 
+    ka_cal_bp = "ka cal BP",
+    agriculture = "Subsistence",
+    n_sites = "N sites", 
+    n_phases = "N assemblages") %>% 
+  tab_style(cell_text(weight = "bold"), 
+            cells_body(columns = period, rows = period %in% neolithic))
+table2
+gtsave(table2, here("analysis/figures/table2.html"))
 
+# Save key statistics for later
 flora %>% 
   distinct(site_name, phase_code, period) %>% 
   filter(period %in% neolithic) %>% 
@@ -262,21 +282,27 @@ flora %>%
 p1 <- base_map + 
   geom_spatial_point(data = flora_phases, 
                      mapping = aes(longitude, latitude),
-                     size = 0.5) +
+                     size = 0.5,
+                     crs = unproj) +
   labs(x = NULL, y = NULL)
   
-p1_left <- p1 + facet_wrap(vars("All sites"))
+p1_left <- p1 + 
+  facet_wrap(vars("All sites")) + 
+  theme_minimal() +
+  theme(text = element_text(size = 9))
 p1_right <- p1 + 
   facet_wrap(vars(period)) + 
+  theme_minimal() +
   theme(axis.text = element_blank(),
-        axis.ticks = element_blank())
+        axis.ticks = element_blank(),
+        text = element_text(size = 9))
 
 p1_left + p1_right
 
-# ggsave(here("analysis/figures/sample-map.pdf"), width = 235, height = 160, 
-#        units = "mm")
-# ggsave(here("analysis/figures/sample-map.png"), width = 160, height = 80,
-#        units = "mm", dpi = 300)
+ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 116,
+       units = "mm")
+ggsave(here("analysis/figures/fig1.png"), width = 174, height = 116,
+       units = "mm", dpi = 300)
 ```
 
 
@@ -316,6 +342,36 @@ p2_top / p2_bottom
 
 # ggsave(here("analysis/figures/sample-chronology.pdf"), width = 160, height = 100, 
 #        units = "mm")
+```
+
+Table \@ref(tab:all-assemblages) lists all the assemblages included in our analysis.
+
+```{r all-assemblages, layout='l-body-outset'}
+flora_phases %>% 
+  select(
+    site_name,
+    phase,
+    source,
+    age_start,
+    age_end,
+    period
+  ) %>% 
+  mutate(
+    age_start = round(age_start / 1000, digits = 2), 
+    age_end = round(age_end / 1000, digits = 2)
+  ) %>% 
+  group_by(site_name) %>% 
+  gt(caption = "Assemblages included in the analysis") %>% 
+  cols_label(
+    phase = "Site/assemblage",
+    source = "Source",
+    age_start = "Reported age ka cal BP",
+    period = "Assigned period"
+  ) %>% 
+  cols_merge(c(age_start, age_end), pattern = "{1}&ndash;{2}") %>% 
+  cols_align("right", period) %>% 
+  fmt_missing(everything(), missing_text = "—") %>% 
+  tab_style(cell_text(weight = "bold"), cells_row_groups())
 ```
 
 # Results
@@ -626,12 +682,25 @@ flora_ts %>%
   # Plot
   ggplot(aes(century / 1000, avg_prop, fill = category)) +
   geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000)) +
+  geom_label(data = periods, 
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 9 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion()) +
+  scale_y_continuous(breaks = scales::breaks_pretty(5), 
+                     labels = scales::percent,
+                     limits = c(0, 1),
+                     expand = expansion()) +
   khroma::scale_fill_muted() +
-  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal() +
+  labs(x = "ka cal BP", y = "mean proportion of assemblage", fill = NULL) +
+  theme_half_open(font_size = 9) +
   theme(legend.position = "bottom")
+
+ggsave(here("analysis/figures/fig2.eps"), width = 174, height = 87,
+       units = "mm")
+ggsave(here("analysis/figures/fig2.png"), width = 174, height = 87,
+       units = "mm", dpi = 600, bg = "#ffffff")
 ```
 
 In the following sections, we will analyse trends within these categories in more detail.
@@ -653,7 +722,7 @@ The eight most ubiquitous grass taxonomic groups, measured by presence across Ne
 Figure \@ref(fig:grasses-ts) shows how the abundance of these taxa changed through time.
 
 ```{r grasses-ts, fig.cap='Abundance of grass taxa through time', layout='l-body-outset'}
-flora_ts %>% 
+p_ts_grasses <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Grasses") %>% 
   mutate(taxon = if_else(taxon %in% top_grasses, taxon, NA_character_)) %>% 
@@ -666,19 +735,35 @@ flora_ts %>%
   # Calculate average proportion per century
   group_by(century, taxon) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
-  # Refactor categories for plot
+  # Make gaps explicit
+  full_join(expand.grid(century = unique(.$century), taxon = unique(.$taxon)),
+            by = c("taxon", "century")) %>%
+  mutate(avg_prop = replace_na(avg_prop, 0)) %>% 
+  # Refactor & order categories for plotting
   mutate(
-    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
-    taxon = fct_explicit_na(taxon, "Other")) %>% 
+    taxon = factor(taxon, levels = rev(top_grasses)),
+    taxon = fct_explicit_na(taxon, "Other"),
+    taxon = fct_relabel(taxon, str_wrap, width = 40)
+  ) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
-  geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
-  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
+  geom_area(na.rm = TRUE) +
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000),
+             linetype = "dashed") +
+  geom_label(data = periods, 
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 7 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion()) +
+  scale_y_continuous(breaks = scales::breaks_width(0.1), 
+                     labels = scales::label_percent(accuracy = 1),
+                     expand = expansion(mult = c(0, 0.05))) +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 1)) +
+  labs(x = "ka cal BP", y = NULL, fill = "Grasses") +
+  theme_half_open(font_size = 9) +
+  theme(legend.position = "right", legend.title = element_text(face = "bold"))
+
+p_ts_grasses
 ```
  
 ### Pulses
@@ -698,7 +783,7 @@ The eight most ubiquitous pulse taxonomic groups, measured by presence across Ne
 Figure \@ref(fig:pulses-ts) shows how the abundance of these taxa changed through time.
 
 ```{r pulses-ts, fig.cap='Abundance of pulse taxa through time', layout='l-body-outset'}
-flora_ts %>% 
+p_ts_pulses <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Pulses") %>% 
   mutate(taxon = if_else(taxon %in% top_pulses, taxon, NA_character_)) %>% 
@@ -711,19 +796,35 @@ flora_ts %>%
   # Calculate average proportion per century
   group_by(century, taxon) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
-  # Refactor categories for plot
+  # Make gaps explicit
+  full_join(expand.grid(century = unique(.$century), taxon = unique(.$taxon)),
+            by = c("taxon", "century")) %>%
+  mutate(avg_prop = replace_na(avg_prop, 0)) %>% 
+  # Refactor & order categories for plotting
   mutate(
-    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
-    taxon = fct_explicit_na(taxon, "Other")) %>% 
+    taxon = factor(taxon, levels = rev(top_pulses)),
+    taxon = fct_explicit_na(taxon, "Other"),
+    taxon = fct_relabel(taxon, str_wrap, width = 40)
+  ) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
   geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
-  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000),
+             linetype = "dashed") +
+  geom_label(data = periods, 
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 7 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion()) +
+  scale_y_continuous(breaks = scales::breaks_width(0.1), 
+                     labels = scales::percent,
+                     expand = expansion(mult = c(0, 0.05))) +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 1)) +
+  labs(x = "ka cal BP", y = NULL, fill = "Pulses") +
+  theme_half_open(font_size = 9) +
+  theme(legend.position = "right", legend.title = element_text(face = "bold"))
+
+p_ts_pulses
 ```
 
 ### Wild plants
@@ -743,7 +844,7 @@ The eight most ubiquitous 'wild plant' taxonomic groups, measured by presence ac
 Figure \@ref(fig:wild-plants-ts) shows how the abundance of these taxa changed through time.
 
 ```{r wild-plants-ts, fig.cap='Abundance of wild plant taxa through time', layout='l-body-outset'}
-flora_ts %>% 
+p_ts_wild_plants <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Wild plants") %>% 
   mutate(taxon = if_else(taxon %in% top_wild_plants, taxon, NA_character_)) %>% 
@@ -756,19 +857,35 @@ flora_ts %>%
   # Calculate average proportion per century
   group_by(century, taxon) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
-  # Refactor categories for plot
+  # Make gaps explicit
+  full_join(expand.grid(century = unique(.$century), taxon = unique(.$taxon)),
+            by = c("taxon", "century")) %>%
+  mutate(avg_prop = replace_na(avg_prop, 0)) %>% 
+  # Refactor & order categories for plotting
   mutate(
-    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
-    taxon = fct_explicit_na(taxon, "Other")) %>% 
+    taxon = factor(taxon, levels = rev(top_wild_plants)),
+    taxon = fct_explicit_na(taxon, "Other"),
+    taxon = fct_relabel(taxon, str_wrap, width = 40)
+  ) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
   geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
-  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000),
+             linetype = "dashed") +
+  geom_label(data = periods, 
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 7 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion()) +
+  scale_y_continuous(breaks = scales::breaks_width(0.1), 
+                     labels = scales::percent,
+                     expand = expansion(mult = c(0, 0.05))) +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 1)) +
+  labs(x = "ka cal BP", y = NULL, fill = "Wild plants") +
+  theme_half_open(font_size = 9) +
+  theme(legend.position = "right", legend.title = element_text(face = "bold"))
+
+p_ts_wild_plants
 ```
 
 ### Fruits and nuts
@@ -788,7 +905,7 @@ The eight most ubiquitous fruit/nut taxonomic groups, measured by presence acros
 Figure \@ref(fig:fruits-nuts-ts) shows how the abundance of these taxa changed through time.
 
 ```{r fruits-nuts-ts, fig.cap='Abundance of fruit/nut taxa through time', layout='l-body-outset'}
-flora_ts %>% 
+p_ts_fruits_nuts <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Fruits/nuts") %>% 
   mutate(taxon = if_else(taxon %in% top_fruits_nuts, taxon, NA_character_)) %>% 
@@ -801,19 +918,45 @@ flora_ts %>%
   # Calculate average proportion per century
   group_by(century, taxon) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb), .groups = "drop_last") %>%
-  # Refactor categories for plot
+  # Make gaps explicit
+  full_join(expand.grid(century = unique(.$century), taxon = unique(.$taxon)),
+            by = c("taxon", "century")) %>%
+  mutate(avg_prop = replace_na(avg_prop, 0)) %>% 
+  # Refactor & order categories for plotting
   mutate(
-    taxon = fct_reorder(taxon, avg_prop, .fun = sum, .desc = FALSE),
-    taxon = fct_explicit_na(taxon, "Other")) %>% 
+    taxon = factor(taxon, levels = rev(top_fruits_nuts)),
+    taxon = fct_explicit_na(taxon, "Other"),
+    taxon = fct_relabel(taxon, str_wrap, width = 40)
+  ) %>% 
   # Plot
-  ggplot(aes(century / 1000, avg_prop, fill = str_wrap(taxon, 60))) +
+  ggplot(aes(century / 1000, avg_prop, fill = taxon)) +
   geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(breaks = scales::breaks_pretty(5), labels = scales::percent) +
-  khroma::scale_fill_muted(guide = guide_legend(ncol = 2)) +
-  labs(x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal() +
-  theme(legend.position = "bottom")
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000),
+             linetype = "dashed") +
+  geom_label(data = periods, 
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 7 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion()) +
+  scale_y_continuous(breaks = scales::breaks_width(0.1), 
+                     labels = scales::percent,
+                     expand = expansion(mult = c(0, 0.05))) +
+  khroma::scale_fill_muted(guide = guide_legend(ncol = 1)) +
+  labs(x = "ka cal BP", y = NULL, fill = "Fruits & nuts") +
+  theme_half_open(font_size = 9) +
+  theme(legend.position = "right", legend.title = element_text(face = "bold"))
+
+p_ts_fruits_nuts
 ```
 
+```{r combined-category-ts, include=FALSE}
+p_ts_grasses /
+p_ts_pulses /
+p_ts_wild_plants /
+p_ts_fruits_nuts
 
+ggsave(here("analysis/figures/fig3.eps"), width = 174, height = 234,
+       units = "mm")
+ggsave(here("analysis/figures/fig3.png"), width = 174, height = 234,
+       units = "mm")
+```
