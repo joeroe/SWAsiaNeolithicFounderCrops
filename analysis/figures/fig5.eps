@@ -1,0 +1,1035 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%DocumentNeededResources: font Helvetica
+%%+ font Helvetica-Bold
+%%+ font Helvetica-Oblique
+%%+ font Helvetica-BoldOblique
+%%+ font Symbol
+%%Title: R Graphics Output
+%%Creator: R Software
+%%Pages: (atend)
+%%BoundingBox: 0 0 493 493
+%%EndComments
+%%BeginProlog
+/bp  { gs sRGB gs } def
+% begin .ps.prolog
+/gs  { gsave } bind def
+/gr  { grestore } bind def
+/ep  { showpage gr gr } bind def
+/m   { moveto } bind def
+/l  { rlineto } bind def
+/np  { newpath } bind def
+/cp  { closepath } bind def
+/f   { fill } bind def
+/o   { stroke } bind def
+/c   { newpath 0 360 arc } bind def
+/r   { 4 2 roll moveto 1 copy 3 -1 roll exch 0 exch rlineto 0 rlineto -1 mul 0 exch rlineto closepath } bind def
+/p1  { stroke } bind def
+/p2  { gsave bg fill grestore newpath } bind def
+/p3  { gsave bg fill grestore stroke } bind def
+/p6  { gsave bg eofill grestore newpath } bind def
+/p7  { gsave bg eofill grestore stroke } bind def
+/t   { 5 -2 roll moveto gsave rotate
+       1 index stringwidth pop
+       mul neg 0 rmoveto show grestore } bind def
+/ta  { 4 -2 roll moveto gsave rotate show } bind def
+/tb  { 2 -1 roll 0 rmoveto show } bind def
+/cl  { grestore gsave newpath 3 index 3 index moveto 1 index
+       4 -1 roll lineto  exch 1 index lineto lineto
+       closepath clip newpath } bind def
+/rgb { setrgbcolor } bind def
+/s   { scalefont setfont } bind def
+% end   .ps.prolog
+/sRGB { [ /CIEBasedABC
+          << /DecodeLMN
+               [ { dup 0.03928 le
+                        {12.92321 div}
+                        {0.055 add 1.055 div 2.4 exp }
+                     ifelse
+                 } bind dup dup
+               ]
+             /MatrixLMN [0.412457 0.212673 0.019334
+                         0.357576 0.715152 0.119192
+                         0.180437 0.072175 0.950301]
+             /WhitePoint [0.9505 1.0 1.0890]
+           >>
+         ] setcolorspace } bind def
+/srgb { setcolor } bind def
+%%IncludeResource: font Helvetica
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font1 exch definefont pop
+%%IncludeResource: font Helvetica-Bold
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font2 exch definefont pop
+%%IncludeResource: font Helvetica-Oblique
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font3 exch definefont pop
+%%IncludeResource: font Helvetica-BoldOblique
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding ISOLatin1Encoding def
+  currentdict
+  end
+/Font4 exch definefont pop
+%%IncludeResource: font Symbol
+/Symbol findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  currentdict
+  end
+/Font5 exch definefont pop
+%%EndProlog
+%%Page: 1 1
+bp
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+354.75 376.63 488.75 476.76 cl
+/bg { 1 1 1 srgb } def
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+0 setlinejoin
+10.00 setmiterlimit
+360.84 469.84 90.38 5.93 r p3
+360.84 463.25 52.07 5.93 r p3
+360.84 456.67 28.49 5.93 r p3
+360.84 450.08 27.51 5.93 r p3
+360.84 443.49 16.70 5.93 r p3
+360.84 423.73 9.82 5.93 r p3
+360.84 430.32 9.82 5.93 r p3
+360.84 436.90 9.82 5.93 r p3
+360.84 417.14 6.88 5.93 r p3
+360.84 390.79 1.96 5.93 r p3
+360.84 397.38 1.96 5.93 r p3
+360.84 403.97 1.96 5.93 r p3
+360.84 410.55 1.96 5.93 r p3
+360.84 377.62 0.98 5.93 r p3
+360.84 384.21 0.98 5.93 r p3
+0.00 0.00 493.23 493.23 cl
+354.75 260.03 488.75 360.16 cl
+/bg { 0 0 0 srgb } def
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+0 setlinejoin
+10.00 setmiterlimit
+360.84 353.24 121.81 5.93 r p3
+360.84 346.66 75.64 5.93 r p3
+360.84 340.07 68.77 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 333.48 67.78 5.93 r p3
+/bg { 0 0 0 srgb } def
+360.84 326.89 59.92 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 313.72 57.96 5.93 r p3
+360.84 320.31 57.96 5.93 r p3
+360.84 307.13 47.15 5.93 r p3
+360.84 300.54 43.22 5.93 r p3
+360.84 293.96 40.28 5.93 r p3
+360.84 287.37 38.31 5.93 r p3
+360.84 280.78 33.40 5.93 r p3
+360.84 274.19 27.51 5.93 r p3
+360.84 267.61 24.56 5.93 r p3
+360.84 261.02 18.66 5.93 r p3
+0.00 0.00 493.23 493.23 cl
+354.75 143.43 488.75 243.56 cl
+/bg { 0 0 0 srgb } def
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+0 setlinejoin
+10.00 setmiterlimit
+360.84 236.64 105.11 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 230.06 71.71 5.93 r p3
+/bg { 0 0 0 srgb } def
+360.84 223.47 44.21 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 216.88 43.22 5.93 r p3
+360.84 210.29 39.29 5.93 r p3
+360.84 203.71 34.38 5.93 r p3
+/bg { 0 0 0 srgb } def
+360.84 197.12 32.42 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 190.53 28.49 5.93 r p3
+/bg { 0 0 0 srgb } def
+360.84 183.94 19.65 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 177.36 15.72 5.93 r p3
+360.84 170.77 14.74 5.93 r p3
+360.84 164.18 13.75 5.93 r p3
+360.84 151.01 8.84 5.93 r p3
+360.84 157.60 8.84 5.93 r p3
+360.84 144.42 3.93 5.93 r p3
+0.00 0.00 493.23 493.23 cl
+354.75 26.83 488.75 126.96 cl
+/bg { 1 1 1 srgb } def
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+0 setlinejoin
+10.00 setmiterlimit
+360.84 120.05 55.99 5.93 r p3
+360.84 113.46 55.01 5.93 r p3
+360.84 106.87 46.17 5.93 r p3
+360.84 100.28 45.19 5.93 r p3
+360.84 93.70 40.28 5.93 r p3
+360.84 87.11 38.31 5.93 r p3
+360.84 80.52 37.33 5.93 r p3
+/bg { 0 0 0 srgb } def
+360.84 73.93 35.37 5.93 r p3
+/bg { 1 1 1 srgb } def
+360.84 67.35 32.42 5.93 r p3
+360.84 60.76 30.45 5.93 r p3
+360.84 54.17 28.49 5.93 r p3
+360.84 47.58 25.54 5.93 r p3
+360.84 41.00 24.56 5.93 r p3
+360.84 27.82 21.61 5.93 r p3
+360.84 34.41 21.61 5.93 r p3
+0.00 0.00 493.23 493.23 cl
+354.75 126.96 488.75 138.95 cl
+354.75 126.96 488.75 138.95 cl
+/bg { 0.8000 0.8000 0.8000 srgb } def
+354.75 126.96 134.00 11.99 r p2
+/Font1 findfont 8 s
+0 0 0 srgb
+421.75 130.08 (Wild plants) .5 0 t
+354.75 126.96 488.75 138.95 cl
+354.75 126.96 488.75 138.95 cl
+0.00 0.00 493.23 493.23 cl
+354.75 243.56 488.75 255.55 cl
+354.75 243.56 488.75 255.55 cl
+/bg { 0.8000 0.8000 0.8000 srgb } def
+354.75 243.56 134.00 11.99 r p2
+/Font1 findfont 8 s
+0 0 0 srgb
+421.75 246.68 (Pulses) .5 0 t
+354.75 243.56 488.75 255.55 cl
+354.75 243.56 488.75 255.55 cl
+0.00 0.00 493.23 493.23 cl
+354.75 360.16 488.75 372.15 cl
+354.75 360.16 488.75 372.15 cl
+/bg { 0.8000 0.8000 0.8000 srgb } def
+354.75 360.16 134.00 11.99 r p2
+/Font1 findfont 8 s
+0 0 0 srgb
+406.86 363.28 (Gr) 0 ta
+-0.080 (asses) tb gr
+354.75 360.16 488.75 372.15 cl
+354.75 360.16 488.75 372.15 cl
+0.00 0.00 493.23 493.23 cl
+354.75 476.76 488.75 488.75 cl
+354.75 476.76 488.75 488.75 cl
+/bg { 0.8000 0.8000 0.8000 srgb } def
+354.75 476.76 134.00 11.99 r p2
+/Font1 findfont 8 s
+0 0 0 srgb
+403.08 479.88 (Fr) 0 ta
+0.120 (uits/n) tb
+-0.080 (uts) tb gr
+354.75 476.76 488.75 488.75 cl
+354.75 476.76 488.75 488.75 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+354.75 26.83 m
+134.00 0 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+360.84 24.59 m
+0 2.24 l
+o
+np
+396.45 24.59 m
+0 2.24 l
+o
+np
+432.06 24.59 m
+0 2.24 l
+o
+np
+467.67 24.59 m
+0 2.24 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+/Font1 findfont 8 s
+0 0 0 srgb
+360.84 16.93 (0%) .5 0 t
+396.45 16.93 (25%) .5 0 t
+432.06 16.93 (50%) .5 0 t
+467.67 16.93 (75%) .5 0 t
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+354.75 376.63 m
+0 100.13 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+/Font1 findfont 8 s
+0 0 0 srgb
+262.12 377.71 (Cupressus semper) 0 ta
+0.240 (virens) tb gr
+199.86 384.30 (Phoenix spp) 0 ta
+-0.280 (. \(incl. dactylif) tb
+-0.240 (er) tb
+-0.080 (a, theophr) tb
+-0.080 (asti\)) tb gr
+303.01 390.88 (J) 0 ta
+-0.160 (uglans regia) tb gr
+251.00 397.47 (Punica spp) 0 ta
+-0.280 (. \(incl. gr) tb
+-0.080 (anatum\)) tb gr
+317.24 404.06 (Pyr) 0 ta
+0.120 (us sp) tb
+-0.280 (.) tb gr
+146.95 410.65 (Rub) 0 ta
+-0.160 (us spp) tb
+-0.280 (. \(incl. caesius) tb
+-0.120 (, fr) tb
+0.120 (uticosus) tb
+-0.120 (, idaeus) tb
+-0.120 (, sanguineus\)) tb gr
+198.98 417.23 (Quercus spp) 0 ta
+-0.280 (. \(incl. inf) tb
+-0.240 (ector) tb
+0.120 (ia, ithab) tb
+-0.160 (urensis\)) tb gr
+200.31 423.82 (Cr) 0 ta
+-0.080 (ataegus spp) tb
+-0.280 (. \(incl. azarolus) tb
+-0.120 (, monogyna\)) tb gr
+258.55 430.41 (Olea spp) 0 ta
+-0.280 (. \(incl. europaea\)) tb gr
+275.89 437.00 (Pr) 0 ta
+0.120 (un) tb
+-0.080 (us spp) tb
+-0.280 (. \(indeter\)) tb gr
+231.01 443.58 (Vitis spp) 0 ta
+-0.280 (. \(incl. sylv) tb
+-0.200 (estr) tb
+0.120 (is) tb
+-0.120 (, vinif) tb
+-0.240 (er) tb
+-0.080 (a\)) tb gr
+166.55 450.17 (Am) 0 ta
+-0.120 (ygdalus spp) tb
+-0.280 (. \(incl. comm) tb
+-0.080 (unis) tb
+-0.120 (, k) tb
+-0.160 (orshinskyi, w) tb
+-0.080 (ebii\)) tb gr
+249.67 456.76 (Cappar) 0 ta
+0.120 (is spp) tb
+-0.280 (. \(incl. spinosa\)) tb gr
+268.80 463.35 (Ficus spp) 0 ta
+-0.280 (. \(incl. car) tb
+0.120 (ica\)) tb gr
+110.93 469.93 (Pistacia spp) 0 ta
+-0.280 (. \(incl. atlantica, lentiscus) tb
+-0.120 (, palaestina, terebinthus) tb
+-0.120 (, v) tb
+-0.200 (er) tb
+-0.080 (a\)) tb gr
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+352.51 380.58 m
+2.24 0 l
+o
+np
+352.51 387.17 m
+2.24 0 l
+o
+np
+352.51 393.76 m
+2.24 0 l
+o
+np
+352.51 400.34 m
+2.24 0 l
+o
+np
+352.51 406.93 m
+2.24 0 l
+o
+np
+352.51 413.52 m
+2.24 0 l
+o
+np
+352.51 420.11 m
+2.24 0 l
+o
+np
+352.51 426.69 m
+2.24 0 l
+o
+np
+352.51 433.28 m
+2.24 0 l
+o
+np
+352.51 439.87 m
+2.24 0 l
+o
+np
+352.51 446.46 m
+2.24 0 l
+o
+np
+352.51 453.04 m
+2.24 0 l
+o
+np
+352.51 459.63 m
+2.24 0 l
+o
+np
+352.51 466.22 m
+2.24 0 l
+o
+np
+352.51 472.81 m
+2.24 0 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+354.75 260.03 m
+0 100.13 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+/Font1 findfont 8 s
+0 0 0 srgb
+221.66 261.11 (Eremop) 0 ta
+-0.240 (yr) tb
+0.120 (um spp) tb
+-0.280 (. \(incl. bonaepar) tb
+0.320 (tis\)) tb gr
+270.56 267.70 (Hordeum sp) 0 ta
+-0.280 (. \(indeter) tb
+-0.400 (.\)) tb gr
+63.84 274.29 (Hordeum spp) 0 ta
+-0.280 (. \(b) tb
+-0.160 (ulbosum, glaucum, m) tb
+-0.080 (ur) tb
+0.120 (in) tb
+-0.080 (um, mar) tb
+0.120 (in) tb
+-0.080 (um, h) tb
+-0.240 (ystr) tb
+0.120 (ix, sphaerococcum\)) tb gr
+223.45 280.87 (T) 0 ta
+-0.960 (r) tb
+0.120 (iticum spp) tb
+-0.280 (. \(inc. aestivum, dur) tb
+0.120 (um\)) tb gr
+224.31 287.46 (Stipa spp) 0 ta
+-0.280 (. \(incl. capensis) tb
+-0.120 (, gigantea\)) tb gr
+130.50 294.05 (A) 0 ta
+-0.320 (v) tb
+-0.200 (ena spp) tb
+-0.280 (. \(incl. barbata, clauda, f) tb
+-0.240 (atua, sativ) tb
+-0.200 (a, ster) tb
+0.120 (ilis) tb
+-0.120 (, wiestii\)) tb gr
+186.97 300.64 (Phalar) 0 ta
+0.120 (is spp) tb
+-0.280 (. \(incl. minor) tb
+-0.400 (, par) tb
+-0.080 (ado) tb
+-0.240 (xa, tuberosa\)) tb gr
+97.60 307.22 (Aegilops spp) 0 ta
+-0.280 (. \(incl. cr) tb
+-0.080 (assa, k) tb
+-0.160 (otsch) tb
+-0.240 (yi, peregr) tb
+0.120 (ina, speltoides) tb
+-0.120 (, umbellulata\)) tb gr
+26.02 313.81 (Brom) 0 ta
+-0.080 (us spp) tb
+-0.280 (. \(incl. ar) tb
+0.240 (v) tb
+-0.200 (ensis) tb
+-0.120 (, danthoniae) tb
+-0.120 (, diandr) tb
+0.120 (us) tb
+-0.120 (, hordeaceus) tb
+-0.120 (, secalin) tb
+-0.080 (us) tb
+-0.120 (, ster) tb
+0.120 (ilis) tb
+-0.120 (, tector) tb
+0.120 (um\)) tb gr
+106.52 320.40 (Lolium spp) 0 ta
+-0.280 (. \(incl. perenne) tb
+-0.120 (, persicum, remotum, r) tb
+0.120 (igidum, tem) tb
+-0.080 (ulentum\)) tb gr
+194.11 326.99 (T) 0 ta
+-0.960 (r) tb
+0.120 (iticum spp) tb
+-0.280 (. \(incl. boeoticum/monococcum\)) tb gr
+270.57 333.57 (T) 0 ta
+-0.960 (r) tb
+0.120 (iticum spp) tb
+-0.280 (. \(indeter) tb
+-0.400 (.\)) tb gr
+203.00 340.16 (T) 0 ta
+-0.960 (r) tb
+0.120 (iticum spp) tb
+-0.280 (. \(incl. dicoccoides/dicoccum\)) tb gr
+241.22 346.75 (T) 0 ta
+-0.960 (r) tb
+0.120 (iticum spp) tb
+-0.280 (. \(indeter) tb
+-0.400 (. f) tb
+-0.240 (ounder\)) tb gr
+210.54 353.33 (Hordeum spp) 0 ta
+-0.280 (. \(spontaneum, distichum\)) tb gr
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+352.51 263.98 m
+2.24 0 l
+o
+np
+352.51 270.57 m
+2.24 0 l
+o
+np
+352.51 277.16 m
+2.24 0 l
+o
+np
+352.51 283.75 m
+2.24 0 l
+o
+np
+352.51 290.33 m
+2.24 0 l
+o
+np
+352.51 296.92 m
+2.24 0 l
+o
+np
+352.51 303.51 m
+2.24 0 l
+o
+np
+352.51 310.10 m
+2.24 0 l
+o
+np
+352.51 316.68 m
+2.24 0 l
+o
+np
+352.51 323.27 m
+2.24 0 l
+o
+np
+352.51 329.86 m
+2.24 0 l
+o
+np
+352.51 336.44 m
+2.24 0 l
+o
+np
+352.51 343.03 m
+2.24 0 l
+o
+np
+352.51 349.62 m
+2.24 0 l
+o
+np
+352.51 356.21 m
+2.24 0 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+354.75 143.43 m
+0 100.13 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+/Font1 findfont 8 s
+0 0 0 srgb
+307.03 144.51 (T) 0 ta
+-0.960 (r) tb
+0.120 (if) tb
+-0.240 (olium sp) tb
+-0.280 (.) tb gr
+258.12 151.10 (Prosopis spp) 0 ta
+-0.280 (. \(incl. f) tb
+-0.240 (arcta\)) tb gr
+236.34 157.69 (Scor) 0 ta
+0.240 (piur) tb
+0.120 (us spp) tb
+-0.280 (. \(incl. m) tb
+-0.080 (ur) tb
+0.120 (icatus\)) tb gr
+230.78 164.27 (Onobr) 0 ta
+0.240 (ychis spp) tb
+-0.280 (. \(incl. cr) tb
+0.120 (ista-galli\)) tb gr
+306.13 170.86 (Coronilla sp) 0 ta
+-0.280 (.) tb gr
+306.13 177.45 (Melilotus sp) 0 ta
+-0.280 (.) tb gr
+257.68 184.04 (Cicer spp) 0 ta
+-0.280 (. \(incl. ar) tb
+0.120 (ietin) tb
+-0.080 (um\)) tb gr
+130.96 190.62 (Lathr) 0 ta
+0.240 (yr) tb
+0.120 (us spp) tb
+-0.280 (. \(incl. aphaca, cicer) tb
+-0.080 (a, hirsutus) tb
+-0.120 (, nissolia, sativus\)) tb gr
+310.14 197.21 (Vicia er) 0 ta
+0.240 (vilia) tb gr
+59.38 203.80 (Medicago spp) 0 ta
+-0.280 (. \(incl. laciniata, minima, orbicular) tb
+0.120 (is) tb
+-0.120 (, polymor) tb
+0.240 (pha, r) tb
+-0.080 (adiata, tr) tb
+0.120 (uncatula\)) tb gr
+145.17 210.39 (T) 0 ta
+-0.960 (r) tb
+0.120 (igonella spp) tb
+-0.280 (. \(incl. ar) tb
+-0.080 (abica, atroites) tb
+-0.120 (, neoeana, sibthor) tb
+0.240 (pii\)) tb gr
+128.74 216.97 (Astr) 0 ta
+-0.080 (agalus spp) tb
+-0.280 (. \(incl. ann) tb
+-0.080 (ular) tb
+0.120 (is) tb
+-0.120 (, callichrous) tb
+-0.120 (, tr) tb
+0.120 (ib) tb
+-0.160 (uloides) tb
+-0.120 (, v) tb
+-0.200 (ogelii\)) tb gr
+231.89 223.56 (Pisum spp) 0 ta
+-0.280 (. \(incl. elatius) tb
+-0.120 (, sativum\)) tb gr
+166.06 230.15 (Vicia spp) 0 ta
+-0.280 (. \(incl. f) tb
+-0.240 (aba, narbonense) tb
+-0.120 (, peregr) tb
+0.120 (ina, sativ) tb
+-0.200 (a\)) tb gr
+226.11 236.74 (Lens spp) 0 ta
+-0.280 (. \(incl. culinar) tb
+0.120 (is) tb
+-0.120 (, or) tb
+0.120 (ientalis\)) tb gr
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+352.51 147.38 m
+2.24 0 l
+o
+np
+352.51 153.97 m
+2.24 0 l
+o
+np
+352.51 160.56 m
+2.24 0 l
+o
+np
+352.51 167.15 m
+2.24 0 l
+o
+np
+352.51 173.73 m
+2.24 0 l
+o
+np
+352.51 180.32 m
+2.24 0 l
+o
+np
+352.51 186.91 m
+2.24 0 l
+o
+np
+352.51 193.50 m
+2.24 0 l
+o
+np
+352.51 200.08 m
+2.24 0 l
+o
+np
+352.51 206.67 m
+2.24 0 l
+o
+np
+352.51 213.26 m
+2.24 0 l
+o
+np
+352.51 219.85 m
+2.24 0 l
+o
+np
+352.51 226.43 m
+2.24 0 l
+o
+np
+352.51 233.02 m
+2.24 0 l
+o
+np
+352.51 239.61 m
+2.24 0 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+2 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+354.75 26.83 m
+0 100.13 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+/Font1 findfont 8 s
+0 0 0 srgb
+238.12 27.91 (Care) 0 ta
+-0.240 (x spp) tb
+-0.280 (. \(incl. divisa, divulsa\)) tb gr
+144.30 34.50 (Chenopodium spp) 0 ta
+-0.280 (. \(incl. alb) tb
+-0.160 (um, glaucum, m) tb
+-0.080 (ur) tb
+-0.080 (ale) tb
+-0.120 (, r) tb
+0.120 (ubr) tb
+0.120 (um\)) tb gr
+6.04 41.09 (Rume) 0 ta
+-0.240 (x spp) tb
+-0.280 (. \(incl. acetocella, conglomer) tb
+-0.080 (atus) tb
+-0.120 (, cr) tb
+0.120 (ispus) tb
+-0.120 (, dentatus) tb
+-0.120 (, mar) tb
+0.120 (itim) tb
+-0.080 (us) tb
+-0.120 (, pulcher) tb
+-0.400 (, simpliciflor) tb
+0.120 (u...) tb gr
+234.10 47.68 (Centaurea spp) 0 ta
+-0.280 (. \(incl. pallescens\)) tb gr
+2.88 54.26 (Plantago spp) 0 ta
+-0.280 (. \(ample) tb
+-0.240 (xicaulis) tb
+-0.120 (, arenar) tb
+0.120 (ia, coronopus) tb
+-0.120 (, lagopus) tb
+-0.120 (, lanceolata, major) tb
+-0.400 (, o) tb
+-0.120 (v) tb
+-0.200 (ata, psyllium, s) tb
+-0.120 (...) tb gr
+199.87 60.85 (Ar) 0 ta
+0.200 (nebia spp) tb
+-0.280 (. \(incl. decumbens) tb
+-0.120 (, linear) tb
+0.120 (if) tb
+-0.240 (olia\)) tb gr
+114.94 67.44 (Adonis spp) 0 ta
+-0.280 (. \(incl. aestiv) tb
+-0.200 (alis) tb
+-0.120 (, ann) tb
+-0.080 (ua, dentata, flammea, microcar) tb
+0.240 (pa\)) tb gr
+129.20 74.03 (Lin) 0 ta
+-0.080 (um spp) tb
+-0.280 (. \(incl. bienne) tb
+-0.120 (, usitatissim) tb
+-0.080 (um, m) tb
+-0.080 (ucronatum, str) tb
+0.120 (ictum\)) tb gr
+116.27 80.61 (Silene spp) 0 ta
+-0.280 (. \(incl. aegyptiaca, ar) tb
+-0.080 (abica, color) tb
+-0.080 (ata, dichotoma, gallica\)) tb gr
+251.88 87.20 (Br) 0 ta
+-0.080 (assicaceae indet. \(edib) tb
+-0.160 (le\)) tb gr
+91.84 93.79 (Heliotropium spp) 0 ta
+-0.280 (. \(incl. europaeum, persicum, rotundif) tb
+-0.240 (olium, sua) tb
+-0.160 (v) tb
+-0.200 (eolens\)) tb gr
+194.53 100.38 (Buglossoides spp) 0 ta
+-0.280 (. \(incl. ar) tb
+0.240 (v) tb
+-0.200 (ensis) tb
+-0.120 (, ten) tb
+-0.080 (uiflor) tb
+-0.080 (a\)) tb gr
+140.75 106.96 (Malv) 0 ta
+-0.200 (a spp) tb
+-0.280 (. \(incl. aegyptia, nicaeensis) tb
+-0.120 (, par) tb
+0.240 (viflor) tb
+-0.080 (a, sylv) tb
+-0.200 (estr) tb
+0.120 (is\)) tb gr
+101.19 113.55 (Galium spp) 0 ta
+-0.280 (. \(incl. apar) tb
+0.120 (ine) tb
+-0.120 (, mollugo) tb
+-0.320 (, spur) tb
+0.120 (ium, tr) tb
+0.120 (icor) tb
+0.200 (notum, v) tb
+-0.200 (err) tb
+0.120 (ucosum\)) tb gr
+187.87 120.14 (Bolboschoen) 0 ta
+-0.080 (us spp) tb
+-0.280 (. \(incl. glaucus) tb
+-0.120 (, mar) tb
+0.120 (itim) tb
+-0.080 (us\)) tb gr
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0 0 0 srgb
+1.07 setlinewidth
+[] 0 setdash
+0 setlinecap
+1 setlinejoin
+10.00 setmiterlimit
+np
+352.51 30.79 m
+2.24 0 l
+o
+np
+352.51 37.37 m
+2.24 0 l
+o
+np
+352.51 43.96 m
+2.24 0 l
+o
+np
+352.51 50.55 m
+2.24 0 l
+o
+np
+352.51 57.14 m
+2.24 0 l
+o
+np
+352.51 63.72 m
+2.24 0 l
+o
+np
+352.51 70.31 m
+2.24 0 l
+o
+np
+352.51 76.90 m
+2.24 0 l
+o
+np
+352.51 83.49 m
+2.24 0 l
+o
+np
+352.51 90.07 m
+2.24 0 l
+o
+np
+352.51 96.66 m
+2.24 0 l
+o
+np
+352.51 103.25 m
+2.24 0 l
+o
+np
+352.51 109.83 m
+2.24 0 l
+o
+np
+352.51 116.42 m
+2.24 0 l
+o
+np
+352.51 123.01 m
+2.24 0 l
+o
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+/Font1 findfont 9 s
+0 0 0 srgb
+351.97 6.46 (Propor) 0 ta
+0.360 (tion of assemb) tb
+-0.180 (lages present) tb gr
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+0.00 0.00 493.23 493.23 cl
+ep
+%%Trailer
+%%Pages: 1
+%%EOF

@@ -347,31 +347,31 @@ p2_top / p2_bottom
 Table \@ref(tab:all-assemblages) lists all the assemblages included in our analysis.
 
 ```{r all-assemblages, layout='l-body-outset'}
-flora_phases %>% 
-  select(
-    site_name,
-    phase,
-    source,
-    age_start,
-    age_end,
-    period
-  ) %>% 
-  mutate(
-    age_start = round(age_start / 1000, digits = 2), 
-    age_end = round(age_end / 1000, digits = 2)
-  ) %>% 
-  group_by(site_name) %>% 
-  gt(caption = "Assemblages included in the analysis") %>% 
-  cols_label(
-    phase = "Site/assemblage",
-    source = "Source",
-    age_start = "Reported age ka cal BP",
-    period = "Assigned period"
-  ) %>% 
-  cols_merge(c(age_start, age_end), pattern = "{1}&ndash;{2}") %>% 
-  cols_align("right", period) %>% 
-  fmt_missing(everything(), missing_text = "—") %>% 
-  tab_style(cell_text(weight = "bold"), cells_row_groups())
+# flora_phases %>% 
+#   select(
+#     site_name,
+#     phase,
+#     source,
+#     age_start,
+#     age_end,
+#     period
+#   ) %>% 
+#   mutate(
+#     age_start = round(age_start / 1000, digits = 2), 
+#     age_end = round(age_end / 1000, digits = 2)
+#   ) %>% 
+#   group_by(site_name) %>% 
+#   gt(caption = "Assemblages included in the analysis") %>% 
+#   cols_label(
+#     phase = "Site/assemblage",
+#     source = "Source",
+#     age_start = "Reported age ka cal BP",
+#     period = "Assigned period"
+#   ) %>% 
+#   cols_merge(c(age_start, age_end), pattern = "{1}&ndash;{2}") %>% 
+#   cols_align("right", period) %>% 
+#   fmt_missing(everything(), missing_text = "—") %>% 
+#   tab_style(cell_text(weight = "bold"), cells_row_groups())
 ```
 
 # Results
@@ -413,7 +413,7 @@ flora %>%
   tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop)))
 ```
 
-This summary data underlies figure X in the main text.
+This summary data underlies figure 5 in the main text.
 
 ```{r all-ubiquity-plot, fig.height=12, include=FALSE}
 flora %>% 
@@ -439,14 +439,16 @@ flora %>%
   facet_wrap(vars(category), ncol = 1, scales = "free_y") +
   geom_col(colour = "black") +
   coord_flip() +
-  scale_x_discrete(labels = function(x) str_trunc(x, 40)) +
+  scale_x_discrete(labels = function(x) str_trunc(x, 100)) +
   scale_y_continuous(labels = scales::label_percent()) +
   scale_fill_manual(values = c("white", "black"), guide = "none") +
-  labs(x = NULL, y = "Assemblages present", 
-       caption = "Includes only the 15 most ubiquitous taxa in each category.") +
-  theme_minimal()
+  labs(x = NULL, y = "Proportion of assemblages present") +
+  theme_half_open(font_size = 9)
 
-# gtsave(occ_all, "figures/occ_all.html")
+ggsave(here("analysis/figures/fig5.eps"), width = 174, height = 174,
+       units = "mm")
+ggsave(here("analysis/figures/fig5.png"), width = 174, height = 174,
+       units = "mm")
 ```
 
 ## Founder crop ubiquity and abundance
@@ -510,30 +512,55 @@ flora %>%
 
 ### By century
 
-For a more fine-grained look at the time series, we can use the century bins calculated above, 
-Measured by cross-assemblage ubiquity (number of assemblages dated to each century where the taxon is present) and by relative abundance (average proportion across assemblages dated to each century).
+For a more fine-grained look at the time series, we can use the century bins calculated above.
+Figure \@ref(fig:ts-founder-crops) shows the importance of the individual founder crops measured by both cross-assemblage ubiquity and by relative abundance.
+We measure ubiquity by calculated the proportion of assemblages dated to each century where one or more, two or more, etc., of the founder crops were reported present;
+and abundance by the taking the mean proportion of the assemblage made up by each founder species for each century (hence NB., the y axis of the lower plot will not sum to 100%).
+These different measures reveal different trends, as discussed in the main text.
 
 ```{r ts-founder-crops, fig.cap='Ubiquity and abundance of the founder crops by century', fig.height=6, layout='l-body-outset'}
-# By ubiquity
-flora_ts %>% 
-  # Count number of assemblages with founder crops per century
+flora_ts %>%
+  # Aggregate wheat
   mutate(founder_crop = recode(founder_crop,
                                "einkorn wheat" = "wheat",
                                "emmer wheat" = "wheat",
-                               .default = founder_crop)) %>% 
-  count(century, founder_crop) %>% 
-  # Refactor categories for plot
-  mutate(founder_crop = fct_reorder(founder_crop, n, .fun = sum)) %>% 
+                               .default = founder_crop)) %>%
+  # Count number of assemblages with N founder crops per century
+  group_by(century) %>%
+  mutate(n_assemb = length(unique(phase_code))) %>% 
   drop_na(founder_crop) %>% 
+  group_by(century, n_assemb, phase_code) %>%
+  summarise(n_founder_crop = length(unique(founder_crop)), .groups = "drop_last") %>% 
+  summarise(
+    atleast1 = sum(n_founder_crop >= 1) / n_assemb,
+    atleast2 = sum(n_founder_crop >= 2) / n_assemb,
+    atleast3 = sum(n_founder_crop >= 3) / n_assemb,
+    atleast4 = sum(n_founder_crop >= 4) / n_assemb,
+    atleast5 = sum(n_founder_crop >= 5) / n_assemb,
+    atleast6 = sum(n_founder_crop >= 6) / n_assemb,
+  ) %>% 
+  pivot_longer(
+    atleast1:atleast6,
+    names_to = "founder_crops",
+    values_to = "n"
+  ) %>% 
+  mutate(founder_crops = str_replace(founder_crops, "atleast", "More than ")) %>% 
   # Plot
-  ggplot(aes(century / 1000, n, fill = founder_crop)) +
-  geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  khroma::scale_fill_muted() +
-  labs(title = "Founder crops: occurrence & abundance by century",
-       subtitle = "Cross-assemblage ubiquity",
-       x = NULL, y = "n assemblages present", fill = NULL) +
-  theme_minimal() ->
+  ggplot() +
+  geom_area(aes(century / 1000, n, fill = founder_crops), position = "identity") +
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000),
+             linetype = "dashed") +
+  geom_label(data = periods,
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 7 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion(0)) +
+  scale_y_continuous(labels = scales::label_percent(accuracy = 1),
+                     expand = expansion(mult = c(0, 0.05))) +
+  khroma::scale_fill_YlOrBr(discrete = TRUE) +
+  labs(x = NULL, y = "Proportion of assemblages", 
+       fill = "Founder crops\npresent") +
+  theme_half_open(font_size = 9) ->
   p1
 
 # By average proportion
@@ -553,27 +580,33 @@ flora_ts %>%
   group_by(century, founder_crop) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb)) %>%
   # Refactor categories for plot
-  mutate(
-    founder_crop = fct_reorder(founder_crop, avg_prop, .fun = sum, .desc = FALSE),
-    # founder_crop = fct_explicit_na(founder_crop, "Other (not founder crop)")
-  ) %>% 
+  # mutate(founder_crop = fct_reorder(founder_crop, avg_prop, .fun = sum, .desc = FALSE)) %>% 
   drop_na(founder_crop) %>% 
   # Plot
   ggplot(aes(century / 1000, avg_prop, fill = founder_crop)) +
   geom_area() +
-  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5)) +
-  scale_y_continuous(limits = c(0, 0.5), breaks = scales::breaks_pretty(5),
-                     labels = scales::percent) +
+  geom_vline(data = periods, aes(xintercept = start_bp / 1000),
+             linetype = "dashed") +
+  geom_label(data = periods, 
+             aes(x = start_bp / 1000, y = Inf, label = period),
+             hjust = 0, vjust = 1, label.size = NA, fill = NA, size = 7 * 0.36) +
+  scale_x_reverse(breaks = scales::breaks_width(-1), limits = c(11.7, 6.5),
+                  expand = expansion(0)) +
+  scale_y_continuous(limits = c(0, 0.5), breaks = scales::breaks_width(0.1),
+                     labels = scales::label_percent(accuracy = 1),
+                     expand = expansion(mult = c(0, 0.05))) +
   khroma::scale_fill_muted() +
-  labs(subtitle = "Relative abundance",
-       x = "ka cal BP", y = "average proportion", fill = NULL) +
-  theme_minimal() ->
+  labs(x = "ka cal BP", y = "Mean proportion of assemblages", fill = "Taxon") +
+  theme_half_open(font_size = 9) ->
   p2
 
 p1 / p2
 
-# ggsave(here("analysis/figures/ts-founder-crops.pdf"), width = 160, height = 160,
-       # units = "mm")
+ggsave(here("analysis/figures/fig4.eps"), width = 174, height = 117,
+       units = "mm")
+ggsave(here("analysis/figures/fig4.png"), width = 174, height = 117,
+       units = "mm")
+
 ```
 
 ## Abundance of plant categories
