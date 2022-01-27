@@ -2,27 +2,20 @@
 title: 'Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia'
 subtitle: "Supplementary Information 1 – Quantitative Analysis"
 author:
-  - first_name: "Joe"
-    last_name: "Roe"
-    url: https://joeroe.io
-    orcid_id: 0000-0002-1011-1244
-  - first_name: "Amaia"
-    last_name: "Arranz-Otaegui"
-    orcid_id: 0000-0002-5091-6426
+  - "Joe Roe <<joe@joeroe.io>>"
+  - "Amaia Arranz-Otaegui"
 date: "`r Sys.Date()`"
 output: 
-  distill::distill_article:
+  bookdown::html_document2:
     toc: true
     toc_depth: 4
-  bookdown::pdf_book:
-    toc_depth: 4
-papersize: a4
 bibliography: references.bib
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
   echo = FALSE,
+  warning = FALSE,
   message = FALSE
 )
 ```
@@ -56,7 +49,7 @@ Here, we explain in more detail the steps necessary to reproduce the figures, ta
 
 ## Study region and period
 
-```{r data-spatial, fig.cap='The study region', results='hide', layout='l-body-outset'}
+```{r data-spatial, fig.cap='The study region', results='hide'}
 proj <- 22770
 unproj <- 4326
 
@@ -177,7 +170,7 @@ Since this data did not need to be formally incorporated into the rest of the an
 It includes `r n_assemb_europe` assemblages from `r n_site_europe` Neolithic sites across Europe, but only presence data.
 For completeness, Cyprus was included in both the European and Southwest Asian datasets.
 
-We used this data to quantitatively assess early evidence for translocation of certain crops from Southwest Asia to Europe, reported in table X of the main text.
+We used this data to quantitatively assess early evidence for translocation of certain crops from Southwest Asia to Europe, reported in table 3 of the main text.
 
 ## Chronological data
 
@@ -278,7 +271,7 @@ flora %>%
 ```
 
 
-```{r sample-map, fig.cap='Geographical distribution of sampled archaeobotanical assemblages', layout='l-body-outset'}
+```{r sample-map, fig.cap='Geographical distribution of sampled archaeobotanical assemblages'}
 p1 <- base_map + 
   geom_spatial_point(data = flora_phases, 
                      mapping = aes(longitude, latitude),
@@ -288,11 +281,9 @@ p1 <- base_map +
   
 p1_left <- p1 + 
   facet_wrap(vars("All sites")) + 
-  theme_minimal() +
   theme(text = element_text(size = 9))
 p1_right <- p1 + 
   facet_wrap(vars(period)) + 
-  theme_minimal() +
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
         text = element_text(size = 9))
@@ -306,7 +297,7 @@ ggsave(here("analysis/figures/fig1.png"), width = 174, height = 116,
 ```
 
 
-```{r sample-chronology, fig.cap='Distribution of sampled archaeobotanical assemblages by cultural period. Black lines indicate our period of interest (the Neolithic).', layout='l-body-outset'}
+```{r sample-chronology, fig.cap='Distribution of sampled archaeobotanical assemblages by cultural period. Black lines indicate our period of interest (the Neolithic).'}
 p2_top <- flora_phases %>% 
   count(period) %>% 
   left_join(periods) %>% 
@@ -328,7 +319,7 @@ p2_bottom <- flora_ts %>%
   group_by(site_name, phase_code, century) %>% 
   summarise(period = first(period), .groups = "drop") %>% 
   ggplot(aes(century, fill = period)) +
-  geom_bar(width = 100) +
+  geom_bar(width = 100, na.rm = TRUE) +
   geom_vline(xintercept = c(neolithic_start, neolithic_end)) +
   scale_x_reverse(limits = c(15000, 5000), 
                   breaks = seq(15000, 5000, -1000)) +
@@ -343,11 +334,13 @@ p2_top / p2_bottom
 # ggsave(here("analysis/figures/sample-chronology.pdf"), width = 160, height = 100, 
 #        units = "mm")
 ```
-
+<!--
 Table \@ref(tab:all-assemblages) lists all the assemblages included in our analysis.
+-->
 
-```{r all-assemblages, layout='l-body-outset'}
-# flora_phases %>% 
+```{r all-assemblages}
+# Breaks PDF generation :/
+# flora_phases %>%
 #   select(
 #     site_name,
 #     phase,
@@ -355,22 +348,22 @@ Table \@ref(tab:all-assemblages) lists all the assemblages included in our analy
 #     age_start,
 #     age_end,
 #     period
-#   ) %>% 
+#   ) %>%
 #   mutate(
-#     age_start = round(age_start / 1000, digits = 2), 
+#     age_start = round(age_start / 1000, digits = 2),
 #     age_end = round(age_end / 1000, digits = 2)
-#   ) %>% 
-#   group_by(site_name) %>% 
-#   gt(caption = "Assemblages included in the analysis") %>% 
+#   ) %>%
+#   group_by(site_name) %>%
+#   gt(caption = "Assemblages included in the analysis") %>%
 #   cols_label(
 #     phase = "Site/assemblage",
 #     source = "Source",
 #     age_start = "Reported age ka cal BP",
 #     period = "Assigned period"
-#   ) %>% 
-#   cols_merge(c(age_start, age_end), pattern = "{1}&ndash;{2}") %>% 
-#   cols_align("right", period) %>% 
-#   fmt_missing(everything(), missing_text = "—") %>% 
+#   ) %>%
+#   cols_merge(c(age_start, age_end), pattern = "{1}&ndash;{2}") %>%
+#   cols_align("right", period) %>%
+#   fmt_missing(everything(), missing_text = "—") %>%
 #   tab_style(cell_text(weight = "bold"), cells_row_groups())
 ```
 
@@ -380,7 +373,7 @@ Table \@ref(tab:all-assemblages) lists all the assemblages included in our analy
 
 Table \@ref(tab:all-ubiquity) summarises the occurrence of each standardised taxon across Neolithic assemblages, broken down by plant category.
 
-```{r all-ubiquity, layout='l-body-outset'}
+```{r all-ubiquity}
 flora %>% 
   drop_na(category, taxon) %>% 
   filter(period %in% neolithic) %>% 
@@ -399,7 +392,6 @@ flora %>%
   ) %>% 
   group_by(category) %>% 
   arrange(-n_present, .by_group = TRUE) %>% 
-  # slice_max(n_present, n = 20, with_ties = FALSE) %>%
   gt(caption = "Ubiquity of all taxa across Neolithic assemblages. Founder crops are highlighted in bold.") %>% 
   cols_hide(c(founder_crop)) %>% 
   fmt_percent(c(pct_present, pct_gthalf, pct_gtqrtr)) %>% 
@@ -410,7 +402,8 @@ flora %>%
              n_present = "N (%) recorded present",
              n_gthalf = "N (%) making up more than half of assemblage",
              n_gtqrtr = "N (%) making up more than a quarter of assemblage") %>% 
-  tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop)))
+  tab_style(cell_text(weight = "bold"), cells_body(rows = !is.na(founder_crop))) %>% 
+  cols_width(taxon ~ pct(40))
 ```
 
 This summary data underlies figure 5 in the main text.
@@ -459,7 +452,7 @@ Table \@ref(tab:founder-ubiquity) summarises the ubiquity of the founder crop sp
 Given the inconsistent levels of identification between assemblages, emmer wheat and einkorn wheat are counted as one crop.
 Hence, the maximum possible number of founder crops present is seven rather than eight.
 
-```{r founder-ubiquity, layout='l-body-outset'}
+```{r founder-ubiquity}
 flora %>% 
   mutate(founder_crop = recode(founder_crop,
                                "emmer wheat" = "wheat",
@@ -518,7 +511,7 @@ We measure ubiquity by calculated the proportion of assemblages dated to each ce
 and abundance by the taking the mean proportion of the assemblage made up by each founder species for each century (hence NB., the y axis of the lower plot will not sum to 100%).
 These different measures reveal different trends, as discussed in the main text.
 
-```{r ts-founder-crops, fig.cap='Ubiquity and abundance of the founder crops by century', fig.height=6, layout='l-body-outset'}
+```{r ts-founder-crops, fig.cap='Ubiquity and abundance of the founder crops by century', fig.height=6}
 flora_ts %>%
   # Aggregate wheat
   mutate(founder_crop = recode(founder_crop,
@@ -538,13 +531,14 @@ flora_ts %>%
     atleast4 = sum(n_founder_crop >= 4) / n_assemb,
     atleast5 = sum(n_founder_crop >= 5) / n_assemb,
     atleast6 = sum(n_founder_crop >= 6) / n_assemb,
+    atleast7 = sum(n_founder_crop >= 7) / n_assemb,
   ) %>% 
   pivot_longer(
-    atleast1:atleast6,
+    atleast1:atleast7,
     names_to = "founder_crops",
     values_to = "n"
   ) %>% 
-  mutate(founder_crops = str_replace(founder_crops, "atleast", "More than ")) %>% 
+  mutate(founder_crops = str_replace(founder_crops, "atleast", ">=")) %>% 
   # Plot
   ggplot() +
   geom_area(aes(century / 1000, n, fill = founder_crops), position = "identity") +
@@ -596,7 +590,7 @@ flora_ts %>%
                      labels = scales::label_percent(accuracy = 1),
                      expand = expansion(mult = c(0, 0.05))) +
   khroma::scale_fill_muted() +
-  labs(x = "ka cal BP", y = "Mean proportion of assemblages", fill = "Taxon") +
+  labs(x = "ka cal BP", y = "Mean proportion of assemblages", fill = NULL) +
   theme_half_open(font_size = 9) ->
   p2
 
@@ -617,7 +611,7 @@ To move beyond the concept of "founder crops" vs. "wild plants", we classified e
 * Its edibility
 * For grasses and legumes, whether it is large/medium- or small-seeded
 
-```{r category-summary, layout='l-body-outset'}
+```{r category-summary}
 flora %>% 
   filter(period %in% neolithic) %>% 
   mutate(category = replace_na(category, "Unclassified")) %>% 
@@ -655,7 +649,7 @@ flora %>%
   cols_align("left", category)
 ```
 
-```{r category-summary-byperiod, layout='l-body-outset'}
+```{r category-summary-byperiod}
 flora %>% 
   mutate(category = replace_na(category, "Unclassified")) %>% 
   group_by(period, site_name, phase_code, category) %>%
@@ -696,7 +690,7 @@ flora %>%
 
 Table \@ref(tab:category-summary) summarises the abundance of the broad plant categories across Neolithic assemblages, \@ref(tab:category-summary-byperiod) the same data broken down by period, and figure \@ref(fig:category-ts) how this changed through time.
 
-```{r category-ts, fig.cap='Abundance of broad plant categories through time', layout='l-body-outset'}
+```{r category-ts, fig.cap='Abundance of broad plant categories through time'}
 flora_ts %>% 
   # Aggregate by category
   group_by(century, site_name, phase_code, category) %>% 
@@ -754,7 +748,7 @@ flora %>%
 The eight most ubiquitous grass taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_grasses, collapse = ", ")`.
 Figure \@ref(fig:grasses-ts) shows how the abundance of these taxa changed through time.
 
-```{r grasses-ts, fig.cap='Abundance of grass taxa through time', layout='l-body-outset'}
+```{r grasses-ts, fig.cap='Abundance of grass taxa through time'}
 p_ts_grasses <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Grasses") %>% 
@@ -815,7 +809,7 @@ flora %>%
 The eight most ubiquitous pulse taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_pulses, collapse = ", ")`.
 Figure \@ref(fig:pulses-ts) shows how the abundance of these taxa changed through time.
 
-```{r pulses-ts, fig.cap='Abundance of pulse taxa through time', layout='l-body-outset'}
+```{r pulses-ts, fig.cap='Abundance of pulse taxa through time'}
 p_ts_pulses <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Pulses") %>% 
@@ -876,7 +870,7 @@ flora %>%
 The eight most ubiquitous 'wild plant' taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_wild_plants, collapse = ", ")`.
 Figure \@ref(fig:wild-plants-ts) shows how the abundance of these taxa changed through time.
 
-```{r wild-plants-ts, fig.cap='Abundance of wild plant taxa through time', layout='l-body-outset'}
+```{r wild-plants-ts, fig.cap='Abundance of wild plant taxa through time'}
 p_ts_wild_plants <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Wild plants") %>% 
@@ -937,7 +931,7 @@ flora %>%
 The eight most ubiquitous fruit/nut taxonomic groups, measured by presence across Neolithic assemblages, are: `r paste(top_fruits_nuts, collapse = ", ")`.
 Figure \@ref(fig:fruits-nuts-ts) shows how the abundance of these taxa changed through time.
 
-```{r fruits-nuts-ts, fig.cap='Abundance of fruit/nut taxa through time', layout='l-body-outset'}
+```{r fruits-nuts-ts, fig.cap='Abundance of fruit/nut taxa through time'}
 p_ts_fruits_nuts <- flora_ts %>% 
   # Include only top 8 grasses
   filter(category == "Fruits/nuts") %>% 
@@ -992,4 +986,29 @@ ggsave(here("analysis/figures/fig3.eps"), width = 174, height = 234,
        units = "mm")
 ggsave(here("analysis/figures/fig3.png"), width = 174, height = 234,
        units = "mm")
+```
+
+# References
+
+<!-- auto-generated -->
+
+```{r print-pdf, include=FALSE}
+# Unfortunately gt's LaTeX output is still too limited for us to knit to PDF
+# directly. Specifically, it lacks support for:
+# cross-references to tables
+# wrapping text in wide tables
+#
+# So for the PDF version of this file, we print the HTML output using Chrome:
+#
+pagedown::chrome_print(here("analysis/SI1.html"), here("analysis/SI1.pdf"),
+                       options = list(paperWidth = 8.27,
+                                      paperHeight = 11.69))
+```
+
+```{css}
+@media print {
+  a:link:after, a:visited:after {
+      content: "";
+  }
+}
 ```

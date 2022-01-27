@@ -27,5 +27,4 @@ Imports:
     cowplot,
     khroma,
     rmarkdown,
-    bookdown,
-    distill
+    bookdown
