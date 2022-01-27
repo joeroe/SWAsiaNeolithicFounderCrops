@@ -19,7 +19,6 @@ Imports:
     tidyverse,
     here,
     glue,
-    swapdata,
     sf,
     ggspatial,
     gt,

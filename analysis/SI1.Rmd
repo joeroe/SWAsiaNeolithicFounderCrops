@@ -23,7 +23,6 @@ knitr::opts_chunk$set(
 ```{r deps}
 library("tidyverse")
 library("SWAsiaNeolithicFounderCrops")
-library("swapdata")
 library("sf")
 library("ggspatial")
 library("here")

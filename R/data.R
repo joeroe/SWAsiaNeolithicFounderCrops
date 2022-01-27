@@ -71,7 +71,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, taxa_path,
     source = "ORIGINS",
     source_id = as.character(id),
     source_site_name = site,
-    site_name = swapdata::swap_control_site_name(source_site_name, quiet = TRUE),
+    site_name = swap_control_site_name(source_site_name, quiet = TRUE),
     latitude,
     longitude,
     phase,
@@ -92,7 +92,7 @@ collate_flora <- function(origins_path, ademnes_path, compag_path, taxa_path,
     source = "ADEMNES",
     source_id = as.character(id),
     source_site_name = site_name,
-    site_name = swapdata::swap_control_site_name(source_site_name, quiet = TRUE),
+    site_name = swap_control_site_name(source_site_name, quiet = TRUE),
     latitude,
     longitude,
     phase,
@@ -399,11 +399,11 @@ read_compag2018 <- function(path) {
 
   compag_data <- dplyr::mutate(
     compag_data,
-    site_canon = swapdata::swap_control_site_name(site, quiet = TRUE)
+    site_canon = swap_control_site_name(site, quiet = TRUE)
   )
   compag_site <- dplyr::mutate(
     compag_site,
-    site_canon = swapdata::swap_control_site_name(site, quiet = TRUE)
+    site_canon = swap_control_site_name(site, quiet = TRUE)
   )
 
   # The data is actually recorded by phase, but there is no explicit link
