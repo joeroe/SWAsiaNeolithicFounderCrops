@@ -39,7 +39,7 @@ This document describes the quantitative analysis supporting our paper:
 
 > Arranz-Otaegui, Amaia and Roe, Joe. in prep. Revisiting the concept of the “Neolithic Founder Crops” in southwest Asia. Submitted to *Vegetation History and Archaeobotany*.
 
-It is generated from the compendium of R code and data available at *insert Zenodo link* or as a git repository at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>.
+It is generated from the compendium of R code and data available at https://doi.org/10.5281/zenodo.5911219 or as a git repository at <https://github.com/joeroe/SWAsiaNeolithicFounderCrops>.
 
 # Methods & Materials
 
