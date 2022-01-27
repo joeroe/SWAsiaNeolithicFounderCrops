@@ -330,9 +330,6 @@ p2_bottom <- flora_ts %>%
   theme(legend.position = "bottom")
 
 p2_top / p2_bottom
-
-# ggsave(here("analysis/figures/sample-chronology.pdf"), width = 160, height = 100, 
-#        units = "mm")
 ```
 <!--
 Table \@ref(tab:all-assemblages) lists all the assemblages included in our analysis.
@@ -574,7 +571,7 @@ flora_ts %>%
   group_by(century, founder_crop) %>%
   summarise(avg_prop = sum(prop) / first(n_assemb)) %>%
   # Refactor categories for plot
-  # mutate(founder_crop = fct_reorder(founder_crop, avg_prop, .fun = sum, .desc = FALSE)) %>% 
+  mutate(founder_crop = fct_reorder(founder_crop, avg_prop, .fun = sum, .desc = FALSE)) %>%
   drop_na(founder_crop) %>% 
   # Plot
   ggplot(aes(century / 1000, avg_prop, fill = founder_crop)) +
@@ -753,10 +750,7 @@ p_ts_grasses <- flora_ts %>%
   # Include only top 8 grasses
   filter(category == "Grasses") %>% 
   mutate(taxon = if_else(taxon %in% top_grasses, taxon, NA_character_)) %>% 
-  # Aggregate by taxon
-  # group_by(century, site_name, phase_code, taxon) %>% 
-  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
-  # Add total number of assemblages per century
+  # Count total number of assemblages per century
   group_by(century) %>% 
   mutate(n_assemb = length(unique(phase_code))) %>% 
   # Calculate average proportion per century
@@ -814,10 +808,7 @@ p_ts_pulses <- flora_ts %>%
   # Include only top 8 grasses
   filter(category == "Pulses") %>% 
   mutate(taxon = if_else(taxon %in% top_pulses, taxon, NA_character_)) %>% 
-  # Aggregate by taxon
-  # group_by(century, site_name, phase_code, taxon) %>% 
-  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
-  # Add total number of assemblages per century
+  # Count total number of assemblages per century
   group_by(century) %>% 
   mutate(n_assemb = length(unique(phase_code))) %>% 
   # Calculate average proportion per century
@@ -875,10 +866,7 @@ p_ts_wild_plants <- flora_ts %>%
   # Include only top 8 grasses
   filter(category == "Wild plants") %>% 
   mutate(taxon = if_else(taxon %in% top_wild_plants, taxon, NA_character_)) %>% 
-  # Aggregate by taxon
-  # group_by(century, site_name, phase_code, taxon) %>% 
-  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
-  # Add total number of assemblages per century
+  # Count total number of assemblages per century
   group_by(century) %>% 
   mutate(n_assemb = length(unique(phase_code))) %>% 
   # Calculate average proportion per century
@@ -936,10 +924,7 @@ p_ts_fruits_nuts <- flora_ts %>%
   # Include only top 8 grasses
   filter(category == "Fruits/nuts") %>% 
   mutate(taxon = if_else(taxon %in% top_fruits_nuts, taxon, NA_character_)) %>% 
-  # Aggregate by taxon
-  # group_by(century, site_name, phase_code, taxon) %>% 
-  # summarise(prop = sum(prop, na.rm = TRUE), .groups = "drop") %>% 
-  # Add total number of assemblages per century
+  # Count total number of assemblages per century
   group_by(century) %>% 
   mutate(n_assemb = length(unique(phase_code))) %>% 
   # Calculate average proportion per century
@@ -1000,9 +985,9 @@ ggsave(here("analysis/figures/fig3.png"), width = 174, height = 234,
 #
 # So for the PDF version of this file, we print the HTML output using Chrome:
 #
-pagedown::chrome_print(here("analysis/SI1.html"), here("analysis/SI1.pdf"),
-                       options = list(paperWidth = 8.27,
-                                      paperHeight = 11.69))
+# pagedown::chrome_print(here("analysis/SI1.html"), here("analysis/SI1.pdf"),
+#                        options = list(paperWidth = 8.27,
+#                                       paperHeight = 11.69))
 ```
 
 ```{css}
