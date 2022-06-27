@@ -274,9 +274,9 @@ read_ademnes <- function(path) {
                            col_types = "iccccccdd")
 
   # Normalise column names
-  site <- rename(site,
-                 site_date_earliest = date_earliest,
-                 site_date_latest = date_latest)
+  site <- dplyr::rename(site,
+                        site_date_earliest = date_earliest,
+                        site_date_latest = date_latest)
 
   # Normalise percentages
   flora <- dplyr::mutate(flora, prop = prop / 100)
@@ -288,39 +288,39 @@ read_ademnes <- function(path) {
                                by = c("id", "site_name", "site_code", "phase_code"))
 
   # Add missing coordinates (from Wikidata)
-  ademnes <- mutate(
+  ademnes <- dplyr::mutate(
     ademnes,
-    latitude = recode(site_name,
-                      "Dhiban" = 31.50,
-                      "Hirbet Iskander" = 31.56,
-                      "Jaffa" = 32.05,
-                      "Pella" = 32.45,
-                      "Sheikh-e Abad" = 34.61,
-                      "Sidon" = 33.56,
-                      "Tel Beth Yerah" = 32.72,
-                      "Tel Malhat" = 31.22,
-                      "Tell el-Fukhar" = 32.56,
-                      "Tell es-Safi/Gath" = 31.70,
-                      "Tell Hadar" = 32.85,
-                      "Tell Miqne" = 31.78,
-                      "Zahrat adh-Dhra 1" = 31.255,
-                      .default = latitude
+    latitude = dplyr::recode(site_name,
+                             "Dhiban" = 31.50,
+                             "Hirbet Iskander" = 31.56,
+                             "Jaffa" = 32.05,
+                             "Pella" = 32.45,
+                             "Sheikh-e Abad" = 34.61,
+                             "Sidon" = 33.56,
+                             "Tel Beth Yerah" = 32.72,
+                             "Tel Malhat" = 31.22,
+                             "Tell el-Fukhar" = 32.56,
+                             "Tell es-Safi/Gath" = 31.70,
+                             "Tell Hadar" = 32.85,
+                             "Tell Miqne" = 31.78,
+                             "Zahrat adh-Dhra 1" = 31.255,
+                             .default = latitude
     ),
-    longitude = recode(site_name,
-                       "Dhiban" = 35.78,
-                       "Hirbet Iskander" = 35.77,
-                       "Jaffa" = 34.75,
-                       "Pella" = 35.61,
-                       "Sheikh-e Abad" = 47.27,
-                       "Sidon" = 35.40,
-                       "Tel Beth Yerah" = 35.57,
-                       "Tel Malhat" = 35.03,
-                       "Tell el-Fukhar" = 35.85,
-                       "Tell es-Safi/Gath" = 34.84,
-                       "Tell Hadar" = 35.65,
-                       "Tell Miqne" = 34.85,
-                       "Zahrat adh-Dhra 1" = 35.57,
-                       .default = longitude
+    longitude = dplyr::recode(site_name,
+                              "Dhiban" = 35.78,
+                              "Hirbet Iskander" = 35.77,
+                              "Jaffa" = 34.75,
+                              "Pella" = 35.61,
+                              "Sheikh-e Abad" = 47.27,
+                              "Sidon" = 35.40,
+                              "Tel Beth Yerah" = 35.57,
+                              "Tel Malhat" = 35.03,
+                              "Tell el-Fukhar" = 35.85,
+                              "Tell es-Safi/Gath" = 34.84,
+                              "Tell Hadar" = 35.65,
+                              "Tell Miqne" = 34.85,
+                              "Zahrat adh-Dhra 1" = 35.57,
+                              .default = longitude
     ),
   )
 
@@ -335,8 +335,8 @@ read_compag2018 <- function(path) {
   # Character encoding is unknown and appears to differ between files, so the
   # locales below are a guess based on readr::guess_encoding()
   readr::read_csv(fs::path(path, "AbotData.csv"),
-                  col_types = cols(taxon = readr::col_character(),
-                                   .default = readr::col_integer()),
+                  col_types = readr::cols(taxon = readr::col_character(),
+                                          .default = readr::col_integer()),
                   locale = readr::locale(encoding = "latin1"),
                   n_max = 42) ->
     compag_data
