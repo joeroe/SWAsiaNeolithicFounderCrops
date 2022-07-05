@@ -271,27 +271,90 @@ flora %>%
 
 
 ```{r sample-map, fig.cap='Geographical distribution of sampled archaeobotanical assemblages'}
+named_sites <- c(
+  "Ahihud", # Not in flora data
+  "Asikli Höyük", # Not in flora data
+  "Cafer Höyük",
+  "Chogha Golan",
+  "Demirköy", # Not in flora data
+  "Dhra'", # Not in flora data
+  "Erbaba",
+  "Gilgal I",
+  "Gritille", # Not in flora data
+  "Gusir Höyük", # Not in flora data
+  "Hallan Çemi", # Not in flora data
+  "Hacılar",
+  "Höyücek",
+  "Iraq ed-Dubb",
+  "Jerf el Ahmar",
+  "Kosak Shamali",
+  "Körtik Tepe",
+  "M'lefaat",
+  "Nahal Oren",
+  "Netiv Hagdud",
+  "Nevali Çori", # Not in flora data
+  "Sabi Abyad II",
+  "Sheikh-e Abad",
+  "Tell Aswad",
+  "Tell Ain el-Kerkh",
+  "Tell es-Sultan",
+  "Tell Qarassa North", # Not in flora data
+  "Tell Qarassa", # Not in flora data
+  "Tell Qaramel", # Not in flora data
+  "Tell Ramad",
+  "Yiftah'el",
+  "Zahrat adh-Dhra 2",
+  "Çatalhöyük",
+  "Çayönü"
+)
+
+flora_phases |> 
+  distinct(site_name, period, latitude, longitude) |> 
+  mutate(label = site_name %in% named_sites) ->
+  # bind_rows(tribble(
+  #   ~site_name, ~period, ~latitude, ~longitude,
+  #   "Ahihud", 
+  #   "Asikli Höyük", 
+  #   "Demirköy", 
+  #   "Dhra'", 
+  #   "Gritille",
+  #   "Gusir Höyük",
+  #   "Hallan Çemi",
+  #   "Nevali Çori",
+  #   "Tell Qarassa North",
+  #   "Tell Qarassa",
+  #   "Tell Qaramel",
+  # )) ->
+  p1_data
+
 p1 <- base_map + 
-  geom_spatial_point(data = flora_phases, 
+  geom_spatial_point(data = p1_data, 
                      mapping = aes(longitude, latitude),
                      size = 0.5,
                      crs = unproj) +
   labs(x = NULL, y = NULL)
   
-p1_left <- p1 + 
-  facet_wrap(vars("All sites")) + 
+p1_top <- p1 + 
+  geom_spatial_text_repel(
+    data = p1_data |> 
+      filter(label) |> 
+      distinct(site_name, longitude, latitude),
+    mapping = aes(longitude, latitude, label = site_name),
+    size = 2,
+    min.segment.length = 0
+  ) +
   theme(text = element_text(size = 9))
-p1_right <- p1 + 
-  facet_wrap(vars(period)) + 
+p1_bottom <- p1 + 
+  facet_wrap(vars(period), nrow = 2) + 
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
         text = element_text(size = 9))
 
-p1_left + p1_right
+p1_top / p1_bottom
 
-ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 116,
+ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 174,
        units = "mm")
-ggsave(here("analysis/figures/fig1.png"), width = 174, height = 116,
+ggsave(here("analysis/figures/fig1.png"), width = 174, height = 174,
        units = "mm", dpi = 300)
 ```
 
