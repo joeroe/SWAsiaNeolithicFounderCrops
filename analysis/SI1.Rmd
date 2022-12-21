@@ -283,7 +283,7 @@ named_sites <- c(
   "Gritille", # Not in flora data
   "Gusir Höyük", # Not in flora data
   "Hallan Çemi", # Not in flora data
-  "Hacılar",
+  "Hacilar",
   "Höyücek",
   "Iraq ed-Dubb",
   "Jerf el Ahmar",
@@ -310,21 +310,8 @@ named_sites <- c(
 
 flora_phases |> 
   distinct(site_name, period, latitude, longitude) |> 
+  mutate(site_name = recode(site_name, `Hacılar` = "Hacilar")) |> # for EPS compatibility
   mutate(label = site_name %in% named_sites) ->
-  # bind_rows(tribble(
-  #   ~site_name, ~period, ~latitude, ~longitude,
-  #   "Ahihud", 
-  #   "Asikli Höyük", 
-  #   "Demirköy", 
-  #   "Dhra'", 
-  #   "Gritille",
-  #   "Gusir Höyük",
-  #   "Hallan Çemi",
-  #   "Nevali Çori",
-  #   "Tell Qarassa North",
-  #   "Tell Qarassa",
-  #   "Tell Qaramel",
-  # )) ->
   p1_data
 
 p1 <- base_map + 
@@ -345,16 +332,16 @@ p1_top <- p1 +
   ) +
   theme(text = element_text(size = 9))
 p1_bottom <- p1 + 
-  facet_wrap(vars(period), nrow = 2) + 
+  facet_wrap(vars(period), nrow = 1) + 
   theme(axis.text = element_blank(),
         axis.ticks = element_blank(),
         text = element_text(size = 9))
 
-p1_top / p1_bottom
+p1_top + inset_element(p1_bottom, 0, 0, 1, 0.25, align_to = "panel")
 
-ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 174,
+ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 145,
        units = "mm")
-ggsave(here("analysis/figures/fig1.png"), width = 174, height = 174,
+ggsave(here("analysis/figures/fig1.png"), width = 174, height = 145,
        units = "mm", dpi = 300)
 ```
 
