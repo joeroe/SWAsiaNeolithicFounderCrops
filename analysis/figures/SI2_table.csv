@@ -1,823 +1,867 @@
-founder_crop,period,site_name,phase_code,age,total_remains
-barley,Late Epipal.,Abu Hureyra,ABHU Epip2,12984–12055 BP,6
-barley,Late Epipal.,Abu Hureyra,ABHU Epip3,12055–11770 BP,15
-barley,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,13250–12250 BP,32
-barley,Late Epipal.,Mureybet,MURE L-Epi/PPNA,12050–11950 BP,7
-barley,Late Epipal.,Wadi Hammeh 27,WH27 Epip,14111–12660 BP,6
-barley,PPNA,Chogha Bonut,CHBO Aceramic,12850–8800 BP,0.39
-barley,PPNA,Chogha Golan,CHGO-iX,10850–10650 BP,49
-barley,PPNA,Chogha Golan,CHGO-X,11050–10850 BP,72
-barley,PPNA,Chogha Golan,CHGO-XI,11250–11050 BP,604
-barley,PPNA,El-Hemmeh,EHEM-PPNA,11070–10520 BP,331
-barley,PPNA,Gesher,GESH PPNA,11505–11218 BP,1
-barley,PPNA,Gilgal I,GILG PPNA,11250–11206 BP,260000
-barley,PPNA,Hayonim Cave,HAYC Epip,12250–10950 BP,2
-barley,PPNA,Iraq ed-Dubb,IEDU PPNA,11650–11150 BP,47
-barley,PPNA,Jerf el Ahmar,JEAH PPNA,11450–10650 BP,26979.9
-barley,PPNA,Körtik Tepe,KORT-PPNA,11650–11200 BP,6
-barley,PPNA,M'lefaat,MLEF PPNA,11270–11140 BP,269
-barley,PPNA,Mureybet,MURE PPNA,11650–11250 BP,185
-barley,PPNA,Mureybet,MURE PPNB,11350–10750 BP,3
-barley,PPNA,Netiv Hagdud,NEHA PPNA,11603–10586 BP,5134
-barley,PPNA,Tell 'Abr,TABR PPNA,11245–10776 BP,190
-barley,PPNA,Tell Aswad,TASW E-PPNB,11231–10658 BP,8
-barley,PPNA,Tell es-Sultan,JERI PPNA,12250–10750 BP,37
-barley,PPNA,Wadi Faynan 16,WF16 PPNA,11599–11204 BP,2
-barley,PPNA,Zahrat adh-Dhra 2,ZAD2 PPNA,11450–10450 BP,191
-barley,EPPNB,Chogha Golan,CHGO-VII,10450–10250 BP,49
-barley,EPPNB,Chogha Golan,CHGO-VIII,10650–10450 BP,193
-barley,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,3918
-barley,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,25.5
-barley,EPPNB,Kissonerga Mosphilia,KMIA,10750–10350 BP,86
-barley,EPPNB,Mylouthkia,MYLO-1A,10550–10150 BP,94
-barley,EPPNB,Nevalı Çori,NECO PPNB,10450–10250 BP,89
-barley,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,10821–10242 BP,47
-barley,MPPNB,Ais Giorkis,AIYI-PPNB,9550–9450 BP,65
-barley,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,222
-barley,MPPNB,Beidha,BEID A,10093–9490 BP,10001
-barley,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,3
-barley,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,5.5
-barley,MPPNB,Chogha Golan,CHGO-I,9650–9550 BP,8
-barley,MPPNB,Chogha Golan,CHGO-II,9750–9650 BP,26
-barley,MPPNB,Chogha Golan,CHGO-III,9850–9750 BP,56
-barley,MPPNB,Chogha Golan,CHGO-IV,9950–9850 BP,1192
-barley,MPPNB,Chogha Golan,CHGO-V,10050–9950 BP,536
-barley,MPPNB,Chogha Golan,CHGO-VI,10250–10050 BP,88
-barley,MPPNB,East Chia Sabz,CHSA-PPNB,10450–9550 BP,43
-barley,MPPNB,Ganj Dareh,GADT A,9950–9350 BP,11
-barley,MPPNB,Ganj Dareh,GADT All,10350–9350 BP,46
-barley,MPPNB,Ganj Dareh,GADT B,10150–9350 BP,145
-barley,MPPNB,Ganj Dareh,GADT C,10250–9350 BP,8
-barley,MPPNB,Ganj Dareh,GADT D,10300–9350 BP,39
-barley,MPPNB,Ganj Dareh,GADT E,10150–9150 BP,76
-barley,MPPNB,Göbekli Tepe,GOTE PPNA/E-PPNB,10750–9550 BP,16
-barley,MPPNB,Hacılar,HACI M-PPNB,10232–9418 BP,2
-barley,MPPNB,Halula,HALU M-PPNB,9921–9532 BP,115
-barley,MPPNB,Nahal Hemar,NAHE PPNB,10130–9316 BP,46
-barley,MPPNB,Nahal Oren,NAOR PPNB,10750–9550 BP,1
-barley,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,10650–8450 BP,27
-barley,MPPNB,Sheikh-e Abad,ABAD_III_PPNB,10650–8450 BP,1
-barley,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,691
-barley,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,4
-barley,MPPNB,Tell Halula,7550-TelHMB,9950–9050 BP,154
-barley,MPPNB,Tepe Abdul Hosein,TAHO PPNB,10272–9092 BP,2
-barley,MPPNB,Wadi Jilat 7,WJ07 E-PPNB,10237–9681 BP,19
-barley,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,10237–9260 BP,168
-barley,LPPNB/C,Abu Hureyra,ABHU-EPPNB,9350–8250 BP,6
-barley,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,9450–8700 BP,167
-barley,LPPNB/C,Ali Kosh,TAKO PN,9241–8213 BP,140
-barley,LPPNB/C,Ali Kosh,TAKO PPNC/PN,10100–7950 BP,41
-barley,LPPNB/C,Atlit-Yam,ATYA PPNC,9019–8042 BP,83
-barley,LPPNB/C,Azraq 31,AZ31 L-PPNB/L-N,9306–9234 BP,6
-barley,LPPNB/C,Basta,BAS1 L-PPNB,9450–9210 BP,28.5
-barley,LPPNB/C,Basta,BAS1 L-PPNB-sub,9450–9210 BP,38
-barley,LPPNB/C,Bouqras,TBOU L-PPNB/PN,9200–8600 BP,384
-barley,LPPNB/C,Cafer Höyük,CAFH L-PPNB,9450–9050 BP,8
-barley,LPPNB/C,Can Hasan III,CAH3 Aceramic,9400–8550 BP,48
-barley,LPPNB/C,Çatalhöyük,CATE Later,9250–8350 BP,136
-barley,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,1.5
-barley,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,21
-barley,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,3
-barley,LPPNB/C,Dhuweila,DHUW L-PPNB,9430–9100 BP,2
-barley,LPPNB/C,Kissonerga Mosphilia,KMIB,9450–8950 BP,56
-barley,LPPNB/C,Mylouthkia,MYLO-1B,9150–8750 BP,62
-barley,LPPNB/C,Ras Shamra,TRAS Vb,8776–8289 BP,8
-barley,LPPNB/C,Ras Shamra,TRAS Vc,9450–9080 BP,2
-barley,LPPNB/C,Sabi Abyad II,TSA2 PPNB,9500–8800 BP,16
-barley,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,1318
-barley,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,9496–8598 BP,23
-barley,LPPNB/C,Tell Halula,6550-TelHEP,8800–8200 BP,253
-barley,LPPNB/C,Tell Halula,7320-TelHLB,9400–9140 BP,73
-barley,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,9000–8200 BP,93
-barley,LPPNB/C,Tell Nebi Mend,6830-TNM,8980–8580 BP,122
-barley,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,1265
-barley,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,39
-barley,LPPNB/C,Wadi Fidan,WFA,9450–8950 BP,16
-barley,LPPNB/C,Wadi Fidan,WFC,8950–8450 BP,57
-barley,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,9537–8609 BP,27
-barley,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,9234–8195 BP,153
-barley,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,9050–8481 BP,47
-barley,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,9012–8450 BP,29
-barley,LPPNB/C,Wadi Jilat 13,WJ13 M-L-PPNB/PPNC,9012–8481 BP,2
-barley,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,9734–9260 BP,10
-barley,Pottery Neolithic,Abu Hureyra,ABHU PN,7550–7450 BP,20
-barley,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,174
-barley,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,172
-barley,Pottery Neolithic,Arjoune,5520-Arj,7620–7320 BP,94
-barley,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,8750–8050 BP,25
-barley,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,18997.48
-barley,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,1
-barley,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,4
-barley,Pottery Neolithic,Choga Mami,5795-CM-S,7930–7560 BP,127
-barley,Pottery Neolithic,Chogha Bonut,CHBO Formative,7540–7385 BP,0.01
-barley,Pottery Neolithic,El Kowm I,ELK1 PN,8250–8050 BP,16
-barley,Pottery Neolithic,El Kowm I,ELK1 PN(phase C),7500–7350 BP,97
-barley,Pottery Neolithic,El Kowm I,ELK1 PN(phase D),7350–7250 BP,3
-barley,Pottery Neolithic,El Kowm I,ELK1 PPNB,8350–8158 BP,5
-barley,Pottery Neolithic,El Kowm II,ELK2 F-PPNB,8533–8418 BP,70
-barley,Pottery Neolithic,Erbaba,6450-ER,9050–7750 BP,146
-barley,Pottery Neolithic,Hacılar,HACI L-N,7750–7350 BP,3355
-barley,Pottery Neolithic,Nahal Zehora II,5450-NZIIWR,7850–6950 BP,2
-barley,Pottery Neolithic,Nahal Zehora II,6050-NZIIPN,8200–7800 BP,225
-barley,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,107
-barley,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,8430–8160 BP,57
-barley,Pottery Neolithic,Sha'ar Hagolan,6230-ShaHag,8350–8010 BP,7
-barley,Pottery Neolithic,Tell es-Sultan,JERI PN,8170–8042 BP,2
-barley,Pottery Neolithic,Tell Halula,5925-TelHLP,8200–7550 BP,37
-barley,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,123
-barley,Pottery Neolithic,Yarim Tepe,YATE Halaf,7550–7250 BP,123
-barley,Pottery Neolithic,Yarim Tepe,YATE Hassuna,8090–7890 BP,263
-barley,Pottery Neolithic,Yarim Tepe I,6400-YTI,8750–7950 BP,263
-barley,Chalcolithic,Ayios Epiktitos Vrysi,AEV,7350–1950 BP,424
-barley,Chalcolithic,Beth Shean,BS_EBIB,5150–4950 BP,5.741
-barley,Chalcolithic,Çayboyu,CB_LC,6750–5750 BP,71.315
-barley,Chalcolithic,Demircihöyük,DH,5150–3950 BP,212
-barley,Chalcolithic,Dilkaya Höyük,DIL,5150–3950 BP,271.474
-barley,Chalcolithic,Emar,EM_EBA,5150–3950 BP,1419
-barley,Chalcolithic,Girikihaciyan,GH,7050–1950 BP,32
-barley,Chalcolithic,Hacinebi Tepe,HAT-C,6750–5750 BP,202
-barley,Chalcolithic,Hacinebi Tepe,HAT-U,5950–1950 BP,4
-barley,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,8
-barley,Chalcolithic,Ikiztepe,IT_C,7150–3950 BP,5
-barley,Chalcolithic,Imamoglu,IMA,5150–3950 BP,28.097
-barley,Chalcolithic,Korucutepe,KOR-CH,7150–4950 BP,134
-barley,Chalcolithic,Korucutepe,KOR-EB,5150–3950 BP,2.713
-barley,Chalcolithic,Kosak Shamali,KS,7150–4950 BP,2
-barley,Chalcolithic,Kuruçay Höyük,KUR_LC,6750–5750 BP,11.13
-barley,Chalcolithic,Lachish,LH_EB,5150–3950 BP,0
-barley,Chalcolithic,Lemba Lakkous,LL,7150–4950 BP,112
-barley,Chalcolithic,Maadi,MD_PD,7450–5150 BP,8925
-barley,Chalcolithic,Megiddo,MEG_EBIB,5150–4950 BP,4
-barley,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,5150–4950 BP,511
-barley,Chalcolithic,Rukeis,RK,5350–3050 BP,224
-barley,Chalcolithic,Shiqmim,SQ_LV,7150–4950 BP,3.7159999999999997
-barley,Chalcolithic,Shiqmim,SQ_UV,6450–5750 BP,265
-barley,Chalcolithic,Tappeh Gijlar,TAG-B,5150–3950 BP,24
-barley,Chalcolithic,Tappeh Gijlar,TAG-BC,6750–5750 BP,6
-barley,Chalcolithic,Tappeh Gijlar,TAG-C,7150–3950 BP,16
-barley,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,5150–4950 BP,147
-barley,Chalcolithic,Tell Afis,TAF-C,6150–5750 BP,214
-barley,Chalcolithic,Tell al-Raqa'i,TAR-3,5150–3950 BP,461
-barley,Chalcolithic,Tell al-Raqa'i,TAR-4,5150–3950 BP,418
-barley,Chalcolithic,Tell al-Raqa'i,TAR-5_7,5150–3950 BP,78
-barley,Chalcolithic,Tell al-Rawda,RAW,5150–3950 BP,776.919
-barley,Chalcolithic,Tell Aphek,TAPH_IA_IB,5150–4950 BP,278
-barley,Chalcolithic,Tell Atij,TA,5150–3950 BP,354.049
-barley,Chalcolithic,Tell Bderi,TB-EDIII,5050–4650 BP,4.392
-barley,Chalcolithic,Tell Bderi,TB-EDIIIJ,5050–4650 BP,18
-barley,Chalcolithic,Tell Brak,TBR-I,6750–5750 BP,250
-barley,Chalcolithic,Tell Brak,TBR-III,5050–4450 BP,3.603
-barley,Chalcolithic,Tell el-'Oueili,TO-4,6450–5750 BP,3.121
-barley,Chalcolithic,Tell el-Fara'in,TEF-I,7150–4950 BP,185
-barley,Chalcolithic,Tell el-Fara'in,TEF-II,7150–4950 BP,98
-barley,Chalcolithic,Tell el-Fara'in,TEF-III,5150–4950 BP,59
-barley,Chalcolithic,Tell el-Iswid,TEI_ED,5050–4650 BP,149
-barley,Chalcolithic,Tell el-Iswid,TEI_PD,7450–5150 BP,58
-barley,Chalcolithic,Tell el'Abd,TEA,5150–3950 BP,27.04
-barley,Chalcolithic,Tell es-Sweyhat,SWE_M,5150–3950 BP,648
-barley,Chalcolithic,Tell es-Sweyhat,SWE_Z,5150–3950 BP,8.447
-barley,Chalcolithic,Tell Esh-Shuna,TES_C,7050–1950 BP,362
-barley,Chalcolithic,Tell Fadous-Kfarabida,TFA_C_EBA_I,7150–3950 BP,1
-barley,Chalcolithic,Tell Fadous-Kfarabida,TFA_EBA_V,5150–3950 BP,1
-barley,Chalcolithic,Tell Hammam et-Turkman,HET_C,6750–5750 BP,17
-barley,Chalcolithic,Tell Hammam et-Turkman,HET_EBA,5150–3950 BP,220
-barley,Chalcolithic,Tell Ibrahim Awad,TIA-B,5050–4850 BP,26
-barley,Chalcolithic,Tell Ibrahim Awad,TIA-ED,5050–4650 BP,105
-barley,Chalcolithic,Tell Ibrahim Awad,TIA-PD,7450–5150 BP,35
-barley,Chalcolithic,Tell Karrana,TKA,7150–3950 BP,518
-barley,Chalcolithic,Tell Kerma,TKE,5150–3950 BP,1199
-barley,Chalcolithic,Tell Mishrifeh,TEMI_11,5150–3950 BP,113
-barley,Chalcolithic,Tell Mishrifeh,TEMI_9,5150–3550 BP,121
-barley,Chalcolithic,Tepe Farukhabad,TF-EJN,5050–1950 BP,44
-barley,Chalcolithic,Tepe Farukhabad,TF-F,6450–5750 BP,2
-barley,Chalcolithic,Tepe Farukhabad,TF-LU,5450–5050 BP,6
-barley,Chalcolithic,Tepecik,TEP-CH,6450–5750 BP,15
-barley,Chalcolithic,Tepecik,TEP-EB,5150–3950 BP,499
-barley,Chalcolithic,Tepecik,TEP-EB_MB,5150–3550 BP,43
-barley,Chalcolithic,Tilbeshar,TB_C,7150–4950 BP,129
-barley,Chalcolithic,Umm el-Marra,UEM_V-IV,5150–3950 BP,169
-barley,Chalcolithic,Wadi Fidan,WF-E,7150–3950 BP,1058.19
-barley,Chalcolithic,Yarim Höyük,YAHÖ_U,5450–5050 BP,3
-bitter vetch,Late Epipal.,Abu Hureyra,ABHU Epip1,13096–12984 BP,9
-bitter vetch,PPNA,Jerf el Ahmar,JEAH PPNA,11450–10650 BP,113
-bitter vetch,PPNA,M'lefaat,MLEF PPNA,11270–11140 BP,297
-bitter vetch,PPNA,Mureybet,MURE PPNA,11650–11250 BP,5
-bitter vetch,PPNA,Netiv Hagdud,NEHA PPNA,11603–10586 BP,2
-bitter vetch,PPNA,Qermez Dere,QEDE PPNA,11750–9950 BP,3
-bitter vetch,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,34
-bitter vetch,EPPNB,Nevalı Çori,NECO PPNB,10450–10250 BP,95
-bitter vetch,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,10510–10240 BP,45
-bitter vetch,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,10821–10242 BP,1
-bitter vetch,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,165
-bitter vetch,MPPNB,Beidha,BEID A,10093–9490 BP,1
-bitter vetch,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,24
-bitter vetch,MPPNB,Cafer Höyük,CAFH M-PPNB,10050–9300 BP,5
-bitter vetch,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,14.5
-bitter vetch,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,10650–8450 BP,52
-bitter vetch,MPPNB,Sheikh-e Abad,ABAD_III_PPNB,10650–8450 BP,1
-bitter vetch,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,1
-bitter vetch,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,10237–9260 BP,1
-bitter vetch,LPPNB/C,Basta,BAS1 L-PPNB-sub,9450–9210 BP,1
-bitter vetch,LPPNB/C,Can Hasan III,CAH3 Aceramic,9400–8550 BP,37
-bitter vetch,LPPNB/C,Çatalhöyük,CATE Later,9250–8350 BP,36
-bitter vetch,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,49.5
-bitter vetch,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,80.5
-bitter vetch,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,99
-bitter vetch,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,2
-bitter vetch,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,1
-bitter vetch,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,68.29
-bitter vetch,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,3830
-bitter vetch,Pottery Neolithic,Çayönü,CAYO cell/large room,8200–8050 BP,1
-bitter vetch,Pottery Neolithic,Çayönü,CAYO large room,8050–7650 BP,3.5
-bitter vetch,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,45
-bitter vetch,Pottery Neolithic,Hacılar,HACI L-N,7750–7350 BP,50
-bitter vetch,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,3
-bitter vetch,Chalcolithic,Girikihaciyan,GH,7050–1950 BP,157
-bitter vetch,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,3742
-bitter vetch,Chalcolithic,Ikiztepe,IT_C,7150–3950 BP,65
-bitter vetch,Chalcolithic,Ikiztepe,IT_EB/MB,5150–3550 BP,220
-bitter vetch,Chalcolithic,Tell Aphek,TAPH_IA_IB,5150–4950 BP,79
-bitter vetch,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_Late,5150–3950 BP,3
-bitter vetch,Chalcolithic,Tell Jerablus Tahtani,TJT_LC,6750–5750 BP,1
-bitter vetch,Chalcolithic,Tell Mishrifeh,TEMI_11,5150–3950 BP,3
-bitter vetch,Chalcolithic,Tell Mishrifeh,TEMI_9,5150–3550 BP,1
-bitter vetch,Chalcolithic,Tepecik,TEP-CH,6450–5750 BP,3
-chickpea,PPNA,El-Hemmeh,EHEM-PPNA,11070–10520 BP,4
-chickpea,PPNA,Tell es-Sultan,JERI PPNA,12250–10750 BP,2
-chickpea,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,3
-chickpea,EPPNB,Nevalı Çori,NECO PPNB,10450–10250 BP,1
-chickpea,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,10510–10240 BP,138
-chickpea,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,4
-chickpea,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,3
-chickpea,LPPNB/C,Atlit-Yam,ATYA PPNC,9019–8042 BP,2
-chickpea,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,1
-chickpea,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,2.5
-chickpea,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,2
-chickpea,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,26
-chickpea,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,9734–9260 BP,1
-chickpea,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,8
-chickpea,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,20.89
-chickpea,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,7.5
-chickpea,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,6
-chickpea,Pottery Neolithic,Hacılar,HACI L-N,7750–7350 BP,2
-chickpea,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,8430–8160 BP,5
-chickpea,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,2
-chickpea,Chalcolithic,Ayios Epiktitos Vrysi,AEV,7350–1950 BP,19
-chickpea,Chalcolithic,Beth Shean,BS_EBIB,5150–4950 BP,3.071
-chickpea,Chalcolithic,Emar,EM_EBA,5150–3950 BP,1
-chickpea,Chalcolithic,Girikihaciyan,GH,7050–1950 BP,54
-chickpea,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,511
-chickpea,Chalcolithic,Korucutepe,KOR-EB,5150–3950 BP,94
-einkorn wheat,Late Epipal.,Abu Hureyra,ABHU Epip2,12984–12055 BP,6
-einkorn wheat,Late Epipal.,Abu Hureyra,ABHU Epip3,12055–11770 BP,8
-einkorn wheat,Late Epipal.,Mureybet,MURE L-Epi/PPNA,12050–11950 BP,17
-einkorn wheat,PPNA,Chogha Bonut,CHBO Aceramic,12850–8800 BP,0.01
-einkorn wheat,PPNA,Chogha Golan,CHGO-XI,11250–11050 BP,36
-einkorn wheat,PPNA,Iraq ed-Dubb,IEDU PPNA,11650–11150 BP,1
-einkorn wheat,PPNA,Jerf el Ahmar,JEAH PPNA,11450–10650 BP,147
-einkorn wheat,PPNA,Mureybet,MURE PPNA,11650–11250 BP,2641
-einkorn wheat,PPNA,Mureybet,MURE PPNB,11350–10750 BP,7
-einkorn wheat,PPNA,Tell 'Abr,TABR PPNA,11245–10776 BP,90
-einkorn wheat,PPNA,Tell es-Sultan,JERI PPNA,12250–10750 BP,3
-einkorn wheat,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,302
-einkorn wheat,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,89.5
-einkorn wheat,EPPNB,Mylouthkia,MYLO-1A,10550–10150 BP,1
-einkorn wheat,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,10510–10240 BP,50
-einkorn wheat,MPPNB,Ais Giorkis,AIYI-PPNB,9550–9450 BP,363
-einkorn wheat,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,36
-einkorn wheat,MPPNB,Beidha,BEID A,10093–9490 BP,1
-einkorn wheat,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,45
-einkorn wheat,MPPNB,Cafer Höyük,CAFH M-PPNB,10050–9300 BP,37
-einkorn wheat,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,2.5
-einkorn wheat,MPPNB,Chogha Golan,CHGO-IV,9950–9850 BP,27
-einkorn wheat,MPPNB,Göbekli Tepe,GOTE PPNA/E-PPNB,10750–9550 BP,20
-einkorn wheat,MPPNB,Hacılar,HACI M-PPNB,10232–9418 BP,42
-einkorn wheat,MPPNB,Halula,HALU M-PPNB,9921–9532 BP,3
-einkorn wheat,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,17
-einkorn wheat,MPPNB,Wadi Jilat 7,WJ07 E-PPNB,10237–9681 BP,1
-einkorn wheat,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,10237–9260 BP,41
-einkorn wheat,LPPNB/C,Abu Hureyra,ABHU-EPPNB,9350–8250 BP,1
-einkorn wheat,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,9450–8700 BP,9
-einkorn wheat,LPPNB/C,Ali Kosh,TAKO PPNC/PN,10100–7950 BP,4
-einkorn wheat,LPPNB/C,Basta,BAS1 L-PPNB-sub,9450–9210 BP,1
-einkorn wheat,LPPNB/C,Bouqras,TBOU L-PPNB/PN,9200–8600 BP,1
-einkorn wheat,LPPNB/C,Cafer Höyük,CAFH L-PPNB,9450–9050 BP,142
-einkorn wheat,LPPNB/C,Can Hasan III,CAH3 Aceramic,9400–8550 BP,37
-einkorn wheat,LPPNB/C,Çatalhöyük,CATE Later,9250–8350 BP,4
-einkorn wheat,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,8.5
-einkorn wheat,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,8.5
-einkorn wheat,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,6.5
-einkorn wheat,LPPNB/C,Dhuweila,DHUW L-PPNB,9430–9100 BP,2
-einkorn wheat,LPPNB/C,Mylouthkia,MYLO-1B,9150–8750 BP,7
-einkorn wheat,LPPNB/C,Sabi Abyad II,TSA2 PPNB,9500–8800 BP,2
-einkorn wheat,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,181
-einkorn wheat,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,9496–8598 BP,16
-einkorn wheat,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,9000–8200 BP,3
-einkorn wheat,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,172
-einkorn wheat,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,24
-einkorn wheat,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,9537–8609 BP,2
-einkorn wheat,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,9234–8195 BP,8
-einkorn wheat,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,9050–8481 BP,4
-einkorn wheat,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,9012–8450 BP,6
-einkorn wheat,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,9734–9260 BP,6
-einkorn wheat,Pottery Neolithic,Abu Hureyra,ABHU PN,7550–7450 BP,1
-einkorn wheat,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,6
-einkorn wheat,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,50
-einkorn wheat,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,589.05
-einkorn wheat,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,5.5
-einkorn wheat,Pottery Neolithic,Çayönü,CAYO cell/large room,8200–8050 BP,1
-einkorn wheat,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,4
-einkorn wheat,Pottery Neolithic,Hacılar,HACI L-N,7750–7350 BP,4490
-einkorn wheat,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,2
-einkorn wheat,Pottery Neolithic,Tell el-'Oueili,TO-1,8350–6150 BP,2
-einkorn wheat,Pottery Neolithic,Tell es-Sultan,JERI PN,8170–8042 BP,21
-einkorn wheat,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,6
-einkorn wheat,Chalcolithic,Ayios Epiktitos Vrysi,AEV,7350–1950 BP,103
-einkorn wheat,Chalcolithic,Çayboyu,CB_LC,6750–5750 BP,9.412
-einkorn wheat,Chalcolithic,Demircihöyük,DH,5150–3950 BP,344
-einkorn wheat,Chalcolithic,Hacinebi Tepe,HAT-C,6750–5750 BP,21
-einkorn wheat,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,7200
-einkorn wheat,Chalcolithic,Rukeis,RK,5350–3050 BP,9
-einkorn wheat,Chalcolithic,Shiqmim,SQ_LV,7150–4950 BP,99
-einkorn wheat,Chalcolithic,Tappeh Gijlar,TAG-B,5150–3950 BP,3
-einkorn wheat,Chalcolithic,Tappeh Gijlar,TAG-C,7150–3950 BP,4
-einkorn wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,5150–4950 BP,62
-einkorn wheat,Chalcolithic,Tell Afis,TAF-C,6150–5750 BP,15
-einkorn wheat,Chalcolithic,Tell el-Hayyat,TEHAY_EBA,5150–3950 BP,24
-einkorn wheat,Chalcolithic,Tell Karrana,TKA,7150–3950 BP,555
-einkorn wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,5150–3950 BP,3
-einkorn wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,5150–3550 BP,1
-einkorn wheat,Chalcolithic,Tepe Farukhabad,TF-LU,5450–5050 BP,1
-einkorn wheat,Chalcolithic,Tepecik,TEP-CH,6450–5750 BP,1
-emmer wheat,Late Epipal.,Abu Hureyra,ABHU Epip2,12984–12055 BP,3
-emmer wheat,Late Epipal.,Abu Hureyra,ABHU Epip3,12055–11770 BP,4
-emmer wheat,PPNA,Çayönü,CAYO PPNB,11150–10650 BP,1
-emmer wheat,PPNA,Chogha Bonut,CHBO Aceramic,12850–8800 BP,0.4
-emmer wheat,PPNA,El-Hemmeh,EHEM-PPNA,11070–10520 BP,8
-emmer wheat,PPNA,Nahal Oren,NAOR PPNA,12150–10750 BP,1
-emmer wheat,PPNA,Netiv Hagdud,NEHA PPNA,11603–10586 BP,152
-emmer wheat,PPNA,Tell Aswad,TASW E-PPNB,11231–10658 BP,5
-emmer wheat,PPNA,Tell es-Sultan,JERI PPNA,12250–10750 BP,9
-emmer wheat,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,192
-emmer wheat,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,168
-emmer wheat,EPPNB,Kissonerga Mosphilia,KMIA,10750–10350 BP,8
-emmer wheat,EPPNB,Mylouthkia,MYLO-1A,10550–10150 BP,8
-emmer wheat,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,10510–10240 BP,5
-emmer wheat,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,10821–10242 BP,20
-emmer wheat,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,73
-emmer wheat,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,28
-emmer wheat,MPPNB,Cafer Höyük,CAFH M-PPNB,10050–9300 BP,2
-emmer wheat,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,5
-emmer wheat,MPPNB,Chogha Golan,CHGO-I,9650–9550 BP,2
-emmer wheat,MPPNB,Chogha Golan,CHGO-II,9750–9650 BP,23
-emmer wheat,MPPNB,Hacılar,HACI M-PPNB,10232–9418 BP,24
-emmer wheat,MPPNB,Halula,HALU M-PPNB,9921–9532 BP,163
-emmer wheat,MPPNB,Nahal Hemar,NAHE PPNB,10130–9316 BP,27
-emmer wheat,MPPNB,Nahal Oren,NAOR PPNB,10750–9550 BP,2
-emmer wheat,MPPNB,Shkarat Msaied,SHMS M-PPNB,10241–9914 BP,4
-emmer wheat,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,1905
-emmer wheat,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,7
-emmer wheat,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,10237–9260 BP,11
-emmer wheat,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,9450–8700 BP,300
-emmer wheat,LPPNB/C,Ali Kosh,TAKO PN,9241–8213 BP,36
-emmer wheat,LPPNB/C,Ali Kosh,TAKO PPNC/PN,10100–7950 BP,135
-emmer wheat,LPPNB/C,Atlit-Yam,ATYA PPNC,9019–8042 BP,897
-emmer wheat,LPPNB/C,Basta,BAS1 L-PPNB,9450–9210 BP,29.5
-emmer wheat,LPPNB/C,Basta,BAS1 L-PPNB-sub,9450–9210 BP,5
-emmer wheat,LPPNB/C,Cafer Höyük,CAFH L-PPNB,9450–9050 BP,71
-emmer wheat,LPPNB/C,Can Hasan III,CAH3 Aceramic,9400–8550 BP,26
-emmer wheat,LPPNB/C,Çatalhöyük,CATE Later,9250–8350 BP,745
-emmer wheat,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,13
-emmer wheat,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,20
-emmer wheat,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,5
-emmer wheat,LPPNB/C,Kissonerga Mosphilia,KMIB,9450–8950 BP,11
-emmer wheat,LPPNB/C,Mylouthkia,MYLO-1B,9150–8750 BP,11
-emmer wheat,LPPNB/C,Ras Shamra,TRAS Vb,8776–8289 BP,10
-emmer wheat,LPPNB/C,Ras Shamra,TRAS Vc,9450–9080 BP,6
-emmer wheat,LPPNB/C,Sabi Abyad II,TSA2 PPNB,9500–8800 BP,29
-emmer wheat,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,93
-emmer wheat,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,9496–8598 BP,114
-emmer wheat,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,9000–8200 BP,78
-emmer wheat,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,3926
-emmer wheat,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,281
-emmer wheat,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,9537–8609 BP,1
-emmer wheat,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,9050–8481 BP,2
-emmer wheat,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,9012–8450 BP,1
-emmer wheat,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,10
-emmer wheat,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,18
-emmer wheat,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,3102.04
-emmer wheat,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,35
-emmer wheat,Pottery Neolithic,Çayönü,CAYO cell/large room,8200–8050 BP,3
-emmer wheat,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,16
-emmer wheat,Pottery Neolithic,Chogha Bonut,CHBO Formative,7540–7385 BP,0.02
-emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PN,8250–8050 BP,15
-emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PN(phase C),7500–7350 BP,25
-emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PN(phase D),7350–7250 BP,5
-emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PPNB,8350–8158 BP,14
-emmer wheat,Pottery Neolithic,El Kowm II,ELK2 F-PPNB,8533–8418 BP,47
-emmer wheat,Pottery Neolithic,Jaffarabad,JAF,8350–4950 BP,560
-emmer wheat,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,275
-emmer wheat,Pottery Neolithic,Tell es-Sultan,JERI PN,8170–8042 BP,30
-emmer wheat,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,179
-emmer wheat,Pottery Neolithic,Yarim Tepe,YATE Halaf,7550–7250 BP,66
-emmer wheat,Pottery Neolithic,Yarim Tepe,YATE Hassuna,8090–7890 BP,14
-emmer wheat,Chalcolithic,Ayios Epiktitos Vrysi,AEV,7350–1950 BP,182
-emmer wheat,Chalcolithic,Beth Shean,BS_EBIB,5150–4950 BP,643
-emmer wheat,Chalcolithic,Çayboyu,CB_LC,6750–5750 BP,77.917
-emmer wheat,Chalcolithic,Demircihöyük,DH,5150–3950 BP,111
-emmer wheat,Chalcolithic,Emar,EM_EBA,5150–3950 BP,3
-emmer wheat,Chalcolithic,Girikihaciyan,GH,7050–1950 BP,1.131
-emmer wheat,Chalcolithic,Hacinebi Tepe,HAT-C,6750–5750 BP,19
-emmer wheat,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,585
-emmer wheat,Chalcolithic,Korucutepe,KOR-CH,7150–4950 BP,153
-emmer wheat,Chalcolithic,Korucutepe,KOR-EB,5150–3950 BP,101
-emmer wheat,Chalcolithic,Kosak Shamali,KS,7150–4950 BP,2
-emmer wheat,Chalcolithic,Kuruçay Höyük,KUR_LC,6750–5750 BP,6.4959999999999996
-emmer wheat,Chalcolithic,Lachish,LH_EB,5150–3950 BP,0
-emmer wheat,Chalcolithic,Maadi,MD_PD,7450–5150 BP,14464
-emmer wheat,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,5150–4950 BP,250
-emmer wheat,Chalcolithic,Sabi Abyad,TSA-1_3,7050–1950 BP,11.446
-emmer wheat,Chalcolithic,Shiqmim,SQ_LV,7150–4950 BP,777
-emmer wheat,Chalcolithic,Shiqmim,SQ_UV,6450–5750 BP,129
-emmer wheat,Chalcolithic,Tappeh Gijlar,TAG-B,5150–3950 BP,25
-emmer wheat,Chalcolithic,Tappeh Gijlar,TAG-BC,6750–5750 BP,1
-emmer wheat,Chalcolithic,Tappeh Gijlar,TAG-C,7150–3950 BP,10
-emmer wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,5150–4950 BP,287
-emmer wheat,Chalcolithic,Tell Afis,TAF-C,6150–5750 BP,35
-emmer wheat,Chalcolithic,Tell al-Raqa'i,TAR-4,5150–3950 BP,22
-emmer wheat,Chalcolithic,Tell Aphek,TAPH_IA_IB,5150–4950 BP,152
-emmer wheat,Chalcolithic,Tell Atij,TA,5150–3950 BP,179
-emmer wheat,Chalcolithic,Tell Brak,TBR-I,6750–5750 BP,188
-emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-I,7150–4950 BP,202
-emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-II,7150–4950 BP,528
-emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-III,5150–4950 BP,64
-emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-IV,5150–4950 BP,108
-emmer wheat,Chalcolithic,Tell el-Iswid,TEI_ED,5050–4650 BP,113
-emmer wheat,Chalcolithic,Tell el-Iswid,TEI_PD,7450–5150 BP,586
-emmer wheat,Chalcolithic,Tell Esh-Shuna,TES_C,7050–1950 BP,264
-emmer wheat,Chalcolithic,Tell Esh-Shuna,TES_EB1E,5050–1950 BP,56
-emmer wheat,Chalcolithic,Tell Fadous-Kfarabida,TFA_C_EBA_I,7150–3950 BP,62
-emmer wheat,Chalcolithic,Tell Fadous-Kfarabida,TFA_EBA_V,5150–3950 BP,11
-emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-B,5050–4850 BP,358
-emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-ED,5050–4650 BP,112
-emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-PD,7450–5150 BP,31
-emmer wheat,Chalcolithic,Tell Karrana,TKA,7150–3950 BP,3.739
-emmer wheat,Chalcolithic,Tell Kerma,TKE,5150–3950 BP,177
-emmer wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,5150–3950 BP,131
-emmer wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,5150–3550 BP,158
-emmer wheat,Chalcolithic,Tepe Farukhabad,TF-EJN,5050–1950 BP,8
-emmer wheat,Chalcolithic,Tepe Farukhabad,TF-F,6450–5750 BP,5
-emmer wheat,Chalcolithic,Tepecik,TEP-CH,6450–5750 BP,20
-emmer wheat,Chalcolithic,Tilbeshar,TB_C,7150–4950 BP,52
-emmer wheat,Chalcolithic,Wadi Fidan,WF-E,7150–3950 BP,538.42
-emmer wheat,Chalcolithic,Yarim Höyük,YAHÖ_KV_U,5950–1950 BP,1
-emmer wheat,Chalcolithic,Yarim Höyük,YAHÖ_U,5450–5050 BP,2
-flax,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,13250–12250 BP,2
-flax,Late Epipal.,Mureybet,MURE L-Epi/PPNA,12050–11950 BP,4
-flax,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,14.5
-flax,EPPNB,Kissonerga Mosphilia,KMIA,10750–10350 BP,4
-flax,EPPNB,Mylouthkia,MYLO-1A,10550–10150 BP,4
-flax,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,1
-flax,MPPNB,Nahal Hemar,NAHE PPNB,10130–9316 BP,1
-flax,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,16
-flax,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,3
-flax,MPPNB,Tell Halula,7550-TelHMB,9950–9050 BP,93
-flax,LPPNB/C,Ain Ghazal,AIGH M/L-PPNB,10276–8582 BP,1
-flax,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,9450–8700 BP,3
-flax,LPPNB/C,Ali Kosh,TAKO PN,9241–8213 BP,1
-flax,LPPNB/C,Ali Kosh,TAKO PPNC/PN,10100–7950 BP,1
-flax,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,3
-flax,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,94
-flax,LPPNB/C,Mylouthkia,MYLO-1B,9150–8750 BP,4
-flax,LPPNB/C,Ras Shamra,TRAS Vb,8776–8289 BP,1
-flax,LPPNB/C,Ras Shamra,TRAS Vc,9450–9080 BP,2
-flax,LPPNB/C,Sabi Abyad II,TSA2 PPNB,9500–8800 BP,1253
-flax,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,2
-flax,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,9496–8598 BP,22
-flax,LPPNB/C,Tell Halula,6550-TelHEP,8800–8200 BP,62
-flax,LPPNB/C,Tell Halula,7320-TelHLB,9400–9140 BP,78
-flax,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,9000–8200 BP,39
-flax,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,265
-flax,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,32
-flax,Pottery Neolithic,Abu Hureyra,ABHU PN,7550–7450 BP,3
-flax,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,5
-flax,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,2
-flax,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,8750–8050 BP,13
-flax,Pottery Neolithic,Choga Mami,5795-CM-S,7930–7560 BP,81
-flax,Pottery Neolithic,Nahal Zehora II,6050-NZIIPN,8200–7800 BP,3
-flax,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,10
-flax,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,8430–8160 BP,29
-flax,Pottery Neolithic,Sha'ar Hagolan,6230-ShaHag,8350–8010 BP,1
-flax,Pottery Neolithic,Tell Halula,5925-TelHLP,8200–7550 BP,5
-flax,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,3
-flax,Chalcolithic,Beth Shean,BS_EBIB,5150–4950 BP,158
-flax,Chalcolithic,Girikihaciyan,GH,7050–1950 BP,17
-flax,Chalcolithic,Korucutepe,KOR-CH,7150–4950 BP,80
-flax,Chalcolithic,Kuruçay Höyük,KUR_LC,6750–5750 BP,40.963
-flax,Chalcolithic,Maadi,MD_PD,7450–5150 BP,7
-flax,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,5150–4950 BP,103
-flax,Chalcolithic,Tappeh Gijlar,TAG-B,5150–3950 BP,18
-flax,Chalcolithic,Tell Aphek,TAPH_IA_IB,5150–4950 BP,13
-flax,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_early,5150–3950 BP,5
-flax,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_Late,5150–3950 BP,2
-flax,Chalcolithic,Tell Jerablus Tahtani,TJT_LC,6750–5750 BP,1
-flax,Chalcolithic,Tilbeshar,TB_C,7150–4950 BP,3
-lentil,Late Epipal.,Abu Hureyra,ABHU Epip1,13096–12984 BP,12
-lentil,Late Epipal.,Abu Hureyra,ABHU Epip2,12984–12055 BP,21
-lentil,Late Epipal.,Abu Hureyra,ABHU Epip3,12055–11770 BP,10
-lentil,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,13250–12250 BP,6
-lentil,Late Epipal.,Mureybet,MURE L-Epi/PPNA,12050–11950 BP,7
-lentil,Late Epipal.,Wadi Hammeh 27,WH27 Epip,14111–12660 BP,1
-lentil,PPNA,Chogha Bonut,CHBO Aceramic,12850–8800 BP,3
-lentil,PPNA,Chogha Golan,CHGO-iX,10850–10650 BP,11
-lentil,PPNA,Chogha Golan,CHGO-X,11050–10850 BP,5
-lentil,PPNA,Chogha Golan,CHGO-XI,11250–11050 BP,78
-lentil,PPNA,El-Hemmeh,EHEM-PPNA,11070–10520 BP,99
-lentil,PPNA,Iraq ed-Dubb,IEDU PPNA,11650–11150 BP,4
-lentil,PPNA,Jerf el Ahmar,JEAH PPNA,11450–10650 BP,2185
-lentil,PPNA,M'lefaat,MLEF PPNA,11270–11140 BP,424
-lentil,PPNA,Mureybet,MURE PPNA,11650–11250 BP,30
-lentil,PPNA,Mureybet,MURE PPNB,11350–10750 BP,8
-lentil,PPNA,Nemrik 9,NEM9 PPNA,12389–9563 BP,9
-lentil,PPNA,Netiv Hagdud,NEHA PPNA,11603–10586 BP,205
-lentil,PPNA,Qermez Dere,QEDE PPNA,11750–9950 BP,263
-lentil,PPNA,Tell 'Abr,TABR PPNA,11245–10776 BP,230
-lentil,PPNA,Tell Aswad,TASW E-PPNB,11231–10658 BP,2
-lentil,PPNA,Tell es-Sultan,JERI PPNA,12250–10750 BP,1
-lentil,PPNA,Zahrat adh-Dhra 2,ZAD2 PPNA,11450–10450 BP,32
-lentil,EPPNB,Chogha Golan,CHGO-VII,10450–10250 BP,11
-lentil,EPPNB,Chogha Golan,CHGO-VIII,10650–10450 BP,14
-lentil,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,5850
-lentil,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,146.5
-lentil,EPPNB,Kissonerga Mosphilia,KMIA,10750–10350 BP,2
-lentil,EPPNB,Mylouthkia,MYLO-1A,10550–10150 BP,2
-lentil,EPPNB,Nevalı Çori,NECO PPNB,10450–10250 BP,342
-lentil,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,10510–10240 BP,450
-lentil,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,10821–10242 BP,4
-lentil,MPPNB,Ais Giorkis,AIYI-PPNB,9550–9450 BP,3
-lentil,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,43
-lentil,MPPNB,Beidha,BEID A,10093–9490 BP,1
-lentil,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,252
-lentil,MPPNB,Cafer Höyük,CAFH M-PPNB,10050–9300 BP,1
-lentil,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,4
-lentil,MPPNB,Çayönü,CAYO round house,10250–9950 BP,1
-lentil,MPPNB,Chogha Golan,CHGO-I,9650–9550 BP,6
-lentil,MPPNB,Chogha Golan,CHGO-II,9750–9650 BP,4
-lentil,MPPNB,Chogha Golan,CHGO-III,9850–9750 BP,2
-lentil,MPPNB,Chogha Golan,CHGO-IV,9950–9850 BP,96
-lentil,MPPNB,Chogha Golan,CHGO-V,10050–9950 BP,44
-lentil,MPPNB,Chogha Golan,CHGO-VI,10250–10050 BP,9
-lentil,MPPNB,East Chia Sabz,CHSA-PPNB,10450–9550 BP,26
-lentil,MPPNB,Ganj Dareh,GADT A,9950–9350 BP,2
-lentil,MPPNB,Ganj Dareh,GADT All,10350–9350 BP,5
-lentil,MPPNB,Ganj Dareh,GADT B,10150–9350 BP,12
-lentil,MPPNB,Ganj Dareh,GADT D,10300–9350 BP,10
-lentil,MPPNB,Ganj Dareh,GADT E,10150–9150 BP,11
-lentil,MPPNB,Göbekli Tepe,GOTE PPNA/E-PPNB,10750–9550 BP,1
-lentil,MPPNB,Hacılar,HACI M-PPNB,10232–9418 BP,3
-lentil,MPPNB,Halula,HALU M-PPNB,9921–9532 BP,57
-lentil,MPPNB,Nahal Hemar,NAHE PPNB,10130–9316 BP,7
-lentil,MPPNB,Nahal Oren,NAOR PPNB,10750–9550 BP,1
-lentil,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,10650–8450 BP,58
-lentil,MPPNB,Sheikh-e Abad,ABAD_III_PPNB,10650–8450 BP,1
-lentil,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,21
-lentil,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,3
-lentil,MPPNB,Tell Halula,7550-TelHMB,9950–9050 BP,63
-lentil,MPPNB,Tepe Abdul Hosein,TAHO PPNB,10272–9092 BP,1
-lentil,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,10237–9260 BP,5
-lentil,LPPNB/C,Abu Hureyra,ABHU-EPPNB,9350–8250 BP,3
-lentil,LPPNB/C,Ali Kosh,TAKO PN,9241–8213 BP,1
-lentil,LPPNB/C,Ali Kosh,TAKO PPNC/PN,10100–7950 BP,1
-lentil,LPPNB/C,Atlit-Yam,ATYA PPNC,9019–8042 BP,25
-lentil,LPPNB/C,Basta,BAS1 L-PPNB,9450–9210 BP,7
-lentil,LPPNB/C,Cafer Höyük,CAFH L-PPNB,9450–9050 BP,6
-lentil,LPPNB/C,Can Hasan III,CAH3 Aceramic,9400–8550 BP,15
-lentil,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,1.5
-lentil,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,18
-lentil,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,16.5
-lentil,LPPNB/C,Kissonerga Mosphilia,KMIB,9450–8950 BP,52
-lentil,LPPNB/C,Mylouthkia,MYLO-1B,9150–8750 BP,52
-lentil,LPPNB/C,Ras Shamra,TRAS Vb,8776–8289 BP,63
-lentil,LPPNB/C,Ras Shamra,TRAS Vc,9450–9080 BP,122
-lentil,LPPNB/C,Sabi Abyad II,TSA2 PPNB,9500–8800 BP,37
-lentil,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,640
-lentil,LPPNB/C,Tell Halula,7320-TelHLB,9400–9140 BP,221
-lentil,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,9000–8200 BP,42
-lentil,LPPNB/C,Tell Nebi Mend,6830-TNM,8980–8580 BP,17
-lentil,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,653
-lentil,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,75
-lentil,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,9234–8195 BP,1
-lentil,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,9050–8481 BP,1
-lentil,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,9012–8450 BP,1
-lentil,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,9734–9260 BP,2
-lentil,LPPNB/C,Yiftah'el,YIFT PPNB,8750–8750 BP,1400000
-lentil,Pottery Neolithic,Abu Hureyra,ABHU PN,7550–7450 BP,5
-lentil,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,21
-lentil,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,32
-lentil,Pottery Neolithic,Arjoune,5520-Arj,7620–7320 BP,34
-lentil,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,8750–8050 BP,146
-lentil,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,115.7
-lentil,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,73
-lentil,Pottery Neolithic,Çayönü,CAYO cell/large room,8200–8050 BP,3
-lentil,Pottery Neolithic,Çayönü,CAYO large room,8050–7650 BP,93
-lentil,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,149.5
-lentil,Pottery Neolithic,Choga Mami,5795-CM-S,7930–7560 BP,72
-lentil,Pottery Neolithic,El Kowm I,ELK1 PN,8250–8050 BP,2
-lentil,Pottery Neolithic,El Kowm I,ELK1 PN(phase C),7500–7350 BP,2
-lentil,Pottery Neolithic,Erbaba,6450-ER,9050–7750 BP,610
-lentil,Pottery Neolithic,Hacılar,HACI L-N,7750–7350 BP,65
-lentil,Pottery Neolithic,Jaffarabad,JAF,8350–4950 BP,678
-lentil,Pottery Neolithic,Nahal Zehora II,5450-NZIIWR,7850–6950 BP,4
-lentil,Pottery Neolithic,Nahal Zehora II,6050-NZIIPN,8200–7800 BP,57
-lentil,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,255
-lentil,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,8430–8160 BP,8
-lentil,Pottery Neolithic,Sha'ar Hagolan,6230-ShaHag,8350–8010 BP,3
-lentil,Pottery Neolithic,Tell es-Sultan,JERI PN,8170–8042 BP,112
-lentil,Pottery Neolithic,Tell Halula,5925-TelHLP,8200–7550 BP,1
-lentil,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,79
-lentil,Chalcolithic,Ayios Epiktitos Vrysi,AEV,7350–1950 BP,562
-lentil,Chalcolithic,Beth Shean,BS_EBIB,5150–4950 BP,1.972
-lentil,Chalcolithic,Emar,EM_EBA,5150–3950 BP,13
-lentil,Chalcolithic,Girikihaciyan,GH,7050–1950 BP,533
-lentil,Chalcolithic,Hacinebi Tepe,HAT-U,5950–1950 BP,1
-lentil,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,13725
-lentil,Chalcolithic,Korucutepe,KOR-CH,7150–4950 BP,37
-lentil,Chalcolithic,Korucutepe,KOR-EB,5150–3950 BP,37
-lentil,Chalcolithic,Kuruçay Höyük,KUR_LC,6750–5750 BP,36.212
-lentil,Chalcolithic,Lemba Lakkous,LL,7150–4950 BP,28
-lentil,Chalcolithic,Maadi,MD_PD,7450–5150 BP,2
-lentil,Chalcolithic,Megiddo,MEG_EBIB,5150–4950 BP,4
-lentil,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,5150–4950 BP,13
-lentil,Chalcolithic,Rukeis,RK,5350–3050 BP,4
-lentil,Chalcolithic,Shiqmim,SQ_LV,7150–4950 BP,109
-lentil,Chalcolithic,Tappeh Gijlar,TAG-C,7150–3950 BP,2
-lentil,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,5150–4950 BP,23
-lentil,Chalcolithic,Tell Afis,TAF-C,6150–5750 BP,78
-lentil,Chalcolithic,Tell al-Rawda,RAW,5150–3950 BP,81
-lentil,Chalcolithic,Tell Aphek,TAPH_IA_IB,5150–4950 BP,13
-lentil,Chalcolithic,Tell el Ifshar,TEIF_EBA,5150–3950 BP,2.231
-lentil,Chalcolithic,Tell el-Fara'in,TEF-IV,5150–4950 BP,312
-lentil,Chalcolithic,Tell Esh-Shuna,TES_C,7050–1950 BP,125
-lentil,Chalcolithic,Tell Esh-Shuna,TES_EB1E,5050–1950 BP,351
-lentil,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_early,5150–3950 BP,3
-lentil,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_Late,5150–3950 BP,12
-lentil,Chalcolithic,Tell Mishrifeh,TEMI_11,5150–3950 BP,7
-lentil,Chalcolithic,Tell Mishrifeh,TEMI_9,5150–3550 BP,30
-lentil,Chalcolithic,Tepecik,TEP-EB,5150–3950 BP,25
-lentil,Chalcolithic,Tepecik,TEP-EB_MB,5150–3550 BP,1
-lentil,Chalcolithic,Tilbeshar,TB_C,7150–4950 BP,31
-lentil,Chalcolithic,Yarim Höyük,YAHÖ_U,5450–5050 BP,2
-pea,Late Epipal.,Mureybet,MURE L-Epi/PPNA,12050–11950 BP,7
-pea,PPNA,Hasankey Höyük,9440-HasHoy,11610–11170 BP,4
-pea,PPNA,Jerf el Ahmar,JEAH PPNA,11450–10650 BP,3
-pea,PPNA,Mureybet,MURE PPNA,11650–11250 BP,13
-pea,PPNA,Mureybet,MURE PPNB,11350–10750 BP,2
-pea,PPNA,Tell Aswad,TASW E-PPNB,11231–10658 BP,2
-pea,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,13
-pea,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,4
-pea,EPPNB,Nevalı Çori,NECO PPNB,10450–10250 BP,137
-pea,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,10821–10242 BP,37
-pea,MPPNB,Ais Giorkis,AIYI-PPNB,9550–9450 BP,1
-pea,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,7
-pea,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,5
-pea,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,15.5
-pea,MPPNB,Ganj Dareh,GADT B,10150–9350 BP,1
-pea,MPPNB,Ganj Dareh,GADT D,10300–9350 BP,1
-pea,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,10650–8450 BP,28
-pea,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,36
-pea,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,19
-pea,MPPNB,Tell Halula,7550-TelHMB,9950–9050 BP,10
-pea,LPPNB/C,Basta,BAS1 L-PPNB,9450–9210 BP,10.25
-pea,LPPNB/C,Basta,BAS1 L-PPNB-sub,9450–9210 BP,3
-pea,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,34
-pea,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,46
-pea,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,41
-pea,LPPNB/C,Ras Shamra,TRAS Vb,8776–8289 BP,4
-pea,LPPNB/C,Ras Shamra,TRAS Vc,9450–9080 BP,7
-pea,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,344
-pea,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,9496–8598 BP,7
-pea,LPPNB/C,Tell Halula,6550-TelHEP,8800–8200 BP,3
-pea,LPPNB/C,Tell Halula,7320-TelHLB,9400–9140 BP,8
-pea,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,171
-pea,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,25
-pea,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,1
-pea,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,8750–8050 BP,4
-pea,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,5217.68
-pea,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,44.5
-pea,Pottery Neolithic,Çayönü,CAYO large room,8050–7650 BP,39
-pea,Pottery Neolithic,Choga Mami,5795-CM-S,7930–7560 BP,5
-pea,Pottery Neolithic,El Kowm I,ELK1 PPNB,8350–8158 BP,5
-pea,Pottery Neolithic,Erbaba,6450-ER,9050–7750 BP,8715
-pea,Pottery Neolithic,Hacılar,HACI L-N,7750–7350 BP,1595
-pea,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,12
-pea,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,8430–8160 BP,2
-pea,Pottery Neolithic,Tell Halula,5925-TelHLP,8200–7550 BP,8
-pea,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,28
-pea,Chalcolithic,Ayios Epiktitos Vrysi,AEV,7350–1950 BP,98
-pea,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,3
-pea,Chalcolithic,Imamoglu,IMA,5150–3950 BP,12.396
-pea,Chalcolithic,Kuruçay Höyük,KUR_LC,6750–5750 BP,7.164
-pea,Chalcolithic,Tell Taya,TT-D,5050–4650 BP,2
-pea,Chalcolithic,Tepecik,TEP-CH,6450–5750 BP,3
-wheat,Late Epipal.,Abu Hureyra,ABHU Epip3,12055–11770 BP,2
-wheat,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,13250–12250 BP,10
-wheat,Late Epipal.,Mureybet,MURE L-Epi/PPNA,12050–11950 BP,1
-wheat,PPNA,Çayönü,CAYO PPNB,11150–10650 BP,30
-wheat,PPNA,Chogha Golan,CHGO-iX,10850–10650 BP,1
-wheat,PPNA,Chogha Golan,CHGO-X,11050–10850 BP,9
-wheat,PPNA,Chogha Golan,CHGO-XI,11250–11050 BP,9
-wheat,PPNA,El-Hemmeh,EHEM-PPNA,11070–10520 BP,4
-wheat,PPNA,Iraq ed-Dubb,IEDU PPNA,11650–11150 BP,42
-wheat,PPNA,Mureybet,MURE PPNA,11650–11250 BP,1
-wheat,PPNA,Tell Aswad,TASW E-PPNB,11231–10658 BP,144
-wheat,PPNA,Tell es-Sultan,JERI PPNA,12250–10750 BP,2
-wheat,PPNA,Zahrat adh-Dhra 2,ZAD2 PPNA,11450–10450 BP,27
-wheat,EPPNB,Chogha Golan,CHGO-VII,10450–10250 BP,18
-wheat,EPPNB,Chogha Golan,CHGO-VIII,10650–10450 BP,3
-wheat,EPPNB,Dja'de,DJAD E-PPNB,10690–10151 BP,16
-wheat,EPPNB,Kastros,KAST CPPNB,10850–9950 BP,44
-wheat,EPPNB,Kissonerga Mosphilia,KMIA,10750–10350 BP,50
-wheat,EPPNB,Mylouthkia,MYLO-1A,10550–10150 BP,110
-wheat,EPPNB,Nevalı Çori,NECO PPNB,10450–10250 BP,26002
-wheat,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,10510–10240 BP,50
-wheat,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,10821–10242 BP,382
-wheat,MPPNB,Aşıklı Höyük,ASHO M-PPNB,9950–9450 BP,1327
-wheat,MPPNB,Cafer Höyük,CAFH E-PPNB,10550–9650 BP,70
-wheat,MPPNB,Cafer Höyük,CAFH M-PPNB,10050–9300 BP,69
-wheat,MPPNB,Çayönü,CAYO grill plan,9950–9400 BP,546
-wheat,MPPNB,Çayönü,CAYO round house,10250–9950 BP,19
-wheat,MPPNB,Chogha Golan,CHGO-I,9650–9550 BP,78
-wheat,MPPNB,Chogha Golan,CHGO-II,9750–9650 BP,5
-wheat,MPPNB,Chogha Golan,CHGO-III,9850–9750 BP,22
-wheat,MPPNB,Chogha Golan,CHGO-IV,9950–9850 BP,18
-wheat,MPPNB,Chogha Golan,CHGO-V,10050–9950 BP,11
-wheat,MPPNB,East Chia Sabz,CHSA-PPNB,10450–9550 BP,30
-wheat,MPPNB,Halula,HALU M-PPNB,9921–9532 BP,11
-wheat,MPPNB,Tell Aswad,TASW M-PPNB,10150–9350 BP,20913
-wheat,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,10132–9012 BP,66
-wheat,MPPNB,Wadi Jilat 7,WJ07 E-PPNB,10237–9681 BP,1
-wheat,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,10237–9260 BP,33
-wheat,LPPNB/C,Abu Hureyra,ABHU-EPPNB,9350–8250 BP,1
-wheat,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,9450–8700 BP,2812
-wheat,LPPNB/C,Ali Kosh,TAKO PN,9241–8213 BP,957
-wheat,LPPNB/C,Ali Kosh,TAKO PPNC/PN,10100–7950 BP,905
-wheat,LPPNB/C,Basta,BAS1 L-PPNB,9450–9210 BP,9
-wheat,LPPNB/C,Basta,BAS1 L-PPNB-sub,9450–9210 BP,18
-wheat,LPPNB/C,Bouqras,TBOU L-PPNB/PN,9200–8600 BP,15
-wheat,LPPNB/C,Cafer Höyük,CAFH L-PPNB,9450–9050 BP,32
-wheat,LPPNB/C,Çatalhöyük,CATE Later,9250–8350 BP,196
-wheat,LPPNB/C,Çayönü,CAYO basal pits,9400–9250 BP,194
-wheat,LPPNB/C,Çayönü,CAYO channelled houses,9250–8950 BP,1624
-wheat,LPPNB/C,Çayönü,CAYO cobble-paved,8950–8750 BP,579
-wheat,LPPNB/C,Kissonerga Mosphilia,KMIB,9450–8950 BP,550
-wheat,LPPNB/C,Mylouthkia,MYLO-1B,9150–8750 BP,625
-wheat,LPPNB/C,Ras Shamra,TRAS Vb,8776–8289 BP,1428
-wheat,LPPNB/C,Ras Shamra,TRAS Vc,9450–9080 BP,24
-wheat,LPPNB/C,Sabi Abyad II,TSA2 PPNB,9500–8800 BP,33
-wheat,LPPNB/C,Tell es-Sultan,JERI M-PPNB,8950–8150 BP,5002
-wheat,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,9496–8598 BP,1149
-wheat,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,9000–8200 BP,8
-wheat,LPPNB/C,Tell Ramad,TRAM F-PPNB,8871–8597 BP,44996
-wheat,LPPNB/C,Tell Ramad,TRAM L-PPNB,9285–8871 BP,2640
-wheat,LPPNB/C,Wadi Fidan,WFA,9450–8950 BP,237
-wheat,LPPNB/C,Wadi Fidan,WFC,8950–8450 BP,513.761
-wheat,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,9537–8609 BP,237
-wheat,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,9234–8195 BP,2275
-wheat,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,9050–8481 BP,1
-wheat,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,9012–8450 BP,5
-wheat,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,9734–9260 BP,3
-wheat,Pottery Neolithic,Abu Hureyra,ABHU PN,7550–7450 BP,2
-wheat,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,7250–6950 BP,31
-wheat,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,8250–7250 BP,9
-wheat,Pottery Neolithic,Çatalhöyük,CATE M-L,8850–7650 BP,6572.96
-wheat,Pottery Neolithic,Çayönü,CAYO cell houses,8750–8200 BP,266
-wheat,Pottery Neolithic,Çayönü,CAYO cell/large room,8200–8050 BP,15
-wheat,Pottery Neolithic,Çayönü,CAYO PN,7650–7650 BP,3157
-wheat,Pottery Neolithic,El Kowm II,ELK2 F-PPNB,8533–8418 BP,638
-wheat,Pottery Neolithic,Ras Shamra,TRAS Va,8434–8154 BP,8323
-wheat,Pottery Neolithic,Tell el-'Oueili,TO-0,8350–6150 BP,77
-wheat,Pottery Neolithic,Tell el-'Oueili,TO-1,8350–6150 BP,108
-wheat,Pottery Neolithic,Tell es-Sultan,JERI PN,8170–8042 BP,3
-wheat,Pottery Neolithic,Tell Ramad,TRAM PN,7750–7350 BP,7061
-wheat,Chalcolithic,Çayboyu,CB_LC,6750–5750 BP,109.619
-wheat,Chalcolithic,Demircihöyük,DH,5150–3950 BP,42
-wheat,Chalcolithic,Emar,EM_EBA,5150–3950 BP,5
-wheat,Chalcolithic,Hacinebi Tepe,HAT-C,6750–5750 BP,508
-wheat,Chalcolithic,Hacinebi Tepe,HAT-U,5950–1950 BP,5
-wheat,Chalcolithic,Höyücek,HOY_PN,8350–1950 BP,4548
-wheat,Chalcolithic,Kuruçay Höyük,KUR_LC,6750–5750 BP,2.477
-wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,5150–4950 BP,394
-wheat,Chalcolithic,Tell Bderi,TB-EDIIIJ,5050–4650 BP,4
-wheat,Chalcolithic,Tell el-'Oueili,TO-2,7050–1950 BP,2
-wheat,Chalcolithic,Tell el-'Oueili,TO-3,6450–5750 BP,31
-wheat,Chalcolithic,Tell el-'Oueili,TO-4,6450–5750 BP,26
-wheat,Chalcolithic,Tell Esh-Shuna,TES_C,7050–1950 BP,52
-wheat,Chalcolithic,Tell Esh-Shuna,TES_EB1E,5050–1950 BP,56
-wheat,Chalcolithic,Tell Fadous-Kfarabida,TFA_C_EBA_I,7150–3950 BP,4
-wheat,Chalcolithic,Tell Hammam et-Turkman,HET_C,6750–5750 BP,200
-wheat,Chalcolithic,Tell Hammam et-Turkman,HET_EBA,5150–3950 BP,10
-wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,5150–3950 BP,1
-wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,5150–3550 BP,1
-wheat,Chalcolithic,Tepe Farukhabad,TF-EJN,5050–1950 BP,1
-wheat,Chalcolithic,Tilbeshar,TB_C,7150–4950 BP,15
-wheat,Chalcolithic,Wadi Fidan,WF-E,7150–3950 BP,232
+founder_crop,period,site_name,phase_code,plant_part,age,total_remains,references
+barley,Late Epipal.,Abu Hureyra,ABHU Epip2,undifferentiated,12984–12055 BP,6,MooreEtal2000
+barley,Late Epipal.,Abu Hureyra,ABHU Epip3,undifferentiated,12055–11770 BP,15,MooreEtal2000
+barley,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,undifferentiated,13250–12250 BP,32,Colledge2001
+barley,Late Epipal.,Mureybet,MURE L-Epi/PPNA,undifferentiated,12050–11950 BP,7,VZBH84_3
+barley,Late Epipal.,Wadi Hammeh 27,WH27 Epip,undifferentiated,14111–12660 BP,6,Colledge2001
+barley,PPNA,Chogha Bonut,CHBO Aceramic,undifferentiated,12850–8800 BP,0.39,Miller03
+barley,PPNA,Chogha Golan,CHGO-iX,undifferentiated,10850–10650 BP,49,RiehlEtal2013
+barley,PPNA,Chogha Golan,CHGO-X,undifferentiated,11050–10850 BP,72,RiehlEtal2013
+barley,PPNA,Chogha Golan,CHGO-XI,undifferentiated,11250–11050 BP,604,RiehlEtal2013
+barley,PPNA,El-Hemmeh,EHEM-PPNA,undifferentiated,11070–10520 BP,331,WhiteMakarewicz11
+barley,PPNA,Gesher,GESH PPNA,undifferentiated,11505–11218 BP,1,KislevEtal04
+barley,PPNA,Gilgal I,GILG PPNA,undifferentiated,11250–11206 BP,260000,WeissEtal06
+barley,PPNA,Hayonim Cave,HAYC Epip,undifferentiated,12250–10950 BP,2,HopfBarYosef87
+barley,PPNA,Iraq ed-Dubb,IEDU PPNA,undifferentiated,11650–11150 BP,47,Colledge2001
+barley,PPNA,Jerf el Ahmar,JEAH PPNA,undifferentiated,11450–10650 BP,26979.9,"c(""WillcoxFornite99"", ""Willcox96"", ""WFH08"", ""Willcox02"")"
+barley,PPNA,Körtik Tepe,KORT-PPNA,undifferentiated,11650–11200 BP,6,RiehlEtal2011
+barley,PPNA,M'lefaat,MLEF PPNA,undifferentiated,11270–11140 BP,269,SavardNesbittGale2003
+barley,PPNA,Mureybet,MURE PPNA,undifferentiated,11650–11250 BP,185,"c(""VZBH84_3"", ""WillcoxFornite99"")"
+barley,PPNA,Mureybet,MURE PPNB,undifferentiated,11350–10750 BP,3,VZBH84_3
+barley,PPNA,Netiv Hagdud,NEHA PPNA,undifferentiated,11603–10586 BP,5134,Kislev97
+barley,PPNA,Tell 'Abr,TABR PPNA,undifferentiated,11245–10776 BP,190,WFH08
+barley,PPNA,Tell Aswad,TASW E-PPNB,undifferentiated,11231–10658 BP,8,VanZeistBakkerHeeres82
+barley,PPNA,Tell es-Sultan,JERI PPNA,undifferentiated,12250–10750 BP,37,Hopf83
+barley,PPNA,Wadi Faynan 16,WF16 PPNA,undifferentiated,11599–11204 BP,2,Kennedy2007
+barley,PPNA,Zahrat adh-Dhra 2,ZAD2 PPNA,undifferentiated,11450–10450 BP,191,Edwardsetal04
+barley,EPPNB,Chogha Golan,CHGO-VII,undifferentiated,10450–10250 BP,49,"c(""RiehlEtal2011"", ""RiehlEtal2013"")"
+barley,EPPNB,Chogha Golan,CHGO-VIII,undifferentiated,10650–10450 BP,193,"c(""RiehlEtal2011"", ""RiehlEtal2013"")"
+barley,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,3918,Willcox96
+barley,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,25.5,VanZeist1981
+barley,EPPNB,Kissonerga Mosphilia,KMIA,grain,10750–10350 BP,86,NA
+barley,EPPNB,Mylouthkia,MYLO-1A,undifferentiated,10550–10150 BP,94,Murray03
+barley,EPPNB,Nevalı Çori,NECO PPNB,undifferentiated,10450–10250 BP,89,Pasternak98
+barley,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,undifferentiated,10821–10242 BP,47,VanZeistBakkerHeeres82
+barley,MPPNB,Ais Giorkis,AIYI-PPNB,undifferentiated,9550–9450 BP,65,Lucas2011
+barley,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,222,"c(""ZeistRoller03Asikli"", ""VanZeistDeRoller95"")"
+barley,MPPNB,Beidha,BEID A,undifferentiated,10093–9490 BP,10001,Helbaek66
+barley,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,3,DeMoulins97
+barley,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,5.5,ZeistRoller03Cayonu
+barley,MPPNB,Chogha Golan,CHGO-I,undifferentiated,9650–9550 BP,8,RiehlEtal2013
+barley,MPPNB,Chogha Golan,CHGO-II,undifferentiated,9750–9650 BP,26,RiehlEtal2013
+barley,MPPNB,Chogha Golan,CHGO-III,undifferentiated,9850–9750 BP,56,RiehlEtal2013
+barley,MPPNB,Chogha Golan,CHGO-IV,undifferentiated,9950–9850 BP,1192,"c(""RiehlEtal2011"", ""RiehlEtal2013"")"
+barley,MPPNB,Chogha Golan,CHGO-V,undifferentiated,10050–9950 BP,536,"c(""RiehlEtal2011"", ""RiehlEtal2013"")"
+barley,MPPNB,Chogha Golan,CHGO-VI,undifferentiated,10250–10050 BP,88,"c(""RiehlEtal2011"", ""RiehlEtal2013"")"
+barley,MPPNB,East Chia Sabz,CHSA-PPNB,undifferentiated,10450–9550 BP,43,RiehlEtal2011
+barley,MPPNB,Ganj Dareh,GADT A,undifferentiated,9950–9350 BP,11,VZeistSmithetal84
+barley,MPPNB,Ganj Dareh,GADT All,undifferentiated,10350–9350 BP,46,VZeistSmithetal84
+barley,MPPNB,Ganj Dareh,GADT B,undifferentiated,10150–9350 BP,145,VZeistSmithetal84
+barley,MPPNB,Ganj Dareh,GADT C,undifferentiated,10250–9350 BP,8,VZeistSmithetal84
+barley,MPPNB,Ganj Dareh,GADT D,undifferentiated,10300–9350 BP,39,VZeistSmithetal84
+barley,MPPNB,Ganj Dareh,GADT E,undifferentiated,10150–9150 BP,76,VZeistSmithetal84
+barley,MPPNB,Göbekli Tepe,GOTE PPNA/E-PPNB,undifferentiated,10750–9550 BP,16,Neef03
+barley,MPPNB,Hacılar,HACI M-PPNB,undifferentiated,10232–9418 BP,2,Helbaek70
+barley,MPPNB,Halula,HALU M-PPNB,undifferentiated,9921–9532 BP,115,Willcox96
+barley,MPPNB,Nahal Hemar,NAHE PPNB,undifferentiated,10130–9316 BP,46,Kislev88
+barley,MPPNB,Nahal Oren,NAOR PPNB,undifferentiated,10750–9550 BP,1,NoyLeggeHiggs1973
+barley,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,grain,10650–8450 BP,25,NA; NA
+barley,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,undifferentiated,10650–8450 BP,2,NA; NA
+barley,MPPNB,Sheikh-e Abad,ABAD_III_PPNB,grain,10650–8450 BP,1,NA
+barley,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,691,VanZeistBakkerHeeres82
+barley,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,4,VanZeistBakkerHeeres82
+barley,MPPNB,Tell Halula,7550-TelHMB,undifferentiated,9950–9050 BP,154,Ferrio et al 2012
+barley,MPPNB,Tepe Abdul Hosein,TAHO PPNB,undifferentiated,10272–9092 BP,2,Hubbard1990
+barley,MPPNB,Wadi Jilat 7,WJ07 E-PPNB,undifferentiated,10237–9681 BP,19,Colledge2001
+barley,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,undifferentiated,10237–9260 BP,168,Colledge2001
+barley,LPPNB/C,Abu Hureyra,ABHU-EPPNB,undifferentiated,9350–8250 BP,6,DeMoulins97
+barley,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,undifferentiated,9450–8700 BP,167,Helbaek69
+barley,LPPNB/C,Ali Kosh,TAKO PN,undifferentiated,9241–8213 BP,140,Helbaek69
+barley,LPPNB/C,Ali Kosh,TAKO PPNC/PN,undifferentiated,10100–7950 BP,41,Helbaek69
+barley,LPPNB/C,Atlit-Yam,ATYA PPNC,undifferentiated,9019–8042 BP,83,KislevEtal04
+barley,LPPNB/C,Azraq 31,AZ31 L-PPNB/L-N,undifferentiated,9306–9234 BP,6,Colledge2001
+barley,LPPNB/C,Basta,BAS1 L-PPNB,undifferentiated,9450–9210 BP,28.5,Neef04
+barley,LPPNB/C,Basta,BAS1 L-PPNB-sub,undifferentiated,9450–9210 BP,38,Neef04
+barley,LPPNB/C,Bouqras,TBOU L-PPNB/PN,undifferentiated,9200–8600 BP,384,VZeistWVRooijen85
+barley,LPPNB/C,Cafer Höyük,CAFH L-PPNB,undifferentiated,9450–9050 BP,8,DeMoulins97
+barley,LPPNB/C,Can Hasan III,CAH3 Aceramic,undifferentiated,9400–8550 BP,48,FrenchEtal72
+barley,LPPNB/C,Çatalhöyük,CATE Later,undifferentiated,9250–8350 BP,136,FMBH07
+barley,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,1.5,ZeistRoller03Cayonu
+barley,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,21,ZeistRoller03Cayonu
+barley,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,3,ZeistRoller03Cayonu
+barley,LPPNB/C,Dhuweila,DHUW L-PPNB,undifferentiated,9430–9100 BP,2,Colledge2001
+barley,LPPNB/C,Kissonerga Mosphilia,KMIB,grain,9450–8950 BP,56,NA
+barley,LPPNB/C,Mylouthkia,MYLO-1B,undifferentiated,9150–8750 BP,62,Murray03
+barley,LPPNB/C,Ras Shamra,TRAS Vb,undifferentiated,8776–8289 BP,8,VZBH84
+barley,LPPNB/C,Ras Shamra,TRAS Vc,undifferentiated,9450–9080 BP,2,VZBH84
+barley,LPPNB/C,Sabi Abyad II,TSA2 PPNB,undifferentiated,9500–8800 BP,16,VanZeistRoller00
+barley,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,1318,Hopf83
+barley,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,undifferentiated,9496–8598 BP,23,VanZeistBakkerHeeres82
+barley,LPPNB/C,Tell Halula,6550-TelHEP,undifferentiated,8800–8200 BP,253,Ferrio et al 2012
+barley,LPPNB/C,Tell Halula,7320-TelHLB,undifferentiated,9400–9140 BP,73,Ferrio et al 2012
+barley,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,undifferentiated,9000–8200 BP,93,Willcox2006
+barley,LPPNB/C,Tell Nebi Mend,6830-TNM,undifferentiated,8980–8580 BP,122,Smith and Moffett 2015
+barley,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,1265,VanZeistBakkerHeeres82
+barley,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,39,VanZeistBakkerHeeres82
+barley,LPPNB/C,Wadi Fidan,WFA,undifferentiated,9450–8950 BP,16,NA
+barley,LPPNB/C,Wadi Fidan,WFC,undifferentiated,8950–8450 BP,57,NA
+barley,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,undifferentiated,9537–8609 BP,27,Colledge2001
+barley,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,undifferentiated,9234–8195 BP,153,Colledge2001
+barley,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,undifferentiated,9050–8481 BP,47,Colledge2001
+barley,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,undifferentiated,9012–8450 BP,29,Colledge2001
+barley,LPPNB/C,Wadi Jilat 13,WJ13 M-L-PPNB/PPNC,undifferentiated,9012–8481 BP,2,Colledge2001
+barley,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,undifferentiated,9734–9260 BP,10,Colledge2001
+barley,Pottery Neolithic,Abu Hureyra,ABHU PN,undifferentiated,7550–7450 BP,20,DeMoulins97
+barley,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,174,DeMoulins97
+barley,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,172,DeMoulins97
+barley,Pottery Neolithic,Arjoune,5520-Arj,undifferentiated,7620–7320 BP,94,"Moffett, 2003"
+barley,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,undifferentiated,8750–8050 BP,25,Van Zeist 1981
+barley,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,18997.48,BogaardEtAl2015
+barley,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,1,ZeistRoller03Cayonu
+barley,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,4,ZeistRoller03Cayonu
+barley,Pottery Neolithic,Choga Mami,5795-CM-S,undifferentiated,7930–7560 BP,127,Helbaek 1972b
+barley,Pottery Neolithic,Chogha Bonut,CHBO Formative,undifferentiated,7540–7385 BP,0.01,Miller03
+barley,Pottery Neolithic,El Kowm I,ELK1 PN,undifferentiated,8250–8050 BP,16,VanZeist86
+barley,Pottery Neolithic,El Kowm I,ELK1 PN(phase C),undifferentiated,7500–7350 BP,97,VanZeist86
+barley,Pottery Neolithic,El Kowm I,ELK1 PN(phase D),undifferentiated,7350–7250 BP,3,VanZeist86
+barley,Pottery Neolithic,El Kowm I,ELK1 PPNB,undifferentiated,8350–8158 BP,5,VanZeist86
+barley,Pottery Neolithic,El Kowm II,ELK2 F-PPNB,undifferentiated,8533–8418 BP,70,DeMoulins97
+barley,Pottery Neolithic,Erbaba,6450-ER,undifferentiated,9050–7750 BP,146,van Zeist and Buitenhuis 1983
+barley,Pottery Neolithic,Hacılar,HACI L-N,undifferentiated,7750–7350 BP,3355,Helbaek70
+barley,Pottery Neolithic,Nahal Zehora II,5450-NZIIWR,undifferentiated,7850–6950 BP,2,Kislev and Hartmann 2012
+barley,Pottery Neolithic,Nahal Zehora II,6050-NZIIPN,undifferentiated,8200–7800 BP,225,Kislev and Hartmann 2012
+barley,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,107,VZBH84
+barley,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,undifferentiated,8430–8160 BP,57,Miyake 2011
+barley,Pottery Neolithic,Sha'ar Hagolan,6230-ShaHag,undifferentiated,8350–8010 BP,7,Allen 2002
+barley,Pottery Neolithic,Tell es-Sultan,JERI PN,undifferentiated,8170–8042 BP,2,Hopf83
+barley,Pottery Neolithic,Tell Halula,5925-TelHLP,undifferentiated,8200–7550 BP,37,Ferrio et al 2012
+barley,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,123,VanZeistBakkerHeeres82
+barley,Pottery Neolithic,Yarim Tepe,YATE Halaf,undifferentiated,7550–7250 BP,123,BakhteyevYanushevich1980
+barley,Pottery Neolithic,Yarim Tepe,YATE Hassuna,undifferentiated,8090–7890 BP,263,BakhteyevYanushevich1980
+barley,Pottery Neolithic,Yarim Tepe I,6400-YTI,undifferentiated,8750–7950 BP,263,Bakhteyev and Yanushevich 1980
+barley,Chalcolithic,Ayios Epiktitos Vrysi,AEV,grain,7350–1950 BP,424,NA
+barley,Chalcolithic,Beth Shean,BS_EBIB,grain,5150–4950 BP,5.741,NA
+barley,Chalcolithic,Çayboyu,CB_LC,grain,6750–5750 BP,71.315,NA
+barley,Chalcolithic,Demircihöyük,DH,grain,5150–3950 BP,212,NA
+barley,Chalcolithic,Dilkaya Höyük,DIL,grain,5150–3950 BP,271.474,NA
+barley,Chalcolithic,Emar,EM_EBA,grain,5150–3950 BP,826,NA; NA
+barley,Chalcolithic,Emar,EM_EBA,undifferentiated,5150–3950 BP,593,NA; NA
+barley,Chalcolithic,Girikihaciyan,GH,grain,7050–1950 BP,32,NA
+barley,Chalcolithic,Hacinebi Tepe,HAT-C,grain,6750–5750 BP,202,NA
+barley,Chalcolithic,Hacinebi Tepe,HAT-U,grain,5950–1950 BP,4,NA
+barley,Chalcolithic,Höyücek,HOY_PN,grain,8350–1950 BP,8,NA
+barley,Chalcolithic,Ikiztepe,IT_C,grain,7150–3950 BP,5,NA
+barley,Chalcolithic,Imamoglu,IMA,grain,5150–3950 BP,28.097,NA
+barley,Chalcolithic,Korucutepe,KOR-CH,grain,7150–4950 BP,134,NA
+barley,Chalcolithic,Korucutepe,KOR-EB,grain,5150–3950 BP,2.713,NA
+barley,Chalcolithic,Kosak Shamali,KS,grain,7150–4950 BP,2,NA
+barley,Chalcolithic,Kuruçay Höyük,KUR_LC,grain,6750–5750 BP,11.13,NA
+barley,Chalcolithic,Lachish,LH_EB,grain,5150–3950 BP,0,NA
+barley,Chalcolithic,Lemba Lakkous,LL,grain,7150–4950 BP,112,NA
+barley,Chalcolithic,Maadi,MD_PD,grain,7450–5150 BP,8925,NA
+barley,Chalcolithic,Megiddo,MEG_EBIB,grain,5150–4950 BP,4,NA
+barley,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,grain,5150–4950 BP,300,NA; NA
+barley,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,undifferentiated,5150–4950 BP,211,NA; NA
+barley,Chalcolithic,Rukeis,RK,grain,5350–3050 BP,221,NA; NA
+barley,Chalcolithic,Rukeis,RK,undifferentiated,5350–3050 BP,3,NA; NA
+barley,Chalcolithic,Shiqmim,SQ_LV,grain,7150–4950 BP,1.166,NA; NA
+barley,Chalcolithic,Shiqmim,SQ_LV,undifferentiated,7150–4950 BP,2.55,NA; NA
+barley,Chalcolithic,Shiqmim,SQ_UV,grain,6450–5750 BP,108,NA; NA
+barley,Chalcolithic,Shiqmim,SQ_UV,undifferentiated,6450–5750 BP,157,NA; NA
+barley,Chalcolithic,Tappeh Gijlar,TAG-B,grain,5150–3950 BP,24,NA
+barley,Chalcolithic,Tappeh Gijlar,TAG-BC,grain,6750–5750 BP,6,NA
+barley,Chalcolithic,Tappeh Gijlar,TAG-C,grain,7150–3950 BP,16,NA
+barley,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,grain,5150–4950 BP,119,NA; NA
+barley,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,undifferentiated,5150–4950 BP,28,NA; NA
+barley,Chalcolithic,Tell Afis,TAF-C,grain,6150–5750 BP,214,NA
+barley,Chalcolithic,Tell al-Raqa'i,TAR-3,grain,5150–3950 BP,461,NA
+barley,Chalcolithic,Tell al-Raqa'i,TAR-4,grain,5150–3950 BP,418,NA
+barley,Chalcolithic,Tell al-Raqa'i,TAR-5_7,grain,5150–3950 BP,78,NA
+barley,Chalcolithic,Tell al-Rawda,RAW,grain,5150–3950 BP,2.919,NA; NA
+barley,Chalcolithic,Tell al-Rawda,RAW,undifferentiated,5150–3950 BP,774,NA; NA
+barley,Chalcolithic,Tell Aphek,TAPH_IA_IB,grain,5150–4950 BP,166,NA; NA
+barley,Chalcolithic,Tell Aphek,TAPH_IA_IB,undifferentiated,5150–4950 BP,112,NA; NA
+barley,Chalcolithic,Tell Atij,TA,grain,5150–3950 BP,353,NA; NA
+barley,Chalcolithic,Tell Atij,TA,undifferentiated,5150–3950 BP,1.049,NA; NA
+barley,Chalcolithic,Tell Bderi,TB-EDIII,grain,5050–4650 BP,4.392,NA
+barley,Chalcolithic,Tell Bderi,TB-EDIIIJ,grain,5050–4650 BP,2,NA; NA
+barley,Chalcolithic,Tell Bderi,TB-EDIIIJ,undifferentiated,5050–4650 BP,16,NA; NA
+barley,Chalcolithic,Tell Brak,TBR-I,grain,6750–5750 BP,250,NA
+barley,Chalcolithic,Tell Brak,TBR-III,grain,5050–4450 BP,3.603,NA
+barley,Chalcolithic,Tell el-'Oueili,TO-4,grain,6450–5750 BP,3.121,NA
+barley,Chalcolithic,Tell el-Fara'in,TEF-I,grain,7150–4950 BP,106,NA; NA
+barley,Chalcolithic,Tell el-Fara'in,TEF-I,undifferentiated,7150–4950 BP,79,NA; NA
+barley,Chalcolithic,Tell el-Fara'in,TEF-II,grain,7150–4950 BP,98,NA
+barley,Chalcolithic,Tell el-Fara'in,TEF-III,grain,5150–4950 BP,59,NA
+barley,Chalcolithic,Tell el-Iswid,TEI_ED,grain,5050–4650 BP,149,NA
+barley,Chalcolithic,Tell el-Iswid,TEI_PD,grain,7450–5150 BP,58,NA
+barley,Chalcolithic,Tell el'Abd,TEA,grain,5150–3950 BP,27.04,NA
+barley,Chalcolithic,Tell es-Sweyhat,SWE_M,grain,5150–3950 BP,648,NA
+barley,Chalcolithic,Tell es-Sweyhat,SWE_Z,grain,5150–3950 BP,8.447,NA
+barley,Chalcolithic,Tell Esh-Shuna,TES_C,grain,7050–1950 BP,362,NA
+barley,Chalcolithic,Tell Fadous-Kfarabida,TFA_C_EBA_I,grain,7150–3950 BP,1,NA
+barley,Chalcolithic,Tell Fadous-Kfarabida,TFA_EBA_V,grain,5150–3950 BP,1,NA
+barley,Chalcolithic,Tell Hammam et-Turkman,HET_C,grain,6750–5750 BP,14,NA; NA
+barley,Chalcolithic,Tell Hammam et-Turkman,HET_C,undifferentiated,6750–5750 BP,3,NA; NA
+barley,Chalcolithic,Tell Hammam et-Turkman,HET_EBA,grain,5150–3950 BP,90,NA; NA
+barley,Chalcolithic,Tell Hammam et-Turkman,HET_EBA,undifferentiated,5150–3950 BP,130,NA; NA
+barley,Chalcolithic,Tell Ibrahim Awad,TIA-B,grain,5050–4850 BP,26,NA
+barley,Chalcolithic,Tell Ibrahim Awad,TIA-ED,grain,5050–4650 BP,105,NA
+barley,Chalcolithic,Tell Ibrahim Awad,TIA-PD,grain,7450–5150 BP,35,NA
+barley,Chalcolithic,Tell Karrana,TKA,grain,7150–3950 BP,518,NA
+barley,Chalcolithic,Tell Kerma,TKE,grain,5150–3950 BP,778,NA; NA
+barley,Chalcolithic,Tell Kerma,TKE,undifferentiated,5150–3950 BP,421,NA; NA
+barley,Chalcolithic,Tell Mishrifeh,TEMI_11,undifferentiated,5150–3950 BP,113,NA
+barley,Chalcolithic,Tell Mishrifeh,TEMI_9,undifferentiated,5150–3550 BP,121,NA
+barley,Chalcolithic,Tepe Farukhabad,TF-EJN,grain,5050–1950 BP,40,NA; NA
+barley,Chalcolithic,Tepe Farukhabad,TF-EJN,undifferentiated,5050–1950 BP,4,NA; NA
+barley,Chalcolithic,Tepe Farukhabad,TF-F,grain,6450–5750 BP,2,NA
+barley,Chalcolithic,Tepe Farukhabad,TF-LU,grain,5450–5050 BP,5,NA; NA
+barley,Chalcolithic,Tepe Farukhabad,TF-LU,undifferentiated,5450–5050 BP,1,NA; NA
+barley,Chalcolithic,Tepecik,TEP-CH,grain,6450–5750 BP,15,NA
+barley,Chalcolithic,Tepecik,TEP-EB,grain,5150–3950 BP,369,NA; NA
+barley,Chalcolithic,Tepecik,TEP-EB,undifferentiated,5150–3950 BP,130,NA; NA
+barley,Chalcolithic,Tepecik,TEP-EB_MB,grain,5150–3550 BP,43,NA
+barley,Chalcolithic,Tilbeshar,TB_C,grain,7150–4950 BP,125,NA; NA
+barley,Chalcolithic,Tilbeshar,TB_C,undifferentiated,7150–4950 BP,4,NA; NA
+barley,Chalcolithic,Umm el-Marra,UEM_V-IV,grain,5150–3950 BP,32,NA; NA
+barley,Chalcolithic,Umm el-Marra,UEM_V-IV,undifferentiated,5150–3950 BP,137,NA; NA
+barley,Chalcolithic,Wadi Fidan,WF-E,grain,7150–3950 BP,1.19,NA; NA
+barley,Chalcolithic,Wadi Fidan,WF-E,undifferentiated,7150–3950 BP,1057,NA; NA
+barley,Chalcolithic,Yarim Höyük,YAHÖ_U,grain,5450–5050 BP,3,NA
+bitter vetch,Late Epipal.,Abu Hureyra,ABHU Epip1,undifferentiated,13096–12984 BP,9,MooreEtal2000
+bitter vetch,PPNA,Jerf el Ahmar,JEAH PPNA,undifferentiated,11450–10650 BP,113,"c(""Willcox02"", ""WillcoxFornite99"", ""Willcox96"", ""WFH08"")"
+bitter vetch,PPNA,M'lefaat,MLEF PPNA,undifferentiated,11270–11140 BP,297,SavardNesbittGale2003
+bitter vetch,PPNA,Mureybet,MURE PPNA,undifferentiated,11650–11250 BP,5,VZBH84_3
+bitter vetch,PPNA,Netiv Hagdud,NEHA PPNA,undifferentiated,11603–10586 BP,2,Kislev97
+bitter vetch,PPNA,Qermez Dere,QEDE PPNA,undifferentiated,11750–9950 BP,3,"c(""Nesbitt91"", ""Nesbitt95"")"
+bitter vetch,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,34,Willcox96
+bitter vetch,EPPNB,Nevalı Çori,NECO PPNB,undifferentiated,10450–10250 BP,95,Pasternak98
+bitter vetch,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,undifferentiated,10510–10240 BP,45,TannoWillxox06
+bitter vetch,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,undifferentiated,10821–10242 BP,1,VanZeistBakkerHeeres82
+bitter vetch,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,165,"c(""VanZeistDeRoller95"", ""ZeistRoller03Asikli"")"
+bitter vetch,MPPNB,Beidha,BEID A,undifferentiated,10093–9490 BP,1,Colledge2001
+bitter vetch,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,24,DeMoulins97
+bitter vetch,MPPNB,Cafer Höyük,CAFH M-PPNB,undifferentiated,10050–9300 BP,5,DeMoulins97
+bitter vetch,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,14.5,ZeistRoller03Cayonu
+bitter vetch,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,undifferentiated,10650–8450 BP,52,NA
+bitter vetch,MPPNB,Sheikh-e Abad,ABAD_III_PPNB,undifferentiated,10650–8450 BP,1,NA
+bitter vetch,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,1,VanZeistBakkerHeeres82
+bitter vetch,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,undifferentiated,10237–9260 BP,1,Colledge2001
+bitter vetch,LPPNB/C,Basta,BAS1 L-PPNB-sub,undifferentiated,9450–9210 BP,1,Neef04
+bitter vetch,LPPNB/C,Can Hasan III,CAH3 Aceramic,undifferentiated,9400–8550 BP,37,FrenchEtal72
+bitter vetch,LPPNB/C,Çatalhöyük,CATE Later,undifferentiated,9250–8350 BP,36,FMBH07
+bitter vetch,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,49.5,ZeistRoller03Cayonu
+bitter vetch,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,80.5,ZeistRoller03Cayonu
+bitter vetch,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,99,ZeistRoller03Cayonu
+bitter vetch,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,2,VanZeistBakkerHeeres82
+bitter vetch,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,1,DeMoulins97
+bitter vetch,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,68.29,BogaardEtAl2015
+bitter vetch,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,3830,ZeistRoller03Cayonu
+bitter vetch,Pottery Neolithic,Çayönü,CAYO cell/large room,undifferentiated,8200–8050 BP,1,ZeistRoller03Cayonu
+bitter vetch,Pottery Neolithic,Çayönü,CAYO large room,undifferentiated,8050–7650 BP,3.5,ZeistRoller03Cayonu
+bitter vetch,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,45,ZeistRoller03Cayonu
+bitter vetch,Pottery Neolithic,Hacılar,HACI L-N,undifferentiated,7750–7350 BP,50,Helbaek70
+bitter vetch,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,3,VanZeistBakkerHeeres82
+bitter vetch,Chalcolithic,Girikihaciyan,GH,undifferentiated,7050–1950 BP,157,NA
+bitter vetch,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,3742,NA
+bitter vetch,Chalcolithic,Ikiztepe,IT_C,undifferentiated,7150–3950 BP,65,NA
+bitter vetch,Chalcolithic,Ikiztepe,IT_EB/MB,undifferentiated,5150–3550 BP,220,NA
+bitter vetch,Chalcolithic,Tell Aphek,TAPH_IA_IB,undifferentiated,5150–4950 BP,79,NA
+bitter vetch,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_Late,undifferentiated,5150–3950 BP,3,NA
+bitter vetch,Chalcolithic,Tell Jerablus Tahtani,TJT_LC,undifferentiated,6750–5750 BP,1,NA
+bitter vetch,Chalcolithic,Tell Mishrifeh,TEMI_11,undifferentiated,5150–3950 BP,3,NA
+bitter vetch,Chalcolithic,Tell Mishrifeh,TEMI_9,undifferentiated,5150–3550 BP,1,NA
+bitter vetch,Chalcolithic,Tepecik,TEP-CH,undifferentiated,6450–5750 BP,3,NA
+chickpea,PPNA,El-Hemmeh,EHEM-PPNA,undifferentiated,11070–10520 BP,4,WhiteMakarewicz11
+chickpea,PPNA,Tell es-Sultan,JERI PPNA,undifferentiated,12250–10750 BP,2,Hopf83
+chickpea,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,3,Willcox96
+chickpea,EPPNB,Nevalı Çori,NECO PPNB,undifferentiated,10450–10250 BP,1,Pasternak98
+chickpea,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,undifferentiated,10510–10240 BP,138,TannoWillxox06
+chickpea,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,4,"c(""VanZeistDeRoller95"", ""ZeistRoller03Asikli"")"
+chickpea,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,3,VanZeistBakkerHeeres82
+chickpea,LPPNB/C,Atlit-Yam,ATYA PPNC,undifferentiated,9019–8042 BP,2,KislevEtal04
+chickpea,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,1,ZeistRoller03Cayonu
+chickpea,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,2.5,ZeistRoller03Cayonu
+chickpea,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,2,Hopf83
+chickpea,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,26,VanZeistBakkerHeeres82
+chickpea,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,undifferentiated,9734–9260 BP,1,Colledge2001
+chickpea,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,8,DeMoulins97
+chickpea,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,20.89,BogaardEtAl2015
+chickpea,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,7.5,ZeistRoller03Cayonu
+chickpea,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,6,ZeistRoller03Cayonu
+chickpea,Pottery Neolithic,Hacılar,HACI L-N,undifferentiated,7750–7350 BP,2,Helbaek70
+chickpea,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,undifferentiated,8430–8160 BP,5,Miyake 2011
+chickpea,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,2,VanZeistBakkerHeeres82
+chickpea,Chalcolithic,Ayios Epiktitos Vrysi,AEV,undifferentiated,7350–1950 BP,19,NA
+chickpea,Chalcolithic,Beth Shean,BS_EBIB,undifferentiated,5150–4950 BP,3.071,NA
+chickpea,Chalcolithic,Emar,EM_EBA,undifferentiated,5150–3950 BP,1,NA
+chickpea,Chalcolithic,Girikihaciyan,GH,undifferentiated,7050–1950 BP,54,NA
+chickpea,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,511,NA
+chickpea,Chalcolithic,Korucutepe,KOR-EB,undifferentiated,5150–3950 BP,94,NA
+einkorn wheat,Late Epipal.,Abu Hureyra,ABHU Epip2,undifferentiated,12984–12055 BP,6,MooreEtal2000
+einkorn wheat,Late Epipal.,Abu Hureyra,ABHU Epip3,undifferentiated,12055–11770 BP,8,MooreEtal2000
+einkorn wheat,Late Epipal.,Mureybet,MURE L-Epi/PPNA,undifferentiated,12050–11950 BP,17,VZBH84_3
+einkorn wheat,PPNA,Chogha Bonut,CHBO Aceramic,undifferentiated,12850–8800 BP,0.01,Miller03
+einkorn wheat,PPNA,Chogha Golan,CHGO-XI,undifferentiated,11250–11050 BP,36,RiehlEtal2013
+einkorn wheat,PPNA,Iraq ed-Dubb,IEDU PPNA,undifferentiated,11650–11150 BP,1,Colledge2001
+einkorn wheat,PPNA,Jerf el Ahmar,JEAH PPNA,undifferentiated,11450–10650 BP,147,"c(""WFH08"", ""WillcoxFornite99"", ""Willcox96"")"
+einkorn wheat,PPNA,Mureybet,MURE PPNA,undifferentiated,11650–11250 BP,2641,VZBH84_3
+einkorn wheat,PPNA,Mureybet,MURE PPNB,undifferentiated,11350–10750 BP,7,VZBH84_3
+einkorn wheat,PPNA,Tell 'Abr,TABR PPNA,undifferentiated,11245–10776 BP,90,WFH08
+einkorn wheat,PPNA,Tell es-Sultan,JERI PPNA,undifferentiated,12250–10750 BP,3,Hopf83
+einkorn wheat,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,302,Willcox96
+einkorn wheat,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,89.5,VanZeist1981
+einkorn wheat,EPPNB,Mylouthkia,MYLO-1A,undifferentiated,10550–10150 BP,1,Murray03
+einkorn wheat,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,undifferentiated,10510–10240 BP,50,TannoWillxox06
+einkorn wheat,MPPNB,Ais Giorkis,AIYI-PPNB,undifferentiated,9550–9450 BP,363,Lucas2011
+einkorn wheat,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,36,"c(""VanZeistDeRoller95"", ""ZeistRoller03Asikli"")"
+einkorn wheat,MPPNB,Beidha,BEID A,undifferentiated,10093–9490 BP,1,Colledge2001
+einkorn wheat,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,45,DeMoulins97
+einkorn wheat,MPPNB,Cafer Höyük,CAFH M-PPNB,undifferentiated,10050–9300 BP,37,DeMoulins97
+einkorn wheat,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,2.5,ZeistRoller03Cayonu
+einkorn wheat,MPPNB,Chogha Golan,CHGO-IV,undifferentiated,9950–9850 BP,27,RiehlEtal2013
+einkorn wheat,MPPNB,Göbekli Tepe,GOTE PPNA/E-PPNB,undifferentiated,10750–9550 BP,20,Neef03
+einkorn wheat,MPPNB,Hacılar,HACI M-PPNB,undifferentiated,10232–9418 BP,42,Helbaek70
+einkorn wheat,MPPNB,Halula,HALU M-PPNB,undifferentiated,9921–9532 BP,3,Willcox96
+einkorn wheat,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,17,VanZeistBakkerHeeres82
+einkorn wheat,MPPNB,Wadi Jilat 7,WJ07 E-PPNB,undifferentiated,10237–9681 BP,1,Colledge2001
+einkorn wheat,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,undifferentiated,10237–9260 BP,41,Colledge2001
+einkorn wheat,LPPNB/C,Abu Hureyra,ABHU-EPPNB,undifferentiated,9350–8250 BP,1,DeMoulins97
+einkorn wheat,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,undifferentiated,9450–8700 BP,9,Helbaek69
+einkorn wheat,LPPNB/C,Ali Kosh,TAKO PPNC/PN,undifferentiated,10100–7950 BP,4,Helbaek69
+einkorn wheat,LPPNB/C,Basta,BAS1 L-PPNB-sub,undifferentiated,9450–9210 BP,1,Neef04
+einkorn wheat,LPPNB/C,Bouqras,TBOU L-PPNB/PN,undifferentiated,9200–8600 BP,1,VZeistWVRooijen85
+einkorn wheat,LPPNB/C,Cafer Höyük,CAFH L-PPNB,undifferentiated,9450–9050 BP,142,DeMoulins97
+einkorn wheat,LPPNB/C,Can Hasan III,CAH3 Aceramic,undifferentiated,9400–8550 BP,37,FrenchEtal72
+einkorn wheat,LPPNB/C,Çatalhöyük,CATE Later,undifferentiated,9250–8350 BP,4,FMBH07
+einkorn wheat,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,8.5,ZeistRoller03Cayonu
+einkorn wheat,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,8.5,ZeistRoller03Cayonu
+einkorn wheat,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,6.5,ZeistRoller03Cayonu
+einkorn wheat,LPPNB/C,Dhuweila,DHUW L-PPNB,undifferentiated,9430–9100 BP,2,Colledge2001
+einkorn wheat,LPPNB/C,Mylouthkia,MYLO-1B,undifferentiated,9150–8750 BP,7,Murray03
+einkorn wheat,LPPNB/C,Sabi Abyad II,TSA2 PPNB,undifferentiated,9500–8800 BP,2,VanZeistRoller00
+einkorn wheat,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,181,Hopf83
+einkorn wheat,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,undifferentiated,9496–8598 BP,16,VanZeistBakkerHeeres82
+einkorn wheat,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,undifferentiated,9000–8200 BP,3,Willcox2006
+einkorn wheat,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,172,VanZeistBakkerHeeres82
+einkorn wheat,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,24,VanZeistBakkerHeeres82
+einkorn wheat,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,undifferentiated,9537–8609 BP,2,Colledge2001
+einkorn wheat,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,undifferentiated,9234–8195 BP,8,Colledge2001
+einkorn wheat,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,undifferentiated,9050–8481 BP,4,Colledge2001
+einkorn wheat,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,undifferentiated,9012–8450 BP,6,Colledge2001
+einkorn wheat,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,undifferentiated,9734–9260 BP,6,Colledge2001
+einkorn wheat,Pottery Neolithic,Abu Hureyra,ABHU PN,undifferentiated,7550–7450 BP,1,DeMoulins97
+einkorn wheat,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,6,DeMoulins97
+einkorn wheat,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,50,DeMoulins97
+einkorn wheat,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,589.05,BogaardEtAl2015
+einkorn wheat,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,5.5,ZeistRoller03Cayonu
+einkorn wheat,Pottery Neolithic,Çayönü,CAYO cell/large room,undifferentiated,8200–8050 BP,1,ZeistRoller03Cayonu
+einkorn wheat,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,4,ZeistRoller03Cayonu
+einkorn wheat,Pottery Neolithic,Hacılar,HACI L-N,undifferentiated,7750–7350 BP,4490,Helbaek70
+einkorn wheat,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,2,VZBH84
+einkorn wheat,Pottery Neolithic,Tell el-'Oueili,TO-1,grain,8350–6150 BP,2,NA
+einkorn wheat,Pottery Neolithic,Tell es-Sultan,JERI PN,undifferentiated,8170–8042 BP,21,Hopf83
+einkorn wheat,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,6,VanZeistBakkerHeeres82
+einkorn wheat,Chalcolithic,Ayios Epiktitos Vrysi,AEV,grain,7350–1950 BP,103,NA
+einkorn wheat,Chalcolithic,Çayboyu,CB_LC,grain,6750–5750 BP,9.412,NA
+einkorn wheat,Chalcolithic,Demircihöyük,DH,grain,5150–3950 BP,344,NA
+einkorn wheat,Chalcolithic,Hacinebi Tepe,HAT-C,grain,6750–5750 BP,21,NA
+einkorn wheat,Chalcolithic,Höyücek,HOY_PN,grain,8350–1950 BP,6022,NA; NA
+einkorn wheat,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,1178,NA; NA
+einkorn wheat,Chalcolithic,Rukeis,RK,undifferentiated,5350–3050 BP,9,NA
+einkorn wheat,Chalcolithic,Shiqmim,SQ_LV,grain,7150–4950 BP,99,NA
+einkorn wheat,Chalcolithic,Tappeh Gijlar,TAG-B,grain,5150–3950 BP,3,NA
+einkorn wheat,Chalcolithic,Tappeh Gijlar,TAG-C,grain,7150–3950 BP,4,NA
+einkorn wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,grain,5150–4950 BP,12,NA; NA
+einkorn wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,undifferentiated,5150–4950 BP,50,NA; NA
+einkorn wheat,Chalcolithic,Tell Afis,TAF-C,grain,6150–5750 BP,15,NA
+einkorn wheat,Chalcolithic,Tell el-Hayyat,TEHAY_EBA,grain,5150–3950 BP,24,NA
+einkorn wheat,Chalcolithic,Tell Karrana,TKA,grain,7150–3950 BP,555,NA
+einkorn wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,grain,5150–3950 BP,1,NA; NA
+einkorn wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,undifferentiated,5150–3950 BP,2,NA; NA
+einkorn wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,grain,5150–3550 BP,1,NA
+einkorn wheat,Chalcolithic,Tepe Farukhabad,TF-LU,grain,5450–5050 BP,1,NA
+einkorn wheat,Chalcolithic,Tepecik,TEP-CH,grain,6450–5750 BP,1,NA
+emmer wheat,Late Epipal.,Abu Hureyra,ABHU Epip2,undifferentiated,12984–12055 BP,3,MooreEtal2000
+emmer wheat,Late Epipal.,Abu Hureyra,ABHU Epip3,undifferentiated,12055–11770 BP,4,MooreEtal2000
+emmer wheat,PPNA,Çayönü,CAYO PPNB,undifferentiated,11150–10650 BP,1,ZeistRoller03Cayonu
+emmer wheat,PPNA,Chogha Bonut,CHBO Aceramic,undifferentiated,12850–8800 BP,0.4,Miller03
+emmer wheat,PPNA,El-Hemmeh,EHEM-PPNA,undifferentiated,11070–10520 BP,8,WhiteMakarewicz11
+emmer wheat,PPNA,Nahal Oren,NAOR PPNA,undifferentiated,12150–10750 BP,1,NoyLeggeHiggs1973
+emmer wheat,PPNA,Netiv Hagdud,NEHA PPNA,undifferentiated,11603–10586 BP,152,Kislev97
+emmer wheat,PPNA,Tell Aswad,TASW E-PPNB,undifferentiated,11231–10658 BP,5,VanZeistBakkerHeeres82
+emmer wheat,PPNA,Tell es-Sultan,JERI PPNA,undifferentiated,12250–10750 BP,9,Hopf83
+emmer wheat,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,192,Willcox96
+emmer wheat,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,168,VanZeist1981
+emmer wheat,EPPNB,Kissonerga Mosphilia,KMIA,grain,10750–10350 BP,8,NA
+emmer wheat,EPPNB,Mylouthkia,MYLO-1A,undifferentiated,10550–10150 BP,8,Murray03
+emmer wheat,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,undifferentiated,10510–10240 BP,5,TannoWillxox06
+emmer wheat,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,undifferentiated,10821–10242 BP,20,VanZeistBakkerHeeres82
+emmer wheat,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,73,"c(""VanZeistDeRoller95"", ""ZeistRoller03Asikli"")"
+emmer wheat,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,28,DeMoulins97
+emmer wheat,MPPNB,Cafer Höyük,CAFH M-PPNB,undifferentiated,10050–9300 BP,2,DeMoulins97
+emmer wheat,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,5,ZeistRoller03Cayonu
+emmer wheat,MPPNB,Chogha Golan,CHGO-I,undifferentiated,9650–9550 BP,2,RiehlEtal2013
+emmer wheat,MPPNB,Chogha Golan,CHGO-II,undifferentiated,9750–9650 BP,23,RiehlEtal2013
+emmer wheat,MPPNB,Hacılar,HACI M-PPNB,undifferentiated,10232–9418 BP,24,Helbaek70
+emmer wheat,MPPNB,Halula,HALU M-PPNB,undifferentiated,9921–9532 BP,163,Willcox96
+emmer wheat,MPPNB,Nahal Hemar,NAHE PPNB,undifferentiated,10130–9316 BP,27,Kislev88
+emmer wheat,MPPNB,Nahal Oren,NAOR PPNB,undifferentiated,10750–9550 BP,2,NoyLeggeHiggs1973
+emmer wheat,MPPNB,Shkarat Msaied,SHMS M-PPNB,undifferentiated,10241–9914 BP,4,Hald05
+emmer wheat,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,1905,VanZeistBakkerHeeres82
+emmer wheat,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,7,VanZeistBakkerHeeres82
+emmer wheat,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,undifferentiated,10237–9260 BP,11,Colledge2001
+emmer wheat,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,undifferentiated,9450–8700 BP,300,Helbaek69
+emmer wheat,LPPNB/C,Ali Kosh,TAKO PN,undifferentiated,9241–8213 BP,36,Helbaek69
+emmer wheat,LPPNB/C,Ali Kosh,TAKO PPNC/PN,undifferentiated,10100–7950 BP,135,Helbaek69
+emmer wheat,LPPNB/C,Atlit-Yam,ATYA PPNC,undifferentiated,9019–8042 BP,897,KislevEtal04
+emmer wheat,LPPNB/C,Basta,BAS1 L-PPNB,undifferentiated,9450–9210 BP,29.5,Neef04
+emmer wheat,LPPNB/C,Basta,BAS1 L-PPNB-sub,undifferentiated,9450–9210 BP,5,Neef04
+emmer wheat,LPPNB/C,Cafer Höyük,CAFH L-PPNB,undifferentiated,9450–9050 BP,71,DeMoulins97
+emmer wheat,LPPNB/C,Can Hasan III,CAH3 Aceramic,undifferentiated,9400–8550 BP,26,FrenchEtal72
+emmer wheat,LPPNB/C,Çatalhöyük,CATE Later,undifferentiated,9250–8350 BP,745,FMBH07
+emmer wheat,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,13,ZeistRoller03Cayonu
+emmer wheat,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,20,ZeistRoller03Cayonu
+emmer wheat,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,5,ZeistRoller03Cayonu
+emmer wheat,LPPNB/C,Kissonerga Mosphilia,KMIB,grain,9450–8950 BP,11,NA
+emmer wheat,LPPNB/C,Mylouthkia,MYLO-1B,undifferentiated,9150–8750 BP,11,Murray03
+emmer wheat,LPPNB/C,Ras Shamra,TRAS Vb,undifferentiated,8776–8289 BP,10,VZBH84
+emmer wheat,LPPNB/C,Ras Shamra,TRAS Vc,undifferentiated,9450–9080 BP,6,VZBH84
+emmer wheat,LPPNB/C,Sabi Abyad II,TSA2 PPNB,undifferentiated,9500–8800 BP,29,VanZeistRoller00
+emmer wheat,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,93,Hopf83
+emmer wheat,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,undifferentiated,9496–8598 BP,114,VanZeistBakkerHeeres82
+emmer wheat,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,undifferentiated,9000–8200 BP,78,Willcox2006
+emmer wheat,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,3926,VanZeistBakkerHeeres82
+emmer wheat,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,281,VanZeistBakkerHeeres82
+emmer wheat,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,undifferentiated,9537–8609 BP,1,Colledge2001
+emmer wheat,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,undifferentiated,9050–8481 BP,2,Colledge2001
+emmer wheat,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,undifferentiated,9012–8450 BP,1,Colledge2001
+emmer wheat,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,10,DeMoulins97
+emmer wheat,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,18,DeMoulins97
+emmer wheat,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,3102.04,BogaardEtAl2015
+emmer wheat,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,35,ZeistRoller03Cayonu
+emmer wheat,Pottery Neolithic,Çayönü,CAYO cell/large room,undifferentiated,8200–8050 BP,3,ZeistRoller03Cayonu
+emmer wheat,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,16,ZeistRoller03Cayonu
+emmer wheat,Pottery Neolithic,Chogha Bonut,CHBO Formative,undifferentiated,7540–7385 BP,0.02,Miller03
+emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PN,undifferentiated,8250–8050 BP,15,VanZeist86
+emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PN(phase C),undifferentiated,7500–7350 BP,25,VanZeist86
+emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PN(phase D),undifferentiated,7350–7250 BP,5,VanZeist86
+emmer wheat,Pottery Neolithic,El Kowm I,ELK1 PPNB,undifferentiated,8350–8158 BP,14,VanZeist86
+emmer wheat,Pottery Neolithic,El Kowm II,ELK2 F-PPNB,undifferentiated,8533–8418 BP,47,DeMoulins97
+emmer wheat,Pottery Neolithic,Jaffarabad,JAF,grain,8350–4950 BP,560,NA
+emmer wheat,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,275,VZBH84
+emmer wheat,Pottery Neolithic,Tell es-Sultan,JERI PN,undifferentiated,8170–8042 BP,30,Hopf83
+emmer wheat,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,179,VanZeistBakkerHeeres82
+emmer wheat,Pottery Neolithic,Yarim Tepe,YATE Halaf,undifferentiated,7550–7250 BP,66,BakhteyevYanushevich1980
+emmer wheat,Pottery Neolithic,Yarim Tepe,YATE Hassuna,undifferentiated,8090–7890 BP,14,BakhteyevYanushevich1980
+emmer wheat,Chalcolithic,Ayios Epiktitos Vrysi,AEV,grain,7350–1950 BP,182,NA
+emmer wheat,Chalcolithic,Beth Shean,BS_EBIB,undifferentiated,5150–4950 BP,643,NA
+emmer wheat,Chalcolithic,Çayboyu,CB_LC,grain,6750–5750 BP,77.917,NA
+emmer wheat,Chalcolithic,Demircihöyük,DH,grain,5150–3950 BP,111,NA
+emmer wheat,Chalcolithic,Emar,EM_EBA,undifferentiated,5150–3950 BP,3,NA
+emmer wheat,Chalcolithic,Girikihaciyan,GH,grain,7050–1950 BP,1.131,NA
+emmer wheat,Chalcolithic,Hacinebi Tepe,HAT-C,grain,6750–5750 BP,19,NA
+emmer wheat,Chalcolithic,Höyücek,HOY_PN,grain,8350–1950 BP,582,NA; NA
+emmer wheat,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,3,NA; NA
+emmer wheat,Chalcolithic,Korucutepe,KOR-CH,grain,7150–4950 BP,153,NA
+emmer wheat,Chalcolithic,Korucutepe,KOR-EB,grain,5150–3950 BP,101,NA
+emmer wheat,Chalcolithic,Kosak Shamali,KS,grain,7150–4950 BP,2,NA
+emmer wheat,Chalcolithic,Kuruçay Höyük,KUR_LC,grain,6750–5750 BP,4.217,NA; NA
+emmer wheat,Chalcolithic,Kuruçay Höyük,KUR_LC,undifferentiated,6750–5750 BP,2.279,NA; NA
+emmer wheat,Chalcolithic,Lachish,LH_EB,grain,5150–3950 BP,0,NA
+emmer wheat,Chalcolithic,Maadi,MD_PD,grain,7450–5150 BP,2590,NA; NA
+emmer wheat,Chalcolithic,Maadi,MD_PD,undifferentiated,7450–5150 BP,11874,NA; NA
+emmer wheat,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,grain,5150–4950 BP,24,NA; NA
+emmer wheat,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,undifferentiated,5150–4950 BP,226,NA; NA
+emmer wheat,Chalcolithic,Sabi Abyad,TSA-1_3,grain,7050–1950 BP,11.446,NA
+emmer wheat,Chalcolithic,Shiqmim,SQ_LV,grain,7150–4950 BP,92,NA; NA
+emmer wheat,Chalcolithic,Shiqmim,SQ_LV,undifferentiated,7150–4950 BP,685,NA; NA
+emmer wheat,Chalcolithic,Shiqmim,SQ_UV,undifferentiated,6450–5750 BP,129,NA
+emmer wheat,Chalcolithic,Tappeh Gijlar,TAG-B,grain,5150–3950 BP,25,NA
+emmer wheat,Chalcolithic,Tappeh Gijlar,TAG-BC,grain,6750–5750 BP,1,NA
+emmer wheat,Chalcolithic,Tappeh Gijlar,TAG-C,grain,7150–3950 BP,10,NA
+emmer wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,grain,5150–4950 BP,113,NA; NA
+emmer wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,undifferentiated,5150–4950 BP,174,NA; NA
+emmer wheat,Chalcolithic,Tell Afis,TAF-C,grain,6150–5750 BP,35,NA
+emmer wheat,Chalcolithic,Tell al-Raqa'i,TAR-4,grain,5150–3950 BP,22,NA
+emmer wheat,Chalcolithic,Tell Aphek,TAPH_IA_IB,grain,5150–4950 BP,152,NA
+emmer wheat,Chalcolithic,Tell Atij,TA,undifferentiated,5150–3950 BP,179,NA
+emmer wheat,Chalcolithic,Tell Brak,TBR-I,grain,6750–5750 BP,188,NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-I,grain,7150–4950 BP,26,NA; NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-I,undifferentiated,7150–4950 BP,176,NA; NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-II,grain,7150–4950 BP,76,NA; NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-II,undifferentiated,7150–4950 BP,452,NA; NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-III,grain,5150–4950 BP,16,NA; NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-III,undifferentiated,5150–4950 BP,48,NA; NA
+emmer wheat,Chalcolithic,Tell el-Fara'in,TEF-IV,undifferentiated,5150–4950 BP,108,NA
+emmer wheat,Chalcolithic,Tell el-Iswid,TEI_ED,undifferentiated,5050–4650 BP,113,NA
+emmer wheat,Chalcolithic,Tell el-Iswid,TEI_PD,grain,7450–5150 BP,15,NA; NA
+emmer wheat,Chalcolithic,Tell el-Iswid,TEI_PD,undifferentiated,7450–5150 BP,571,NA; NA
+emmer wheat,Chalcolithic,Tell Esh-Shuna,TES_C,grain,7050–1950 BP,248,NA; NA
+emmer wheat,Chalcolithic,Tell Esh-Shuna,TES_C,undifferentiated,7050–1950 BP,16,NA; NA
+emmer wheat,Chalcolithic,Tell Esh-Shuna,TES_EB1E,grain,5050–1950 BP,56,NA
+emmer wheat,Chalcolithic,Tell Fadous-Kfarabida,TFA_C_EBA_I,undifferentiated,7150–3950 BP,62,NA
+emmer wheat,Chalcolithic,Tell Fadous-Kfarabida,TFA_EBA_V,undifferentiated,5150–3950 BP,11,NA
+emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-B,undifferentiated,5050–4850 BP,358,NA
+emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-ED,grain,5050–4650 BP,66,NA; NA
+emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-ED,undifferentiated,5050–4650 BP,46,NA; NA
+emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-PD,grain,7450–5150 BP,17,NA; NA
+emmer wheat,Chalcolithic,Tell Ibrahim Awad,TIA-PD,undifferentiated,7450–5150 BP,14,NA; NA
+emmer wheat,Chalcolithic,Tell Karrana,TKA,grain,7150–3950 BP,3.739,NA
+emmer wheat,Chalcolithic,Tell Kerma,TKE,grain,5150–3950 BP,90,NA; NA
+emmer wheat,Chalcolithic,Tell Kerma,TKE,undifferentiated,5150–3950 BP,87,NA; NA
+emmer wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,grain,5150–3950 BP,20,NA; NA
+emmer wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,undifferentiated,5150–3950 BP,111,NA; NA
+emmer wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,grain,5150–3550 BP,38,NA; NA
+emmer wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,undifferentiated,5150–3550 BP,120,NA; NA
+emmer wheat,Chalcolithic,Tepe Farukhabad,TF-EJN,grain,5050–1950 BP,8,NA
+emmer wheat,Chalcolithic,Tepe Farukhabad,TF-F,grain,6450–5750 BP,5,NA
+emmer wheat,Chalcolithic,Tepecik,TEP-CH,grain,6450–5750 BP,20,NA
+emmer wheat,Chalcolithic,Tilbeshar,TB_C,grain,7150–4950 BP,52,NA
+emmer wheat,Chalcolithic,Wadi Fidan,WF-E,grain,7150–3950 BP,143,NA; NA
+emmer wheat,Chalcolithic,Wadi Fidan,WF-E,undifferentiated,7150–3950 BP,395.42,NA; NA
+emmer wheat,Chalcolithic,Yarim Höyük,YAHÖ_KV_U,grain,5950–1950 BP,1,NA
+emmer wheat,Chalcolithic,Yarim Höyük,YAHÖ_U,grain,5450–5050 BP,2,NA
+flax,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,undifferentiated,13250–12250 BP,2,Colledge2001
+flax,Late Epipal.,Mureybet,MURE L-Epi/PPNA,undifferentiated,12050–11950 BP,4,VZBH84_3
+flax,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,14.5,VanZeist1981
+flax,EPPNB,Kissonerga Mosphilia,KMIA,undifferentiated,10750–10350 BP,4,NA
+flax,EPPNB,Mylouthkia,MYLO-1A,undifferentiated,10550–10150 BP,4,Murray03
+flax,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,1,DeMoulins97
+flax,MPPNB,Nahal Hemar,NAHE PPNB,undifferentiated,10130–9316 BP,1,Kislev88
+flax,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,16,VanZeistBakkerHeeres82
+flax,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,3,VanZeistBakkerHeeres82
+flax,MPPNB,Tell Halula,7550-TelHMB,undifferentiated,9950–9050 BP,93,Ferrio et al 2012
+flax,LPPNB/C,Ain Ghazal,AIGH M/L-PPNB,undifferentiated,10276–8582 BP,1,Donaldson85
+flax,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,undifferentiated,9450–8700 BP,3,Helbaek69
+flax,LPPNB/C,Ali Kosh,TAKO PN,undifferentiated,9241–8213 BP,1,Helbaek69
+flax,LPPNB/C,Ali Kosh,TAKO PPNC/PN,undifferentiated,10100–7950 BP,1,Helbaek69
+flax,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,3,ZeistRoller03Cayonu
+flax,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,94,ZeistRoller03Cayonu
+flax,LPPNB/C,Mylouthkia,MYLO-1B,undifferentiated,9150–8750 BP,4,Murray03
+flax,LPPNB/C,Ras Shamra,TRAS Vb,undifferentiated,8776–8289 BP,1,VZBH84
+flax,LPPNB/C,Ras Shamra,TRAS Vc,undifferentiated,9450–9080 BP,2,VZBH84
+flax,LPPNB/C,Sabi Abyad II,TSA2 PPNB,undifferentiated,9500–8800 BP,1253,VanZeistRoller00
+flax,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,2,Hopf83
+flax,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,undifferentiated,9496–8598 BP,22,VanZeistBakkerHeeres82
+flax,LPPNB/C,Tell Halula,6550-TelHEP,undifferentiated,8800–8200 BP,62,Ferrio et al 2012
+flax,LPPNB/C,Tell Halula,7320-TelHLB,undifferentiated,9400–9140 BP,78,Ferrio et al 2012
+flax,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,undifferentiated,9000–8200 BP,39,Willcox2006
+flax,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,265,VanZeistBakkerHeeres82
+flax,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,32,VanZeistBakkerHeeres82
+flax,Pottery Neolithic,Abu Hureyra,ABHU PN,undifferentiated,7550–7450 BP,3,DeMoulins97
+flax,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,5,DeMoulins97
+flax,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,2,DeMoulins97
+flax,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,undifferentiated,8750–8050 BP,13,Van Zeist 1981
+flax,Pottery Neolithic,Choga Mami,5795-CM-S,undifferentiated,7930–7560 BP,81,Helbaek 1972b
+flax,Pottery Neolithic,Nahal Zehora II,6050-NZIIPN,undifferentiated,8200–7800 BP,3,Kislev and Hartmann 2012
+flax,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,10,VZBH84
+flax,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,undifferentiated,8430–8160 BP,29,Miyake 2011
+flax,Pottery Neolithic,Sha'ar Hagolan,6230-ShaHag,undifferentiated,8350–8010 BP,1,Allen 2002
+flax,Pottery Neolithic,Tell Halula,5925-TelHLP,undifferentiated,8200–7550 BP,5,Ferrio et al 2012
+flax,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,3,VanZeistBakkerHeeres82
+flax,Chalcolithic,Beth Shean,BS_EBIB,undifferentiated,5150–4950 BP,158,NA
+flax,Chalcolithic,Girikihaciyan,GH,undifferentiated,7050–1950 BP,17,NA
+flax,Chalcolithic,Korucutepe,KOR-CH,undifferentiated,7150–4950 BP,80,NA
+flax,Chalcolithic,Kuruçay Höyük,KUR_LC,undifferentiated,6750–5750 BP,40.963,NA
+flax,Chalcolithic,Maadi,MD_PD,undifferentiated,7450–5150 BP,7,NA
+flax,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,undifferentiated,5150–4950 BP,103,NA
+flax,Chalcolithic,Tappeh Gijlar,TAG-B,undifferentiated,5150–3950 BP,18,NA
+flax,Chalcolithic,Tell Aphek,TAPH_IA_IB,undifferentiated,5150–4950 BP,13,NA
+flax,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_early,undifferentiated,5150–3950 BP,5,NA
+flax,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_Late,undifferentiated,5150–3950 BP,2,NA
+flax,Chalcolithic,Tell Jerablus Tahtani,TJT_LC,undifferentiated,6750–5750 BP,1,NA
+flax,Chalcolithic,Tilbeshar,TB_C,undifferentiated,7150–4950 BP,3,NA
+lentil,Late Epipal.,Abu Hureyra,ABHU Epip1,undifferentiated,13096–12984 BP,12,MooreEtal2000
+lentil,Late Epipal.,Abu Hureyra,ABHU Epip2,undifferentiated,12984–12055 BP,21,MooreEtal2000
+lentil,Late Epipal.,Abu Hureyra,ABHU Epip3,undifferentiated,12055–11770 BP,10,MooreEtal2000
+lentil,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,undifferentiated,13250–12250 BP,6,Colledge2001
+lentil,Late Epipal.,Mureybet,MURE L-Epi/PPNA,undifferentiated,12050–11950 BP,7,VZBH84_3
+lentil,Late Epipal.,Wadi Hammeh 27,WH27 Epip,undifferentiated,14111–12660 BP,1,Colledge2001
+lentil,PPNA,Chogha Bonut,CHBO Aceramic,undifferentiated,12850–8800 BP,3,Miller03
+lentil,PPNA,Chogha Golan,CHGO-iX,undifferentiated,10850–10650 BP,11,RiehlEtal2013
+lentil,PPNA,Chogha Golan,CHGO-X,undifferentiated,11050–10850 BP,5,RiehlEtal2013
+lentil,PPNA,Chogha Golan,CHGO-XI,undifferentiated,11250–11050 BP,78,RiehlEtal2013
+lentil,PPNA,El-Hemmeh,EHEM-PPNA,undifferentiated,11070–10520 BP,99,WhiteMakarewicz11
+lentil,PPNA,Iraq ed-Dubb,IEDU PPNA,undifferentiated,11650–11150 BP,4,Colledge2001
+lentil,PPNA,Jerf el Ahmar,JEAH PPNA,undifferentiated,11450–10650 BP,2185,"c(""WFH08"", ""Willcox02"", ""WillcoxFornite99"")"
+lentil,PPNA,M'lefaat,MLEF PPNA,undifferentiated,11270–11140 BP,424,SavardNesbittGale2003
+lentil,PPNA,Mureybet,MURE PPNA,undifferentiated,11650–11250 BP,30,VZBH84_3
+lentil,PPNA,Mureybet,MURE PPNB,undifferentiated,11350–10750 BP,8,VZBH84_3
+lentil,PPNA,Nemrik 9,NEM9 PPNA,undifferentiated,12389–9563 BP,9,Kozlowski1989
+lentil,PPNA,Netiv Hagdud,NEHA PPNA,undifferentiated,11603–10586 BP,205,Kislev97
+lentil,PPNA,Qermez Dere,QEDE PPNA,undifferentiated,11750–9950 BP,263,"c(""Nesbitt91"", ""Nesbitt95"")"
+lentil,PPNA,Tell 'Abr,TABR PPNA,undifferentiated,11245–10776 BP,230,WFH08
+lentil,PPNA,Tell Aswad,TASW E-PPNB,undifferentiated,11231–10658 BP,2,VanZeistBakkerHeeres82
+lentil,PPNA,Tell es-Sultan,JERI PPNA,undifferentiated,12250–10750 BP,1,Hopf83
+lentil,PPNA,Zahrat adh-Dhra 2,ZAD2 PPNA,undifferentiated,11450–10450 BP,32,Edwardsetal04
+lentil,EPPNB,Chogha Golan,CHGO-VII,undifferentiated,10450–10250 BP,11,RiehlEtal2013
+lentil,EPPNB,Chogha Golan,CHGO-VIII,undifferentiated,10650–10450 BP,14,RiehlEtal2013
+lentil,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,5850,Willcox96
+lentil,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,146.5,VanZeist1981
+lentil,EPPNB,Kissonerga Mosphilia,KMIA,undifferentiated,10750–10350 BP,2,NA
+lentil,EPPNB,Mylouthkia,MYLO-1A,undifferentiated,10550–10150 BP,2,Murray03
+lentil,EPPNB,Nevalı Çori,NECO PPNB,undifferentiated,10450–10250 BP,342,Pasternak98
+lentil,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,undifferentiated,10510–10240 BP,450,TannoWillxox06
+lentil,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,undifferentiated,10821–10242 BP,4,VanZeistBakkerHeeres82
+lentil,MPPNB,Ais Giorkis,AIYI-PPNB,undifferentiated,9550–9450 BP,3,Lucas2011
+lentil,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,43,"c(""VanZeistDeRoller95"", ""ZeistRoller03Asikli"")"
+lentil,MPPNB,Beidha,BEID A,undifferentiated,10093–9490 BP,1,Colledge2001
+lentil,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,252,DeMoulins97
+lentil,MPPNB,Cafer Höyük,CAFH M-PPNB,undifferentiated,10050–9300 BP,1,DeMoulins97
+lentil,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,4,ZeistRoller03Cayonu
+lentil,MPPNB,Çayönü,CAYO round house,undifferentiated,10250–9950 BP,1,ZeistRoller03Cayonu
+lentil,MPPNB,Chogha Golan,CHGO-I,undifferentiated,9650–9550 BP,6,RiehlEtal2013
+lentil,MPPNB,Chogha Golan,CHGO-II,undifferentiated,9750–9650 BP,4,RiehlEtal2013
+lentil,MPPNB,Chogha Golan,CHGO-III,undifferentiated,9850–9750 BP,2,RiehlEtal2013
+lentil,MPPNB,Chogha Golan,CHGO-IV,undifferentiated,9950–9850 BP,96,RiehlEtal2013
+lentil,MPPNB,Chogha Golan,CHGO-V,undifferentiated,10050–9950 BP,44,RiehlEtal2013
+lentil,MPPNB,Chogha Golan,CHGO-VI,undifferentiated,10250–10050 BP,9,RiehlEtal2013
+lentil,MPPNB,East Chia Sabz,CHSA-PPNB,undifferentiated,10450–9550 BP,26,RiehlEtal2011
+lentil,MPPNB,Ganj Dareh,GADT A,undifferentiated,9950–9350 BP,2,VZeistSmithetal84
+lentil,MPPNB,Ganj Dareh,GADT All,undifferentiated,10350–9350 BP,5,VZeistSmithetal84
+lentil,MPPNB,Ganj Dareh,GADT B,undifferentiated,10150–9350 BP,12,VZeistSmithetal84
+lentil,MPPNB,Ganj Dareh,GADT D,undifferentiated,10300–9350 BP,10,VZeistSmithetal84
+lentil,MPPNB,Ganj Dareh,GADT E,undifferentiated,10150–9150 BP,11,VZeistSmithetal84
+lentil,MPPNB,Göbekli Tepe,GOTE PPNA/E-PPNB,undifferentiated,10750–9550 BP,1,Neef03
+lentil,MPPNB,Hacılar,HACI M-PPNB,undifferentiated,10232–9418 BP,3,Helbaek70
+lentil,MPPNB,Halula,HALU M-PPNB,undifferentiated,9921–9532 BP,57,Willcox96
+lentil,MPPNB,Nahal Hemar,NAHE PPNB,undifferentiated,10130–9316 BP,7,Kislev88
+lentil,MPPNB,Nahal Oren,NAOR PPNB,undifferentiated,10750–9550 BP,1,NoyLeggeHiggs1973
+lentil,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,undifferentiated,10650–8450 BP,58,NA
+lentil,MPPNB,Sheikh-e Abad,ABAD_III_PPNB,undifferentiated,10650–8450 BP,1,NA
+lentil,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,21,VanZeistBakkerHeeres82
+lentil,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,3,VanZeistBakkerHeeres82
+lentil,MPPNB,Tell Halula,7550-TelHMB,undifferentiated,9950–9050 BP,63,Ferrio et al 2012
+lentil,MPPNB,Tepe Abdul Hosein,TAHO PPNB,undifferentiated,10272–9092 BP,1,Hubbard1990
+lentil,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,undifferentiated,10237–9260 BP,5,Colledge2001
+lentil,LPPNB/C,Abu Hureyra,ABHU-EPPNB,undifferentiated,9350–8250 BP,3,DeMoulins97
+lentil,LPPNB/C,Ali Kosh,TAKO PN,undifferentiated,9241–8213 BP,1,Helbaek69
+lentil,LPPNB/C,Ali Kosh,TAKO PPNC/PN,undifferentiated,10100–7950 BP,1,Helbaek69
+lentil,LPPNB/C,Atlit-Yam,ATYA PPNC,undifferentiated,9019–8042 BP,25,KislevEtal04
+lentil,LPPNB/C,Basta,BAS1 L-PPNB,undifferentiated,9450–9210 BP,7,Neef04
+lentil,LPPNB/C,Cafer Höyük,CAFH L-PPNB,undifferentiated,9450–9050 BP,6,DeMoulins97
+lentil,LPPNB/C,Can Hasan III,CAH3 Aceramic,undifferentiated,9400–8550 BP,15,FrenchEtal72
+lentil,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,1.5,ZeistRoller03Cayonu
+lentil,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,18,ZeistRoller03Cayonu
+lentil,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,16.5,ZeistRoller03Cayonu
+lentil,LPPNB/C,Kissonerga Mosphilia,KMIB,undifferentiated,9450–8950 BP,52,NA
+lentil,LPPNB/C,Mylouthkia,MYLO-1B,undifferentiated,9150–8750 BP,52,Murray03
+lentil,LPPNB/C,Ras Shamra,TRAS Vb,undifferentiated,8776–8289 BP,63,VZBH84
+lentil,LPPNB/C,Ras Shamra,TRAS Vc,undifferentiated,9450–9080 BP,122,VZBH84
+lentil,LPPNB/C,Sabi Abyad II,TSA2 PPNB,undifferentiated,9500–8800 BP,37,VanZeistRoller00
+lentil,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,640,Hopf83
+lentil,LPPNB/C,Tell Halula,7320-TelHLB,undifferentiated,9400–9140 BP,221,Ferrio et al 2012
+lentil,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,undifferentiated,9000–8200 BP,42,Willcox2006
+lentil,LPPNB/C,Tell Nebi Mend,6830-TNM,undifferentiated,8980–8580 BP,17,Smith and Moffett 2015
+lentil,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,653,VanZeistBakkerHeeres82
+lentil,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,75,VanZeistBakkerHeeres82
+lentil,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,undifferentiated,9234–8195 BP,1,Colledge2001
+lentil,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,undifferentiated,9050–8481 BP,1,Colledge2001
+lentil,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,undifferentiated,9012–8450 BP,1,Colledge2001
+lentil,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,undifferentiated,9734–9260 BP,2,Colledge2001
+lentil,LPPNB/C,Yiftah'el,YIFT PPNB,undifferentiated,8750–8750 BP,1400000,GarfinkelEtal88
+lentil,Pottery Neolithic,Abu Hureyra,ABHU PN,undifferentiated,7550–7450 BP,5,DeMoulins97
+lentil,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,21,DeMoulins97
+lentil,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,32,DeMoulins97
+lentil,Pottery Neolithic,Arjoune,5520-Arj,undifferentiated,7620–7320 BP,34,"Moffett, 2003"
+lentil,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,undifferentiated,8750–8050 BP,146,Van Zeist 1981
+lentil,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,115.7,BogaardEtAl2015
+lentil,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,73,ZeistRoller03Cayonu
+lentil,Pottery Neolithic,Çayönü,CAYO cell/large room,undifferentiated,8200–8050 BP,3,ZeistRoller03Cayonu
+lentil,Pottery Neolithic,Çayönü,CAYO large room,undifferentiated,8050–7650 BP,93,ZeistRoller03Cayonu
+lentil,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,149.5,ZeistRoller03Cayonu
+lentil,Pottery Neolithic,Choga Mami,5795-CM-S,undifferentiated,7930–7560 BP,72,Helbaek 1972b
+lentil,Pottery Neolithic,El Kowm I,ELK1 PN,undifferentiated,8250–8050 BP,2,VanZeist86
+lentil,Pottery Neolithic,El Kowm I,ELK1 PN(phase C),undifferentiated,7500–7350 BP,2,VanZeist86
+lentil,Pottery Neolithic,Erbaba,6450-ER,undifferentiated,9050–7750 BP,610,van Zeist and Buitenhuis 1983
+lentil,Pottery Neolithic,Hacılar,HACI L-N,undifferentiated,7750–7350 BP,65,Helbaek70
+lentil,Pottery Neolithic,Jaffarabad,JAF,undifferentiated,8350–4950 BP,678,NA
+lentil,Pottery Neolithic,Nahal Zehora II,5450-NZIIWR,undifferentiated,7850–6950 BP,4,Kislev and Hartmann 2012
+lentil,Pottery Neolithic,Nahal Zehora II,6050-NZIIPN,undifferentiated,8200–7800 BP,57,Kislev and Hartmann 2012
+lentil,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,255,VZBH84
+lentil,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,undifferentiated,8430–8160 BP,8,Miyake 2011
+lentil,Pottery Neolithic,Sha'ar Hagolan,6230-ShaHag,undifferentiated,8350–8010 BP,3,Allen 2002
+lentil,Pottery Neolithic,Tell es-Sultan,JERI PN,undifferentiated,8170–8042 BP,112,Hopf83
+lentil,Pottery Neolithic,Tell Halula,5925-TelHLP,undifferentiated,8200–7550 BP,1,Ferrio et al 2012
+lentil,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,79,VanZeistBakkerHeeres82
+lentil,Chalcolithic,Ayios Epiktitos Vrysi,AEV,undifferentiated,7350–1950 BP,562,NA
+lentil,Chalcolithic,Beth Shean,BS_EBIB,undifferentiated,5150–4950 BP,1.972,NA
+lentil,Chalcolithic,Emar,EM_EBA,undifferentiated,5150–3950 BP,13,NA
+lentil,Chalcolithic,Girikihaciyan,GH,undifferentiated,7050–1950 BP,533,NA
+lentil,Chalcolithic,Hacinebi Tepe,HAT-U,undifferentiated,5950–1950 BP,1,NA
+lentil,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,13725,NA
+lentil,Chalcolithic,Korucutepe,KOR-CH,undifferentiated,7150–4950 BP,37,NA
+lentil,Chalcolithic,Korucutepe,KOR-EB,undifferentiated,5150–3950 BP,37,NA
+lentil,Chalcolithic,Kuruçay Höyük,KUR_LC,undifferentiated,6750–5750 BP,36.212,NA
+lentil,Chalcolithic,Lemba Lakkous,LL,undifferentiated,7150–4950 BP,28,NA
+lentil,Chalcolithic,Maadi,MD_PD,undifferentiated,7450–5150 BP,2,NA
+lentil,Chalcolithic,Megiddo,MEG_EBIB,undifferentiated,5150–4950 BP,4,NA
+lentil,Chalcolithic,Ras an-Numayra,RAN_EBA_IB,undifferentiated,5150–4950 BP,13,NA
+lentil,Chalcolithic,Rukeis,RK,undifferentiated,5350–3050 BP,4,NA
+lentil,Chalcolithic,Shiqmim,SQ_LV,undifferentiated,7150–4950 BP,109,NA
+lentil,Chalcolithic,Tappeh Gijlar,TAG-C,undifferentiated,7150–3950 BP,2,NA
+lentil,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,undifferentiated,5150–4950 BP,23,NA
+lentil,Chalcolithic,Tell Afis,TAF-C,undifferentiated,6150–5750 BP,78,NA
+lentil,Chalcolithic,Tell al-Rawda,RAW,undifferentiated,5150–3950 BP,81,NA
+lentil,Chalcolithic,Tell Aphek,TAPH_IA_IB,undifferentiated,5150–4950 BP,13,NA
+lentil,Chalcolithic,Tell el Ifshar,TEIF_EBA,undifferentiated,5150–3950 BP,2.231,NA
+lentil,Chalcolithic,Tell el-Fara'in,TEF-IV,undifferentiated,5150–4950 BP,312,NA
+lentil,Chalcolithic,Tell Esh-Shuna,TES_C,undifferentiated,7050–1950 BP,125,NA
+lentil,Chalcolithic,Tell Esh-Shuna,TES_EB1E,undifferentiated,5050–1950 BP,351,NA
+lentil,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_early,undifferentiated,5150–3950 BP,3,NA
+lentil,Chalcolithic,Tell Jerablus Tahtani,TJT_EBA_Late,undifferentiated,5150–3950 BP,12,NA
+lentil,Chalcolithic,Tell Mishrifeh,TEMI_11,undifferentiated,5150–3950 BP,7,NA
+lentil,Chalcolithic,Tell Mishrifeh,TEMI_9,undifferentiated,5150–3550 BP,30,NA
+lentil,Chalcolithic,Tepecik,TEP-EB,undifferentiated,5150–3950 BP,25,NA
+lentil,Chalcolithic,Tepecik,TEP-EB_MB,undifferentiated,5150–3550 BP,1,NA
+lentil,Chalcolithic,Tilbeshar,TB_C,undifferentiated,7150–4950 BP,31,NA
+lentil,Chalcolithic,Yarim Höyük,YAHÖ_U,undifferentiated,5450–5050 BP,2,NA
+pea,Late Epipal.,Mureybet,MURE L-Epi/PPNA,undifferentiated,12050–11950 BP,7,VZBH84_3
+pea,PPNA,Hasankey Höyük,9440-HasHoy,undifferentiated,11610–11170 BP,4,Miyake et al 2012
+pea,PPNA,Jerf el Ahmar,JEAH PPNA,undifferentiated,11450–10650 BP,3,WFH08
+pea,PPNA,Mureybet,MURE PPNA,undifferentiated,11650–11250 BP,13,VZBH84_3
+pea,PPNA,Mureybet,MURE PPNB,undifferentiated,11350–10750 BP,2,VZBH84_3
+pea,PPNA,Tell Aswad,TASW E-PPNB,undifferentiated,11231–10658 BP,2,VanZeistBakkerHeeres82
+pea,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,13,Willcox96
+pea,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,4,VanZeist1981
+pea,EPPNB,Nevalı Çori,NECO PPNB,undifferentiated,10450–10250 BP,137,Pasternak98
+pea,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,undifferentiated,10821–10242 BP,37,VanZeistBakkerHeeres82
+pea,MPPNB,Ais Giorkis,AIYI-PPNB,undifferentiated,9550–9450 BP,1,Lucas2011
+pea,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,7,"c(""ZeistRoller03Asikli"", ""VanZeistDeRoller95"")"
+pea,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,5,DeMoulins97
+pea,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,15.5,ZeistRoller03Cayonu
+pea,MPPNB,Ganj Dareh,GADT B,undifferentiated,10150–9350 BP,1,VZeistSmithetal84
+pea,MPPNB,Ganj Dareh,GADT D,undifferentiated,10300–9350 BP,1,VZeistSmithetal84
+pea,MPPNB,Sheikh-e Abad,ABAD_II_PPNB,undifferentiated,10650–8450 BP,28,NA
+pea,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,36,VanZeistBakkerHeeres82
+pea,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,19,VanZeistBakkerHeeres82
+pea,MPPNB,Tell Halula,7550-TelHMB,undifferentiated,9950–9050 BP,10,Ferrio et al 2012
+pea,LPPNB/C,Basta,BAS1 L-PPNB,undifferentiated,9450–9210 BP,10.25,Neef04
+pea,LPPNB/C,Basta,BAS1 L-PPNB-sub,undifferentiated,9450–9210 BP,3,Neef04
+pea,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,34,ZeistRoller03Cayonu
+pea,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,46,ZeistRoller03Cayonu
+pea,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,41,ZeistRoller03Cayonu
+pea,LPPNB/C,Ras Shamra,TRAS Vb,undifferentiated,8776–8289 BP,4,VZBH84
+pea,LPPNB/C,Ras Shamra,TRAS Vc,undifferentiated,9450–9080 BP,7,VZBH84
+pea,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,344,Hopf83
+pea,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,undifferentiated,9496–8598 BP,7,VanZeistBakkerHeeres82
+pea,LPPNB/C,Tell Halula,6550-TelHEP,undifferentiated,8800–8200 BP,3,Ferrio et al 2012
+pea,LPPNB/C,Tell Halula,7320-TelHLB,undifferentiated,9400–9140 BP,8,Ferrio et al 2012
+pea,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,171,VanZeistBakkerHeeres82
+pea,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,25,VanZeistBakkerHeeres82
+pea,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,1,DeMoulins97
+pea,Pottery Neolithic,Cape Andreas Kastros,6450-CAK,undifferentiated,8750–8050 BP,4,Van Zeist 1981
+pea,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,5217.68,BogaardEtAl2015
+pea,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,44.5,ZeistRoller03Cayonu
+pea,Pottery Neolithic,Çayönü,CAYO large room,undifferentiated,8050–7650 BP,39,ZeistRoller03Cayonu
+pea,Pottery Neolithic,Choga Mami,5795-CM-S,undifferentiated,7930–7560 BP,5,Helbaek 1972b
+pea,Pottery Neolithic,El Kowm I,ELK1 PPNB,undifferentiated,8350–8158 BP,5,VanZeist86
+pea,Pottery Neolithic,Erbaba,6450-ER,undifferentiated,9050–7750 BP,8715,van Zeist and Buitenhuis 1983
+pea,Pottery Neolithic,Hacılar,HACI L-N,undifferentiated,7750–7350 BP,1595,Helbaek70
+pea,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,12,VZBH84
+pea,Pottery Neolithic,Salat Cami Yanı,6345-SalCY,undifferentiated,8430–8160 BP,2,Miyake 2011
+pea,Pottery Neolithic,Tell Halula,5925-TelHLP,undifferentiated,8200–7550 BP,8,Ferrio et al 2012
+pea,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,28,VanZeistBakkerHeeres82
+pea,Chalcolithic,Ayios Epiktitos Vrysi,AEV,undifferentiated,7350–1950 BP,98,NA
+pea,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,3,NA
+pea,Chalcolithic,Imamoglu,IMA,undifferentiated,5150–3950 BP,12.396,NA
+pea,Chalcolithic,Kuruçay Höyük,KUR_LC,undifferentiated,6750–5750 BP,7.164,NA
+pea,Chalcolithic,Tell Taya,TT-D,undifferentiated,5050–4650 BP,2,NA
+pea,Chalcolithic,Tepecik,TEP-CH,undifferentiated,6450–5750 BP,3,NA
+wheat,Late Epipal.,Abu Hureyra,ABHU Epip3,undifferentiated,12055–11770 BP,2,MooreEtal2000
+wheat,Late Epipal.,Iraq ed-Dubb,IEDU L-Natufian,undifferentiated,13250–12250 BP,10,Colledge2001
+wheat,Late Epipal.,Mureybet,MURE L-Epi/PPNA,undifferentiated,12050–11950 BP,1,VZBH84_3
+wheat,PPNA,Çayönü,CAYO PPNB,undifferentiated,11150–10650 BP,30,ZeistRoller03Cayonu
+wheat,PPNA,Chogha Golan,CHGO-iX,undifferentiated,10850–10650 BP,1,RiehlEtal2013
+wheat,PPNA,Chogha Golan,CHGO-X,undifferentiated,11050–10850 BP,9,RiehlEtal2013
+wheat,PPNA,Chogha Golan,CHGO-XI,undifferentiated,11250–11050 BP,9,RiehlEtal2013
+wheat,PPNA,El-Hemmeh,EHEM-PPNA,undifferentiated,11070–10520 BP,4,WhiteMakarewicz11
+wheat,PPNA,Iraq ed-Dubb,IEDU PPNA,undifferentiated,11650–11150 BP,42,Colledge2001
+wheat,PPNA,Mureybet,MURE PPNA,undifferentiated,11650–11250 BP,1,VZBH84_3
+wheat,PPNA,Tell Aswad,TASW E-PPNB,undifferentiated,11231–10658 BP,144,VanZeistBakkerHeeres82
+wheat,PPNA,Tell es-Sultan,JERI PPNA,undifferentiated,12250–10750 BP,2,Hopf83
+wheat,PPNA,Zahrat adh-Dhra 2,ZAD2 PPNA,undifferentiated,11450–10450 BP,27,Edwardsetal04
+wheat,EPPNB,Chogha Golan,CHGO-VII,undifferentiated,10450–10250 BP,18,RiehlEtal2013
+wheat,EPPNB,Chogha Golan,CHGO-VIII,undifferentiated,10650–10450 BP,3,RiehlEtal2013
+wheat,EPPNB,Dja'de,DJAD E-PPNB,undifferentiated,10690–10151 BP,16,Willcox96
+wheat,EPPNB,Kastros,KAST CPPNB,undifferentiated,10850–9950 BP,44,VanZeist1981
+wheat,EPPNB,Kissonerga Mosphilia,KMIA,grain,10750–10350 BP,4,NA; NA
+wheat,EPPNB,Kissonerga Mosphilia,KMIA,undifferentiated,10750–10350 BP,46,NA; NA
+wheat,EPPNB,Mylouthkia,MYLO-1A,undifferentiated,10550–10150 BP,110,Murray03
+wheat,EPPNB,Nevalı Çori,NECO PPNB,undifferentiated,10450–10250 BP,26002,Pasternak98
+wheat,EPPNB,Tell Ain el-Kerkh,TAEK PPNB,undifferentiated,10510–10240 BP,50,TannoWillxox06
+wheat,EPPNB,Tell Aswad,TASW (PPNA)/E-PPNB,undifferentiated,10821–10242 BP,382,VanZeistBakkerHeeres82
+wheat,MPPNB,Aşıklı Höyük,ASHO M-PPNB,undifferentiated,9950–9450 BP,1327,"c(""ZeistRoller03Asikli"", ""VanZeistDeRoller95"")"
+wheat,MPPNB,Cafer Höyük,CAFH E-PPNB,undifferentiated,10550–9650 BP,70,DeMoulins97
+wheat,MPPNB,Cafer Höyük,CAFH M-PPNB,undifferentiated,10050–9300 BP,69,DeMoulins97
+wheat,MPPNB,Çayönü,CAYO grill plan,undifferentiated,9950–9400 BP,546,ZeistRoller03Cayonu
+wheat,MPPNB,Çayönü,CAYO round house,undifferentiated,10250–9950 BP,19,ZeistRoller03Cayonu
+wheat,MPPNB,Chogha Golan,CHGO-I,undifferentiated,9650–9550 BP,78,RiehlEtal2013
+wheat,MPPNB,Chogha Golan,CHGO-II,undifferentiated,9750–9650 BP,5,RiehlEtal2013
+wheat,MPPNB,Chogha Golan,CHGO-III,undifferentiated,9850–9750 BP,22,RiehlEtal2013
+wheat,MPPNB,Chogha Golan,CHGO-IV,undifferentiated,9950–9850 BP,18,RiehlEtal2013
+wheat,MPPNB,Chogha Golan,CHGO-V,undifferentiated,10050–9950 BP,11,RiehlEtal2013
+wheat,MPPNB,East Chia Sabz,CHSA-PPNB,undifferentiated,10450–9550 BP,30,RiehlEtal2011
+wheat,MPPNB,Halula,HALU M-PPNB,undifferentiated,9921–9532 BP,11,Willcox96
+wheat,MPPNB,Tell Aswad,TASW M-PPNB,undifferentiated,10150–9350 BP,20913,VanZeistBakkerHeeres82
+wheat,MPPNB,Tell Ghoraifé,TGHO M/L-PPNB,undifferentiated,10132–9012 BP,66,VanZeistBakkerHeeres82
+wheat,MPPNB,Wadi Jilat 7,WJ07 E-PPNB,undifferentiated,10237–9681 BP,1,Colledge2001
+wheat,MPPNB,Wadi Jilat 7,WJ07 E/M-PPNB,undifferentiated,10237–9260 BP,33,Colledge2001
+wheat,LPPNB/C,Abu Hureyra,ABHU-EPPNB,undifferentiated,9350–8250 BP,1,DeMoulins97
+wheat,LPPNB/C,Ali Kosh,TAKO M-PPNB/L-PPNB,undifferentiated,9450–8700 BP,2812,Helbaek69
+wheat,LPPNB/C,Ali Kosh,TAKO PN,undifferentiated,9241–8213 BP,957,Helbaek69
+wheat,LPPNB/C,Ali Kosh,TAKO PPNC/PN,undifferentiated,10100–7950 BP,905,Helbaek69
+wheat,LPPNB/C,Basta,BAS1 L-PPNB,undifferentiated,9450–9210 BP,9,Neef04
+wheat,LPPNB/C,Basta,BAS1 L-PPNB-sub,undifferentiated,9450–9210 BP,18,Neef04
+wheat,LPPNB/C,Bouqras,TBOU L-PPNB/PN,undifferentiated,9200–8600 BP,15,VZeistWVRooijen85
+wheat,LPPNB/C,Cafer Höyük,CAFH L-PPNB,undifferentiated,9450–9050 BP,32,DeMoulins97
+wheat,LPPNB/C,Çatalhöyük,CATE Later,undifferentiated,9250–8350 BP,196,FMBH07
+wheat,LPPNB/C,Çayönü,CAYO basal pits,undifferentiated,9400–9250 BP,194,ZeistRoller03Cayonu
+wheat,LPPNB/C,Çayönü,CAYO channelled houses,undifferentiated,9250–8950 BP,1624,ZeistRoller03Cayonu
+wheat,LPPNB/C,Çayönü,CAYO cobble-paved,undifferentiated,8950–8750 BP,579,ZeistRoller03Cayonu
+wheat,LPPNB/C,Kissonerga Mosphilia,KMIB,grain,9450–8950 BP,13,NA; NA
+wheat,LPPNB/C,Kissonerga Mosphilia,KMIB,undifferentiated,9450–8950 BP,537,NA; NA
+wheat,LPPNB/C,Mylouthkia,MYLO-1B,undifferentiated,9150–8750 BP,625,Murray03
+wheat,LPPNB/C,Ras Shamra,TRAS Vb,undifferentiated,8776–8289 BP,1428,VZBH84
+wheat,LPPNB/C,Ras Shamra,TRAS Vc,undifferentiated,9450–9080 BP,24,VZBH84
+wheat,LPPNB/C,Sabi Abyad II,TSA2 PPNB,undifferentiated,9500–8800 BP,33,VanZeistRoller00
+wheat,LPPNB/C,Tell es-Sultan,JERI M-PPNB,undifferentiated,8950–8150 BP,5002,Hopf83
+wheat,LPPNB/C,Tell Ghoraifé,TGHO L-PPNB,undifferentiated,9496–8598 BP,1149,VanZeistBakkerHeeres82
+wheat,LPPNB/C,Tell Maghzaliyeh,TMAG-aceramic,undifferentiated,9000–8200 BP,8,Willcox2006
+wheat,LPPNB/C,Tell Ramad,TRAM F-PPNB,undifferentiated,8871–8597 BP,44996,VanZeistBakkerHeeres82
+wheat,LPPNB/C,Tell Ramad,TRAM L-PPNB,undifferentiated,9285–8871 BP,2640,VanZeistBakkerHeeres82
+wheat,LPPNB/C,Wadi Fidan,WFA,undifferentiated,9450–8950 BP,237,NA
+wheat,LPPNB/C,Wadi Fidan,WFC,undifferentiated,8950–8450 BP,513.761,NA
+wheat,LPPNB/C,Wadi Fidan A,WFIA L-PPNB,undifferentiated,9537–8609 BP,237,Colledge2001
+wheat,LPPNB/C,Wadi Fidan C,WFIC PPNC/F-PPNB,undifferentiated,9234–8195 BP,2275,Colledge2001
+wheat,LPPNB/C,Wadi Jilat 13,WJ13 E-L-PPNB/PPNC,undifferentiated,9050–8481 BP,1,Colledge2001
+wheat,LPPNB/C,Wadi Jilat 13,WJ13 L-L-PPNB/PPNC,undifferentiated,9012–8450 BP,5,Colledge2001
+wheat,LPPNB/C,Wadi Jilat 7,WJ07 M-PPNB,undifferentiated,9734–9260 BP,3,Colledge2001
+wheat,Pottery Neolithic,Abu Hureyra,ABHU PN,undifferentiated,7550–7450 BP,2,DeMoulins97
+wheat,Pottery Neolithic,Abu Hureyra,ABHU-LPPNB,undifferentiated,7250–6950 BP,31,DeMoulins97
+wheat,Pottery Neolithic,Abu Hureyra,ABHU-MPPNB,undifferentiated,8250–7250 BP,9,DeMoulins97
+wheat,Pottery Neolithic,Çatalhöyük,CATE M-L,undifferentiated,8850–7650 BP,6572.96,BogaardEtAl2015
+wheat,Pottery Neolithic,Çayönü,CAYO cell houses,undifferentiated,8750–8200 BP,266,ZeistRoller03Cayonu
+wheat,Pottery Neolithic,Çayönü,CAYO cell/large room,undifferentiated,8200–8050 BP,15,ZeistRoller03Cayonu
+wheat,Pottery Neolithic,Çayönü,CAYO PN,undifferentiated,7650–7650 BP,3157,ZeistRoller03Cayonu
+wheat,Pottery Neolithic,El Kowm II,ELK2 F-PPNB,undifferentiated,8533–8418 BP,638,DeMoulins97
+wheat,Pottery Neolithic,Ras Shamra,TRAS Va,undifferentiated,8434–8154 BP,8323,VZBH84
+wheat,Pottery Neolithic,Tell el-'Oueili,TO-0,undifferentiated,8350–6150 BP,77,NA
+wheat,Pottery Neolithic,Tell el-'Oueili,TO-1,undifferentiated,8350–6150 BP,108,NA
+wheat,Pottery Neolithic,Tell es-Sultan,JERI PN,undifferentiated,8170–8042 BP,3,Hopf83
+wheat,Pottery Neolithic,Tell Ramad,TRAM PN,undifferentiated,7750–7350 BP,7061,VanZeistBakkerHeeres82
+wheat,Chalcolithic,Çayboyu,CB_LC,grain,6750–5750 BP,109.619,NA
+wheat,Chalcolithic,Demircihöyük,DH,grain,5150–3950 BP,42,NA
+wheat,Chalcolithic,Emar,EM_EBA,undifferentiated,5150–3950 BP,5,NA
+wheat,Chalcolithic,Hacinebi Tepe,HAT-C,undifferentiated,6750–5750 BP,508,NA
+wheat,Chalcolithic,Hacinebi Tepe,HAT-U,undifferentiated,5950–1950 BP,5,NA
+wheat,Chalcolithic,Höyücek,HOY_PN,undifferentiated,8350–1950 BP,4548,NA
+wheat,Chalcolithic,Kuruçay Höyük,KUR_LC,grain,6750–5750 BP,2.477,NA
+wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,grain,5150–4950 BP,228,NA; NA
+wheat,Chalcolithic,Tell Abu al-Kharaz,TAK_EB1B,undifferentiated,5150–4950 BP,166,NA; NA
+wheat,Chalcolithic,Tell Bderi,TB-EDIIIJ,undifferentiated,5050–4650 BP,4,NA
+wheat,Chalcolithic,Tell el-'Oueili,TO-2,undifferentiated,7050–1950 BP,2,NA
+wheat,Chalcolithic,Tell el-'Oueili,TO-3,undifferentiated,6450–5750 BP,31,NA
+wheat,Chalcolithic,Tell el-'Oueili,TO-4,undifferentiated,6450–5750 BP,26,NA
+wheat,Chalcolithic,Tell Esh-Shuna,TES_C,grain,7050–1950 BP,52,NA
+wheat,Chalcolithic,Tell Esh-Shuna,TES_EB1E,undifferentiated,5050–1950 BP,56,NA
+wheat,Chalcolithic,Tell Fadous-Kfarabida,TFA_C_EBA_I,undifferentiated,7150–3950 BP,4,NA
+wheat,Chalcolithic,Tell Hammam et-Turkman,HET_C,undifferentiated,6750–5750 BP,200,NA
+wheat,Chalcolithic,Tell Hammam et-Turkman,HET_EBA,undifferentiated,5150–3950 BP,10,NA
+wheat,Chalcolithic,Tell Mishrifeh,TEMI_11,undifferentiated,5150–3950 BP,1,NA
+wheat,Chalcolithic,Tell Mishrifeh,TEMI_9,undifferentiated,5150–3550 BP,1,NA
+wheat,Chalcolithic,Tepe Farukhabad,TF-EJN,grain,5050–1950 BP,1,NA
+wheat,Chalcolithic,Tilbeshar,TB_C,grain,7150–4950 BP,15,NA
+wheat,Chalcolithic,Wadi Fidan,WF-E,grain,7150–3950 BP,232,NA
