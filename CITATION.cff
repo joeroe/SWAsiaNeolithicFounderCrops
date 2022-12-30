@@ -1,0 +1,25 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  The "Neolithic Founder Crops" in Southwest Asia:
+  Research Compendium
+message: >-
+  If you use this dataset, please cite it using the
+  metadata from this file.
+type: dataset
+authors:
+  - given-names: Joe
+    family-names: Roe
+    email: joe@joeroe.io
+    orcid: 'https://orcid.org/0000-0002-1011-1244'
+  - given-names: Amaia
+    family-names: Arranz Otaegui
+    email: amaia.arranz@cchs.csic.es
+    orcid: 'https://orcid.org/0000-0002-5091-6426'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.5911218
+repository-code: >-
+  https://github.com/joeroe/SWAsiaNeolithicFounderCrops
