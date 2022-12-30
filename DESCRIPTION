@@ -21,6 +21,7 @@ Imports:
   readr,
   tidyr,
   purrr,
+  ggplot2,
   here,
   glue,
   sf,
