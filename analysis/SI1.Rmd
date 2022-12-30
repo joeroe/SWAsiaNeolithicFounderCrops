@@ -339,10 +339,10 @@ p1_bottom <- p1 +
 
 p1_top + inset_element(p1_bottom, 0, 0, 1, 0.25, align_to = "panel")
 
-# ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 145,
-#        units = "mm")
-# ggsave(here("analysis/figures/fig1.png"), width = 174, height = 145,
-#        units = "mm", dpi = 300)
+ggsave(here("analysis/figures/fig1.eps"), width = 174, height = 145,
+       units = "mm")
+ggsave(here("analysis/figures/fig1.png"), width = 174, height = 145,
+       units = "mm", dpi = 300)
 ```
 
 
@@ -484,10 +484,10 @@ flora %>%
   labs(x = NULL, y = "Proportion of assemblages present") +
   theme_half_open(font_size = 9)
 
-# ggsave(here("analysis/figures/fig5.eps"), width = 174, height = 174,
-#        units = "mm")
-# ggsave(here("analysis/figures/fig5.png"), width = 174, height = 174,
-#        units = "mm")
+ggsave(here("analysis/figures/fig5.eps"), width = 174, height = 174,
+       units = "mm")
+ggsave(here("analysis/figures/fig5.png"), width = 174, height = 174,
+       units = "mm")
 ```
 
 ## Founder crop ubiquity and abundance
@@ -642,11 +642,10 @@ flora_ts %>%
 
 p1 / p2
 
-# ggsave(here("analysis/figures/fig4.eps"), width = 174, height = 117,
-#        units = "mm")
-# ggsave(here("analysis/figures/fig4.png"), width = 174, height = 117,
-#        units = "mm")
-
+ggsave(here("analysis/figures/fig4.eps"), width = 174, height = 117,
+       units = "mm")
+ggsave(here("analysis/figures/fig4.png"), width = 174, height = 117,
+       units = "mm")
 ```
 
 ## Abundance of plant categories
@@ -770,10 +769,10 @@ flora_ts %>%
   theme_half_open(font_size = 9) +
   theme(legend.position = "bottom")
 
-# ggsave(here("analysis/figures/fig2.eps"), width = 174, height = 87,
-#        units = "mm")
-# ggsave(here("analysis/figures/fig2.png"), width = 174, height = 87,
-#        units = "mm", dpi = 600, bg = "#ffffff")
+ggsave(here("analysis/figures/fig2.eps"), width = 174, height = 87,
+       units = "mm")
+ggsave(here("analysis/figures/fig2.png"), width = 174, height = 87,
+       units = "mm", dpi = 600, bg = "#ffffff")
 ```
 
 In the following sections, we will analyse trends within these categories in more detail.
@@ -1016,10 +1015,10 @@ p_ts_pulses /
 p_ts_wild_plants /
 p_ts_fruits_nuts
 
-# ggsave(here("analysis/figures/fig3.eps"), width = 174, height = 234,
-#        units = "mm")
-# ggsave(here("analysis/figures/fig3.png"), width = 174, height = 234,
-#        units = "mm")
+ggsave(here("analysis/figures/fig3.eps"), width = 174, height = 234,
+       units = "mm")
+ggsave(here("analysis/figures/fig3.png"), width = 174, height = 234,
+       units = "mm")
 ```
 
 # References
