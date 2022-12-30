@@ -16,6 +16,7 @@ title <- 'Revisiting the concept of the "Neolithic Founder Crops" in southwest A
 
 # The "Neolithic Founder Crops" in Southwest Asia: Research Compendium
 
+[![DOI](https://zenodo.org/badge/351475245.svg)](https://zenodo.org/badge/latestdoi/351475245)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/joeroe/SWAsiaNeolithicFounderCrops/main?urlpath=rstudio)
 
 This repository contains the data and code for our paper:
