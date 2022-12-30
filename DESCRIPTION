@@ -20,6 +20,7 @@ Depends:
 Imports: 
   bookdown,
   cowplot,
+  forcats,
   fuzzyjoin,
   ggplot2,
   ggrepel,
@@ -33,4 +34,5 @@ Imports:
   readr,
   rmarkdown,
   sf,
+  stringr,
   tidyr

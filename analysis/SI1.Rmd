@@ -24,6 +24,7 @@ knitr::opts_chunk$set(
 library("SWAsiaNeolithicFounderCrops") # Run devtools::build() first
 library("cowplot")
 library("dplyr")
+library("forcats")
 library("ggplot2")
 library("ggrepel")
 library("ggspatial")
@@ -35,6 +36,7 @@ library("patchwork")
 library("purrr")
 library("readr")
 library("sf")
+library("stringr")
 library("tidyr")
 ```
 
