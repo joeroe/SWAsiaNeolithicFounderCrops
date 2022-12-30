@@ -20,6 +20,7 @@ Depends:
 Imports: 
   readr,
   tidyr,
+  purrr,
   here,
   glue,
   sf,
