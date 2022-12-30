@@ -18,18 +18,19 @@ RoxygenNote: 7.2.0
 Depends:
   dplyr
 Imports: 
-  readr,
-  tidyr,
-  purrr,
-  ggplot2,
-  here,
-  glue,
-  sf,
-  ggspatial,
-  gt,
-  patchwork,
-  cowplot,
-  khroma,
-  rmarkdown,
   bookdown,
-  fuzzyjoin
+  cowplot,
+  fuzzyjoin,
+  ggplot2,
+  ggrepel,
+  ggspatial,
+  glue,
+  gt,
+  here,
+  khroma,
+  patchwork,
+  purrr,
+  readr,
+  rmarkdown,
+  sf,
+  tidyr
