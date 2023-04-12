@@ -10,8 +10,6 @@ knitr::opts_chunk$set(
   comment = "#>",
   fig.path = "README-"
 )
-
-title <- 'Revisiting the concept of the "Neolithic Founder Crops" in southwest Asia'
 ```
 
 # The "Neolithic Founder Crops" in Southwest Asia: Research Compendium
@@ -21,13 +19,7 @@ title <- 'Revisiting the concept of the "Neolithic Founder Crops" in southwest A
 
 This repository contains the data and code for our paper:
 
-> Arranz-Otaegui, Amaia, and Roe, Joe (in prep). _`r title`_. To appear in Vegetation History & Archaeobotany. <https://doi.org/xxx/xxx>
-
-<!--
-Our pre-print is online here:
-
-> Authors, (YYYY). _`r title`_. Name of journal/book, Accessed `r format(Sys.Date(), "%d %b %Y")`. Online at <https://doi.org/xxx/xxx>
--->
+> Arranz-Otaegui, Amaia, and Roe, Joe (2023). Revisiting the concept of the 'Neolithic Founder Crops' in southwest Asia. *Vegetation History & Archaeobotany*. <https://doi.org/10.1007/s00334-023-00917-1>
 
 ## Contents
 
@@ -67,10 +59,11 @@ You can download the compendium as a zip from from this URL:
 
 ## Citation
 
-In addition to our paper above, please cite this compendium as:
+> Arranz-Otaegui, Amaia, and Roe, Joe (2023). Revisiting the concept of the 'Neolithic Founder Crops' in southwest Asia. *Vegetation History & Archaeobotany*. <https://doi.org/10.1007/s00334-023-00917-1>
 
-> Roe, Joe and Arranz-Otaegui, Amaia, (`r format(Sys.Date(), "%Y")`). _Compendium of R code and data for '`r title`'_. Accessed `r format(Sys.Date(), "%d %b %Y")`. Available at <https://doi.org/xxx/xxx>
+In addition to our paper above, you can cite this compendium specifically as:
 
+> Roe, Joe, & Arranz Otaegui, Amaia. (2023). The "Neolithic Founder Crops" in Southwest Asia: Research Compendium. *Zenodo*. https://doi.org/10.5281/zenodo.5911218>
 
 ## Licenses
 
